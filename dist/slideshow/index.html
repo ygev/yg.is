@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Home</title>
+</head>
+
+<body>
+    
+<h1> Slideshow</h1>
+<svg style="display:none;">
+    <symbol id="icon--prev" viewbox="0 0 5.33 10" width="100%" height="100%" aria-labelledby="title--prev" xmlns="http://www.w3.org/2000/svg">
+        <title id="title--prev">Previous</title>
+        <path d="M5.02 10a.3.3 0 0 1-.23-.09L.1 5.23a.31.31 0 0 1 0-.45L4.8.08a.32.32 0 1 1 .42.47L.76 5l4.46 4.46A.31.31 0 0 1 5 10z" />
+    </symbol>
+    <symbol id="icon--next" viewbox="0 0 5.33 10" width="100%" height="100%" aria-labelledby="title--next" xmlns="http://www.w3.org/2000/svg">
+        <title id="title--next">Next</title>
+        <path d="M.3 10a.3.3 0 0 0 .23-.09l4.7-4.68a.31.31 0 0 0 0-.45L.52.08A.31.31 0 1 0 .1.55L4.56 5 .1 9.46a.31.31 0 0 0 .22.54z" />
+    </symbol>
+    <symbol id="icon--pause" viewbox="0 0 4.63 10" width="100%" height="100%" aria-labelledby="title--pause" xmlns="http://www.w3.org/2000/svg">
+        <title id="title--pause">Pause</title>
+        <path d="M.48 0c.28 0 .5.22.5.48v9.03a.5.5 0 0 1-.5.49.5.5 0 0 1-.48-.5V.49A.5.5 0 0 1 .48 0zm3.67 0a.5.5 0 0 1 .48.48v9.03a.5.5 0 0 1-.48.49.5.5 0 0 1-.5-.5V.49a.5.5 0 0 1 .5-.48z" />
+    </symbol>
+    <symbol id="icon--play" viewbox="0 0 8.8 10" width="100%" height="100%" aria-labelledby="title--play" xmlns="http://www.w3.org/2000/svg">
+        <title id="title--play">Play</title>
+        <path d="M8.6 4.77c.23.13.23.33 0 .46L.4 9.95c-.22.12-.4.02-.4-.23V.28C0 .03.18-.07.4.05l8.2 4.72z" />
+    </symbol>
+</svg>
+
+
+
+<section id="js-slideshow" class="u-mx-auto slideshow">
+    <div class="u-mx-auto slideshow-container">
+        <ul class="u-fit u-list-reset slideshow__list">
+            
+            
+<li class="slideshow__list-item js-slideshow-slide hero__image">
+    <img src="/images/hero1.jpg" alt="Look at all those heads" class="hero__image">
+    
+</li>
+
+            
+<li class="slideshow__list-item js-slideshow-slide hero__image">
+    <img src="/images/hero2.jpg" alt="Look at all those shoulders" class="hero__image">
+    
+</li>
+
+            
+<li class="slideshow__list-item js-slideshow-slide hero__image">
+    <img src="/images/hero3.jpg" alt="Look at all those knees" class="hero__image">
+    
+</li>
+
+            
+<li class="slideshow__list-item js-slideshow-slide hero__image">
+    <img src="/images/hero4.jpg" alt="Look at all those toes" class="hero__image">
+    
+</li>
+
+
+        </ul>
+    </div>
+</section>
+<ul class="u-list-reset slideshow__controls" aria-label="Slideshow controls.">
+    <li>
+        <button id="slideshow__button--pause" class="js-slideshow-button u-button-reset slideshow__button" aria-label="pause"
+            data-action="pause">
+            <svg aria-hidden="true" class="icon--pause" focusable="false">
+                <use xlink:href="#icon--pause"></use>
+            </svg>
+            <svg aria-hidden="true" class="icon--play" focusable="false">
+                <use xlink:href="#icon--play"></use>
+            </svg>
+        </button>
+    </li>
+    <li>
+        <button id="slideshow__button--previous" class="js-slideshow-button u-button-reset slideshow__button"
+            aria-label="previous" data-action="previous">
+            <svg aria-hidden="true" focusable="false">
+                <use xlink:href="#icon--prev"></use>
+            </svg>
+        </button>
+    </li>
+    <li>
+        <button id="slideshow__button--next" class="js-slideshow-button u-button-reset slideshow__button" aria-label="next"
+            data-action="next">
+            <svg aria-hidden="true" focusable="false">
+                <use xlink:href="#icon--next" /></svg>
+        </button>
+    </li>
+</ul>
+
+
+    <script src="/js/slideshow.js"></script>
+</body>
+
+</html>

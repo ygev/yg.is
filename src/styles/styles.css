@@ -1,0 +1,553 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * Reset button styles.
+ * It takes a bit of work to achieve a neutral look.
+ */
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+  cursor: pointer;
+}
+
+*:focus {
+  outline: none;
+}
+
+.u-caps {
+  text-transform: uppercase;
+}
+
+.u-black-txt {
+  color: black;
+}
+
+.u-white-txt {
+  color: white;
+}
+
+.u-opacity-20 {
+  opacity: .2;
+}
+
+.u-bold {
+  font-weight: 500;
+}
+
+.u-no-underline {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.u-bottom-border {
+  border-bottom: 1px solid black;
+}
+
+.u-top-border {
+  border-top: 1px solid black;
+}
+
+.u-block {
+  display: block;
+}
+
+.u-button-reset {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 15px;
+  text-align: inherit;
+}
+
+/*  Removes default styles from a button element */
+.u-button-reset {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  text-align: inherit;
+}
+
+.u-fit {
+  max-width: 100%;
+}
+
+.u-list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+.u-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-color: #F6F6F6;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  padding-top: 3em;
+  position: relative;
+}
+
+body {
+  opacity: 1;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+
+body.fade-out {
+  opacity: 0;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding-bottom: 2em;
+  margin: auto;
+}
+
+@media (max-width: 680px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.site-nav__link:hover {
+  outline: 0.125rem #86E2FF dotted;
+  outline-offset: 0.25rem;
+}
+
+::-moz-selection {
+  background: #86E2FF;
+  /* WebKit/Blink Browsers */
+}
+
+::selection {
+  background: #86E2FF;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #86E2FF;
+  /* Gecko Browsers */
+}
+
+/* Controls
+---------------------------------------------------------------------- */
+.controls {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: auto;
+  position: relative;
+}
+
+@media screen and (min-width: 680px) {
+  .controls {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.control {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-right: 8px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  cursor: pointer;
+  font-size: 90%;
+  color: black;
+  background-color: #F6F6F6;
+  -webkit-transition: background 150ms;
+  transition: background 150ms;
+  font-weight: 700;
+}
+
+.control:hover {
+  outline: 0.125rem #86E2FF dotted;
+}
+
+.control[data-filter]:after {
+  position: absolute;
+  -webkit-transition: background-color 150ms, border-color 150ms;
+  transition: background-color 150ms, border-color 150ms;
+}
+
+.control[data-sort]:after {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% - 6px);
+  -webkit-transform: translateY(1px) rotate(45deg);
+          transform: translateY(1px) rotate(45deg);
+}
+
+.control[data-sort*=":desc"]:after {
+  -webkit-transform: translateY(-4px) rotate(-135deg);
+          transform: translateY(-4px) rotate(-135deg);
+}
+
+.mixitup-control-active {
+  outline: 0.125rem #86E2FF solid;
+  corner-shape: round;
+}
+
+.mixitup-control-active[data-filter]:after {
+  background: transparent;
+}
+
+.control[data-filter] + .control[data-sort] {
+  margin-left: .75rem;
+}
+
+.filter-container {
+  padding: 2rem;
+  text-align: justify;
+  font-size: 0.1px;
+}
+
+.filter-container .mix {
+  display: inline-block;
+  position: relative;
+}
+
+.filter-container .mix img {
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-filter: brightness(100%);
+}
+
+.filter-container .mix .caption {
+  font-size: 22000%;
+  font-weight: 900;
+  padding-top: 0.85em;
+}
+
+.filter-container .mix .babycaption {
+  font-size: 15000%;
+  padding-top: 0.3em;
+  padding-bottom: 1em;
+  font-weight: 800;
+}
+
+.filter-container:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.mix,
+.gap {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mix {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.mix:before {
+  display: inline-block;
+  padding-top: 100%;
+}
+
+/* 1 Columns */
+.mix,
+.gap {
+  width: calc(100%/1 - (((1 - 1) * 1rem) / 1));
+}
+
+/* 2 Columns */
+@media screen and (min-width: 680px) {
+  .mix,
+  .gap {
+    width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .mix,
+  .gap {
+    width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+  }
+}
+
+.filter-controls {
+  position: relative;
+}
+
+@media screen and (max-width: 497px) {
+  .overlay-gradient {
+    pointer-events: none;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: inset -50px 0px 40px -10px #F6F6F6;
+            box-shadow: inset -50px 0px 40px -10px #F6F6F6;
+  }
+}
+
+::-webkit-scrollbar {
+  height: 4px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+.project {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  z-index: 999;
+}
+
+div.project:hover {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  cursor: pointer;
+}
+
+.site-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 90%;
+}
+
+.site-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-nav__name {
+  font-weight: 900;
+  background-color: #86E2FF;
+}
+
+.site-nav__list-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.site-nav__link {
+  color: #000000;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.hero__yana {
+  font-size: 300%;
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+
+@media (max-width: 680px) {
+  .hero__yana {
+    font-size: 190%;
+  }
+}
+
+.hero__yana-is {
+  font-weight: 900;
+}
+
+.wrap {
+  -webkit-text-decoration: underline #86E2FF;
+          text-decoration: underline #86E2FF;
+}
+/*# sourceMappingURL=styles.css.map */

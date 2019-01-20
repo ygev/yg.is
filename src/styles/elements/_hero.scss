@@ -1,0 +1,50 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    text-align: center;
+
+}
+
+.hero__yana {
+    font-size: 300%;
+    padding-bottom: 1rem;
+    font-weight: 300;
+
+
+    @media (max-width: 680px) {
+        font-size: 190%;
+    }
+}
+
+.hero__yana-is {
+    font-weight: 900;
+}
+
+.wrap {
+    text-decoration: underline $sky; //temporary solution
+}
+
+// .underscore {
+//     position: relative;
+// }
+
+// .blue-box {
+//     position: absolute;
+//     width: 20rem;
+//     height: 1.5rem;
+//     background-color: $sky;
+// }
+
+// .white-box {
+//     position: absolute;
+//     width: 19rem;
+//     height: 1rem;
+//     left: 0.5rem;
+//     background-color: red;
+// }
+
+// .hero__yana-is-blue {
+//     padding-bottom: 1rem;
+//     border-bottom: 0.2rem $sky solid;
+// }

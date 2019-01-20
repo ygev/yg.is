@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    // transition: all .3s ease; // Allows for a smoother transition
+}
+
+body {
+    background-color: $white;
+    color: $black;
+    font-family: "Raleway", sans-serif;
+    padding-top: 3em;
+    position: relative;
+
+}
+
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+.container {
+    max-width: 1200px;
+    // padding-left: 15%;
+    // padding-right: 15%;
+    padding-bottom: 2em;
+    margin: auto;
+
+    @media (max-width: 680px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+}
+
+
+.site-nav__link:hover {
+    outline: 0.125rem $sky dotted;
+    outline-offset: 0.25rem;
+}
+
+::selection {
+    background: $sky;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: $sky;
+    /* Gecko Browsers */
+}

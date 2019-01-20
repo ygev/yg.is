@@ -1,0 +1,52 @@
+.site-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 90%;
+}
+
+.site-nav__list {
+    display: flex;
+}
+
+.site-nav__name {
+    font-weight: 900;
+    background-color: $sky;
+}
+
+.site-nav__list-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.site-nav__link {
+    color: $black;
+}
+
+
+// Experiment with smart guides
+
+// .resume-line-top {
+//     visibility: hidden;
+//     width: 30px;
+//     position: absolute;
+//     height: 20%;
+//     top: -405px;
+//     border-right: $sky 0.125rem dotted;
+// }
+
+// .sketch-value {
+//     position: relative;
+//     font-size: 60%;
+//     color: $sky;
+// }
+
+// .sketch-value__resume--top {
+//     padding-top: 420px;
+// }
+
+// .site-nav__list-item--resume:active>div.resume-line-top {
+//     visibility: visible;
+// }
