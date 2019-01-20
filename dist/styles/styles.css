@@ -272,22 +272,22 @@ body.fade-out {
 }
 
 .site-nav__link:hover {
-  outline: 0.125rem #86E2FF dotted;
+  outline: 0.125rem red dotted;
   outline-offset: 0.25rem;
 }
 
 ::-moz-selection {
-  background: #86E2FF;
+  background: red;
   /* WebKit/Blink Browsers */
 }
 
 ::selection {
-  background: #86E2FF;
+  background: red;
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: #86E2FF;
+  background: red;
   /* Gecko Browsers */
 }
 
@@ -337,7 +337,7 @@ body.fade-out {
 }
 
 .control:hover {
-  outline: 0.125rem #86E2FF dotted;
+  outline: 0.125rem red dotted;
 }
 
 .control[data-filter]:after {
@@ -360,7 +360,7 @@ body.fade-out {
 }
 
 .mixitup-control-active {
-  outline: 0.125rem #86E2FF solid;
+  outline: 0.125rem red solid;
 }
 
 .mixitup-control-active[data-filter]:after {
@@ -395,7 +395,7 @@ body.fade-out {
 
 .site-nav__name {
   font-weight: 900;
-  background-color: #86E2FF;
+  background-color: red;
 }
 
 .site-nav__list-item {
@@ -507,7 +507,6 @@ body.fade-out {
 .project {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  z-index: 999;
 }
 
 div.project:hover {
@@ -545,7 +544,7 @@ div.project:hover {
 }
 
 .wrap {
-  -webkit-text-decoration: underline #86E2FF;
-          text-decoration: underline #86E2FF;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
 }
 /*# sourceMappingURL=styles.css.map */
