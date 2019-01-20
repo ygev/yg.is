@@ -361,7 +361,6 @@ body.fade-out {
 
 .mixitup-control-active {
   outline: 0.125rem #86E2FF solid;
-  corner-shape: round;
 }
 
 .mixitup-control-active[data-filter]:after {
@@ -370,6 +369,42 @@ body.fade-out {
 
 .control[data-filter] + .control[data-sort] {
   margin-left: .75rem;
+}
+
+.site-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 90%;
+}
+
+.site-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-nav__name {
+  font-weight: 900;
+  background-color: #86E2FF;
+}
+
+.site-nav__list-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.site-nav__link {
+  color: #000000;
 }
 
 .filter-container {
@@ -386,7 +421,6 @@ body.fade-out {
 .filter-container .mix img {
   max-width: 100%;
   max-height: 100%;
-  -webkit-filter: brightness(100%);
 }
 
 .filter-container .mix .caption {
@@ -480,42 +514,6 @@ div.project:hover {
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
   cursor: pointer;
-}
-
-.site-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 90%;
-}
-
-.site-nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.site-nav__name {
-  font-weight: 900;
-  background-color: #86E2FF;
-}
-
-.site-nav__list-item {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.site-nav__link {
-  color: #000000;
 }
 
 .hero {
