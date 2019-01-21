@@ -109,11 +109,23 @@
 }
 
 
-.project {
-    transition: all .2s ease-in-out;
+.mix {
+    // transition: all .2s ease-in-out;
 }
 
-div.project:hover {
-    transform: scale(0.5);
+div.mix:hover {
+    outline: 0.125rem $sky dotted;
+    outline-offset: 0.25rem;
     cursor: pointer;
+}
+
+div.mix:focus {
+    outline: 0.125rem $sky solid;
+    outline-offset: 0.25rem;
+    cursor: pointer;
+}
+
+a.project {
+    color: black;
+    text-decoration: none;
 }
