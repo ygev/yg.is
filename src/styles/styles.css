@@ -291,6 +291,10 @@ body.fade-out {
   /* Gecko Browsers */
 }
 
+.bezier-divider {
+  padding-bottom: 2em;
+}
+
 /* Controls
 ---------------------------------------------------------------------- */
 .controls {
@@ -431,7 +435,7 @@ body.fade-out {
 .filter-container .mix .babycaption {
   font-size: 15000%;
   padding-top: 0.3em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   font-weight: 800;
 }
 
@@ -503,15 +507,14 @@ body.fade-out {
   background: #ccc;
 }
 
-div.mix:hover {
-  outline: 0.125rem #86E2FF dotted;
-  outline-offset: 0.25rem;
-  cursor: pointer;
+.mix {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
-div.mix:focus {
-  outline: 0.125rem #86E2FF solid;
-  outline-offset: 0.25rem;
+div.mix:hover {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
   cursor: pointer;
 }
 
@@ -528,7 +531,7 @@ a.project {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 5rem;
+  padding-top: 6rem;
   text-align: center;
 }
 
@@ -546,6 +549,7 @@ a.project {
 
 .hero__yana-is {
   font-weight: 900;
+  padding-bottom: 1em;
 }
 
 .wrap {

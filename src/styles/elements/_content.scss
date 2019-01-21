@@ -27,7 +27,7 @@
 .filter-container .mix .babycaption {
     font-size: 15000%;
     padding-top: 0.3em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     font-weight: 800;
 }
 
@@ -110,20 +110,21 @@
 
 
 .mix {
-    // transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 div.mix:hover {
-    outline: 0.125rem $sky dotted;
-    outline-offset: 0.25rem;
+    // outline: 0.125rem $sky dotted;
+    // outline-offset: 0.25rem;
+    transform: scale(0.97);
     cursor: pointer;
 }
 
-div.mix:focus {
-    outline: 0.125rem $sky solid;
-    outline-offset: 0.25rem;
-    cursor: pointer;
-}
+// div.mix:focus {
+//     outline: 0.125rem $sky solid;
+//     outline-offset: 0.25rem;
+//     cursor: pointer;
+// }
 
 a.project {
     color: black;
