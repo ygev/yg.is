@@ -292,7 +292,13 @@ body.fade-out {
 }
 
 .bezier-divider {
-  padding-bottom: 2em;
+  padding-top: 3em;
+}
+
+@media (max-width: 1120px) {
+  .bezier-divider {
+    padding-top: 1em;
+  }
 }
 
 /* Controls
@@ -434,7 +440,7 @@ body.fade-out {
 
 .filter-container .mix .babycaption {
   font-size: 15000%;
-  padding-top: 0.3em;
+  padding-top: 0.5em;
   padding-bottom: 2em;
   font-weight: 800;
 }
@@ -523,27 +529,57 @@ a.project {
   text-decoration: none;
 }
 
+.hero-wrapper {
+  margin-top: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 1120px) {
+  .hero-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-top: 6rem;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  /* padding-top: 6rem; */
   text-align: center;
 }
 
 .hero__yana {
-  font-size: 300%;
+  font-size: 500%;
   padding-bottom: 1rem;
   font-weight: 300;
 }
 
+@media (max-width: 1120px) {
+  .hero__yana {
+    font-size: 400%;
+  }
+}
+
 @media (max-width: 680px) {
   .hero__yana {
-    font-size: 190%;
+    font-size: 200%;
   }
 }
 

@@ -1,19 +1,41 @@
-.hero {
+.hero-wrapper {
+    margin-top: 8em;
     display: flex;
+    justify-content: space-around;
+
+    @media (max-width: 1120px) {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
     text-align: center;
+
+
 
 }
 
 .hero__yana {
-    font-size: 300%;
+    font-size: 500%;
     padding-bottom: 1rem;
     font-weight: 300;
 
+    @media (max-width: 1120px) {
+        font-size: 400%;
+    }
 
     @media (max-width: 680px) {
-        font-size: 190%;
+        font-size: 200%;
     }
 }
 

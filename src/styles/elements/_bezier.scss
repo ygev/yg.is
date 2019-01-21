@@ -1,3 +1,7 @@
 .bezier-divider {
-    padding-bottom: 2em;
+    padding-top: 3em;
+
+    @media (max-width: 1120px) {
+        padding-top: 1em;
+    }
 }
