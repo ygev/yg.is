@@ -530,27 +530,19 @@ a.project {
 }
 
 .hero-wrapper {
-  margin-top: 8em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 4em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-@media (max-width: 1120px) {
-  .hero-wrapper {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .hero {
@@ -562,13 +554,15 @@ a.project {
   -ms-flex-direction: column;
   flex-direction: column;
   /* padding-top: 6rem; */
-  text-align: center;
+  text-align: left;
 }
 
 .hero__yana {
-  font-size: 500%;
-  padding-bottom: 1rem;
+  font-size: 200%;
+  padding-bottom: 0.1rem;
   font-weight: 300;
+  line-height: 120%;
+  font-weight: 900;
 }
 
 @media (max-width: 1120px) {
@@ -584,7 +578,6 @@ a.project {
 }
 
 .hero__yana-is {
-  font-weight: 900;
   padding-bottom: 1em;
 }
 

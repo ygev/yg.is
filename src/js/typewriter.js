@@ -65,10 +65,6 @@ window.onload = function () {
 //     var genWidth = "Height including padding and border: " + elmnt.offsetHeight + "px";
 // }
 
-// Draggable Button test
-$(function () {
-    $("#draggable-button").draggable();
-});
 
 // fade-in upon load
 $(function () {
