@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.5.4"
+    "@11ty/eleventy": "^0.7.1"
   }
 }
