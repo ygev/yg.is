@@ -13,11 +13,8 @@ body {
     background-color: $white;
     color: $black;
     font-family: "Raleway", sans-serif;
-    padding-top: 3em;
     position: relative;
-
 }
-
 
 body {
     opacity: 1;
@@ -40,10 +37,7 @@ body.fade-out {
         padding-left: 15px;
         padding-right: 15px;
     }
-
-
 }
-
 
 .site-nav__link:hover {
     outline: 0.125rem $sky dotted;

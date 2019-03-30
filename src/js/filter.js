@@ -1,3 +1,6 @@
-var containerEl = document.querySelector('.filter-container');
+var container = document.querySelector('.filter-container');
+var mixer = mixitup(container);
 
-var mixer = mixitup(containerEl);
+function filterProjects(selector) {
+    mixer.filter(selector.value);
+}

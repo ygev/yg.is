@@ -1,7 +1,4 @@
 .bezier-divider {
-    padding-top: 3em;
-
-    @media (max-width: 1120px) {
-        padding-top: 1em;
-    }
+    display: flex;
+    justify-content: center;
 }
