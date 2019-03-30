@@ -73,13 +73,15 @@
     }
 }
 
+// uncommenting this creates 3-wide display of projects in wide screen
+/*
 @media screen and (min-width: 1281px) {
-
     .mix,
     .gap {
         width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
     }
 }
+*/
 
 .filter-controls {
     position: relative;
