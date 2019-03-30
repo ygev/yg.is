@@ -35,6 +35,26 @@
     @media (max-width: 680px) {
         font-size: 200%;
     }
+
+    u {
+        text-decoration-style: dotted;
+        text-decoration-color: $sky;
+    }
+}
+
+.hero__yana select {
+    background: inherit;
+    border: none;
+    font: inherit;
+    font-size: inherit;
+    color: $sky;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    option {
+        font: inherit;
+    }
 }
 
 .hero__yana-is {

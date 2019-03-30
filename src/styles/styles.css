@@ -527,6 +527,24 @@ a.project {
     font-size: 200%;
   }
 }
+.hero__yana u {
+  text-decoration-style: dotted;
+  text-decoration-color: #86E2FF;
+}
+
+.hero__yana select {
+  background: inherit;
+  border: none;
+  font: inherit;
+  font-size: inherit;
+  color: #86E2FF;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.hero__yana select option {
+  font: inherit;
+}
 
 .hero__yana-is {
   padding-bottom: 1em;
