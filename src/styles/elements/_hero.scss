@@ -38,25 +38,30 @@
         text-decoration-color: $sky;
     }
 
-    select {
-        background: inherit;
-        border: none;
-        font: inherit;
-        font-size: inherit;
-        color: $sky;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
+    .hero__select {
         cursor: pointer;
-        padding-right: 2%;
+        padding-bottom: 0.1em;
+        border-bottom: 2px solid black;
+        text-align-last: center;
 
-
-        option {
+        select {
+            background: inherit;
+            border: none;
             font: inherit;
-            cursor: pointer;
+            font-size: inherit;
+            color: $sky;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            cursor: inherit;
+            padding-right: 2%;
+            min-width: 5em;
+            margin: 0 0.1em;
+
+            option {
+                font: inherit;
+            }
         }
-
-
     }
 
     select::-ms-expand {
@@ -64,15 +69,11 @@
     }
 }
 
-.hero__select {
-    cursor: pointer;
-}
 
 .hero__select:after {
     content: '\f078';
     font: normal normal normal 17px/1 FontAwesome;
     color: $sky;
-    right: 20px;
     bottom: 8px;
     height: 34px;
     padding-top: 3%;
