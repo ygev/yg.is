@@ -4,8 +4,8 @@
     justify-content: center;
     flex-direction: column;
 
-    @media (min-width: 1120px) {
-        margin: 0 6em;
+    @media (max-width: 680px) {
+        margin: 0 1em;
     }
 }
 
@@ -17,20 +17,17 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    /* padding-top: 6rem; */
     text-align: left;
 }
 
 .hero__yana {
-    font-size: 200%;
-    padding-bottom: 0.1rem;
+    font-size: 300%;
+    padding-bottom: 5rem;
     font-weight: 300;
-    line-height: 120%;
+    line-height: 130%;
     font-weight: 900;
-
-    @media (max-width: 1120px) {
-        font-size: 400%;
-    }
+    max-width: 80%;
+    margin: 0 auto;
 
     @media (max-width: 680px) {
         font-size: 200%;
@@ -40,25 +37,47 @@
         text-decoration-style: dotted;
         text-decoration-color: $sky;
     }
-}
 
-.hero__yana select {
-    background: inherit;
-    border: none;
-    font: inherit;
-    font-size: inherit;
-    color: $sky;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-
-    option {
+    select {
+        background: inherit;
+        border: none;
         font: inherit;
+        font-size: inherit;
+        color: $sky;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        cursor: pointer;
+        padding-right: 2%;
+
+        option {
+            font: inherit;
+            cursor: pointer;
+        }
+
+
+    }
+
+    select::-ms-expand {
+        display: none;
     }
 }
 
-.hero__yana-is {
-    padding-bottom: 1em;
+.hero__select {
+    cursor: pointer;
+}
+
+.hero__select:after {
+    content: '\f078';
+    font: normal normal normal 17px/1 FontAwesome;
+    color: $sky;
+    right: 20px;
+    bottom: 8px;
+    height: 34px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: relative;
+    cursor: pointer;
 }
 
 .wrap {

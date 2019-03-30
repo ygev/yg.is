@@ -8,18 +8,18 @@ title: Home
         <div class="bezier-divider">
             <canvas class='canvas' id='bezier'></canvas>
         </div>
-        <ul class="hero">
-            <li class="hero__yana"><u>Yana Gevorgyan</u> is a lemon drop</li>
-            <li class="hero__yana">working on
-                <select onchange="filterProjects(this)">
-                    <option value="all">everything</option>
-                    <option value=".webex">UX/UI</option>
-                    <option value=".branding">branding</option>
-                    <option value=".motion">motion</option>
-                    <option value=".print">print</option>
-                </select>
-            </li>
-        </ul>
+        <header class="hero">
+            <div class="hero__yana"><u>Yana Gevorgyan</u> is a lemon drop working on
+                <div class="hero__select"> <select onchange="filterProjects(this)">
+                        <option value="all">everything</option>
+                        <option value=".webex">UX/UI</option>
+                        <option value=".branding">branding</option>
+                        <option value=".motion">motion</option>
+                        <option value=".print">print</option>
+                    </select>
+                </div>
+            </div>
+        </header>
     </section>
 
     <div class="filter-container">

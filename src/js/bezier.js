@@ -9,7 +9,7 @@ var yb = 50;
 var xcb = 75;
 var ycb = 70;
 var WIDTH = 200;
-var HEIGHT = 100;
+var HEIGHT = 150;
 var dragok = false;
 var pointA = false;
 var pointControlA = false;
@@ -42,7 +42,7 @@ function draw() {
     ctx.fillStyle = "#000";
     rect(xa - 5, ya - 5, 10, 10);
     rect(xb - 5, yb - 5, 10, 10);
-    ctx.fillStyle = "#86E2FF";
+    ctx.fillStyle = "#7D68FF";
     rect(xca - 5, yca - 5, 10, 10);
     rect(xcb - 5, ycb - 5, 10, 10);
 
@@ -53,7 +53,7 @@ function draw() {
 }
 
 function lerp(pAx, pAy, pBx, pBy) {
-    ctx.strokeStyle = "#86E2FF";
+    ctx.strokeStyle = "#7D68FF";
     ctx.beginPath();
     ctx.moveTo(pAx, pAy);
     ctx.lineTo(pBx, pBy);
