@@ -381,112 +381,38 @@ body.fade-out {
 }
 
 .filter-container {
-  padding: 2rem;
-  text-align: justify;
-  font-size: 0.1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
 }
-
-.filter-container .mix {
-  display: inline-block;
-  position: relative;
+.filter-container .project {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
 }
-
-.filter-container .mix img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.filter-container .mix .caption {
-  font-size: 22000%;
-  font-weight: 900;
-  padding-top: 0.85em;
-}
-
-.filter-container .mix .babycaption {
-  font-size: 15000%;
-  padding-top: 0.5em;
-  padding-bottom: 2em;
-  font-weight: 800;
-}
-
-.filter-container:after {
-  content: "";
-  display: inline-block;
+.filter-container .project img {
   width: 100%;
+  display: block;
+  margin-top: auto;
 }
-
-.mix,
-.gap {
-  display: inline-block;
-  vertical-align: top;
+.filter-container .project .project__title {
+  margin: 1em;
 }
-
-.mix {
-  margin-bottom: 1rem;
-  position: relative;
+.filter-container .project .project__title h1 {
+  display: inline;
+  font-size: 2em;
+  margin-right: 1em;
 }
-
-.mix:before {
-  display: inline-block;
-  padding-top: 100%;
+.filter-container .project .project__title h2 {
+  display: inline;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-
-/* 1 Columns */
-.mix,
-.gap {
-  width: calc(100%/1 - (((1 - 1) * 1rem) / 1));
-}
-
-/* 2 Columns */
-@media screen and (min-width: 680px) {
-  .mix,
-.gap {
-    width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
-  }
-}
-/*
-@media screen and (min-width: 1281px) {
-    .mix,
-    .gap {
-        width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
-    }
-}
-*/
-.filter-controls {
-  position: relative;
-}
-
-@media screen and (max-width: 497px) {
-  .overlay-gradient {
-    pointer-events: none;
-    top: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    box-shadow: inset -50px 0px 40px -10px #F6F6F6;
-  }
-}
-::-webkit-scrollbar {
-  height: 4px;
-  width: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #ccc;
-}
-
-.mix {
-  transition: all 0.2s ease-in-out;
-}
-
-div.mix:hover {
-  transform: scale(0.97);
-  cursor: pointer;
-}
-
-a.project {
+.filter-container .project .project__title .project__link {
   color: black;
-  text-decoration: none;
+}
+.filter-container .project .project__title .project__link:after {
+  content: " →";
 }
 
 .hero-wrapper {
