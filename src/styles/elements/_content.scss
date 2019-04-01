@@ -2,11 +2,18 @@
 
 .filter-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 2em;
 
+    @media (min-width: 680px) {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+
+
+
     .project {
-        background-color: #ddd;
+        background-color: $boxbg;
         display: flex;
         flex-direction: column;
 
@@ -17,29 +24,57 @@
         }
 
         .project__title {
-            margin: 1em;
+            margin-top: 4rem;
+            margin-left: 2.5rem;
+            margin-right: 2.5rem;
+            margin-bottom: 2.5rem;
 
             h1 {
+                font-family: "Inter",
+                    sans-serif;
                 display: inline;
-                font-size: 2em;
-                margin-right: 1em;
+                font-weight: 1000;
+                margin-right: 0.2rem;
+                font-size: 1.3em;
+
+
             }
-            
+
             h2 {
+                font-family: "Inter",
+                    sans-serif;
                 display: inline;
-                font-weight: bold;
+                font-weight: 600;
                 text-transform: uppercase;
+                color: $sky;
+                letter-spacing: 0.1rem;
+                font-size: 0.75rem;
+
+                @media (min-width: 680px) {
+                    font-size: 0.7rem;
+                }
             }
 
             .project__description {
-
+                padding-top: 1rem;
+                font-family: "Roboto",
+                    sans-serif;
+                line-height: 1.3rem;
+                padding-bottom: 3rem;
+                font-weight: 400;
             }
 
             .project__link {
-                color: black;
+                color: $black;
+                font-family: "Inter",
+                    sans-serif;
+                font-weight: 900;
+                padding-bottom: 2rem;
 
                 &:after {
                     content: ' →';
+                    color: $sky;
+                    text-decoration: none;
                 }
             }
         }

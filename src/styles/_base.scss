@@ -6,13 +6,12 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
-    // transition: all .3s ease; // Allows for a smoother transition
+    transition: all .3s ease; // Allows for a smoother transition
 }
 
 body {
     background-color: $white;
     color: $black;
-    font-family: "Raleway", sans-serif;
     position: relative;
 }
 
@@ -45,11 +44,11 @@ body.fade-out {
 }
 
 ::selection {
-    background: $sky;
+    background: #D0C8FF;
     /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-    background: $sky;
+    background: #D0C8FF;
     /* Gecko Browsers */
 }

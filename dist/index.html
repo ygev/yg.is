@@ -11,8 +11,9 @@
     
     <meta name="theme-color" content="#F5F5F5">
     <link
-        href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext"
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext"
         rel="stylesheet">
+    <link rel="stylesheet" href="fonts/inter/inter.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -53,10 +54,13 @@
             <canvas class='canvas' id='bezier'></canvas>
         </div>
         <header class="hero">
-            <div class="hero__yana"><u>Yana Gevorgyan</u> is a lemon drop working on
+            <div class="hero__yana"><u class="hero__yana--underline">Yana Gevorgyan</u> <i class="hero__yana--dull">is a
+                    product designer evaluating human-computer
+                    interactions through web
+                </i>
                 <span class="hero__select">
                     <select onchange="filterProjects(this)">
-                        <option value="all">everything</option>
+                        <option value="all">experiences</option>
                         <option value=".tools">tools</option>
                         <option value=".research">research</option>
                         <option value=".experiments">experiments</option>
@@ -68,17 +72,17 @@
     </section>
 
     <div class="filter-container">
-        <div class="project mix webex">
+        <div class="project mix tools">
             <div class="project__title">
                 <h1>Trunks</h1>
                 <h2>tool</h2>
                 <div class="project__description">An alternative way to visualize large scale ancestral relations with
                     d3.js</div>
-                <a href="/trunks">
-                    <div class="project__link">Read Case Study</div>
+                <a class="u-no-underline project__link" href="/trunks">
+                    Read Case Study
                 </a>
             </div>
-            <img src="https://via.placeholder.com/510x336" alt="" class="img-project" />
+            <img src="img/trunks/cover.png" alt="" class="img-project" />
         </div>
 
         <div class="project mix research">
@@ -88,32 +92,32 @@
                 <div class="project__description">Deconstructing the museum web experience and constructing it again.
                 </div>
                 <a href="/trunks">
-                    <div class="project__link">Read Case Study</div>
+                    <div class="u-no-underline project__link">Read Case Study</div>
                 </a>
             </div>
-            <img src="https://via.placeholder.com/510x336" alt="" class="img-project" />
+            <img src="img/avam/cover.png" alt="" class="img-project" />
         </div>
 
-        <div class="project mix tools">
+        <div class="project mix tool">
             <div class="project__title">
                 <h1>Vortipaint</h1>
                 <h2>tool</h2>
-                <div class="project__description">A responsive and radially symmetric drawing tool built with p5.js
-                </div>
+                <div class="project__description">An alternative way to visualize large scale ancestral relations with
+                    d3.js</div>
                 <a href="/trunks">
-                    <div class="project__link">Read Case Study</div>
+                    <div class="u-no-underline project__link">Read Case Study</div>
                 </a>
             </div>
             <img src="https://via.placeholder.com/510x336" alt="" class="img-project" />
         </div>
 
-        <div class="project mix tools">
+        <div class="project mix experiment">
             <div class="project__title">
-                <h1>ToneTracker</h1>
+                <h1>Tar Pit Escape</h1>
                 <h2>tool</h2>
-                <div class="project__description">Converting any song from MIDI  to a retro chiptune using tone.js</div>
+                <div class="project__description">A competitive escape room experience for the La Brea Tar Pits.</div>
                 <a href="/trunks">
-                    <div class="project__link">Read Case Study</div>
+                    <div class="u-no-underline project__link">Read Case Study</div>
                 </a>
             </div>
             <img src="https://via.placeholder.com/510x336" alt="" class="img-project" />

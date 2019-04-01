@@ -21,21 +21,24 @@
 }
 
 .hero__yana {
-    font-size: 300%;
+    font-family: "Inter", sans-serif;
+    font-size: 200%;
     padding-bottom: 5rem;
-    font-weight: 300;
-    line-height: 130%;
-    font-weight: 900;
-    max-width: 80%;
+    line-height: 140%;
+    font-weight: 800;
+    max-width: 100%;
     margin: 0 auto;
+    padding-left: 1rem;
 
-    @media (max-width: 680px) {
-        font-size: 200%;
+    @media (max-width: 680px) {}
+
+    &--underline {
+        text-decoration-style: solid;
     }
 
-    u {
-        text-decoration-style: dotted;
-        text-decoration-color: $sky;
+    &--dull {
+        color: #858585;
+        font-weight: 700;
     }
 
     .hero__select {
