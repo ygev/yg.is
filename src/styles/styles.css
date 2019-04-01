@@ -125,7 +125,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -166,7 +166,7 @@ button {
 }
 
 .u-opacity-20 {
-  opacity: 0.2;
+  opacity: .2;
 }
 
 .u-bold {
@@ -228,13 +228,15 @@ button {
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
@@ -246,11 +248,13 @@ body {
 
 body {
   opacity: 1;
+  -webkit-transition: 1s opacity;
   transition: 1s opacity;
 }
 
 body.fade-out {
   opacity: 0;
+  -webkit-transition: none;
   transition: none;
 }
 
@@ -259,6 +263,7 @@ body.fade-out {
   padding-bottom: 2em;
   margin: auto;
 }
+
 @media (max-width: 680px) {
   .container {
     padding-left: 15px;
@@ -269,6 +274,11 @@ body.fade-out {
 .site-nav__link:hover {
   outline: 0.125rem #7D68FF dotted;
   outline-offset: 0.25rem;
+}
+
+::-moz-selection {
+  background: #7D68FF;
+  /* WebKit/Blink Browsers */
 }
 
 ::selection {
@@ -282,8 +292,12 @@ body.fade-out {
 }
 
 .bezier-divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* Controls
@@ -293,18 +307,26 @@ body.fade-out {
   padding-bottom: 1rem;
   padding-right: 1.2rem;
   padding-left: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   overflow-x: auto;
   position: relative;
 }
 
 @media screen and (min-width: 680px) {
   .controls {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
+
 .control {
   position: relative;
   display: inline-block;
@@ -318,6 +340,7 @@ body.fade-out {
   font-size: 90%;
   color: black;
   background-color: #F6F6F6;
+  -webkit-transition: background 150ms;
   transition: background 150ms;
   font-weight: 700;
 }
@@ -328,6 +351,7 @@ body.fade-out {
 
 .control[data-filter]:after {
   position: absolute;
+  -webkit-transition: background-color 150ms, border-color 150ms;
   transition: background-color 150ms, border-color 150ms;
 }
 
@@ -335,11 +359,13 @@ body.fade-out {
   position: absolute;
   top: calc(50% - 6px);
   left: calc(50% - 6px);
-  transform: translateY(1px) rotate(45deg);
+  -webkit-transform: translateY(1px) rotate(45deg);
+          transform: translateY(1px) rotate(45deg);
 }
 
 .control[data-sort*=":desc"]:after {
-  transform: translateY(-4px) rotate(-135deg);
+  -webkit-transform: translateY(-4px) rotate(-135deg);
+          transform: translateY(-4px) rotate(-135deg);
 }
 
 .mixitup-control-active {
@@ -351,19 +377,28 @@ body.fade-out {
 }
 
 .control[data-filter] + .control[data-sort] {
-  margin-left: 0.75rem;
+  margin-left: .75rem;
 }
 
 .site-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 90%;
 }
 
 .site-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -381,46 +416,68 @@ body.fade-out {
 }
 
 .filter-container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
 }
+
 .filter-container .project {
   background-color: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .filter-container .project img {
   width: 100%;
   display: block;
   margin-top: auto;
 }
+
 .filter-container .project .project__title {
   margin: 1em;
 }
+
 .filter-container .project .project__title h1 {
   display: inline;
   font-size: 2em;
   margin-right: 1em;
 }
+
 .filter-container .project .project__title h2 {
   display: inline;
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .filter-container .project .project__title .project__link {
   color: black;
 }
+
 .filter-container .project .project__title .project__link:after {
-  content: " →";
+  content: ' →';
 }
 
 .hero-wrapper {
   margin: 0 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 @media (max-width: 680px) {
   .hero-wrapper {
     margin: 0 1em;
@@ -447,21 +504,27 @@ body.fade-out {
   max-width: 80%;
   margin: 0 auto;
 }
+
 @media (max-width: 680px) {
   .hero__yana {
     font-size: 200%;
   }
 }
+
 .hero__yana u {
-  text-decoration-style: dotted;
-  text-decoration-color: #7D68FF;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  -webkit-text-decoration-color: #7D68FF;
+          text-decoration-color: #7D68FF;
 }
+
 .hero__yana .hero__select {
   cursor: pointer;
   padding-bottom: 0.1em;
   border-bottom: 2px solid black;
   text-align-last: center;
 }
+
 .hero__yana .hero__select select {
   background: inherit;
   border: none;
@@ -476,15 +539,17 @@ body.fade-out {
   min-width: 5em;
   margin: 0 0.1em;
 }
+
 .hero__yana .hero__select select option {
   font: inherit;
 }
+
 .hero__yana select::-ms-expand {
   display: none;
 }
 
 .hero__select:after {
-  content: "";
+  content: '\f078';
   font: normal normal normal 17px/1 FontAwesome;
   color: #7D68FF;
   bottom: 8px;
@@ -496,7 +561,7 @@ body.fade-out {
 }
 
 .wrap {
-  text-decoration: underline #7D68FF;
+  -webkit-text-decoration: underline #7D68FF;
+          text-decoration: underline #7D68FF;
 }
-
 /*# sourceMappingURL=styles.css.map */
