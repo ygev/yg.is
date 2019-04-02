@@ -342,10 +342,43 @@ body.fade-out {
   margin-left: 0.75rem;
 }
 
+main.content {
+  margin: 2em;
+}
+
+.project .project__title > h1 {
+  font-family: "Inter", sans-serif;
+  display: inline;
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-right: 0.4rem;
+}
+.project .project__title > h2 {
+  font-family: "Inter", sans-serif;
+  display: inline;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #7D68FF;
+  letter-spacing: 0.1rem;
+  font-size: 0.75rem;
+}
+.project .project__title > .project__description {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3rem;
+  font-weight: 400;
+  padding-top: 1rem;
+}
+.project .project__image-floatleft {
+  display: flex;
+}
+.project img.project__image-main {
+  margin: 1em 0;
+  width: 100%;
+}
+
 .filter-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2em;
 }
 @media (min-width: 680px) {
   .filter-container {
@@ -369,49 +402,28 @@ body.fade-out {
   margin-right: 2.5rem;
   margin-bottom: 2.5rem;
 }
-.filter-container .project .project__title h1 {
-  font-family: "Inter", sans-serif;
-  display: inline;
-  font-weight: 900;
-  margin-right: 0.4rem;
-  font-size: 1.3em;
-}
-.filter-container .project .project__title h2 {
-  font-family: "Inter", sans-serif;
-  display: inline;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #7D68FF;
-  letter-spacing: 0.1rem;
-  font-size: 0.75rem;
-}
 @media (min-width: 680px) {
-  .filter-container .project .project__title h2 {
+  .filter-container .project .project__title > h2 {
     font-size: 0.7rem;
   }
 }
-.filter-container .project .project__title .project__description {
-  padding-top: 1rem;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.3rem;
+.filter-container .project .project__title > .project__description {
   padding-bottom: 3rem;
-  font-weight: 400;
   max-width: 35vh;
 }
-.filter-container .project .project__title .project__link {
+.filter-container .project .project__title > .project__link {
   color: #000000;
   font-family: "Inter", sans-serif;
   font-weight: 900;
   padding-bottom: 2rem;
 }
-.filter-container .project .project__title .project__link:after {
+.filter-container .project .project__title > .project__link:after {
   content: " →";
   color: #7D68FF;
   text-decoration: none;
 }
 
 .hero-wrapper {
-  margin: 0 2em;
   display: flex;
   justify-content: center;
   flex-direction: column;

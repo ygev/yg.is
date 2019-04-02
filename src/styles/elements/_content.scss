@@ -1,10 +1,58 @@
 // CONTAINER
 
+main.content {
+    margin: 2em;
+}
+
+.project {
+    .project__title {
+        > h1 {
+            font-family: "Inter",
+                sans-serif;
+            display: inline;
+            font-weight: 900;
+            font-size: 1.3em;
+            margin-right: 0.4rem;
+        }
+
+        > h2 {
+            font-family: "Inter",
+                sans-serif;
+            display: inline;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $sky;
+            letter-spacing: 0.1rem;
+            font-size: 0.75rem;
+        }
+
+        > .project__description {
+            font-family: "Roboto",
+                sans-serif;
+            line-height: 1.3rem;
+            font-weight: 400;
+            padding-top: 1rem;
+        }
+    }
+
+    // this img corresponds to the main image on the individual project pages
+    .project__image-floatleft {
+        display: flex;
+
+        img {
+        }
+
+    }
+
+    img.project__image-main {
+        margin: 1em 0;
+        width: 100%;
+    }
+}
+
 .filter-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 2em;
-    // margin: 4em 1em;
 
     @media (min-width: 680px) {
         grid-template-columns: 1fr 1fr;
@@ -16,6 +64,7 @@
         display: flex;
         flex-direction: column;
 
+        // this img corresponds to the main index.html image
         img {
             width: 100%;
             display: block;
@@ -28,41 +77,20 @@
             margin-right: 2.5rem;
             margin-bottom: 2.5rem;
 
-            h1 {
-                font-family: "Inter",
-                    sans-serif;
-                display: inline;
-                font-weight: 900;
-                margin-right: 0.4rem;
-                font-size: 1.3em;
-            }
+            > h1 {}
 
-            h2 {
-                font-family: "Inter",
-                    sans-serif;
-                display: inline;
-                font-weight: 600;
-                text-transform: uppercase;
-                color: $sky;
-                letter-spacing: 0.1rem;
-                font-size: 0.75rem;
-
+            > h2 {
                 @media (min-width: 680px) {
                     font-size: 0.7rem;
                 }
             }
 
-            .project__description {
-                padding-top: 1rem;
-                font-family: "Roboto",
-                    sans-serif;
-                line-height: 1.3rem;
+            > .project__description {
                 padding-bottom: 3rem;
-                font-weight: 400;
                 max-width: 35vh;
             }
 
-            .project__link {
+            > .project__link {
                 color: $black;
                 font-family: "Inter",
                     sans-serif;
