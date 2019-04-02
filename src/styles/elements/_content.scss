@@ -16,10 +16,11 @@ main.content {
         font-family: "Inter",
             sans-serif;
         font-weight: bold;
+        margin-bottom: 0.4em;
     }
 }
 
-// main page only
+// main page
 .filter-container {
     display: grid;
     grid-template-columns: 1fr;
