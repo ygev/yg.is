@@ -10,6 +10,7 @@ main.content {
         font-family: "Inter",
             sans-serif;
         font-weight: bold;
+        margin-bottom: 0.4em;
     }
 }
 
@@ -58,13 +59,34 @@ main.project-page {
             }
         }
 
-        .project__callout-1 {
-            // TODO purple background, big text, etc etc
-        }
-
         img.project__image-main {
             margin: 1em 0;
             width: 100%;
+        }
+
+        .project__callout-1 {
+            background-color: $sky;
+            color: white;
+            padding: 1em;
+            margin: 1em 0;
+            line-height: 1.3;
+
+            p {
+                font-size: 1.1em;
+
+            }
+        }
+
+        .project__image-floatleft {
+            display: flex;
+
+            img {
+
+            }
+
+            span {
+
+            }
         }
     }
 }
