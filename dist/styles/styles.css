@@ -346,32 +346,6 @@ body.fade-out {
   margin-left: 0.75rem;
 }
 
-.site-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 90%;
-}
-
-.site-nav__list {
-  display: flex;
-}
-
-.site-nav__name {
-  font-weight: 900;
-}
-
-.site-nav__list-item {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.site-nav__link {
-  color: #000000;
-}
-
 .filter-container {
   display: grid;
   grid-template-columns: 1fr;
