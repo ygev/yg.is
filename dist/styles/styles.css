@@ -1,0 +1,614 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * Reset button styles.
+ * It takes a bit of work to achieve a neutral look.
+ */
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+  cursor: pointer;
+}
+
+*:focus {
+  outline: none;
+}
+
+.u-caps {
+  text-transform: uppercase;
+}
+
+.u-opacity-20 {
+  opacity: .2;
+}
+
+.u-bold {
+  font-weight: 500;
+}
+
+.u-no-underline {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.u-bottom-border {
+  border-bottom: 1px solid black;
+}
+
+.u-top-border {
+  border-top: 1px solid black;
+}
+
+.u-block {
+  display: block;
+}
+
+.u-button-reset {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 15px;
+  text-align: inherit;
+}
+
+/*  Removes default styles from a button element */
+.u-button-reset {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  text-align: inherit;
+}
+
+.u-fit {
+  max-width: 100%;
+}
+
+.u-list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+.u-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+body {
+  background-color: #F6F6F6;
+  color: #000000;
+  position: relative;
+  opacity: 1;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+
+body.fade-out {
+  opacity: 0;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 680px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.site-nav__link:hover {
+  outline: 0.125rem #7D68FF dotted;
+  outline-offset: 0.25rem;
+}
+
+::-moz-selection {
+  background: #D0C8FF;
+  /* WebKit/Blink Browsers */
+}
+
+::selection {
+  background: #D0C8FF;
+  /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #D0C8FF;
+  /* Gecko Browsers */
+}
+
+.bezier-divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Controls
+---------------------------------------------------------------------- */
+.controls {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: auto;
+  position: relative;
+}
+
+@media screen and (min-width: 680px) {
+  .controls {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.control {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-right: 8px;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  cursor: pointer;
+  font-size: 90%;
+  color: black;
+  background-color: #F6F6F6;
+  -webkit-transition: background 150ms;
+  transition: background 150ms;
+  font-weight: 700;
+}
+
+.control:hover {
+  outline: 0.125rem #7D68FF dotted;
+}
+
+.control[data-filter]:after {
+  position: absolute;
+  -webkit-transition: background-color 150ms, border-color 150ms;
+  transition: background-color 150ms, border-color 150ms;
+}
+
+.control[data-sort]:after {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% - 6px);
+  -webkit-transform: translateY(1px) rotate(45deg);
+          transform: translateY(1px) rotate(45deg);
+}
+
+.control[data-sort*=":desc"]:after {
+  -webkit-transform: translateY(-4px) rotate(-135deg);
+          transform: translateY(-4px) rotate(-135deg);
+}
+
+.mixitup-control-active {
+  outline: 0.125rem #7D68FF solid;
+}
+
+.mixitup-control-active[data-filter]:after {
+  background: transparent;
+}
+
+.control[data-filter] + .control[data-sort] {
+  margin-left: .75rem;
+}
+
+main.content {
+  margin: 2em;
+}
+
+.project h1,
+.project h2,
+.project h3,
+.project h4,
+.project h5,
+.project h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+.filter-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+@media (min-width: 680px) {
+  .filter-container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+}
+
+.filter-container .project {
+  background-color: #E5E9EB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.filter-container .project img {
+  width: 100%;
+  display: block;
+  margin-top: auto;
+}
+
+.filter-container .project .project__title {
+  margin-top: 4rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.filter-container .project .project__title > h1 {
+  display: inline;
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-right: 0.4rem;
+}
+
+.filter-container .project .project__title > h2 {
+  display: inline;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #7D68FF;
+  letter-spacing: 0.1rem;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 680px) {
+  .filter-container .project .project__title > h2 {
+    font-size: 0.7rem;
+  }
+}
+
+.filter-container .project .project__title > .project__description {
+  line-height: 1.3rem;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  max-width: 35vh;
+}
+
+.filter-container .project .project__title > .project__link {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+
+.filter-container .project .project__title > .project__link:after {
+  content: ' →';
+  color: #7D68FF;
+  text-decoration: none;
+}
+
+.hero-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+}
+
+@media (max-width: 680px) {
+  .hero-wrapper {
+    margin: 0 1em;
+    -ms-grid-column-span: 1;
+        grid-column-end: span 1;
+  }
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+}
+
+.hero__yana {
+  font-family: "Inter", sans-serif;
+  font-size: 200%;
+  padding-bottom: 5rem;
+  line-height: 140%;
+  font-weight: 800;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+}
+
+.hero__yana--underline {
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+}
+
+.hero__yana--dull {
+  color: #858585;
+  font-weight: 700;
+}
+
+.hero__yana .hero__select {
+  cursor: pointer;
+  padding-bottom: 0.1em;
+  border-bottom: 2px solid black;
+  text-align-last: center;
+}
+
+.hero__yana .hero__select select {
+  background: inherit;
+  border: none;
+  font: inherit;
+  font-size: inherit;
+  color: #7D68FF;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: inherit;
+  padding-right: 2%;
+  min-width: 5em;
+  margin: 0 0.1em;
+}
+
+.hero__yana .hero__select select option {
+  font: inherit;
+}
+
+.hero__yana select::-ms-expand {
+  display: none;
+}
+
+.hero__select:after {
+  content: '\f078';
+  font: normal normal normal 17px/1 FontAwesome;
+  color: #7D68FF;
+  bottom: 8px;
+  height: 34px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  position: relative;
+  cursor: pointer;
+}
+
+.wrap {
+  -webkit-text-decoration: underline #7D68FF;
+          text-decoration: underline #7D68FF;
+}
+
+main.project-page .project > a.back-to-home {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 2em;
+}
+
+main.project-page .project > a.back-to-home:before {
+  content: '← ';
+}
+
+main.project-page .project .project__title > h1 {
+  display: inline;
+  font-weight: 900;
+  font-size: 2.5em;
+  margin-right: 0.8rem;
+}
+
+main.project-page .project .project__title > h2 {
+  display: inline;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #7D68FF;
+  letter-spacing: 0.1rem;
+  font-size: 1.25rem;
+}
+
+main.project-page .project .project__title > .project__description {
+  line-height: 1.3rem;
+  font-weight: 400;
+  padding-top: 1rem;
+}
+
+main.project-page .project .project__title > .project__details {
+  font-weight: bold;
+  color: #888;
+}
+
+main.project-page .project img.project__image-main {
+  margin: 1em 0;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

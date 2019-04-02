@@ -6,66 +6,16 @@ main.content {
 
 // shared between main page and project pages
 .project {
-    & h1, h2, h3, h4, h5, h6 {
+
+    & h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         font-family: "Inter",
             sans-serif;
         font-weight: bold;
-    }
-}
-
-// project pages only
-main.project-page {
-    .project {
-        > a.back-to-home {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-            display: block;
-            margin-bottom: 2em;
-
-            &:before {
-                content: '← ';
-            }
-        }
-
-        .project__title {
-            > h1 {
-                display: inline;
-                font-weight: 900;
-                font-size: 2.5em;
-                margin-right: 0.8rem;
-            }
-
-            > h2 {
-                display: inline;
-                font-weight: 600;
-                text-transform: uppercase;
-                color: $sky;
-                letter-spacing: 0.1rem;
-                font-size: 1.25rem;
-            }
-
-            > .project__description {
-                line-height: 1.3rem;
-                font-weight: 400;
-                padding-top: 1rem;
-            }
-
-            > .project__details {
-                font-weight: bold;
-                color: #888;
-                // TODO probably increase font spacing here
-            }
-        }
-
-        .project__callout-1 {
-            // TODO purple background, big text, etc etc
-        }
-
-        img.project__image-main {
-            margin: 1em 0;
-            width: 100%;
-        }
     }
 }
 
@@ -97,14 +47,14 @@ main.project-page {
             margin-right: 2.5rem;
             margin-bottom: 2.5rem;
 
-            > h1 {
+            >h1 {
                 display: inline;
                 font-weight: 900;
                 font-size: 1.3em;
                 margin-right: 0.4rem;
             }
 
-            > h2 {
+            >h2 {
                 display: inline;
                 font-weight: 600;
                 text-transform: uppercase;
@@ -117,7 +67,7 @@ main.project-page {
                 }
             }
 
-            > .project__description {
+            >.project__description {
                 line-height: 1.3rem;
                 font-weight: 400;
                 padding-top: 1rem;
@@ -125,7 +75,7 @@ main.project-page {
                 max-width: 35vh;
             }
 
-            > .project__link {
+            >.project__link {
                 color: $black;
                 font-family: "Inter",
                     sans-serif;
