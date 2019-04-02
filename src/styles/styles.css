@@ -375,6 +375,8 @@ body.fade-out {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 @media (min-width: 680px) {

@@ -4,7 +4,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2em;
-    // margin: 4em 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 
     @media (min-width: 680px) {
         grid-template-columns: 1fr 1fr;
