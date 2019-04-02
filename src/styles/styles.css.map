@@ -20,7 +20,8 @@
         "elements/_filter.scss",
         "elements/_content.scss",
         "elements/_hero.scss",
-        "pages/_pages.scss"
+        "pages/_pages.scss",
+        "pages/_project.scss"
     ],
     "names": [],
     "file": "styles.css"
