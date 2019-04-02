@@ -234,9 +234,6 @@ body {
   background-color: #F6F6F6;
   color: #000000;
   position: relative;
-}
-
-body {
   opacity: 1;
   transition: 1s opacity;
 }
@@ -248,7 +245,6 @@ body.fade-out {
 
 .container {
   max-width: 1200px;
-  padding-bottom: 2em;
   margin: auto;
 }
 @media (max-width: 680px) {
@@ -350,7 +346,7 @@ body.fade-out {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2em;
-  margin: 0 1em;
+  margin: 4em 1em;
 }
 @media (min-width: 680px) {
   .filter-container {
@@ -420,6 +416,7 @@ body.fade-out {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  grid-column-end: span 2;
 }
 @media (max-width: 680px) {
   .hero-wrapper {
