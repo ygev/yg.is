@@ -4,5 +4,5 @@ module.exports = {
         output: "dist"
     },
     htmlTemplateEngine: "njk",
-    templateFormats: ["html", "njk", "css", "js", "jpg", "png", "svg"]
+    templateFormats: ["html", "njk", "css", "js", "jpg", "png", "svg", "woff", "woff2"]
 };
