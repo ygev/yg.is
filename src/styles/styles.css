@@ -221,6 +221,7 @@ button {
 
 html {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 *,
@@ -346,32 +347,45 @@ main.content {
   margin: 2em;
 }
 
-.project .project__title > h1 {
+.project h1, .project h2, .project h3, .project h4, .project h5, .project h6 {
   font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+
+main.project-page .project > a.back-to-home {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 2em;
+}
+main.project-page .project > a.back-to-home:before {
+  content: "← ";
+}
+main.project-page .project .project__title > h1 {
   display: inline;
   font-weight: 900;
-  font-size: 1.3em;
-  margin-right: 0.4rem;
+  font-size: 2.5em;
+  margin-right: 0.8rem;
 }
-.project .project__title > h2 {
-  font-family: "Inter", sans-serif;
+main.project-page .project .project__title > h2 {
   display: inline;
   font-weight: 600;
   text-transform: uppercase;
   color: #7D68FF;
   letter-spacing: 0.1rem;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
 }
-.project .project__title > .project__description {
-  font-family: "Roboto", sans-serif;
+main.project-page .project .project__title > .project__description {
   line-height: 1.3rem;
   font-weight: 400;
   padding-top: 1rem;
 }
-.project .project__image-floatleft {
-  display: flex;
+main.project-page .project .project__title > .project__details {
+  font-weight: bold;
+  color: #888;
 }
-.project img.project__image-main {
+main.project-page .project img.project__image-main {
   margin: 1em 0;
   width: 100%;
 }
@@ -402,12 +416,29 @@ main.content {
   margin-right: 2.5rem;
   margin-bottom: 2.5rem;
 }
+.filter-container .project .project__title > h1 {
+  display: inline;
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-right: 0.4rem;
+}
+.filter-container .project .project__title > h2 {
+  display: inline;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #7D68FF;
+  letter-spacing: 0.1rem;
+  font-size: 0.75rem;
+}
 @media (min-width: 680px) {
   .filter-container .project .project__title > h2 {
     font-size: 0.7rem;
   }
 }
 .filter-container .project .project__title > .project__description {
+  line-height: 1.3rem;
+  font-weight: 400;
+  padding-top: 1rem;
   padding-bottom: 3rem;
   max-width: 35vh;
 }
