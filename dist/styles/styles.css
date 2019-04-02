@@ -375,7 +375,6 @@ body.fade-out {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2em;
-  margin: 4em 1em;
 }
 
 @media (min-width: 680px) {
@@ -440,7 +439,7 @@ body.fade-out {
   line-height: 1.3rem;
   padding-bottom: 3rem;
   font-weight: 400;
-  max-width: 60%;
+  max-width: 35vh;
 }
 
 .filter-container .project .project__title .project__link {
