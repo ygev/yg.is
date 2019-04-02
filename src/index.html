@@ -4,29 +4,27 @@ title: Home
 ---
 
 <main class="content">
-    <section class="hero-wrapper">
-        <div class="bezier-divider">
-            <canvas class='canvas' id='bezier'></canvas>
-        </div>
-        <header class="hero">
-            <div class="hero__yana"><u class="hero__yana--underline">Yana Gevorgyan</u> <i class="hero__yana--dull">is a
-                    product designer evaluating human-computer
-                    interactions through web
-                </i>
-                <span class="hero__select">
-                    <select onchange="filterProjects(this)">
-                        <option value="all">experiences</option>
-                        <option value=".tools">tools</option>
-                        <option value=".research">research</option>
-                        <option value=".experiments">experiments</option>
-                        <option value=".print">print</option>
-                    </select>
-                </span>
-            </div>
-        </header>
-    </section>
-
     <div class="filter-container">
+        <section class="hero-wrapper">
+            <div class="bezier-divider">
+                <canvas class='canvas' id='bezier'></canvas>
+            </div>
+            <header class="hero">
+                <div class="hero__yana"><u class="hero__yana--underline">Yana Gevorgyan</u>
+                    <i class="hero__yana--dull">is a product designer evaluating human-computer interactions through web</i>
+                    <span class="hero__select">
+                        <select onchange="filterProjects(this)">
+                            <option value="all">experiences</option>
+                            <option value=".tools">tools</option>
+                            <option value=".research">research</option>
+                            <option value=".experiments">experiments</option>
+                            <option value=".print">print</option>
+                        </select>
+                    </span>
+                </div>
+            </header>
+        </section>
+
         <div class="project mix tools">
             <div class="project__title">
                 <h1>Trunks</h1>
