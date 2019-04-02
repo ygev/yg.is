@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2em;
+    margin: 4em 1em;
 
     @media (min-width: 680px) {
         grid-template-columns: 1fr 1fr;
@@ -32,7 +33,7 @@
                     sans-serif;
                 display: inline;
                 font-weight: 1000;
-                margin-right: 0.2rem;
+                margin-right: 0.4rem;
                 font-size: 1.3em;
             }
 
@@ -58,6 +59,7 @@
                 line-height: 1.3rem;
                 padding-bottom: 3rem;
                 font-weight: 400;
+                max-width: 60%;
             }
 
             .project__link {

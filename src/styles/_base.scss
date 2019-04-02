@@ -13,9 +13,6 @@ body {
     background-color: $white;
     color: $black;
     position: relative;
-}
-
-body {
     opacity: 1;
     transition: 1s opacity;
 }
@@ -27,9 +24,6 @@ body.fade-out {
 
 .container {
     max-width: 1200px;
-    // padding-left: 15%;
-    // padding-right: 15%;
-    padding-bottom: 2em;
     margin: auto;
 
     @media (max-width: 680px) {

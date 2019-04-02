@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    grid-column-end: span 2;
 
     @media (max-width: 680px) {
         margin: 0 1em;
