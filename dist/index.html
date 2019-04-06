@@ -29,28 +29,27 @@
     </script>
     
 <main class="content">
-    <div class="filter-container">
-        <section class="hero-wrapper">
-            <div class="bezier-divider">
-                <canvas class='canvas' id='bezier'></canvas>
+    <section class="hero-wrapper">
+        <div class="bezier-divider">
+            <canvas class='canvas' id='bezier'></canvas>
+        </div>
+        <header class="hero">
+            <div class="hero__yana"><u class="hero__yana--underline">Yana Gevorgyan</u>
+                <i class="hero__yana--dull">is a product designer getting human-computer interactions down to a
+                    science through web</i>
+                <span class="hero__select">
+                    <select onchange="filterProjects(this)">
+                        <option value="all">experiences</option>
+                        <option value=".tools">tools</option>
+                        <option value=".research">research</option>
+                        <option value=".experiments">experiments</option>
+                        <option value=".print">print</option>
+                    </select>
+                </span>
             </div>
-            <header class="hero">
-                <div class="hero__yana"><u class="hero__yana--underline">Yana Gevorgyan</u>
-                    <i class="hero__yana--dull">is a product designer getting human-computer interactions down to a
-                        science through web</i>
-                    <span class="hero__select">
-                        <select onchange="filterProjects(this)">
-                            <option value="all">experiences</option>
-                            <option value=".tools">tools</option>
-                            <option value=".research">research</option>
-                            <option value=".experiments">experiments</option>
-                            <option value=".print">print</option>
-                        </select>
-                    </span>
-                </div>
-            </header>
-        </section>
-
+        </header>
+    </section>
+    <div class="filter-container">
         <a class="project mix tools u-no-underline u-color-inherit" href="trunks" data-aos="fade-up"
             data-aos-easing="ease-in-out" data-aos-delay="100">
             <div class="project__title">
