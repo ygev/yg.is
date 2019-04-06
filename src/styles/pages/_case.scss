@@ -1,0 +1,107 @@
+// project pages
+main.case-page {
+    .case {
+        >a.back-to-home {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 0.9em;
+            display: block;
+            margin-bottom: 3em;
+            font-family: "Inter", sans-serif;
+
+            &:before {
+                content: '← ';
+                color: $sky;
+            }
+        }
+
+        .case__title {
+            >h1 {
+                display: inline;
+                font-weight: 900;
+                font-size: 1.7em;
+                margin-right: 0.8rem;
+            }
+
+            >h2 {
+                display: inline;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: $sky;
+                letter-spacing: 0.1rem;
+                font-size: 0.9rem;
+            }
+
+            >.case__description {
+                line-height: 1.3rem;
+                font-weight: 400;
+                padding-top: 1rem;
+            }
+
+            >.case__time {
+                font-weight: 400;
+                color: #858585;
+                font-size: 0.85em;
+                padding-top: 0.7em;
+                padding-bottom: 1em;
+                font-weight: 500;
+                // TODO probably increase font spacing here
+            }
+        }
+
+        img.case__image-main {
+            margin: 1em 0;
+            width: 100%;
+        }
+
+        .case__callout {
+            background-color: $sky;
+            color: white;
+            padding: 2.5em;
+            margin: 1em 0;
+            line-height: 1.3;
+        }
+
+        p {
+            font-size: 1.1em;
+
+        }
+    }
+
+    .case__image-floatleft {
+        display: flex;
+
+
+    }
+
+    .case__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn {
+        border: 3px black solid;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        text-decoration: none;
+        color: $black;
+        font-family: "Inter", sans-serif;
+        font-weight: 800;
+        font-size: 0.9rem;
+    }
+}
+
+.indicator {
+    padding-right: 0.5rem;
+    font-weight: 900;
+    font-size: 0.7em;
+
+    &--live {
+        color: #56D21C;
+    }
+
+}

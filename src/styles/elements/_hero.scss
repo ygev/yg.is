@@ -2,11 +2,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    grid-column-end: span 2;
 
-    @media (max-width: 680px) {
-        margin: 0 1em;
-        grid-column-end: span 1;
+    margin: 0 1em;
+    grid-column-end: span 1;
+
+    @media (min-width: 680px) {
+        grid-column-end: span 2;
     }
 }
 
