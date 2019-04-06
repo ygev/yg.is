@@ -54,3 +54,17 @@ body.fade-out {
 .hideme {
     opacity: 0;
 }
+
+// Scrollbar
+::-webkit-scrollbar-track {
+    background-color: $white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: $sky;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: $boxbg;
+}

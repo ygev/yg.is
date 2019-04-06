@@ -288,6 +288,19 @@ body.fade-out {
   opacity: 0;
 }
 
+::-webkit-scrollbar-track {
+  background-color: #F6F6F6;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #7D68FF;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E5E9EB;
+}
+
 .bezier-divider {
   display: -webkit-box;
   display: -ms-flexbox;
