@@ -8,7 +8,34 @@ a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project
 //     transition: .6s ease-in-out;
 // }
 
-a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover {
-    transform: translateY(-1em);
-    // box-shadow: 0px 5px 10px 0px #424242;
+// a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover {
+// transform: translateY(-1em);
+// box-shadow: 0px 5px 10px 0px #424242;
+// }
+
+
+// Material Click
+
+.material-ripple {
+    position: relative;
+    overflow: hidden;
+}
+
+.material-ink {
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    transform: scale(0);
+}
+
+.material-ink-animate {
+    animation: ripple 0.5s linear;
+}
+
+@keyframes ripple {
+    100% {
+        opacity: 0;
+        transform: scale(1.5)
+    }
 }

@@ -599,9 +599,39 @@ a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project
   transition: .6s ease-in-out;
 }
 
-a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover {
-  -webkit-transform: translateY(-1em);
-          transform: translateY(-1em);
+.material-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.material-ink {
+  display: block;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.material-ink-animate {
+  -webkit-animation: ripple 0.5s linear;
+          animation: ripple 0.5s linear;
+}
+
+@-webkit-keyframes ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
 }
 
 main.case-page .case > a.back-to-home {
