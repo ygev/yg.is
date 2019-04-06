@@ -1,7 +1,25 @@
 a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project__link::after {
     margin-left: 0.5em;
-    transition: .6s ease-in-out;
+    transition: .4s ease-in-out;
 }
+
+// main.content {
+
+//     &:hover .project {
+//         opacity: 0.3;
+//     }
+
+//     & .project {
+//         display: block;
+//         text-decoration: none;
+//         transition: all 0.3s ease;
+
+//         &:hover {
+//             // color: #fff;
+//             opacity: 1;
+//         }
+//     }
+// }
 
 // .project__link:hover::after {
 //     margin-left: 0.5em;
@@ -16,26 +34,26 @@ a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project
 
 // Material Click
 
-.material-ripple {
-    position: relative;
-    overflow: hidden;
-}
+// .material-ripple {
+//     position: relative;
+//     overflow: hidden;
+// }
 
-.material-ink {
-    display: block;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 100%;
-    transform: scale(0);
-}
+// .material-ink {
+//     display: block;
+//     position: absolute;
+//     background: rgba(0, 0, 0, 0.5);
+//     border-radius: 100%;
+//     transform: scale(0);
+// }
 
-.material-ink-animate {
-    animation: ripple 0.5s linear;
-}
+// .material-ink-animate {
+//     animation: ripple 0.5s linear;
+// }
 
-@keyframes ripple {
-    100% {
-        opacity: 0;
-        transform: scale(1.5)
-    }
-}
+// @keyframes ripple {
+//     100% {
+//         opacity: 0;
+//         transform: scale(1.5)
+//     }
+// }

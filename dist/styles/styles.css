@@ -595,43 +595,8 @@ main.content {
 
 a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project__link::after {
   margin-left: 0.5em;
-  -webkit-transition: .6s ease-in-out;
-  transition: .6s ease-in-out;
-}
-
-.material-ripple {
-  position: relative;
-  overflow: hidden;
-}
-
-.material-ink {
-  display: block;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 100%;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-}
-
-.material-ink-animate {
-  -webkit-animation: ripple 0.5s linear;
-          animation: ripple 0.5s linear;
-}
-
-@-webkit-keyframes ripple {
-  100% {
-    opacity: 0;
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-  }
-}
-
-@keyframes ripple {
-  100% {
-    opacity: 0;
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
-  }
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 main.case-page .case > a.back-to-home {

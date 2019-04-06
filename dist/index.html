@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    
     <meta name="description"
         content="Yana Gevorgyan is a interdisciplinary designer with a passion for moving pixels around the screen." />
-
+    
     <meta name="theme-color" content="#F5F5F5">
     <link
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext"
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title> Yana Gevorgyan</title>
+    <title>  Yana Gevorgyan</title>
 
 </head>
 
@@ -27,86 +27,81 @@
     <script>
         document.body.className += ' fade-out';
     </script>
-
-    <main class="content">
-        <div class="filter-container">
-            <section class="hero-wrapper">
-                <div class="bezier-divider">
-                    <canvas class='canvas' id='bezier'></canvas>
+    
+<main class="content">
+    <div class="filter-container">
+        <section class="hero-wrapper">
+            <div class="bezier-divider">
+                <canvas class='canvas' id='bezier'></canvas>
+            </div>
+            <header class="hero">
+                <div class="hero__yana"><u class="hero__yana--underline">Yana Gevorgyan</u>
+                    <i class="hero__yana--dull">is a product designer getting human-computer interactions down to a
+                        science through web</i>
+                    <span class="hero__select">
+                        <select onchange="filterProjects(this)">
+                            <option value="all">experiences</option>
+                            <option value=".tools">tools</option>
+                            <option value=".research">research</option>
+                            <option value=".experiments">experiments</option>
+                            <option value=".print">print</option>
+                        </select>
+                    </span>
                 </div>
-                <header class="hero">
-                    <div class="hero__yana"><u class="hero__yana--underline">Yana Gevorgyan</u>
-                        <i class="hero__yana--dull">is a product designer getting human-computer interactions down to a
-                            science through web</i>
-                        <span class="hero__select">
-                            <select onchange="filterProjects(this)">
-                                <option value="all">experiences</option>
-                                <option value=".tools">tools</option>
-                                <option value=".research">research</option>
-                                <option value=".experiments">experiments</option>
-                                <option value=".print">print</option>
-                            </select>
-                        </span>
-                    </div>
-                </header>
-            </section>
+            </header>
+        </section>
 
-            <a class="project material-ripple mix tools u-no-underline u-color-inherit" href="trunks" data-aos="fade-up"
-                data-aos-easing="ease-in-out" data-aos-delay="100">
-                <div class="project__title">
-                    <h1>Trunks</h1>
-                    <h2>tool</h2>
-                    <div class="project__description">An alternative way to visualize large scale ancestral relations
-                        with
-                        d3.js</div>
-                    <div class="project__link">Read Case Study</div>
+       <a class="project mix tools u-no-underline u-color-inherit" href="trunks" data-aos="fade-up"
+            data-aos-easing="ease-in-out" data-aos-delay="100">
+            <div class="project__title">
+                <h1>Trunks</h1>
+                <h2>tool</h2>
+                <div class="project__description">An alternative way to visualize large scale ancestral relations with
+                    d3.js</div>
+                <div class="project__link">Read Case Study</div>
+            </div>
+            <img src="img/trunks/cover.png" alt="" />
+        </a>
+
+        <a class="project mix research u-no-underline u-color-inherit" data-aos="fade-up"
+            data-aos-easing="ease-in-out" data-aos-delay="100">
+            <div class="project__title">
+                <h1>Visionary Art Museum</h1>
+                <h2>research</h2>
+                <div class="project__description">Deconstructing the museum web experience and constructing it again.
                 </div>
-                <img src="img/trunks/cover.png" alt="" />
-            </a>
+                <div class="project__link">Read Case Study</div>
+            </div>
+            <img src="img/avam/cover.png" alt="" />
+        </a>
 
-            <a class="project material-ripple mix research u-no-underline u-color-inherit" data-aos="fade-up"
-                data-aos-easing="ease-in-out" data-aos-delay="100">
-                <div class="project__title">
-                    <h1>Visionary Art Museum</h1>
-                    <h2>research</h2>
-                    <div class="project__description">Deconstructing the museum web experience and constructing it
-                        again.
-                    </div>
-                    <div class="project__link">Read Case Study</div>
-                </div>
-                <img src="img/avam/cover.png" alt="" />
-            </a>
+        <a class="project mix tool u-no-underline u-color-inherit" href="vortipaint" data-aos="fade-up"
+            data-aos-easing="ease-in-out">
+            <div class="project__title">
+                <h1>Vortipaint</h1>
+                <h2>tool</h2>
+                <div class="project__description">An alternative way to visualize large scale ancestral relations with
+                    d3.js</div>
+                <div class="project__link">Read Case Study</div>
+            </div>
+            <img src="https://via.placeholder.com/510x336" />
+        </a>
 
-            <a class="project material-ripple mix tool u-no-underline u-color-inherit" href="vortipaint"
-                data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="50">
-                <div class="project__title">
-                    <h1>Vortipaint</h1>
-                    <h2>tool</h2>
-                    <div class="project__description">An alternative way to visualize large scale ancestral relations
-                        with
-                        d3.js</div>
-                    <div class="project__link">Read Case Study</div>
-                </div>
-                <img src="https://via.placeholder.com/510x336" />
-            </a>
-
-            <a class="project material-ripple mix experiment u-no-underline u-color-inherit" href="tarpit"
-                data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="50">
-                <div class="project__title">
-                    <h1>Tar Pit Escape</h1>
-                    <h2>tool</h2>
-                    <div class="project__description">A competitive escape room experience for the La Brea Tar Pits.
-                    </div>
-                    <div class="project__link">Read Case Study</div>
-                </div>
-                <img src="https://via.placeholder.com/510x336" />
-            </a>
-
-    </main>
+        <a class="project mix experiment u-no-underline u-color-inherit" href="tarpit"
+            data-aos="fade-up" data-aos-easing="ease-in-out">
+            <div class="project__title">
+                <h1>Tar Pit Escape</h1>
+                <h2>tool</h2>
+                <div class="project__description">A competitive escape room experience for the La Brea Tar Pits.</div>
+                <div class="project__link">Read Case Study</div>
+            </div>
+            <img src="https://via.placeholder.com/510x336" />
+        </a>
+</main>
 
     <footer class="site-footer">
 
-    </footer>
+</footer>
 
 </body>
 <script src="/js/bezier.js"></script>
@@ -115,6 +110,7 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/barba.js"></script>
 <script src="/js/fade.js"></script>
 <script src="/js/filter.js"></script>
 <script sec="/js/cardclick.js"></script>
