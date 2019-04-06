@@ -169,6 +169,10 @@ button {
   text-decoration: none;
 }
 
+.u-color-inherit {
+  color: inherit;
+}
+
 /* Utility Classes */
 .u-bottom-border {
   border-bottom: 1px solid black;
@@ -279,6 +283,10 @@ body.fade-out {
   /* Gecko Browsers */
 }
 
+.hideme {
+  opacity: 0;
+}
+
 .bezier-divider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,8 +385,8 @@ main.content {
 
 @media (min-width: 680px) {
   main.content {
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 6em;
+    margin-right: 6em;
   }
 }
 

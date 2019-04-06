@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>  Yana Gevorgyan</title>
 
@@ -50,48 +51,52 @@
             </header>
         </section>
 
-        <div class="project mix tools">
+        <a class="project mix tools u-no-underline u-color-inherit" href="trunks" data-aos="fade-up"
+            data-aos-easing="ease-in-out" data-aos-delay="100">
             <div class="project__title">
                 <h1>Trunks</h1>
                 <h2>tool</h2>
                 <div class="project__description">An alternative way to visualize large scale ancestral relations with
                     d3.js</div>
-                <a class="u-no-underline project__link" href="/trunks">Read Case Study</a>
+                <div class="project__link">Read Case Study</div>
             </div>
             <img src="img/trunks/cover.png" alt="" />
-        </div>
+        </a>
 
-        <div class="project mix research">
+        <a class="project mix research u-no-underline u-color-inherit" href="avam" data-aos="fade-up"
+            data-aos-easing="ease-in-out" data-aos-delay="100">
             <div class="project__title">
                 <h1>Visionary Art Museum</h1>
                 <h2>research</h2>
                 <div class="project__description">Deconstructing the museum web experience and constructing it again.
                 </div>
-                <a class="u-no-underline project__link" href="/trunks">Read Case Study</a>
+                <div class="project__link">Read Case Study</div>
             </div>
             <img src="img/avam/cover.png" alt="" />
-        </div>
+        </a>
 
-        <div class="project mix tool">
+        <a class="project mix tool u-no-underline u-color-inherit hideme" href="vortipaint" data-aos="fade-up"
+            data-aos-easing="ease-in-out" data-aos-delay="50">
             <div class="project__title">
                 <h1>Vortipaint</h1>
                 <h2>tool</h2>
                 <div class="project__description">An alternative way to visualize large scale ancestral relations with
                     d3.js</div>
-                <a class="u-no-underline project__link" href="/trunks">Read Case Study</a>
+                <div class="project__link">Read Case Study</div>
             </div>
             <img src="https://via.placeholder.com/510x336" />
-        </div>
+        </a>
 
-        <div class="project mix experiment">
+        <a class="project mix experiment u-no-underline u-color-inherit" href="tarpit" data-aos="fade-up"
+            data-aos-easing="ease-in-out" data-aos-delay="50">
             <div class="project__title">
                 <h1>Tar Pit Escape</h1>
                 <h2>tool</h2>
                 <div class="project__description">A competitive escape room experience for the La Brea Tar Pits.</div>
-                <a class="u-no-underline project__link" href="/trunks">Read Case Study</a>
+                <div class="project__link">Read Case Study</div>
             </div>
             <img src="https://via.placeholder.com/510x336" />
-        </div>
+        </a>
 
 </main>
 
@@ -105,7 +110,11 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="/js/typewriter.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/js/fade.js"></script>
 <script src="/js/filter.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

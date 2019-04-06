@@ -1,7 +1,10 @@
 html {
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    // scroll-behavior: smooth;
 }
+
+
 
 *,
 *::before,
@@ -46,4 +49,8 @@ body.fade-out {
 ::-moz-selection {
     background: #D0C8FF;
     /* Gecko Browsers */
+}
+
+.hideme {
+    opacity: 0;
 }
