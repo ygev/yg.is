@@ -613,6 +613,21 @@ a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project
   transition: .4s ease-in-out;
 }
 
+main.content:hover .project {
+  opacity: 0.3;
+}
+
+main.content .project {
+  display: block;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+main.content .project:hover {
+  opacity: 1;
+}
+
 main.case-page .case > a.back-to-home {
   text-decoration: none;
   color: black;
