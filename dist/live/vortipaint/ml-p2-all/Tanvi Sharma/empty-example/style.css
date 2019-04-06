@@ -1,0 +1,27 @@
+html, body {
+  margin: 20;
+  padding: 0;
+  background-color: #414949;
+  font: 20px arial, sans-serif;
+  color: white;
+  line-height: 1.2;
+
+
+}
+canvas {
+  display: block;
+}
+
+input[type=range] {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+		margin:0;
+ 		 top:5px;
+    width: 30%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: white; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}

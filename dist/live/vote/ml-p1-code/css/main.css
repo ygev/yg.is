@@ -1,0 +1,597 @@
+/* General Settings */
+body {
+  background-color: #f7f2e8;
+  overflow: hidden;
+}
+
+svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+* {
+  transition: all .9s;
+}
+
+/* Small */
+div.terminal {
+  display: none;
+}
+
+div.type {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+  width: 70vh;
+}
+
+div.vote {
+  width: 43vw;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: auto;
+}
+
+div.with {
+  top: 2vh;
+  width: 43vw;
+  position: relative;
+  left: 0;
+  margin: auto;
+}
+
+div.ballotpat {
+  animation: berezka-up 10s infinite;
+  animation-timing-function: linear;
+}
+
+div.ballotpat-module {
+  transform: rotate(270deg);
+  transform-origin: 0% 0%;
+  position: absolute;
+  right: 0vh;
+  top: 0vh;
+  width: 35vh;
+}
+
+polygon.ballot {
+  -webkit-animation-name: right-back;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: steps(2, end);
+}
+
+rect.ballot {
+  -webkit-animation-name: right-back;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: steps(2, end);
+}
+
+div.module-two {
+  top: 32.5vh;
+}
+
+div.module-three {
+  top: 65vh;
+}
+
+div.module-four {
+  top: 97.5vh;
+}
+
+div.module-five {
+  top: 130vh;
+}
+
+/* Small Terminal Side Pattern Animation REMOVE */
+div.terminalpat {
+  display: none;
+}
+
+/* Wide */
+@media (min-width: 700px) and (max-height: 500px) {
+
+  div.terminal {
+    display: none;
+  }
+
+  div.type {
+    display: flex;
+    position: absolute;
+    width: 60vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+
+  div.with {
+    width: 70vw;
+    margin-left: 2.5vw;
+  }
+
+
+
+  /* Wide Ballot Side Pattern Animation */
+  div.ballotpat {
+    animation: berezka-up 10s infinite;
+    animation-timing-function: linear;
+  }
+
+  div.ballotpat-module {
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    position: absolute;
+    left: 33vh;
+    top: 0vh;
+    width: 35vh;
+  }
+
+  polygon.ballot {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  rect.ballot {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  div.module-two {
+    top: 32.5vh;
+  }
+
+  div.module-three {
+    top: 65vh;
+  }
+
+  div.module-four {
+    top: 97.5vh;
+  }
+
+  div.module-five {
+    top: 130vh;
+  }
+
+  /* Wide Terminal Side Pattern Animation */
+  div.terminalpat {
+    animation: berezka-up 10s infinite;
+    animation-timing-function: linear;
+    display: block;
+  }
+
+  div.terminalpat-module {
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    position: absolute;
+    right: 7vh;
+    width: 35vh;
+  }
+
+  polygon.terminal {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  rect.terminal {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  div.modulet-one {
+    top: 35.5vh;
+  }
+
+  div.modulet-two {
+    top: 67.5vh;
+  }
+
+  div.modulet-three {
+    top: 99.5vh;
+  }
+
+  div.modulet-four {
+    top: 131.5vh;
+  }
+
+  div.modulet-five {
+    top: 163.5vh;
+  }
+
+}
+
+/* Tall */
+@media (max-width: 700px) and (min-height: 500px) {
+  div.terminal {
+    display: none;
+  }
+
+  /* Tall Ballot Side Pattern Animation */
+  div.ballotpat {
+    animation: berezka-left 10s infinite;
+    animation-timing-function: linear;
+  }
+
+  div.ballotpat-module {
+    transform: rotate(180deg);
+    transform-origin: 0% 0%;
+    position: absolute;
+    left: 21.5vh;
+    top: 21.75vh;
+    width: 23vh;
+  }
+
+  polygon.ballot {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  rect.ballot {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  div.module-two {
+    left: 42.75vh;
+  }
+
+  div.module-three {
+    left: 64.25vh;
+  }
+
+  div.module-four {
+    left: 85.75vh;
+  }
+
+  div.module-five {
+    left: 107.25vh;
+  }
+
+  div.module-six {
+    left: 128.5vh;
+  }
+
+  div.type {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%)
+  }
+
+  div.vote {
+    width: 50vw;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: auto;
+  }
+
+  div.with {
+    top: 2vh;
+    width: 50vw;
+    position: relative;
+    left: 0;
+    margin: auto;
+  }
+
+  /* Tall Terminal Side Pattern Animation */
+  div.terminalpat {
+    animation: berezka-left-t 10s infinite;
+    animation-timing-function: linear;
+    display: block;
+  }
+
+  div.terminalpat-module {
+    transform: rotate(0deg);
+    transform-origin: 0% 0%;
+    position: absolute;
+    top: 72.5vh;
+    left: 0vh;
+    width: 23vh;
+  }
+
+  polygon.terminal {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  rect.terminal {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  div.modulet-two {
+    left: 22.75vh;
+  }
+
+  div.modulet-three {
+    left: 45.25vh;
+  }
+
+  div.modulet-four {
+    left: 68vh;
+  }
+
+  div.modulet-five {
+    left: 90.5vh;
+  }
+
+  div.modulet-six {
+    left: 113vh;
+  }
+
+}
+
+/* Big */
+@media (min-width: 700px) and (min-height: 500px) {
+
+  /* Big Typography */
+  div.type {
+    position: absolute;
+    width: 30vw;
+    top: 50%;
+    left: 38%;
+    transform: translate(-38%, -50%)
+  }
+
+  div.with {
+    top: 2vh;
+    margin: auto;
+  }
+
+  /* Big  Ballot Side Pattern Animation */
+  div.ballotpat {
+    animation: berezka-up 10s infinite;
+    animation-timing-function: linear;
+  }
+
+  div.ballotpat-module {
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    position: absolute;
+    left: 33vh;
+    top: 0vh;
+    width: 35vh;
+  }
+
+  polygon.ballot {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  rect.ballot {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  div.module-two {
+    top: 32.5vh;
+  }
+
+  div.module-three {
+    top: 65vh;
+  }
+
+  div.module-four {
+    top: 97.5vh;
+  }
+
+  div.module-five {
+    top: 130vh;
+  }
+
+  /* Big Terminal Side Pattern Animation */
+  div.terminalpat {
+    animation: berezka-up 10s infinite;
+    animation-timing-function: linear;
+    display: block;
+  }
+
+  div.terminalpat-module {
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    position: absolute;
+    right: 7vh;
+    width: 35vh;
+  }
+
+  polygon.terminal {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  rect.terminal {
+    -webkit-animation-name: right-back;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: steps(2, end);
+  }
+
+  div.modulet-one {
+    top: 35.5vh;
+  }
+
+  div.modulet-two {
+    top: 67.5vh;
+  }
+
+  div.modulet-three {
+    top: 99.5vh;
+  }
+
+  div.modulet-four {
+    top: 131.5vh;
+  }
+
+  div.modulet-five {
+    top: 163.5vh;
+  }
+
+  /* Terminal Pop-Up */
+  div.terminal {
+    display: block;
+    z-index: 10;
+    position: absolute;
+    animation: delayer 10s infinite steps(1, end), glitch .5s infinite alternate steps(2, end);
+  }
+
+  div.terminal-type {
+    position: absolute;
+    z-index: 10;
+  }
+
+  div.terminal-bg {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9;
+  }
+
+  div.terminal-ballotpat {
+    position: absolute;
+    z-index: 10;
+  }
+
+  div.terminal-terminalpat {
+    z-index: 10;
+    position: absolute;
+  }
+
+  div.terminal-terminalpat-module {
+    left: 81vw;
+  }
+
+  .module-six {
+    display: none;
+  }
+}
+
+
+/* Animations */
+/* Pop Left Right */
+@keyframes right-back {
+  0% {
+    transform: translate(0, -2vw);
+  }
+
+  100% {
+    transform: translate(0, 0vw);
+  }
+}
+
+/* Berezka */
+@keyframes berezka-up {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, -32.5vh);
+  }
+}
+
+@keyframes berezka-left {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-21.4vh, 0);
+  }
+}
+
+@keyframes berezka-left-t {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-22.5vh, 0);
+  }
+}
+
+@keyframes glitch {
+  0% {
+    clip: rect(10px, 100vw, 70vh, 0);
+  }
+
+  20% {
+    clip: rect(29vw, 100vw, 6vh, 0);
+  }
+
+  40% {
+    clip: rect(16px, 100vw, 3vh, 0);
+  }
+
+  60% {
+    clip: rect(42px, 100vw, 20vh, 0);
+  }
+
+  80% {
+    clip: rect(40vw, 100vw, 1vh, 0);
+  }
+
+  100% {
+    clip: rect(53px, 100vw, 5vh, 0);
+  }
+}
+
+@keyframes delayer {
+  50% {
+    opacity: 0;
+  }
+}

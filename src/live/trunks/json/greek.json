@@ -1,0 +1,213 @@
+{
+    "name": "Greek Mythology",
+    "children": [{
+            "name": "Oceanus & Tethys",
+            "children": [{
+                "name": "Doris",
+                "children": [{
+                        "name": "Nerites"
+                    },
+                    {
+                        "name": "Thetis",
+                        "children": [{
+                            "name": "Achilles"
+                        }]
+                    },
+                    {
+                        "name": "Amphitrite",
+                        "children": [{
+                            "name": "Triton"
+                        }]
+                    }
+                ]
+            }]
+        },
+        {
+            "name": "Mnemosyne",
+            "children": [{
+                "name": "Clio",
+                "children": [{
+                    "name": "Hyacinth"
+                }]
+            }, {
+                "name": "Euterpe",
+                "children": [{
+                    "name": "Rhesus"
+                }]
+            }, {
+                "name": "Thalia"
+            }, {
+                "name": "Melpomeni"
+            }, {
+                "name": "Terpichore",
+                "children": [{
+                    "name": "Parthenope"
+                }]
+            }, {
+                "name": "Erato"
+            }, {
+                "name": "Polymnia"
+            }, {
+                "name": "Ourania"
+            }, {
+                "name": "Calliope",
+                "children": [{
+                        "name": "Orpheus"
+                    },
+                    {
+                        "name": "Linus"
+                    }, {
+                        "name": "Mygdon"
+                    }, {
+                        "name": "Edonus"
+                    }, {
+                        "name": "Biston"
+                    }, {
+                        "name": "Odomantus"
+                    }
+                ]
+            }]
+        },
+        {
+            "name": "Cronus & Rhea",
+            "children": [{
+                    "name": "Hestia"
+                },
+                {
+                    "name": "Hades"
+                },
+                {
+                    "name": "Poseidon",
+                    "children": [{
+                        "name": "Theseus"
+                    }, {
+                        "name": "Bellerophon"
+                    }]
+                },
+                {
+                    "name": "Hera",
+                    "children": [{
+                        "name": "Athena"
+                    }, {
+                        "name": "Ares",
+                        "children": [{
+                            "name": "Eros"
+                        }]
+                    }, {
+                        "name": "Hebe"
+                    }, {
+                        "name": "Hephaestus"
+                    }]
+                },
+                {
+                    "name": "Zeus",
+                    "children": [{
+                        "name": "Perseus"
+                    }, {
+                        "name": "Heracles"
+                    }, {
+                        "name": "Helen"
+                    }, {
+                        "name": "Minos"
+                    }, {
+                        "name": "Dionysus"
+                    }]
+                },
+                {
+                    "name": "Demeter",
+                    "children": [{
+                        "name": "Persephone"
+                    }]
+                }
+            ]
+        },
+        {
+            "name": "Themis"
+        }, {
+            "name": "Coeus & Phoebe",
+            "children": [{
+                    "name": "Leto",
+                    "children": [{
+                            "name": "Apollo"
+                        },
+                        {
+                            "name": "Artemis"
+                        }
+                    ]
+                },
+                {
+                    "name": "Asteria",
+                    "children": [{
+                        "name": "Hecate"
+                    }]
+                }
+            ]
+        }, {
+            "name": "Hyperion & Theia",
+            "children": [{
+                    "name": "Eos"
+                },
+                {
+                    "name": "Selene",
+                    "children": [{
+                            "name": "Ersa"
+                        },
+                        {
+                            "name": "Nemea"
+                        },
+                        {
+                            "name": "Pandia"
+                        },
+                        {
+                            "name": "Musaeus"
+                        }
+                    ]
+                },
+                {
+                    "name": "Helios",
+                    "children": [{
+                            "name": "Pasiphae"
+                        },
+                        {
+                            "name": "Aeetes"
+                        },
+                        {
+                            "name": "Circe"
+                        }
+                    ]
+                }
+            ]
+
+        }, {
+            "name": "Iapetus & Clymene",
+            "children": [{
+                    "name": "Atlas",
+                    "children": [{
+                        "name": "Maia",
+                        "children": [{
+                            "name": "Hermes",
+                            "children": [{
+                                "name": "Pan"
+                            }]
+                        }]
+                    }]
+                },
+                {
+                    "name": "Prometheus"
+                },
+                {
+                    "name": "Epimetheus",
+                    "children": [{
+                        "name": "Dione",
+                        "children": [{
+                            "name": "Aphrodite",
+                            "children": [{
+                                "name": "Hermaphrodite"
+                            }]
+                        }]
+                    }]
+                }
+            ]
+        }
+    ]
+}

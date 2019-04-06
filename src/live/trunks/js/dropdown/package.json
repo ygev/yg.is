@@ -1,0 +1,17 @@
+{
+  "name": "semantic-ui-dropdown",
+  "version": "2.4.1",
+  "title": "Semantic UI - Dropdown",
+  "description": "Single component release of dropdown",
+  "homepage": "http://www.semantic-ui.com",
+  "author": "Jack Lukic <jack@semantic-ui.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Semantic-Org/UI-Dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+  },
+  "devDependencies": {}
+}

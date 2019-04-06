@@ -1,0 +1,124 @@
+/* Utility Classes */
+
+.u-absolute {
+    position: absolute;
+}
+
+/* Base */
+
+/* Color Variables */
+$black: #000;
+$red: #e74d3c;
+$gray: #54646d;
+$white: #ecf0f1;
+
+body {
+    overflow: hidden;
+}
+
+* {
+    transition: all 0.9s;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0.33turn, $white 50%, $black 50%);
+}
+
+.focus__circle {
+    height: 65vh;
+    width: 65vh;
+    border-radius: 50%;
+    background-color: $white;
+    left: 45vw;
+    top: 30vh;
+    z-index: 5;
+}
+
+/* Focal Shapes */
+
+.focus__triangle {
+    z-index: 6;
+    border-style: solid;
+    border-width: 0 20vh 80vh 20vh;
+    border-color: transparent transparent $red transparent;
+    line-height: 0;
+    _border-color: $black $black $red $black;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color="#000000");
+    transform: rotate(115deg);
+    left: 35vw;
+    top: 4vw;
+}
+
+.focus__square--lg {
+    transform: rotate(60deg);
+    width: 14vw;
+    height: 14vw;
+    top: 14vh;
+    left: 48vw;
+    background-color: $gray;
+    z-index: 3;
+    mix-blend-mode: multiply;
+}
+
+.focus__square--sm {
+    width: 7vw;
+    height: 7vw;
+    top: 63vh;
+    left: 42vw;
+    background-color: $gray;
+    z-index: 3;
+    mix-blend-mode: multiply;
+}
+
+/* Typography */
+
+.txt {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 10;
+}
+
+.txt__klinom {
+    font-size: 2.5em;
+    transform: rotate(28deg);
+    top: 16vh;
+    left: 7vw;
+}
+
+.txt__krasnym {
+    font-size: 2em;
+    color: $white;
+    -webkit-text-fill-color: $white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.033em;
+    -webkit-text-stroke-color: $black;
+    transform: rotate(28deg);
+    top: 55vh;
+    left: 7vw;
+}
+
+.txt__bei {
+    font-size: 2.5em;
+    transform: rotate(8deg);
+    color: $red;
+    top: 77vh;
+    left: 63vw;
+}
+
+.txt__belykh {
+    transform: rotate(3deg);
+    font-size: 2em;
+    color: #50545c;
+    -webkit-text-fill-color: $gray;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-color: #ecf0f1;
+    top: 90vh;
+    left: 80vw;
+    padding-top: 0;
+    line-height: 0.75em;
+}

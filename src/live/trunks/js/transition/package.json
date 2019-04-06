@@ -1,0 +1,17 @@
+{
+  "name": "semantic-ui-transition",
+  "version": "2.4.1",
+  "title": "Semantic UI - Transition",
+  "description": "Single component release of transition",
+  "homepage": "http://www.semantic-ui.com",
+  "author": "Jack Lukic <jack@semantic-ui.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Semantic-Org/UI-Transition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,88 @@
+// Donation
+.form {
+    &__fiscal {
+        border-left: 1px solid $black;
+        margin-left: 100px;
+        padding-left: 100px;
+
+        @media screen and (max-width: 1100px) {
+            border-left: none;
+            margin-left: 9%;
+            padding-left: 0;
+        }
+    }
+
+    &__personal {
+
+        @media screen and (max-width: 1100px) {
+            border-left: none;
+            margin-left: 9%;
+        }
+    }
+
+    &__donation {
+        padding: 20px;
+    }
+
+    &__submit {
+        background: none;
+        border: 1px solid black;
+        color: $black;
+        cursor: pointer;
+        font-family: "azo-sans-web";
+        font-size: 1em;
+        font-weight: 800;
+        margin-left: 30%;
+        margin-top: 10%;
+        opacity: 1;
+        padding: 15px;
+        text-decoration: underline;
+    }
+
+    &__submit:hover {
+        background-color: $black;
+        color: $white;
+    }
+
+    &__optional {
+        color: black;
+        font-size: 0.6em;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    &__info {
+        background: none;
+        border: none;
+        color: $black;
+        cursor: pointer;
+        font-family: "azo-sans-web";
+        font-size: 0.8em;
+        font-weight: 800;
+        margin-left: 10px;
+        opacity: 1;
+        text-decoration: underline;
+    }
+}
+
+.cvv2 {
+    width: 80px;
+}
+
+
+input[type=text],
+select {
+    background-color: #fff;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+label.form__label {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: right;
+    width: 100px;
+}

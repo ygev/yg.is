@@ -1,0 +1,52 @@
+Babylonian Mythology
+Biblical Deities
+Egyptian Mythology
+Genghis Khan
+Seljuq sultans
+Greek Mythology
+Hindu Deities
+House Baratheon
+House Lannister
+House Martell
+House of Hanover
+House of Medici
+House of Stuart
+House Stark
+House Targaryen
+House Tyrell
+Liao Dynasty
+Norse Mythology
+Norwegian Kings
+Qi Dynasty
+Roman Emperors
+Rurik Dynasty
+Simpsons
+Song Dynasty
+Sui Dynasty
+Swedish Kings
+Tang Dynasty
+Weasleys
+Wei Dynasty
+Yuan Dynasty
+
+////////////////////
+//// TO DO LIST ////
+////////////////////
+
+// VISUAL DESIGN //
+- TRANSITIONS: Make graph transition smoothly every time new json is selected. (arc Tweens)
+- HOVER EFFECT: Show person's name when hovering over a node on the sunburst chart.
+- RESPONSIVENESS: Make more responsive. The page needs to be refreshed every time window size changes significantly.
+- ADJACENT COLOR: No same colors can be next to each other. 
+
+// SYSTEM DESIGN //
+- FOLDER STRUCTURE DROPDOWN: Make new dropdown options as new json files are added to the json folder. Base the title of the dropdown option on the name of the root element. Tried this with node.js but failed.
+- ASYNC ON: Find a way to prse json to javascript without turning off async in jquery.
+- HYPERLINK for people on wikipedia. 
+
+// STRETCH GOAL //
+- WIKIPEDIA: Feed information directly from wikipedia using a variety of family tree templates.
+
+/////////////////////////////////////////
+//BUGS//
+- SHWOOP: Zoom is weird.

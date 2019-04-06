@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <title>p5.js example</title>
+    <style>
+    body {padding: 0; margin: 0;}
+
+    .p5Canvas {
+      position: absolute;
+      border-style: solid;
+      border-color: #2E2E2E;
+      border-radius: 5px;
+
+      left: 210px;
+      margin: 10px;
+    }
+
+    .slider-descriptions {
+      position: absolute;
+      margin: 10px;
+    }
+
+    .object-title {
+      position: absolute;
+      width: 100px;
+      left: 10px;
+      text-decoration: underline;
+      text-decoration-style: solid;
+      text-decoration-color: #cccc;
+      z-index: 3
+    }
+
+    .sliders-1 {
+      background-color: #424242;
+      border-style: solid;
+      border-color: #2E2E2E;
+      border-radius: 5px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      /* justify-content: center; */
+
+      position: absolute;
+      width: 200px;
+      height: 500px;
+      padding-top: 25px
+    }
+
+    .slider-name {
+      left: 10px;
+      position: relative;
+      max-width: 50%;
+      max-height: 50%;
+      display: inline-flex;
+    }
+
+    .controls {
+      position: relative;
+      z-index: 4;
+
+      top: 560px;
+      left: 20px;
+
+      color: black;
+    }
+
+    p {
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+			font-size: 10px;
+			letter-spacing: .2px;
+      user-select: none;
+      color: #cccc;
+    }
+
+
+    </style>
+    <script src="../p5.min.js"></script>
+    <script src="../addons/p5.dom.min.js"></script>
+    <script src="../addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <div class="slider-descriptions">
+
+      <div class="object-title">
+        <p>
+          Object Style
+        </p>
+      </div>
+
+      <div class="sliders-1">
+
+        <p class="slider-name">Size</p>
+        <p class="slider-name">Stroke</p>
+        <p class="slider-name">x-axis</p>
+        <p class="slider-name">y-axis</p>
+        <p class="slider-name">z-axis</p>
+        <p class="slider-name">Rotation Speed</p>
+        <p class="slider-name">Color</p>
+        <p class="slider-name">Foreground/Background</p>
+        <p></p>
+      </div>
+
+      <div class="controls">
+        <p class="control-name">Press S To Save Canvas</p>
+        <p class="control-name">Press SPACEBAR To Erase</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>

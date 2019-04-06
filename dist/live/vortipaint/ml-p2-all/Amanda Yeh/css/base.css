@@ -1,0 +1,11 @@
+* {
+	box-sizing: border-box;
+	position: relative;
+}
+.test { outline: 10px solid red; }
+.container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}

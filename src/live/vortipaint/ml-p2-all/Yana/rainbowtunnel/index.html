@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VORTEX PAINT</title>
+  <style>
+
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="range.css">
+  <link rel="stylesheet" href="https://use.typekit.net/qvz0rtx.css">
+  <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
+</head>
+
+<body>
+  <div class="drawing-tool">
+    <script src="sketch.js"></script>
+  </div>
+  <div class="ui-panel">
+    <img src="images/img-logo.png" class="logotype">
+    <div class="ui-settings">
+      <div class="mini-settings reflect-settings">
+        <p class="label label-reflect"> Reflections <span class="slider-value slider-value-reflect"> </span></p>
+      </div>
+      <div class="mini-settings rate-settings">
+        <p class="label label-rate"> Rate <span class="slider-value slider-value-rate"> </span></p>
+      </div>
+      <div class="mini-settings bg-settings">
+        <p class="label label-bg"> Dark Mode </span></p>
+        <div class="toggleboy"> <input type="checkbox" id="cbx" style="display:none" onclick="bgChange()" />
+          <label for="cbx" class="toggle"><span></span></label></div>
+      </div>
+      <div class="mini-settings color-settings">
+        <p class="label label-color"> Color </span></p>
+      </div>
+      <div class="mini-settings color-sliders">
+        <div class="colorone-settings">
+          <div class="indicator colorone-indicator"></div>
+          <p class="label label-colorone"> From <span class="slider-value slider-value-color"> </span></p>
+        </div>
+        <div class="colortwo-settings">
+          <div class="indicator colortwo-indicator"></div>
+          <p class="label label-colortwo"> To <span class="slider-value slider-value-color"> </span></p>
+        </div>
+      </div>
+      <div class="mini-settings all-buttons">
+        <div class="mini-settings reset-button">
+        </div>
+        <div class="mini-settings save-button">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../p5.min.js">
+  </script>
+  <script src="../addons/p5.dom.min.js"></script>
+  <script src="../addons/p5.sound.min.js"></script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>

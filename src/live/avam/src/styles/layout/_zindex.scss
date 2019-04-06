@@ -1,0 +1,29 @@
+// Hero Z--Indexes
+
+.hero {
+    z-index: 0;
+
+    &__media-wrapper {
+        z-index: 1;
+    }
+
+    &____media-wrapper:before {
+        z-index: 3;
+    }
+
+    &__content {
+        z-index: 2;
+    }
+}
+
+// Site Navigation Z--Indexes
+
+.site-nav__list {
+    z-index: 3;
+}
+
+// Slideshow Buttons
+
+.slideshow__controls {
+    z-index: 5;
+}

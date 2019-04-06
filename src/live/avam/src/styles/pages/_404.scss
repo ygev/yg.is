@@ -1,0 +1,64 @@
+// 404 Page
+.notfound {
+    &__wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        // border-bottom: 1px solid black;
+
+        @media screen and (min-width: $display-nav) {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: row;
+            padding-left: 10vw;
+            padding-right: 10vw;
+        }
+    }
+
+    &__image {
+
+        padding-bottom: 25px;
+        width: 50vw;
+
+        @media screen and (min-width: $display-nav) {
+            width: 30vw
+        }
+    }
+
+    &__text {
+        text-align: center;
+
+        @media screen and (min-width: $display-nav) {
+            margin: auto;
+            padding-left: 50px;
+            text-align: left;
+        }
+    }
+
+    &__text--head {
+        font-size: 2.2em;
+        font-weight: 800;
+        line-height: 1.2em;
+        padding-bottom: 15px;
+
+        @media screen and (min-width: $display-nav) {
+            font-size: 3em;
+        }
+    }
+
+    &__text--body {
+        font-size: 1em;
+        font-weight: 500;
+        line-height: 1.4em;
+        padding-bottom: 15px;
+    }
+
+    &__text--link {
+        color: black;
+        font-size: 0.85em;
+        font-weight: 800;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

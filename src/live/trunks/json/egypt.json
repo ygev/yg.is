@@ -1,0 +1,78 @@
+{
+    "name": "Egyptian Mythology",
+    "children": [{
+            "name": "Ra",
+            "children": [{
+                    "name": "Hathor",
+                    "children": [{
+                        "name": "Hathor"
+                    }]
+                },
+                {
+                    "name": "Sekhmet",
+                    "children": [{
+                        "name": "Ptah",
+                        "children": [{
+                                "name": "Imhotep"
+                            },
+                            {
+                                "name": "Nefertem"
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "name": "Bastet"
+                },
+                {
+                    "name": "Maat"
+                }
+            ]
+        },
+
+        {
+            "name": "Atum",
+            "children": [{
+                    "name": "Shu",
+                    "children": [{
+                        "name": "Geb",
+                        "children": [{
+                                "name": "Isis",
+                                "children": [{
+                                    "name": "Horus"
+                                }]
+                            },
+                            {
+                                "name": "Osiris"
+                            },
+                            {
+                                "name": "Nephthys",
+                                "children": [{
+                                    "name": "Anubis"
+                                }]
+                            },
+                            {
+                                "name": "Set",
+                                "children": [{
+                                    "name": "Thoth"
+                                }]
+                            },
+                            {
+                                "name": "Khepri"
+                            }
+                        ]
+                    }]
+                },
+                {
+                    "name": "Tefnut",
+                    "children": [{
+                        "name": "Nut"
+                    }]
+                }
+            ]
+        },
+        {
+            "name": "Amun"
+        }
+    ]
+}

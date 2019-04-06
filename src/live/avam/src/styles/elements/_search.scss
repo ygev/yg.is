@@ -1,0 +1,76 @@
+input {
+    outline: none;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+
+input[type=search] {
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    background: url(/images/search.svg) no-repeat 10px center;
+    border: none;
+    margin-right: 20px;
+    padding: 10px 10px 10px 32px;
+    transition: all .5s;
+    width: 55px;
+}
+
+input[type=search]:focus {
+    background-color: $white;
+    border-bottom: 1px solid $black;
+    width: 100px;
+}
+
+
+/* Actual search field */
+#search-field input[type=search] {
+    color: transparent;
+    cursor: pointer;
+    padding-left: 10px;
+    width: 20px;
+}
+
+#search-field input[type=search]:hover {
+    background-color: $white;
+}
+
+#search-field input[type=search]:focus {
+    background-color: $white;
+    color: black;
+    cursor: auto;
+    height: auto;
+    padding-left: 32px;
+    width: 100px;
+}
+
+#search-field input:-moz-placeholder {
+    color: transparent;
+}
+
+#search-field input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.mobile-search {
+    display: none;
+
+    @media screen and (max-width: ($display-nav - 1px)) {
+        border-bottom: none;
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 0;
+    }
+}

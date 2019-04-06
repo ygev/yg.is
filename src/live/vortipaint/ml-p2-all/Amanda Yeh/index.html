@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Visualizer</title>
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/p5.speech.js"></script>
+  <script src="lib/p5.sound.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,700" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js"></script>
+
+  <script src="addons/p5.dom.min.js"></script>
+  <script src="addons/p5.sound.min.js"></script>
+  <script src="javascript/sketch.js"></script>
+
+  <link rel="shortcut icon" type="image/png" href="fav.png">
+  <link rel="shortcut icon" type="image/png" href="fav.png">
+  <link rel="stylesheet" href="css/reset.css">
+
+  <style>
+    body {
+      overflow: hidden;
+    }
+
+    .nav {
+      font-family: 'Roboto Mono', monospace;
+      width: 250px;
+      height: 100vh;
+      background-color: #08081A;
+      font-size: 11pt;
+      color: white;
+      padding: 22px;
+      line-height: 1.3;
+    }
+
+    .welcome {
+      position: relative;
+      top: 10px;
+      font-size: 15pt;
+      line-height: 1.7;
+    }
+
+    #upload {
+      position: relative;
+      top: 35px;
+      border-style: dashed;
+      border-color: #0066FF;
+      border-width: 2px;
+      text-align: center;
+      padding-top: 25px;
+      width: 200px;
+      height: 43px;
+    }
+
+    .or {
+      position: relative;
+      top: 56px;
+    }
+
+    #sample {
+      position: relative;
+      top: 80px;
+      border-style: solid;
+      border-color: #0066FF;
+      border-width: 2px;
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      width: 200px;
+      background-color: #08081A;
+      color: inherit;
+      font-family: inherit;
+      font-size: 11pt;
+    }
+
+    #sample:hover {
+      transition: 0.3s;
+      background-color: #0066FF;
+    }
+
+    .play {
+      transition: 0.5s;
+      font-size: 20pt;
+      z-index: 3;
+      color: white;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      padding: 22px;
+      padding-top: 28px;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 20pt;
+      width: 200px;
+      height: 100vh;
+      background-color: #08081A;
+      text-decoration: underline;
+    }
+
+    .name {
+      transition: 0.5s;
+      z-index: 4;
+      position: absolute;
+      left: 22px;
+      top: 80px;
+      width: 200px;
+      color: white;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 11pt;
+      line-height: 1.6;
+    }
+
+
+
+    .save {
+      transition: 0.5s;
+      font-family: 'Roboto Mono', monospace;
+      z-index: 4;
+      position: absolute;
+      top: 145px;
+      left: 22px;
+      color: white;
+      border-style: solid;
+      border-color: #0066FF;
+      border-width: 2px;
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      width: 200px;
+      background-color: #08081A;
+      font-size: 11pt;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      width: 200px;
+    }
+
+    .save:hover {
+      transition: 0.1s;
+      background-color: #0066FF;
+    }
+
+    .back {
+      transition: 0.5s;
+      font-family: 'Roboto Mono', monospace;
+      z-index: 4;
+      position: absolute;
+      top: 260px;
+      left: 22px;
+      color: white;
+      font-size: 11pt;
+      text-decoration: underline;
+    }
+
+    .back:hover {
+      transition: 0.3s;
+      color: #0066FF;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="welcome">Welcome to Audio Visualizer</div>
+      <div id="upload">Drop an audio file</div>
+      <div class="or">or</div>
+      <button id="sample">Play a sample audio</button>
+    </div>
+  </div>
+
+  </div>
+</body>
+
+</html>

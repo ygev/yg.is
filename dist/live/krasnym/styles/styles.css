@@ -1,0 +1,123 @@
+/* Utility Classes */
+.u-absolute {
+  position: absolute;
+}
+
+/* Base */
+/* Color Variables */
+body {
+  overflow: hidden;
+}
+
+* {
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0.33turn, #ecf0f1 50%, #000 50%);
+}
+
+.focus__circle {
+  height: 65vh;
+  width: 65vh;
+  border-radius: 50%;
+  background-color: #ecf0f1;
+  left: 45vw;
+  top: 30vh;
+  z-index: 5;
+}
+
+/* Focal Shapes */
+.focus__triangle {
+  z-index: 6;
+  border-style: solid;
+  border-width: 0 20vh 80vh 20vh;
+  border-color: transparent transparent #e74d3c transparent;
+  line-height: 0;
+  _border-color: #000 #000 #e74d3c #000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color="#000000");
+  -webkit-transform: rotate(115deg);
+          transform: rotate(115deg);
+  left: 35vw;
+  top: 4vw;
+}
+
+.focus__square--lg {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  width: 14vw;
+  height: 14vw;
+  top: 14vh;
+  left: 48vw;
+  background-color: #54646d;
+  z-index: 3;
+  mix-blend-mode: multiply;
+}
+
+.focus__square--sm {
+  width: 7vw;
+  height: 7vw;
+  top: 63vh;
+  left: 42vw;
+  background-color: #54646d;
+  z-index: 3;
+  mix-blend-mode: multiply;
+}
+
+/* Typography */
+.txt {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  z-index: 10;
+}
+
+.txt__klinom {
+  font-size: 2.5em;
+  -webkit-transform: rotate(28deg);
+          transform: rotate(28deg);
+  top: 16vh;
+  left: 7vw;
+}
+
+.txt__krasnym {
+  font-size: 2em;
+  color: #ecf0f1;
+  -webkit-text-fill-color: #ecf0f1;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.033em;
+  -webkit-text-stroke-color: #000;
+  -webkit-transform: rotate(28deg);
+          transform: rotate(28deg);
+  top: 55vh;
+  left: 7vw;
+}
+
+.txt__bei {
+  font-size: 2.5em;
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
+  color: #e74d3c;
+  top: 77vh;
+  left: 63vw;
+}
+
+.txt__belykh {
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+  font-size: 2em;
+  color: #50545c;
+  -webkit-text-fill-color: #54646d;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  background-color: #ecf0f1;
+  top: 90vh;
+  left: 80vw;
+  padding-top: 0;
+  line-height: 0.75em;
+}
+/*# sourceMappingURL=styles.css.map */

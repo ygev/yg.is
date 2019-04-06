@@ -1,0 +1,83 @@
+// Footer 
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+    @media screen and (min-width: $display-nav) {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 50px;
+    }
+
+    &__logo {
+        display: none;
+
+
+        @media screen and (min-width: $display-nav) {
+            display: block;
+        }
+    }
+
+    &__subscribe--summary {
+        display: block;
+        font-size: 0.9em;
+        font-weight: 400;
+        line-height: 1.3em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    &__subscribe--email-form {
+        border: 1px solid;
+        height: 30px;
+        margin-bottom: 10px;
+        width: 220px;
+    }
+
+    &__subscribe--email-button {
+        background: none;
+        border: none;
+        color: $black;
+        cursor: pointer;
+        font-family: "azo-sans-web";
+        font-size: 0.85em;
+        font-weight: 600;
+        opacity: 1;
+        text-decoration: underline;
+    }
+
+    &__social {
+        display: flex;
+    }
+
+    //social icon style
+    &__social--item {
+        border: $black 1px solid;
+        color: $black;
+        font-size: 1.25em;
+        margin: 3px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    &__social--item:hover {
+        background-color: $black;
+        color: $white;
+    }
+
+    &__info--summary {
+        font-size: 0.9em;
+        font-weight: 400;
+        line-height: 1.3em;
+    }
+
+    &__info--hours {
+        display: block;
+        padding-top: 10px;
+    }
+
+    &__social {
+        margin-bottom: 15px;
+    }
+}

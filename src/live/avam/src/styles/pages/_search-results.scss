@@ -1,0 +1,137 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-right: 5vw;
+    padding-top: 30px;
+
+
+    &__item {
+        padding-bottom: 15px;
+        padding-left: 5vw;
+        padding-top: 5px;
+
+        @media screen and (min-width: $display-nav) {
+            padding-left: 20vw;
+            padding-right: 20vw;
+        }
+
+    }
+
+    &__number {
+        font-weight: 400;
+    }
+
+
+    &__title {
+        color: black;
+    }
+
+    &__title-txt {
+        font-size: 1em;
+        font-weight: 700;
+        line-height: 1.3em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+
+    }
+
+    &__link {
+        color: black;
+        font-size: 0.8em;
+        font-weight: 500;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        opacity: 0.7;
+        text-decoration: none;
+    }
+
+    &__summary {
+        font-size: 0.9em;
+        line-height: 1.3em;
+        margin-top: 0.5em;
+    }
+}
+
+.search {
+    &__info {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: justify;
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+        @media screen and (min-width: $display-nav) {
+            justify-content: space-between;
+        }
+    }
+
+    &__info-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__info-tiny {
+        display: none;
+        font-size: 0.8em;
+        margin-right: 10px;
+
+        @media screen and (min-width: $display-nav) {
+            display: inline-flex;
+        }
+    }
+
+    &__pagination {
+        padding: 20px;
+    }
+
+    &__pagination-pg {
+        background-color: $white;
+        border: solid 1px $black;
+        color: $black;
+        display: inline-block;
+        font-size: .875em;
+        font-weight: 800;
+        margin-right: 4px;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    &__pagination-pg:hover {
+        background-color: $black;
+        color: $white;
+    }
+
+    &__pagination-pg-active {
+        background-color: $black;
+        color: $white;
+    }
+
+    &__show-pg {
+        background-color: $white;
+        border: solid 1px $black;
+        color: $black;
+        display: inline-block;
+        display: none;
+        font-size: .7em;
+        font-weight: 800;
+        margin-right: 4px;
+        padding: 10px;
+        text-decoration: none;
+
+        @media screen and (min-width: $display-nav) {
+            display: inline-flex;
+        }
+    }
+
+    &__show-pg:hover {
+        background-color: $black;
+        color: $white;
+    }
+
+    &__show-pg-active {
+        background-color: $black;
+        color: $white;
+    }
+}
