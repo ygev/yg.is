@@ -92,11 +92,13 @@ main.content {
                     sans-serif;
                 font-weight: 900;
                 padding-bottom: 2rem;
+                transition: 0.6s ease-in;
 
                 &:after {
                     content: ' →';
                     color: $sky;
                     text-decoration: none;
+                    transition: .6s ease-in-out;
                 }
             }
         }

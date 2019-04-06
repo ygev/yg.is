@@ -469,12 +469,16 @@ main.content {
   font-family: "Inter", sans-serif;
   font-weight: 900;
   padding-bottom: 2rem;
+  -webkit-transition: 0.6s ease-in;
+  transition: 0.6s ease-in;
 }
 
 .filter-container .project .project__title > .project__link:after {
   content: ' →';
   color: #7D68FF;
   text-decoration: none;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
 }
 
 .hero-wrapper {
@@ -577,6 +581,12 @@ main.content {
 .wrap {
   -webkit-text-decoration: underline #7D68FF;
           text-decoration: underline #7D68FF;
+}
+
+.project__link:hover::after {
+  margin-left: 0.5em;
+  -webkit-transition: .6s ease-in-out;
+  transition: .6s ease-in-out;
 }
 
 main.case-page .case > a.back-to-home {
