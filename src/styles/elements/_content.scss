@@ -13,6 +13,9 @@ main.content {
 }
 
 // shared between main page and project pages
+
+
+
 .project {
 
     & h1,
@@ -27,6 +30,7 @@ main.content {
         margin-bottom: 0.4em;
     }
 }
+
 
 // main page
 .filter-container {
@@ -43,6 +47,7 @@ main.content {
         background-color: $boxbg;
         display: flex;
         flex-direction: column;
+        transition: 0.1s ease-in-out;
 
         // this img corresponds to the main index.html image
         img {
@@ -103,4 +108,6 @@ main.content {
             }
         }
     }
+
+
 }

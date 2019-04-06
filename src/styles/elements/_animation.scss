@@ -1,4 +1,14 @@
-.project__link:hover::after {
+a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project__link::after {
     margin-left: 0.5em;
     transition: .6s ease-in-out;
+}
+
+// .project__link:hover::after {
+//     margin-left: 0.5em;
+//     transition: .6s ease-in-out;
+// }
+
+a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover {
+    transform: translateY(-1em);
+    // box-shadow: 0px 5px 10px 0px #424242;
 }

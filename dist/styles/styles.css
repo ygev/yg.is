@@ -426,6 +426,8 @@ main.content {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .filter-container .project img {
@@ -591,10 +593,15 @@ main.content {
           text-decoration: underline #7D68FF;
 }
 
-.project__link:hover::after {
+a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project__link::after {
   margin-left: 0.5em;
   -webkit-transition: .6s ease-in-out;
   transition: .6s ease-in-out;
+}
+
+a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover {
+  -webkit-transform: translateY(-1em);
+          transform: translateY(-1em);
 }
 
 main.case-page .case > a.back-to-home {
