@@ -37,6 +37,7 @@ main.case-page {
                 line-height: 1.3rem;
                 font-weight: 400;
                 padding-top: 1rem;
+                font-size: 1rem;
             }
 
             >.case__time {
@@ -53,6 +54,7 @@ main.case-page {
         img.case__image-main {
             margin: 1em 0;
             width: 100%;
+            padding-bottom: 2em;
         }
 
         .case__callout {
@@ -60,33 +62,54 @@ main.case-page {
             color: white;
             padding: 2.5em;
             margin: 1em 0;
-            line-height: 1.3;
-        }
-
-        p {
-            font-size: 1.1em;
-
+            line-height: 1.3em;
+            margin-bottom: 2.5em;
         }
     }
 
-    .case__image-floatleft {
+    .img-pair {
         display: flex;
+        flex-direction: column;
+        align-items: center;
 
 
+        @media (min-width: 1080px) {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+    }
+
+    .img-pair__text {
+        @media (min-width: 1080px) {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+    }
+
+    .img-pair__image {
+        padding-bottom: 2em;
+        width: 100%;
     }
 
     .case__wrapper {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: baseline;
+        flex-direction: column;
+
+        @media (min-width: 900px) {
+            flex-direction: row;
+            align-items: center;
+        }
     }
 
     .btn {
-        border: 3px black solid;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
+        border: 2px $black solid;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
         text-decoration: none;
         color: $black;
         font-family: "Inter", sans-serif;
@@ -103,5 +126,34 @@ main.case-page {
     &--live {
         color: #56D21C;
     }
+}
 
+.case__callout-title {
+    font-size: 0.9em;
+    font-weight: 300;
+    font-family: "Inter",
+        sans-serif;
+    padding-bottom: 1em;
+    color: white;
+}
+
+.case__callout-body {
+    line-height: 1.6rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.case__description-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Inter",
+        sans-serif;
+    padding-bottom: 1em;
+}
+
+.case__description-body {
+    line-height: 1.6rem;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 1.2em;
 }
