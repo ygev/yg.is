@@ -298,7 +298,7 @@ body.fade-out {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #E5E9EB;
+  background-color: #2B2B2B;
 }
 
 .bezier-divider {
@@ -617,19 +617,42 @@ a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project
   transition: .4s ease-in-out;
 }
 
-main.content:hover .project {
+div.filter-container:hover .project {
   opacity: 0.3;
 }
 
+div.filter-container .project:hover {
+  opacity: 1;
+}
+
 main.content .project {
-  display: block;
-  text-decoration: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-main.content .project:hover {
-  opacity: 1;
+/* Style the header: fixed position (always stay at the top) */
+.progress__header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F6F6F6;
+}
+
+/* The progress container (grey background) */
+.progress__container {
+  width: 100%;
+  height: 2px;
+  background: #E5E9EB;
+}
+
+/* The progress bar (scroll indicator) */
+.progress__bar {
+  height: 5px;
+  background: #7D68FF;
+  width: 0%;
 }
 
 main.case-page .case > a.back-to-home {
@@ -674,13 +697,13 @@ main.case-page .case .case__title > .case__time {
   font-weight: 400;
   color: #858585;
   font-size: 0.85em;
-  padding-top: 0.7em;
+  padding-top: 1rem;
   padding-bottom: 1em;
   font-weight: 500;
 }
 
 main.case-page .case img.case__image-main {
-  margin: 1em 0;
+  margin: 3em 0;
   width: 100%;
   padding-bottom: 2em;
 }
@@ -753,13 +776,13 @@ main.case-page .case__wrapper {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
-main.case-page .btn {
+.btn {
   border: 2px #2B2B2B solid;
   padding-left: 1.5em;
   padding-right: 1.5em;
@@ -767,9 +790,23 @@ main.case-page .btn {
   padding-bottom: 0.75em;
   text-decoration: none;
   color: #2B2B2B;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 800;
   font-size: 0.9rem;
+  margin-top: 1rem;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+@media (min-width: 900px) {
+  .btn {
+    margin-top: 0;
+  }
+}
+
+.btn:hover {
+  border-color: #7D68FF;
+  color: #7D68FF;
 }
 
 .indicator {

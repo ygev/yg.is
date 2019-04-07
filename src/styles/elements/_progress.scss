@@ -1,0 +1,24 @@
+/* Style the header: fixed position (always stay at the top) */
+.progress__header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+}
+
+/* The progress container (grey background) */
+.progress__container {
+    width: 100%;
+    height: 2px;
+    background: $boxbg;
+}
+
+/* The progress bar (scroll indicator) */
+.progress__bar {
+    height: 5px;
+    background: $sky;
+    width: 0%;
+}

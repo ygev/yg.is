@@ -44,7 +44,7 @@ main.case-page {
                 font-weight: 400;
                 color: #858585;
                 font-size: 0.85em;
-                padding-top: 0.7em;
+                padding-top: 1rem;
                 padding-bottom: 1em;
                 font-weight: 500;
                 // TODO probably increase font spacing here
@@ -52,7 +52,7 @@ main.case-page {
         }
 
         img.case__image-main {
-            margin: 1em 0;
+            margin: 3em 0;
             width: 100%;
             padding-bottom: 2em;
         }
@@ -100,22 +100,35 @@ main.case-page {
 
         @media (min-width: 900px) {
             flex-direction: row;
-            align-items: center;
+            align-items: flex-start;
         }
     }
+}
 
-    .btn {
-        border: 2px $black solid;
-        padding-left: 1.5em;
-        padding-right: 1.5em;
-        padding-top: 0.75em;
-        padding-bottom: 0.75em;
-        text-decoration: none;
-        color: $black;
-        font-family: "Inter", sans-serif;
-        font-weight: 800;
-        font-size: 0.9rem;
+.btn {
+    border: 2px $black solid;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    text-decoration: none;
+    color: $black;
+    font-family: "Inter",
+        sans-serif;
+    font-weight: 800;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    transition: .2s ease-in-out;
+
+    @media (min-width: 900px) {
+        margin-top: 0;
     }
+}
+
+.btn:hover {
+    // border: 2px solid rgba(0, 160, 80, 0);
+    border-color: $sky;
+    color: $sky;
 }
 
 .indicator {
