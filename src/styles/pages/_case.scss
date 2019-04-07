@@ -143,7 +143,7 @@ main.case-page {
 
 .case__callout-title {
     font-size: 0.9em;
-    font-weight: 300;
+    font-weight: 400;
     font-family: "Inter",
         sans-serif;
     padding-bottom: 1em;
@@ -162,6 +162,7 @@ main.case-page {
     font-family: "Inter",
         sans-serif;
     padding-bottom: 1em;
+    line-height: 1.5rem;
 }
 
 .case__description-body {
@@ -169,4 +170,26 @@ main.case-page {
     font-weight: 400;
     font-size: 1rem;
     padding-bottom: 1.2em;
+}
+
+
+.case__problems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2em;
+
+    @media (min-width: 900px) {
+        flex-direction: row;
+    }
+}
+
+
+.case__problems--item {
+    background-color: $red;
+    color: white;
+    padding: 2.5em;
+    margin: 0.5em 0;
+    line-height: 1.3em;
+    margin-left: 0.5em;
 }

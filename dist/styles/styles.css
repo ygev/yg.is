@@ -821,7 +821,7 @@ main.case-page .case__wrapper {
 
 .case__callout-title {
   font-size: 0.9em;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Inter", sans-serif;
   padding-bottom: 1em;
   color: white;
@@ -838,6 +838,7 @@ main.case-page .case__wrapper {
   font-weight: 700;
   font-family: "Inter", sans-serif;
   padding-bottom: 1em;
+  line-height: 1.5rem;
 }
 
 .case__description-body {
@@ -845,5 +846,37 @@ main.case-page .case__wrapper {
   font-weight: 400;
   font-size: 1rem;
   padding-bottom: 1.2em;
+}
+
+.case__problems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 900px) {
+  .case__problems {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.case__problems--item {
+  background-color: #FF6262;
+  color: white;
+  padding: 2.5em;
+  margin: 0.5em 0;
+  line-height: 1.3em;
+  margin-left: 0.5em;
 }
 /*# sourceMappingURL=styles.css.map */
