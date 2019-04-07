@@ -14,9 +14,7 @@ main.content {
 
 
 // shared between main page and project pages
-
 .project {
-
     & h1,
     h2,
     h3,
@@ -31,13 +29,12 @@ main.content {
 }
 
 
-//top image 
+//top image
 .case__image-main {
     margin-top: 2em;
 }
 
 // main page
-
 .filter-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -55,7 +52,6 @@ main.content {
         transition: 0.1s ease-in-out;
 
         // this img corresponds to the main index.html image
-
         img {
             width: 100%;
             display: block;

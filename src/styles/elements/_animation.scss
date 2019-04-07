@@ -3,22 +3,16 @@ a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project
     transition: .4s ease-in-out;
 }
 
-main.content {
+div.filter-container:hover .project {
+    opacity: 0.3;
+}
 
-    &:hover .project {
-        opacity: 0.3;
-    }
+div.filter-container .project:hover {
+    opacity: 1;
+}
 
-    & .project {
-        display: block;
-        text-decoration: none;
-        transition: all 0.3s ease;
-
-        &:hover {
-            // color: #fff;
-            opacity: 1;
-        }
-    }
+main.content .project {
+    transition: all 0.3s ease;
 }
 
 // .project__link:hover::after {
