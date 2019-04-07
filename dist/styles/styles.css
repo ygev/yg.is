@@ -415,6 +415,10 @@ main.content {
   margin-bottom: 0.4em;
 }
 
+.case__image-main {
+  margin-top: 2em;
+}
+
 .filter-container {
   display: -ms-grid;
   display: grid;
