@@ -52,7 +52,8 @@ title: Trunks
 
         <h3 class="case__description-title">Usability Issues with the Tree Model</h3>
         <p class="case__description-body">Three common issues kept being brought up: lack of scalability, visual
-            verbosity and limited scope, with focus primarily skewed towards one ancestral branch.
+            verbosity and limited scope, with focus primarily skewed towards one ancestral branch. Below are the three
+            main issues with brief explanations of each one.
         </p>
         <ul class="case__problems">
             <li class="case__problems--item">
@@ -71,6 +72,23 @@ title: Trunks
                 </p>
             </li>
         </ul>
+
+        <p class="case__description-body"> <em class="case__description--subhead">Lack of Scalability</em> The length and width of family trees are unpredictable and
+            vary based on the data being mapped. When the ancestor has many siblings, the chart is primarily horizontal.
+            On the other hand, when the ancestor has many descendants, the chart is primarily vertical. This variability
+            is not accounted for when displaying charts in smaller viewport sizes, such as on a mobile screen. Even when
+            viewed on a large screen, the window needs to scroll both vertically and horizontally, leading to poor user
+            experience. Therefore, the tree model is outdated, not scalable or responsive and unsuited for the modern,
+            digital user. 
+        </p>
+        <p class="case__description-body"> <em class="case__description--subhead">Visual Density</em> The horizontally and vertically inconsistent design does not give a concise summary of data
+        to the user at first glance. 
+        </p>
+        <p class="case__description-body"> <em class="case__description--subhead">Limited Scope</em> Because of the dimensional limitations of the tree model, the chart can only display one
+        branch at a time, resulting in a skewed chart. A simple flaw of design, unilaterality, results in the
+        omission of data, which is intellectually dishonest and defeats the purpose of displaying data in the first
+        place.
+        </p>
 
         <div class="img-pair">
             <img class="img-pair__image" src="https://via.placeholder.com/530x270" />
