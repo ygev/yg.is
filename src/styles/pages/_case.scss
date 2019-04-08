@@ -71,7 +71,7 @@ main.case-page {
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        margin-top: 2em;
 
         @media (min-width: 1080px) {
             flex-direction: row;
@@ -89,7 +89,9 @@ main.case-page {
 
     .img-pair__image {
         padding-bottom: 2em;
-        width: 100%;
+        width: 40%;
+        margin-left: 2em;
+        margin-right: 2em;
     }
 
     .case__wrapper {
@@ -159,11 +161,11 @@ main.case-page {
 }
 
 em.case__description--subhead {
-    font-weight: 600;
+    font-weight: 700;
     font-family: "Inter",
         sans-serif;
     font-size: 1rem;
-    color: $red;
+    // color: $red;
 
     // &:after {
     //     content: ' →';

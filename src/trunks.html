@@ -95,16 +95,23 @@ title: Trunks
             place.
         </p>
 
-        <div class="img-pair">
-            <img class="img-pair__image" src="https://via.placeholder.com/530x270" />
-            <p class="img-pair__text case__description-body">I want to create a system that would allow for a beautiful
-                visualization
-                of a familial dynasty,
-                historical, fictional or otherwise. Instead of following a rigid mathematical structure based on
-                fractals, I would like to focus on aberrations in the family that make the fractal-like nature of a
-                family tree imperfect, making it unique.Every one of my friends and their grandma knows that I am
-                going
-                to California for someone’s Thanksgiving. Toodly boody bah, I love Kian so much.</p>
-        </div>
+        <section class="img-pair">
+            <img class="img-pair__image" src="/img/trunks/figure-issue.png" />
+            <p class="img-pair__text case__description-body">All these commonly encountered issues can be encompassed by
+                the conflict between Depth-First Search and Breadth-First Search. In thinking about tree chart models,
+                it is easy to make a depth first analysis, but for family trees, I would argue that a breadth search
+                approach is better, because it allows for more information about distant relatives. As one can see in
+                the diagram A, B, C, D are unaccounted for. The ideal system would account for all collateral ancestral
+                relations. The challenge then lies in finding a visualization methodology that analyses and displays
+                both the depth and the breadth of genealogical data. </p>
+        </section>
+
+        <h3 class="case__description-title">Methodology: Applying Graph Theory</h3>
+        <p class="case__description-body">In order to better understand my task, I turned research on graph theory,
+            namely the concept of a directed acyclic graph. A directed acyclic graph is a finite graph with no cycle,
+            which means that there is a finite amount of vertices and edges they can never loop. In the context of
+            family trees, this means that no one can become their own ancestor, so family trees are acyclic. Therefore,
+            I reframed family trees as directed acyclic graphs, with a vertex for each family member and an edge for
+            each parent-child relationship. </p>
     </div>
 </main>

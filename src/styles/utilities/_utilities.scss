@@ -63,8 +63,5 @@
 
 //Highlight
 .u-highlight {
-    text-shadow: -3px 0px 3px $yellow,
-        3px 0px 3px $yellow,
-        6px 0px 6px $yellow,
-        -6px 0px 6px $yellow;
+background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
 }

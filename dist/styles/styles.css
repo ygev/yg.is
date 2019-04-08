@@ -230,7 +230,7 @@ button {
 }
 
 .u-highlight {
-  text-shadow: -3px 0px 3px #efdb92, 3px 0px 3px #efdb92, 6px 0px 6px #efdb92, -6px 0px 6px #efdb92;
+  background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
 }
 
 html {
@@ -299,16 +299,16 @@ body.fade-out {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #F6F6F6;
+  background-color: #E5E9EB;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
   background-color: #7D68FF;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #E5E9EB;
+  background-color: #858585;
 }
 
 .bezier-divider {
@@ -737,6 +737,7 @@ main.case-page .img-pair {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 2em;
 }
 
 @media (min-width: 1080px) {
@@ -760,7 +761,9 @@ main.case-page .img-pair {
 
 main.case-page .img-pair__image {
   padding-bottom: 2em;
-  width: 100%;
+  width: 40%;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 main.case-page .case__wrapper {
@@ -846,10 +849,9 @@ main.case-page .case__wrapper {
 }
 
 em.case__description--subhead {
-  font-weight: 600;
+  font-weight: 700;
   font-family: "Inter", sans-serif;
   font-size: 1rem;
-  color: #FF6262;
 }
 
 .case__description-title {
