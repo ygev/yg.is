@@ -48,8 +48,7 @@ title: Trunks
             my Cultural Anthropology course about a recent assignment that involved researching family trees and
             assessed their experience with deriving information from them. I interviewed 5 people for 15 minutes each
             and asked each interviewee to design the perfect family tree at the end of our conversation. I recorded my
-            findings and drew conclusions at the end of the user interviews. <a class="u-sky">The full report
-                can be found here.</a></p>
+            findings and drew conclusions at the end of the user interviews.</p>
 
         <h3 class="case__description-title">Usability Issues with the Tree Model</h3>
         <p class="case__description-body">Three common issues kept being brought up: lack of scalability, visual
@@ -95,23 +94,56 @@ title: Trunks
             place.
         </p>
 
+
         <section class="img-pair">
             <img class="img-pair__image" src="/img/trunks/figure-issue.png" />
-            <p class="img-pair__text case__description-body">All these commonly encountered issues can be encompassed by
-                the conflict between Depth-First Search and Breadth-First Search. In thinking about tree chart models,
-                it is easy to make a depth first analysis, but for family trees, I would argue that a breadth search
-                approach is better, because it allows for more information about distant relatives. As one can see in
-                the diagram A, B, C, D are unaccounted for. The ideal system would account for all collateral ancestral
-                relations. The challenge then lies in finding a visualization methodology that analyses and displays
-                both the depth and the breadth of genealogical data. </p>
+            <div class="img-pair__text">
+                <h3 class=" case__description-title--inner">Methodology: Breadth-First Search</h3>
+                <p class=" case__description-body">All these commonly encountered issues can be encompassed by
+                    the conflict between Depth-First Search and Breadth-First Search. In
+                    thinking about tree chart models, it is easy to make a depth first analysis, but for family trees, I
+                    would argue that a breadth search
+                    approach is better, because it allows for more information about distant relatives. As one can see
+                    in
+                    the diagram, A, B, C and D are unaccounted for. The ideal system would account for all collateral
+                    ancestral relations. The challenge then lies in finding a visualization methodology that analyses
+                    and
+                    displays
+                    both the depth and the breadth of genealogical data.
+                </p>
+            </div>
         </section>
 
-        <h3 class="case__description-title">Methodology: Applying Graph Theory</h3>
-        <p class="case__description-body">In order to better understand my task, I turned research on graph theory,
-            namely the concept of a directed acyclic graph. A directed acyclic graph is a finite graph with no cycle,
-            which means that there is a finite amount of vertices and edges they can never loop. In the context of
-            family trees, this means that no one can become their own ancestor, so family trees are acyclic. Therefore,
-            I reframed family trees as directed acyclic graphs, with a vertex for each family member and an edge for
-            each parent-child relationship. </p>
+        <section class="img-pair">
+            <img class="img-pair__image" src="/img/trunks/figure-dag.png" />
+            <div class="img-pair__text">
+                <h3 class=" case__description-title--inner">Methodology: Applying Graph Theory</h3>
+                <p class=" case__description-body">In order to better
+                    understand my task, I turned
+                    research on graph
+                    theory,
+                    namely the concept of a directed acyclic graph. A directed acyclic
+                    graph is a
+                    finite graph with no cycle,
+                    which means that there is a finite amount of vertices and edges they can never loop. In the
+                    context of
+                    family trees, this means that no one can become their own ancestor, so family trees are acyclic.
+                    Therefore,
+                    I reframed family trees as directed acyclic graphs, with a vertex for each family member and an
+                    edge for
+                    each parent-child relationship.
+                </p>
+            </div>
+        </section>
+
+        <h3 class="case__description-title">Methodology: JSON Structure</h3>
+        <p class="case__description-body">The first step in redefining genealogical data visualization is translating
+            from traditional family tree models into something a computer can easily comprehend. I used the algorithm of
+            a directed acyclic graph to determine vertices and edges by matching up parents and common children in a
+            JSON file through name-value pairs. I then calculated generations by analyzing the structural depth of
+            parental relations. Below is an illustration of how the pair structure works in a traditional tree model and
+            a JSON file.
+        </p>
+        <img class="img--full-width" src="/img/trunks/figure-json.png" />
     </div>
 </main>

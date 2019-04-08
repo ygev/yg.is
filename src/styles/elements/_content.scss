@@ -6,6 +6,11 @@ main.content {
     margin-left: 0.25em;
     margin-right: 0.25em;
 
+    @media (min-width: 1080px) {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
     @media (min-width: 680px) {
         margin-left: 6em;
         margin-right: 6em;
@@ -15,6 +20,7 @@ main.content {
 
 // shared between main page and project pages
 .project {
+
     & h1,
     h2,
     h3,

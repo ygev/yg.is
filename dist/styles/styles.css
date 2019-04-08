@@ -230,7 +230,7 @@ button {
 }
 
 .u-highlight {
-  background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), yellow 85%, rgba(255, 255, 255, 0));
+  background-color: #efdb92;
 }
 
 html {
@@ -405,6 +405,13 @@ main.content {
   margin-bottom: 2em;
   margin-left: 0.25em;
   margin-right: 0.25em;
+}
+
+@media (min-width: 1080px) {
+  main.content {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 }
 
 @media (min-width: 680px) {
@@ -746,24 +753,37 @@ main.case-page .img-pair {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-}
-
-@media (min-width: 1080px) {
-  main.case-page .img-pair__text {
-    padding-left: 2em;
-    padding-right: 2em;
   }
 }
 
 main.case-page .img-pair__image {
   padding-bottom: 2em;
-  width: 40%;
+  width: 60%;
   margin-left: 2em;
   margin-right: 2em;
+}
+
+@media (min-width: 1080px) {
+  main.case-page .img-pair__image {
+    width: 40%;
+  }
+}
+
+main.case-page .img-pair__figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 2em;
 }
 
 main.case-page .case__wrapper {
@@ -842,6 +862,16 @@ main.case-page .case__wrapper {
   opacity: 0.7;
 }
 
+.case__description-title--inner {
+  font-size: 0.9em;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1em;
+  line-height: 1.3rem;
+  color: #858585;
+  text-transform: uppercase;
+}
+
 .case__callout-body {
   line-height: 1.8rem;
   font-weight: 400;
@@ -849,7 +879,7 @@ main.case-page .case__wrapper {
 }
 
 em.case__description--subhead {
-  background-color: #efdb92;
+  display: none;
 }
 
 .case__description-title {
@@ -894,7 +924,7 @@ em.case__description--subhead {
 }
 
 .case__problems--item {
-  background-color: #FF6262;
+  background-color: #555;
   color: white;
   padding: 2.5em;
   margin: 0.5em 0;
@@ -907,5 +937,9 @@ em.case__description--subhead {
     width: 32%;
     margin: 0;
   }
+}
+
+.img--full-width {
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
