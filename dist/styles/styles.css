@@ -223,6 +223,16 @@ button {
   margin-right: auto;
 }
 
+.u-sky {
+  color: #7D68FF;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.u-highlight {
+  text-shadow: -3px 0px 3px #efdb92, 3px 0px 3px #efdb92, 6px 0px 6px #efdb92, -6px 0px 6px #efdb92;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -839,10 +849,6 @@ em.case__description--subhead {
   font-weight: 600;
   font-family: "Inter", sans-serif;
   font-size: 1rem;
-}
-
-em.case__description--subhead:after {
-  content: ' →';
   color: #FF6262;
 }
 

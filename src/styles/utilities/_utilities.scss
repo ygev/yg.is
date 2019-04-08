@@ -52,3 +52,19 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+//Makes link sky color
+.u-sky {
+    color: $sky;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+//Highlight
+.u-highlight {
+    text-shadow: -3px 0px 3px $yellow,
+        3px 0px 3px $yellow,
+        6px 0px 6px $yellow,
+        -6px 0px 6px $yellow;
+}

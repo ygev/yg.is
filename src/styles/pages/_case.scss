@@ -163,11 +163,12 @@ em.case__description--subhead {
     font-family: "Inter",
         sans-serif;
     font-size: 1rem;
+    color: $red;
 
-    &:after {
-        content: ' →';
-        color: $red;
-    }
+    // &:after {
+    //     content: ' →';
+    //     color: $red;
+    // }
 }
 
 .case__description-title {
