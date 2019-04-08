@@ -849,9 +849,7 @@ main.case-page .case__wrapper {
 }
 
 em.case__description--subhead {
-  font-weight: 700;
-  font-family: "Inter", sans-serif;
-  font-size: 1rem;
+  background-color: #efdb92;
 }
 
 .case__description-title {
