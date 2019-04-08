@@ -687,32 +687,31 @@ main.case-page .case .case__title > h2 {
 }
 
 main.case-page .case .case__title > .case__description {
-  line-height: 1.3rem;
+  line-height: 1.7rem;
   font-weight: 400;
   padding-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 main.case-page .case .case__title > .case__time {
   font-weight: 400;
   color: #858585;
-  font-size: 0.85em;
+  font-size: 0.9em;
   padding-top: 1rem;
   padding-bottom: 1em;
   font-weight: 500;
 }
 
 main.case-page .case img.case__image-main {
-  margin: 3em 0;
+  margin-top: 2em;
   width: 100%;
-  padding-bottom: 2em;
 }
 
 main.case-page .case .case__callout {
   background-color: #7D68FF;
   color: white;
   padding: 2.5em;
-  margin: 1em 0;
+  margin-top: 2.5em;
   line-height: 1.3em;
   margin-bottom: 2.5em;
 }
@@ -768,6 +767,7 @@ main.case-page .case__wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 5em;
 }
 
 @media (min-width: 900px) {
@@ -821,35 +821,46 @@ main.case-page .case__wrapper {
 
 .case__callout-title {
   font-size: 0.9em;
-  font-weight: 400;
+  font-weight: 600;
   font-family: "Inter", sans-serif;
-  padding-bottom: 1em;
+  padding-bottom: 0.65em;
   color: white;
+  text-transform: uppercase;
+  opacity: 0.7;
 }
 
 .case__callout-body {
-  line-height: 1.6rem;
+  line-height: 1.8rem;
   font-weight: 400;
   font-size: 1.1rem;
 }
 
 em.case__description--subhead {
-  font-weight: 800;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+em.case__description--subhead:after {
+  content: ' →';
+  color: #FF6262;
 }
 
 .case__description-title {
-  font-size: 1.2em;
+  font-size: 0.9em;
   font-weight: 700;
   font-family: "Inter", sans-serif;
-  padding-bottom: 1em;
-  line-height: 1.5rem;
+  margin-bottom: 1em;
+  margin-top: 3em;
+  line-height: 1.3rem;
+  color: #858585;
+  text-transform: uppercase;
 }
 
 .case__description-body {
-  line-height: 1.6rem;
+  line-height: 1.8rem;
   font-weight: 400;
-  font-size: 1rem;
-  padding-bottom: 1.2em;
+  font-size: 1.1rem;
 }
 
 .case__problems {
@@ -864,6 +875,7 @@ em.case__description--subhead {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 @media (min-width: 900px) {
