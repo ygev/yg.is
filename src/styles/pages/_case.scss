@@ -69,7 +69,7 @@ main.case-page {
 
     .img-pair {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         margin-top: 2em;
 
@@ -81,6 +81,7 @@ main.case-page {
 
 
     .img-pair__image {
+        padding-top: 2em;
         padding-bottom: 2em;
         width: 60%;
         margin-left: 2em;
@@ -173,7 +174,7 @@ main.case-page {
 
 
 .case__callout-body {
-    line-height: 1.8rem;
+    line-height: 1.7rem;
     font-weight: 400;
     font-size: 1.1rem;
 }
@@ -241,5 +242,75 @@ em.case__description--subhead {
 }
 
 .img--full-width {
+    margin-top: 1em;
     width: 100%;
+}
+
+.img--flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    background-color: #555;
+    margin-top: 2em;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+.img--flex-item {
+    width: 32%;
+}
+
+
+.callout__dual--item {
+    background-color: #555;
+    color: white;
+    padding: 2.5em;
+    margin: 0.5em 0;
+    line-height: 1.3em;
+    // margin-left: 0.5em;
+    width: 100%;
+
+    @media (min-width: 900px) {
+        width: 49%;
+        margin: 0;
+    }
+}
+
+
+.case__ordered-list {
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    margin-top: 1.5em;
+    list-style-position: inside;
+    list-style: none;
+    counter-reset: item;
+    color: white;
+
+    background-color: #555;
+}
+
+.case__ordered-list--item {
+    counter-increment: item;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-bottom: 1em;
+}
+
+.case__ordered-list--item:before {
+    content: counter(item);
+    background: $sky;
+    border-radius: 100%;
+    color: white;
+    width: 1.5em;
+    margin-right: 1em;
+    text-align: center;
+    display: inline-block;
+    margin-left: -2.5em;
+    font-weight: 900;
 }

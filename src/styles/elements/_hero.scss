@@ -24,7 +24,7 @@
 
 .hero__yana {
     font-family: "Inter", sans-serif;
-    font-size: 200%;
+    font-size: 140%;
     padding-bottom: 5rem;
     line-height: 140%;
     font-weight: 800;
@@ -59,7 +59,6 @@
             -moz-appearance: none;
             appearance: none;
             cursor: inherit;
-            padding-right: 2%;
             min-width: 5em;
             margin: 0 0.1em;
 
@@ -77,9 +76,9 @@
 
 .hero__select:after {
     content: '\f078';
-    font: normal normal normal 17px/1 FontAwesome;
-    color: $sky;
-    bottom: 8px;
+    font: normal normal normal 13px/1 FontAwesome;
+    color: #7D68FF;
+    bottom: 3px;
     height: 34px;
     padding-top: 3%;
     padding-bottom: 3%;

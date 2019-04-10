@@ -65,3 +65,14 @@
 .u-highlight {
     background-color: $yellow;
 }
+
+.u-sky-bg {
+    background-color: $sky;
+    padding: 2em;
+}
+
+//Material shadow
+.u-material-shadow-1 {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+        0 3px 6px rgba(0, 0, 0, 0.23);
+}

@@ -233,6 +233,16 @@ button {
   background-color: #efdb92;
 }
 
+.u-sky-bg {
+  background-color: #7D68FF;
+  padding: 2em;
+}
+
+.u-material-shadow-1 {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -403,18 +413,13 @@ body.fade-out {
 main.content {
   margin-top: 3em;
   margin-bottom: 2em;
-  margin-left: 0.25em;
-  margin-right: 0.25em;
+  margin-left: 2em;
+  margin-right: 2em;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 @media (min-width: 1080px) {
-  main.content {
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-}
-
-@media (min-width: 680px) {
   main.content {
     margin-left: 6em;
     margin-right: 6em;
@@ -562,7 +567,7 @@ main.content {
 
 .hero__yana {
   font-family: "Inter", sans-serif;
-  font-size: 200%;
+  font-size: 140%;
   padding-bottom: 5rem;
   line-height: 140%;
   font-weight: 800;
@@ -598,7 +603,6 @@ main.content {
   -moz-appearance: none;
   appearance: none;
   cursor: inherit;
-  padding-right: 2%;
   min-width: 5em;
   margin: 0 0.1em;
 }
@@ -613,9 +617,9 @@ main.content {
 
 .hero__select:after {
   content: '\f078';
-  font: normal normal normal 17px/1 FontAwesome;
+  font: normal normal normal 13px/1 FontAwesome;
   color: #7D68FF;
-  bottom: 8px;
+  bottom: 3px;
   height: 34px;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -738,9 +742,9 @@ main.case-page .img-pair {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -757,6 +761,7 @@ main.case-page .img-pair {
 }
 
 main.case-page .img-pair__image {
+  padding-top: 2em;
   padding-bottom: 2em;
   width: 60%;
   margin-left: 2em;
@@ -873,7 +878,7 @@ main.case-page .case__wrapper {
 }
 
 .case__callout-body {
-  line-height: 1.8rem;
+  line-height: 1.7rem;
   font-weight: 400;
   font-size: 1.1rem;
 }
@@ -940,6 +945,74 @@ em.case__description--subhead {
 }
 
 .img--full-width {
+  margin-top: 1em;
   width: 100%;
+}
+
+.img--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  background-color: #555;
+  margin-top: 2em;
+  padding: 2em;
+  justify-content: space-around;
+}
+
+.img--flex-item {
+  width: 32%;
+}
+
+.callout__dual--item {
+  background-color: #555;
+  color: white;
+  padding: 2.5em;
+  margin: 0.5em 0;
+  line-height: 1.3em;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .callout__dual--item {
+    width: 49%;
+    margin: 0;
+  }
+}
+
+.case__ordered-list {
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 3em;
+  padding-top: 3em;
+  margin-top: 1.5em;
+  list-style-position: inside;
+  list-style: none;
+  counter-reset: item;
+  color: white;
+  background-color: #555;
+}
+
+.case__ordered-list--item {
+  counter-increment: item;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-bottom: 1em;
+}
+
+.case__ordered-list--item:before {
+  content: counter(item);
+  background: #7D68FF;
+  border-radius: 100%;
+  color: white;
+  width: 1.5em;
+  margin-right: 1em;
+  text-align: center;
+  display: inline-block;
+  margin-left: -2.5em;
+  font-weight: 900;
 }
 /*# sourceMappingURL=styles.css.map */

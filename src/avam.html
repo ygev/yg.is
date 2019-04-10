@@ -1,0 +1,159 @@
+---
+layout: layouts/default.njk
+title: Visionary Art Museum
+---
+<div class="progress__header">
+    <div class="progress__container">
+        <div class="progress__bar" id="myBar"></div>
+    </div>
+</div>
+
+<main class="content case-page">
+    <div class="case">
+        <a class="back-to-home" href="/">Back to Home</a>
+        <div class="case__wrapper">
+            <div class="case__title">
+                <h1>Visionary Art Museum</h1>
+                <h2>Research</h2>
+                <p class="case__description">Deconstructing the museum web experience and constructing it again.
+                </p>
+                <p class="case__time">8 weeks · UI designer, web developer · 2018</p>
+            </div>
+            <a href="live" class="btn" target="_blank">
+                <i class="indicator indicator--live fa fa-circle indicator"></i>Visit Live Site</i>
+            </a>
+        </div>
+
+        <img class="case__image-main" src="/img/avam/header.png" />
+
+        <h3 class="case__description-title">Abstract</h3>
+        <p class="case__description-body">Throughout the web, I have encountered that museum sites all follow the same
+            general structure: monochrome, high-contrast palettes to highlight the diversity of color in the artworks.
+            The structural similarities throughout all museum sites intrigued me, so I chose to conduct an heuristic
+            analysis
+            of the museum web experience and redesigned the notoriously outdated website of the American Visionary Art
+            Museum according to my findings.</p>
+
+        <div class="case__callout">
+            <h3 class="case__callout-title">Design Challenge</h3>
+            <p class="case__callout-body">Conduct an heuristic analysis of the American Visionary Art Museum website and
+                work with a stakeholder to design and later develop a wireframe for a user-centered redesign.
+            </p>
+        </div>
+
+        <h3 class="case__description-title"> Background website</h3>
+        <p class="case__description-body">The American
+            Visionary Art Museum is a museum in Baltimore, MD that
+            specializes in the preservation and display of outsider art, or art that is created by self-taught artists
+            without an academic background in fine arts. Their exhibitions are curated by guest curators and are fairly
+            eclectic. The focus on accessibility of the art world pushed by the museum is not reflected in their current
+            branding, especially not their design. The <a class="u-sky">original website</a> of the American Visionary
+            Art Museum harbors a
+            plethora of accessibility, performance and branding issues that stem from a design that was built for
+            Netscape and has not changed in a very long time as a result. In order to redesign its information
+            architecture, I set out to conduct a lot of research, including creating user personas, conducting a
+            heuristic evaluation and setting up priority guides before creating wireframes. As of 2019, the original
+            website can still be found here, and it is a sight to behold.
+        </p>
+
+        <h3 class="case__description-title">Business Goals</h3>
+        <p class="case__description-body">Before the assessment of user goals, one must establish the goals of a
+            business, especially when a redesign is taking place. The constant reassessment of these goals is key to
+            tracking priorities in the development process.
+        </p>
+        <ul class="case__problems">
+            <li class="case__problems--item">
+                <h3 class="case__callout-title">Goal 1</h3>
+                <p class="case__callout-body">Attract new visitors while retaining old ones.
+                </p>
+            </li>
+            <li class="case__problems--item">
+                <h3 class="case__callout-title">Goal 2</h3>
+                <p class="case__callout-body">As a non-profit, encourage donations from visitors.
+                </p>
+            </li>
+            <li class="case__problems--item">
+                <h3 class="case__callout-title">Goal 3</h3>
+                <p class="case__callout-body">Involve guests in fundraisers and events.
+                </p>
+            </li>
+        </ul>
+
+        <h3 class="case__description-title">User Goals</h3>
+        <p class="case__description-body">In order to determine the user's goals, one must determine the target
+            audience
+            of the website. The two main categories of users for the American Visionary Art Museum site seem to be
+            users
+            with a specific interest in art, and the general public. The former encompasses teachers and educators
+            who
+            want to introduce children to more accessible art that is not isolated to those with highbrow tastes, as
+            more typical museums tend to be. The latter is the general public that wants a museum with universal
+            appeal,
+            and those who are not passionate about the accessibility of art and just want to have a good time. As a
+            result, I created three user personas that encompass the target audiences.</p>
+        <section class="img--flex">
+            <img class="u-material-shadow-1 img--flex-item" src="/img/avam/figure-user1.png" />
+            <img class="u-material-shadow-1 img--flex-item" src="/img/avam/figure-user2.png" />
+            <img class="u-material-shadow-1 img--flex-item" src="/img/avam/figure-user3.png" />
+        </section>
+
+        <h3 class="case__description-title">Heuristic Evaluation</h3>
+        <p class="case__description-body">Using Jakob Nielsen’s 10 usability heuristics, I conducted a heuristic
+            evaluation of the current American Visionary Art Museum Website. The following are the five roots of
+            usability issues that are the cause of most problems noted in my report.</p>
+        <ol class="case__ordered-list">
+            <li class="case__ordered-list--item case__callout-body"><em class="case__callout-title">Unclear
+                    Navigation Hierarchy</em>
+                The navigation is cluttered with unclear links such as like “Stuff People Ask” that are not descriptive
+                or useful. The titles are worded in an undescriptive way. The child elements of each nav button only
+                appear after clicking on it instead of on hover. Navigation is not organized logically. The standard
+                elements are not easy to locate.
+            </li>
+            <li class="case__ordered-list--item case__callout-body"> <em class="case__callout-title">Unrefined
+                    Maximalism</em> The visual design is not meaningful, and there is too much information presented at
+                once. The icons are unintuitive, unlabeled and do not belong to the same icon family. The negative
+                space does not shape the positive space.
+            </li>
+            <li class="case__ordered-list--item case__callout-body"> <em class="case__callout-title">Responsiveness</em>
+                The website is not responsive at all with most elements breaking at one resolution and working at
+                another.
+                The carousel breaks on desktop but is functioning in Google Chrome dev tools when smaller than 1000px
+                and
+                on mobile. Maybe there is a compatibility issue.
+            </li>
+            <li class="case__ordered-list--item case__callout-body"><em class="case__callout-title">Brand Identity</em>
+                There is no clear logotype, no sense of cohesion between the pages and no refined color palette. There
+                are
+                many different typefaces and type sizes and no clear typographic hierarchy.
+            </li>
+            <li class="case__ordered-list--item case__callout-body"><em class=" case__callout-title"> Accessibility</em>
+                Low accessibility score on Google Audits, 52. The images do not include text and none of the elements
+                have aria-labels.
+            </li>
+        </ol>
+
+        <section class="img-pair">
+            <div class="img-pair__text">
+                <h3 class=" case__description-title--inner">Priority Guides</h3>
+                <p class=" case__description-body">Wireframes undermine user-centricity, especially when created
+                    early
+                    in the product development process. Priority guides are a content- and functionality-centric way
+                    to
+                    establish a good information architecture. A priority guide contains content and elements for a
+                    mobile screen, sorted from top to bottom without layout specifications. The hierarchy is based
+                    on
+                    relevance to users with actions that fulfill the user goals further up top. Therefore, instead
+                    of
+                    drawing up wireframes right away, I decided to delineate priority guides to rank each function
+                    on
+                    the homepage. The established hierarchy was then used to develop an intuitive navigation system.
+                    <img class="img--full-width" src="/img/avam/figure-nav.png" />
+                </p>
+            </div>
+            <img class="img-pair__image" src="/img/avam/figure-priority.png" />
+
+        </section>
+
+
+    </div>
+</main>
