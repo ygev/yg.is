@@ -421,8 +421,8 @@ main.content {
 
 @media (min-width: 1080px) {
   main.content {
-    margin-left: 6em;
-    margin-right: 6em;
+    margin-left: 10em;
+    margin-right: 10em;
   }
 }
 
@@ -687,7 +687,7 @@ main.case-page .case > a.back-to-home {
 }
 
 main.case-page .case > a.back-to-home:before {
-  content: '← ';
+  content: "← ";
   color: #7D68FF;
 }
 
@@ -742,16 +742,16 @@ main.case-page .img-pair {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2em;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 900px) {
   main.case-page .img-pair {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -763,12 +763,11 @@ main.case-page .img-pair {
 main.case-page .img-pair__image {
   padding-top: 2em;
   padding-bottom: 2em;
-  width: 60%;
+  width: 50%;
   margin-left: 2em;
-  margin-right: 2em;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 900px) {
   main.case-page .img-pair__image {
     width: 40%;
   }
@@ -828,12 +827,12 @@ main.case-page .case__wrapper {
   padding-bottom: 0.75em;
   text-decoration: none;
   color: #2B2B2B;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 800;
   font-size: 0.9rem;
   margin-top: 1rem;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 @media (min-width: 900px) {
@@ -854,13 +853,17 @@ main.case-page .case__wrapper {
 }
 
 .indicator--live {
-  color: #56D21C;
+  color: #56d21c;
+}
+
+.indicator--wip {
+  color: #ffd200;
 }
 
 .case__callout-title {
   font-size: 0.9em;
   font-weight: 600;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   padding-bottom: 0.65em;
   color: white;
   text-transform: uppercase;
@@ -870,7 +873,7 @@ main.case-page .case__wrapper {
 .case__description-title--inner {
   font-size: 0.9em;
   font-weight: 700;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   margin-bottom: 1em;
   line-height: 1.3rem;
   color: #858585;
@@ -890,7 +893,7 @@ em.case__description--subhead {
 .case__description-title {
   font-size: 0.9em;
   font-weight: 700;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
   margin-bottom: 1em;
   margin-top: 3em;
   line-height: 1.3rem;
@@ -1005,14 +1008,15 @@ em.case__description--subhead {
 
 .case__ordered-list--item:before {
   content: counter(item);
-  background: #7D68FF;
+  background: #555;
+  border: 2px white solid;
   border-radius: 100%;
   color: white;
-  width: 1.5em;
+  width: 1.69em;
   margin-right: 1em;
   text-align: center;
   display: inline-block;
-  margin-left: -2.5em;
-  font-weight: 900;
+  margin-left: -2.9em;
+  font-weight: 600;
 }
 /*# sourceMappingURL=styles.css.map */
