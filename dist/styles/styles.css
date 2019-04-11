@@ -186,6 +186,10 @@ button {
   display: block;
 }
 
+.u-padding-top-1 {
+  padding-top: 1em;
+}
+
 .u-button-reset {
   background: transparent;
   border: 0;
@@ -241,6 +245,23 @@ button {
 .u-material-shadow-1 {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.u-flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.u-flex-space-around {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.u-width-100 {
+  width: 100%;
 }
 
 html {
@@ -968,6 +989,10 @@ em.case__description--subhead {
 
 .img--flex-item {
   width: 32%;
+}
+
+.img--flex-item--100 {
+  width: 100%;
 }
 
 .callout__dual--item {
