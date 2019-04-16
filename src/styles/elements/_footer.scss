@@ -3,9 +3,15 @@
   background-color: $boxbg;
   padding: 2em;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
   justify-content: space-between;
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+  }
 }
 
 .footer_txt {
@@ -33,11 +39,10 @@
 }
 
 .footer__email {
-  font-size: 180%;
+  font-size: 0.9em;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   margin-bottom: 1em;
-  //   line-height: 1.3rem;/
-  //   text-transform: uppercase;
-  color: $black;
+  color: $sky;
+  text-transform: uppercase;
 }

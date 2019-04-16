@@ -664,14 +664,27 @@ main.content .project {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (min-width: 900px) {
+  .site-footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .footer_txt {
@@ -697,11 +710,12 @@ main.content .project {
 }
 
 .footer__email {
-  font-size: 180%;
+  font-size: 0.9em;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   margin-bottom: 1em;
-  color: #2B2B2B;
+  color: #7D68FF;
+  text-transform: uppercase;
 }
 
 main.case-page .case > a.back-to-home {
