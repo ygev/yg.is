@@ -1,68 +1,68 @@
 html {
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
-    // transition: all .3s ease; // Allows for a smoother transition
+  box-sizing: inherit;
+  // transition: all .3s ease; // Allows for a smoother transition
 }
 
 body {
-    background-color: $white;
-    color: $black;
-    position: relative;
-    opacity: 1;
-    transition: 1s opacity;
+  background-color: $white;
+  color: $black;
+  position: relative;
+  opacity: 1;
+  transition: 1s opacity;
 }
 
 body.fade-out {
-    opacity: 0;
-    transition: none;
+  opacity: 0;
+  transition: none;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 
-    @media (max-width: 680px) {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+  @media (max-width: 680px) {
+    // padding-left: 15px;
+    // padding-right: 15px;
+  }
 }
 
 .site-nav__link:hover {
-    outline: 0.125rem $sky dotted;
-    outline-offset: 0.25rem;
+  outline: 0.125rem $sky dotted;
+  outline-offset: 0.25rem;
 }
 
 ::selection {
-    background: #D0C8FF;
-    /* WebKit/Blink Browsers */
+  background: #d0c8ff;
+  /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-    background: #D0C8FF;
-    /* Gecko Browsers */
+  background: #d0c8ff;
+  /* Gecko Browsers */
 }
 
 .hideme {
-    opacity: 0;
+  opacity: 0;
 }
 
 // Scrollbar
 ::-webkit-scrollbar-track {
-    background-color: $boxbg;
+  background-color: $boxbg;
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
-    background-color: $sky;
+  width: 10px;
+  background-color: $sky;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #858585;
+  background-color: #858585;
 }

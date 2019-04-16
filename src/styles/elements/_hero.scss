@@ -89,3 +89,9 @@
 .wrap {
   text-decoration: underline $sky; //temporary solution
 }
+
+.resume-link {
+  color: black;
+  text-decoration-color: $sky;
+  text-decoration-style: wavy;
+}

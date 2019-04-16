@@ -298,30 +298,23 @@ body.fade-out {
   margin: auto;
 }
 
-@media (max-width: 680px) {
-  .container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
 .site-nav__link:hover {
   outline: 0.125rem #7D68FF dotted;
   outline-offset: 0.25rem;
 }
 
 ::-moz-selection {
-  background: #D0C8FF;
+  background: #d0c8ff;
   /* WebKit/Blink Browsers */
 }
 
 ::selection {
-  background: #D0C8FF;
+  background: #d0c8ff;
   /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: #D0C8FF;
+  background: #d0c8ff;
   /* Gecko Browsers */
 }
 
@@ -612,6 +605,14 @@ main.content {
           text-decoration: underline #7D68FF;
 }
 
+.resume-link {
+  color: black;
+  -webkit-text-decoration-color: #7D68FF;
+          text-decoration-color: #7D68FF;
+  -webkit-text-decoration-style: wavy;
+          text-decoration-style: wavy;
+}
+
 a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project__link::after {
   margin-left: 0.5em;
   -webkit-transition: .4s ease-in-out;
@@ -654,6 +655,53 @@ main.content .project {
   height: 5px;
   background: #7D68FF;
   width: 0%;
+}
+
+.site-footer {
+  margin-top: 3em;
+  background-color: #E5E9EB;
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer_txt {
+  margin-bottom: 1em;
+}
+
+.footer__call {
+  font-size: 0.9em;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1em;
+  color: #858585;
+  text-transform: uppercase;
+}
+
+.footer__cute {
+  font-size: 0.9em;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1em;
+  color: #858585;
+  text-transform: uppercase;
+}
+
+.footer__email {
+  font-size: 180%;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1em;
+  color: #7D68FF;
 }
 
 main.case-page .case > a.back-to-home {
