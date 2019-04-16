@@ -45,9 +45,7 @@ title: Trunks
         <h3 class="case__description-title">User Research</h3>
         <p class="case__description-body">In order to optimize the visualization of familial relations, I set out to
             research and identify common shortcomings of the traditional tree model. I chose to interview classmates in
-            my Cultural Anthropology course about a recent assignment that involved researching family trees and
-            assessed their experience with deriving information from them. I interviewed 5 people for 15 minutes each
-            and asked each interviewee to design the perfect family tree at the end of our conversation. I recorded my
+            my Cultural Anthropology course about a recent assignment that involved analyzing family trees. I interviewed 5 people for 15 minutes each and asked each interviewee to design the perfect family tree at the end of our conversation. I recorded my
             findings and drew conclusions at the end of the user interviews.</p>
 
         <h3 class="case__description-title">Heuristic Evaluation</h3>
@@ -79,7 +77,7 @@ title: Trunks
             On the other hand, when the ancestor has many descendants, the chart is primarily vertical. This variability
             is not accounted for when displaying charts in smaller viewport sizes, such as on a mobile screen. Even when
             viewed on a large screen, the window needs to scroll both vertically and horizontally, leading to poor user
-            experience. Therefore, the tree model is outdated, not scalable or responsive and unsuited for the modern,
+            experience. Therefore, the tree model is outdated, not scalable or responsive and thus unsuited for the modern,
             digital user.
         </p>
         <p class="case__description-body"> <em class="case__description--subhead">Visual Density</em> The horizontally
@@ -89,7 +87,7 @@ title: Trunks
         </p>
         <p class="case__description-body"> <em class="case__description--subhead">Limited Scope</em> Because of the
             dimensional limitations of the tree model, the chart can only display one
-            branch at a time, resulting in a skewed chart. A simple flaw of design, unilaterality, results in the
+            branch at a time, resulting in a skewed visual representation. A simple flaw of design, unilaterality, results in the
             omission of data, which is intellectually dishonest and defeats the purpose of displaying data in the first
             place.
         </p>
@@ -117,17 +115,17 @@ title: Trunks
             <div class="img-pair__text">
                 <h3 class=" case__description-title--inner">Trunk Model: Applying Graph Theory</h3>
                 <p class=" case__description-body">In order to better
-                    understand my task, I turned
+                    understand my task, I turned to
                     research on graph
                     theory,
                     namely the concept of a directed acyclic graph. A directed acyclic
                     graph is a
                     finite graph with no cycle,
-                    which means that there is a finite amount of vertices and edges they can never loop. In the
+                    which means that there is a finite amount of vertices and edges, which can never loop. In the
                     context of
-                    family trees, this means that no one can become their own ancestor, so family trees are acyclic.
+                    family trees, this means that no one can become their own ancestor.
                     Therefore,
-                    I reframed family trees as directed acyclic graphs, with a vertex for each family member and an
+                    I reframed family trees as a directed acyclic graphs, with a vertex for each family member and an
                     edge for
                     each parent-child relationship.
                 </p>
@@ -156,7 +154,7 @@ title: Trunks
         </section>
 
                    <h3 class=" case__description-title">First Iteration</h3>
-                <p class=" case__description-body">The following is my first iteration for the web application Trunks, that uses the eponymous model in d3 to visualize some dynasties. I am using a color palette that is recommended by Colorbrewer 3.0, a colorblind-friendly set of colors. This iteration is the prototype one can view and work with live. While I am content with the model itself, the interface presented several issues that I am in the process of solving. 
+                <p class=" case__description-body">The following is my first iteration for the web application Trunks, that uses the eponymous model in d3 to visualize some dynasties. I am using a color palette that is recommended by Colorbrewer 3.0, a colorblind-friendly and accessible palette generator. This iteration is the prototype one can view and work with live. While I am content with the model itself, the interface presented several issues that I am in the process of solving. 
                 </p>
         
         <ul class="case__problems">
@@ -179,7 +177,7 @@ title: Trunks
  <div class="u-gray-bg"><img class="u-material-shadow-1 img--full-width" src="/img/trunks/figure-olddesktop.png" /></div> 
 
          <h3 class=" case__description-title">Second Iteration</h3>
-                <p class=" case__description-body">The following are projected solutions to the issues presented in first web app iteration. This interface is more visual and, by including previews of other family trees, prompts the viewer to explore them. In addition, the json structure allows me to pull more data and visualizations from it, and allow the user to view general statistics about the dynasty. In addition, one can explore various branches of the family in depth.
+                <p class=" case__description-body">The following are projected solutions to the issues presented in first web app iteration. This interface is more visual and, by including previews of other family trees, prompts the viewer to explore them. In addition, the json structure allows me to pull more data and visualizations from it, and allow the user to view general statistics about the dynasty. Moreover, one can explore various branches of the family in depth.
                 </p>
 
         <h3 class="case__description-title">Second Iteration: Mobile Interface</h3>
