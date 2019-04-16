@@ -310,3 +310,15 @@ em.case__description--subhead {
   margin-left: -2.9em;
   font-weight: 600;
 }
+
+.vortex-grid {
+  display: grid;
+  grid-template-rows: 30vw 30vw 30vw 30vw 30vw;
+  grid-template-columns: 30vw 30vw;
+}
+
+.vort-img {
+  width: 25vw;
+  height: 25vw;
+  // margin-left: 1em;
+}

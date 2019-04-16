@@ -1003,4 +1003,18 @@ em.case__description--subhead {
   margin-left: -2.9em;
   font-weight: 600;
 }
+
+.vortex-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 30vw 30vw 30vw 30vw 30vw;
+      grid-template-rows: 30vw 30vw 30vw 30vw 30vw;
+  -ms-grid-columns: 30vw 30vw;
+      grid-template-columns: 30vw 30vw;
+}
+
+.vort-img {
+  width: 25vw;
+  height: 25vw;
+}
 /*# sourceMappingURL=styles.css.map */
