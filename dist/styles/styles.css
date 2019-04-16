@@ -588,7 +588,7 @@ main.content {
 
 .hero__yana {
   font-family: "Inter", sans-serif;
-  font-size: 140%;
+  font-size: 180%;
   padding-bottom: 5rem;
   line-height: 140%;
   font-weight: 800;
@@ -605,47 +605,6 @@ main.content {
 .hero__yana--dull {
   color: #858585;
   font-weight: 700;
-}
-
-.hero__yana .hero__select {
-  cursor: pointer;
-  padding-bottom: 0.1em;
-  border-bottom: 2px solid black;
-  text-align-last: center;
-}
-
-.hero__yana .hero__select select {
-  background: inherit;
-  border: none;
-  font: inherit;
-  font-size: inherit;
-  color: #7D68FF;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  cursor: inherit;
-  min-width: 5em;
-  margin: 0 0.1em;
-}
-
-.hero__yana .hero__select select option {
-  font: inherit;
-}
-
-.hero__yana select::-ms-expand {
-  display: none;
-}
-
-.hero__select:after {
-  content: '\f078';
-  font: normal normal normal 13px/1 FontAwesome;
-  color: #7D68FF;
-  bottom: 3px;
-  height: 34px;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  position: relative;
-  cursor: pointer;
 }
 
 .wrap {
