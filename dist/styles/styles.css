@@ -613,6 +613,12 @@ main.content {
           text-decoration-style: wavy;
 }
 
+.resume-link:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
 a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project__link::after {
   margin-left: 0.5em;
   -webkit-transition: .4s ease-in-out;

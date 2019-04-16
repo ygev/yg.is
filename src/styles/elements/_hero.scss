@@ -93,4 +93,9 @@
   color: black;
   text-decoration-color: $sky;
   text-decoration-style: wavy;
+
+  &:hover {
+    opacity: 0.5;
+    transition: 0.4s ease;
+  }
 }
