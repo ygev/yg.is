@@ -609,14 +609,12 @@ main.content {
   color: black;
   -webkit-text-decoration-color: #7D68FF;
           text-decoration-color: #7D68FF;
-  -webkit-text-decoration-style: wavy;
-          text-decoration-style: wavy;
 }
 
 .resume-link:hover {
   opacity: 0.5;
-  -webkit-transition: 0.4s ease;
-  transition: 0.4s ease;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 a.project.mix.u-no-underline.u-color-inherit.aos-init.aos-animate:hover .project__link::after {
