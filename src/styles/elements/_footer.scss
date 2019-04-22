@@ -19,30 +19,32 @@
 }
 
 .footer__call {
-  font-size: 0.9em;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   margin-bottom: 1em;
-  //   line-height: 1.3rem;/
   color: #858585;
   text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 0.05em;
 }
 
 .footer__cute {
-  font-size: 0.9em;
   font-weight: 700;
   font-family: "Roboto", sans-serif;
   margin-bottom: 1em;
   //   line-height: 1.3rem;/
   color: #858585;
   text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 0.05em;
 }
 
 .footer__email {
-  font-size: 0.9em;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   margin-bottom: 1em;
   color: $sky;
   text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 0.05em;
 }
