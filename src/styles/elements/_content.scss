@@ -1,22 +1,21 @@
 // CONTAINER
 
 main.content {
-    margin-top: 3em;
-    margin-bottom: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
     transition: .5s ease-in-out;
 
     @media (min-width: 1080px) {
-        margin-left: 10em;
-        margin-right: 10em;
+        padding-left: 10em;
+        padding-right: 10em;
     }
 }
 
 
 // shared between main page and project pages
 .project {
-
     & h1,
     h2,
     h3,
