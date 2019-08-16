@@ -1,0 +1,62 @@
+---
+layout: layouts/default.njk
+title: Klepto
+---
+<div class="progress__header">
+    <div class="progress__container">
+        <div class="progress__bar" id="myBar"></div>
+    </div>
+</div>
+
+<main class="container content case-page">
+    <div class="case">
+        <a class="back-to-home" href="/">Back to Home</a>
+        <div class="case__wrapper">
+            <div class="case__title">
+                <h1>Klepto</h1>
+                <h2>ui + code</h2>
+                <p class="case__description">A Chrome extension that converts CSS font styles to Sketch text styles.
+                </p>
+                <p class="case__time">8 weeks · UI designer, web dev support · 2019</p>
+            </div>
+            <a href="https://chrome.google.com/webstore/detail/klepto/bkhljfnjkmbofjkmpalldbpnhnlefdje  " class="btn" target="_blank">
+                <i class="indicator indicator--live fa fa-circle indicator"></i>Chrome Store</i>
+            </a>
+        </div>
+
+        <img class="case__image-main" src="/img/klepto/header.png" />
+
+        <h3 class="case__description-title">Abstract</h3>
+        <p class="case__description-body">Klepto is a Chrome extension with a companion Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch as Sketch styles. It was created in collaboration with <a class="u-sky" href ="https://github.com/blakedq/">Blake Quigley</a> during my time at Yext as a Visual Web Design intern.</p>
+
+        <div class="case__callout">
+            <h3 class="case__callout-title">Design Challenge</h3>
+            <p class="case__callout-body">Currently, designers at Yext have to manually inspect every typographic element on the client’s page and transcribe all the styles from CSS into Sketch. Klepto reduces the number of copied items from five, to just one.
+
+            </p>
+        </div>  
+
+        <h3 class="case__description-title">Reverse Engineering a Brand        </h3>
+        <p class="case__description-body">The Visual Web Design team at Yext creates custom landing pages for Fortune 500 clients, from Taco Bell to Marriott International Hotel. This means that when you search for “Taco Bell near Union Square,” the first result will lead to a custom landing page for Taco Bell Union Square, designed by Yext with information that is up to date and customized to that particular location. In order to design these subpages, the team needs to pull client’s styles from their site into Sketch to design additional pages. Since not all clients have custom Sketch libraries, style guides or even their own design team, the team at Yext has to compile these styles manually, using the client’s site as a source of truth. At the beginning of every project, the team compiles a style guide full of scavenged visual patterns from the client’s website. The process consists of going into inspect element, selecting the HTML element of the typographic component and replicating all the CSS as a text style in Sketch, from font-family to letter-spacing   Klepto was born out of a vision that it is possible to automate this process, accelerating the team’s workflow.</p>
+
+        <h3 class="case__description-title">What properties define a font</h3>
+        <p class="case__description-body">In order to accurately copy the essence of a font, we needed to determine what makes a font style in CSS. These properties must also have equivalents in Sketch. For instance, the font-family property of CSS should correspond to the Typefaces field in Sketch. The final list of properties that are most commonly specified in CSS and make a font instantly recognizable as a distinct style are as follows:
+        </p>
+
+
+        <h3 class="case__description-title">Second Iteration: Mobile Interface</h3>
+        <section class="img--flex">
+            <img class="u-material-shadow-1 img--flex-item" src="/img/trunks/mobile1.png" />
+            <img class="u-material-shadow-1 img--flex-item" src="/img/trunks/mobile2.png" />
+            <img class="u-material-shadow-1 img--flex-item" src="/img/trunks/mobile3.png" />
+        </section>
+
+        <h3 class="case__description-title">Second Iteration: Desktop Adaptation</h3>
+        <img class="u-gray-bg img--full-width" src="/img/trunks/desktop.png" />
+
+         <h3 class=" case__description-title">Further Development</h3>
+                <p class=" case__description-body">In addition to refining and testing the second web application prototype with a group of users, I intend on making the site dynamic by feeding in an open database of family trees. There is currently no API that exists for that purpose, but I am in the process of developing a scraper for family trees that exist on places like Wikipedia and Wikia. 
+                </p>
+
+    </div>
+</main>
