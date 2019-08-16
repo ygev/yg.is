@@ -173,6 +173,13 @@ button {
   color: inherit;
 }
 
+.u-code {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color: #757575;
+  line-height: 1.5rem;
+}
+
 /* Utility Classes */
 .u-bottom-border {
   border-bottom: 1px solid black;
@@ -543,6 +550,12 @@ main.content {
   text-decoration: none;
   -webkit-transition: .6s ease-in-out;
   transition: .6s ease-in-out;
+}
+
+.list {
+  list-style-type: square;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 .hero-wrapper {
