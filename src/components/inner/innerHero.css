@@ -1,0 +1,31 @@
+:root {
+    --cobalt: #0F70F0;
+    --blackoff: #292429;
+}
+
+.brow {
+    font-family: Chapeau;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.83px;
+    text-align: center;
+    color: var(--cobalt);
+  }
+
+  .lead {
+    font-family: IBMPlexSans;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    line-height: 1.27;
+    letter-spacing: 0.62px;
+    text-align: center;
+    color: var(--blackoff);
+  }
