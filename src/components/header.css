@@ -1,10 +1,35 @@
 .wrapper-header {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 
 .img-logo {
     width: 50px;
-    padding-top:16px;
-    padding-bottom: 16px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.navlink {
+    opacity: 0.6;
+    font-family: Chapeau-Black;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navlink__active {
+    font-family: Chapeau-Black;
+    font-size: 12px;
+    color: #292429;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 17px;
+    opacity: 1;
+    text-transform: uppercase;
 }
