@@ -1,6 +1,6 @@
 import React from "react"
-import Header from "../components/header"
-import InnerHero from "../components/inner/innerHero"
+import Header from "../components/header/header"
+import InnerHero from "../components/innerHero/innerHero"
 
 class Index extends React.Component {
   render() {

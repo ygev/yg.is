@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../img/logo.svg" 
+import logo from "../../images/logo.svg" 
 import "./header.css"
-import "../styles/reset.css"
+import "../../css/reset.css"
 
 export default props => (
 <div className="wrapper-header">
