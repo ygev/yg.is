@@ -1,4 +1,27 @@
+/* Hero Layout Style */
 
+.hero__txt {
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hero Image */
+
+figure.hero__img {
+  background-color: var(--projcolor);
+  margin:0;
+  padding: 10vw;
+  border-bottom: 2px black solid;
+}
+
+figure.hero__img img {
+  width: 100%;
+}
+
+/* Hero Typography */
+  
 .brow {
     font-family: Chapeau;
     text-transform: uppercase;
@@ -7,18 +30,53 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.7;
+    padding-top: 24px;
     letter-spacing: 0.83px;
     text-align: center;
-    color: var(--cobalt);
   }
 
   .lead {
     font-family: IBMPlexSans;
     font-family: IBMPlexSans-Medium;
     font-size: 24px;
-    padding-top: 10px;
-    color: #000;
+    padding-top: 16px;
     letter-spacing: 0.53px;
     text-align: center;
+    font-weight: 200;
     line-height: 32px;
   }
+
+/* Button */
+  
+.btn__git {
+  font-family: Chapeau-Medium;
+  font-size: 16px;
+  color: #292429;
+  letter-spacing: 1.14px;
+  text-align: center;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: white;
+  border: 1px #000 solid;
+  width: 240px;
+}
+
+.btn__git--iconbg {
+  background-color: black;
+
+}
+
+.btn__git--icon {
+width: 24px;
+height: 24px;
+padding: 10px;
+}
+
+.btn__git--wrapper {
+  display: flex;
+  margin-top: 24px;
+  flex-direction: row;
+  /* align-content: center; */
+  align-items: center;
+}
