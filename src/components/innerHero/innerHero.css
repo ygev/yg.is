@@ -13,7 +13,7 @@ figure.hero__img {
   background-color: var(--projcolor);
   margin:0;
   padding: 10vw;
-  border-bottom: 2px black solid;
+  border-bottom: 2px var(--black) solid;
 }
 
 figure.hero__img img {
@@ -21,7 +21,7 @@ figure.hero__img img {
 }
 
 /* Hero Typography */
-  
+
 .brow {
     font-family: Chapeau;
     text-transform: uppercase;
@@ -51,19 +51,19 @@ figure.hero__img img {
 .btn__git {
   font-family: Chapeau-Medium;
   font-size: 16px;
-  color: #292429;
+  color: var(--black);
   letter-spacing: 1.14px;
   text-align: center;
   line-height: 24px;
   text-transform: uppercase;
   padding: 10px;
-  background-color: white;
-  border: 1px #000 solid;
+  background-color: var(--white);
+  border: 1px  var(--black) solid;
   width: 240px;
 }
 
 .btn__git--iconbg {
-  background-color: black;
+  background-color: var(--black);
 
 }
 
@@ -77,6 +77,5 @@ padding: 10px;
   display: flex;
   margin-top: 24px;
   flex-direction: row;
-  /* align-content: center; */
   align-items: center;
 }

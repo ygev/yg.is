@@ -17,7 +17,7 @@ nav {
     opacity: 0.6;
     font-family: Chapeau-Black;
     font-size: 10px;
-    color: #000000;
+    color: var(--black);
     letter-spacing: 1px;
     text-align: center;
     line-height: 17px;
@@ -28,7 +28,7 @@ nav {
 .navlink__active {
     font-family: Chapeau-Black;
     font-size: 10px;
-    color: #000;
+    color: var(--black);
     letter-spacing: 1px;
     text-align: center;
     line-height: 17px;
