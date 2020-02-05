@@ -1,9 +1,9 @@
 import React from "react";
 import "./innerHero.css";
-import "../../css/normalize.css"
-import "../../css/global.css"
+import "../../css/normalize.css";
+import "../../css/global.css";
 import hero from "../../images/inner/hero.png"; 
-import gitlogo from "../../images/inner/gitlogo.svg"
+import gitlogo from "../../images/inner/gitlogo.svg";
 
 export default props => (
     <>

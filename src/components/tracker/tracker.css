@@ -1,0 +1,25 @@
+.tracker {
+    background-color: var(--projcolor);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: space-between;
+}
+
+.tracker__head {
+    font-family: Chapeau;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.83px;
+}
+
+.tracker__icon {
+    height: 12px;
+}
