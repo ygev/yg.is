@@ -1,4 +1,5 @@
 import React from "react"
+import { Controller, Scene } from 'react-scrollmagic';
 import Header from "../components/header/header"
 import InnerHero from "../components/innerHero/innerHero"
 import Abstract from "../components/abstract/abstract"

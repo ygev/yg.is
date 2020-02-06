@@ -17,7 +17,8 @@
     "gatsby-plugin-sass": "^2.1.20",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "react-scrollmagic": "^2.1.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
