@@ -7,7 +7,7 @@ import up from "../../images/inner/up.svg";
 export default props => (
     <>
     <section className="tracker">
-        <h4 className="tracker__head">Phase 1: Understand</h4>
+        <h4 className="tracker__head">{props.trackerHead} </h4>
         <img src={up} className="tracker__icon" alt=""/>
     </section>
     </>

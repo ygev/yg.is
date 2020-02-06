@@ -16,9 +16,9 @@ export default props => (
                     <h4>Time</h4>
                 </aside>
                 <aside className="abstract__body">
-                    <p>UI Designer · Developer</p>
-                    <p>Sqlite.js · E.js · Express.js</p>
-                    <p>14 days · September 2019</p>
+                    <p>{props.abstractRole}</p>
+                    <p>{props.abstractTools}</p>
+                    <p>{props.abstractTime}</p>
                 </aside>
             </section>
             <div className="btn__live--wrapper">
@@ -27,7 +27,7 @@ export default props => (
             </div>
             <section className="abstract__txt">
                 <h4 className="abstract__head">Abstract</h4>
-                <p className="abstract__body--paragraph">MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users.</p>
+                <p className="abstract__body--paragraph">{props.abstractBody}</p>
             </section>
         </section>
     </>

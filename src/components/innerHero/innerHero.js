@@ -12,8 +12,8 @@ export default props => (
             <img src={hero} alt="load butthole"/>
         </figure>
         <div className="hero__txt"> 
-            <h3 className="brow">ux design - 2019 - web application</h3>
-            <h2 className="lead">Raising Awareness About Cybersecurity by Creating a Targeted Phishing Tool</h2>
+            <h3 className="brow">{props.heroCategory} - {props.heroYear} - {props.heroDeliverable}</h3>
+            <h2 className="lead">{props.heroTitle}</h2>
             <div className="btn__git--wrapper">
                 <button className="btn__git">View Repository</button>
                 <span className="btn__git--iconbg"><img className="btn__git--icon" src={gitlogo}/></span>
