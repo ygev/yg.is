@@ -1,0 +1,29 @@
+.content {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.content__section {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.content__title {
+    font-family: Chapeau;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: 0.83px;
+}
+
+.content__body {
+    font-family: SuisseNeue-Regular;
+    font-size: 14px;
+    color: var(--black);
+    letter-spacing: 0;
+    line-height: 24px;
+
+}

@@ -11,4 +11,6 @@ export default props => (
         <img src={up} className="tracker__icon" alt=""/>
     </section>
     </>
+
+    
 );  
