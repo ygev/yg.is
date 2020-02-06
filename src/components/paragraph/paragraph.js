@@ -5,13 +5,13 @@ import "../../css/global.css";
 
 export default props => (
     <>
-    <section className="content">
-        <article className="content__section">
-            <h4 className="content__title">
-            {props.contentTitle}
+    <section className="paragraph">
+        <article className="paragraph__section">
+            <h4 className="paragraph__title">
+            {props.paragraphTitle}
             </h4>
-            <p className="content__body">
-            {props.contentBody} 
+            <p className="paragraph__body">
+            {props.paragraphBody} 
             </p>
         </article>
     </section>

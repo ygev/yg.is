@@ -1,14 +1,14 @@
-.content {
+.paragraph {
     padding-left: 16px;
     padding-right: 16px;
 }
 
-.content__section {
+.paragraph__section {
     margin-top: 16px;
     margin-bottom: 16px;
 }
 
-.content__title {
+.paragraph__title {
     font-family: Chapeau;
     text-transform: uppercase;
     font-size: 10px;
@@ -19,7 +19,7 @@
     letter-spacing: 0.83px;
 }
 
-.content__body {
+.paragraph__body {
     font-family: SuisseNeue-Regular;
     font-size: 14px;
     color: var(--black);
