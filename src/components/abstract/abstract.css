@@ -62,11 +62,11 @@
     line-height: 24px;
     text-transform: uppercase;
     padding: 10px;
-    width: 240px;
+ 
 }
   
-.btn__live--icon {
-    padding-left: 18px;
+.btn__live--iconbg {
+    padding-right: 18px;
 }
   
 .btn__live--wrapper {
@@ -75,4 +75,6 @@
     margin-top: 24px;
     flex-direction: row;
     align-items: center;
+    width: 240px;
+    justify-content: space-between;
 }
