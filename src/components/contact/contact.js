@@ -12,7 +12,6 @@ export default props => (
                 <button className="btn__contact">LinkedIn</button>
                 <button className="btn__contact">Resume</button>
             </div>
-            <p className="contact__disclaimer">All information in the projects is my own and does not necessarily reflect the views of respective companies. All projects comply to NDA.</p>
         </section>
     </>
 );  
