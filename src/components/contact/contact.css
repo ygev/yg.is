@@ -1,0 +1,46 @@
+.contact {
+    background-color: var(--darkGray);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.contact__head {
+    font-family: IBMPlexSans-Medium;
+    font-size: 24px;
+    color: var(--white) ;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.btn__contact--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn__contact {
+    font-family: Chapeau-Medium;
+    font-size: 16px;
+    color: var(--white);
+    letter-spacing: 1.14px;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: 2px var(--white) solid;
+    background: transparent;
+    width: 160px;
+    margin-bottom: 24px;
+}
+
+.contact__disclaimer {
+    font-family: MaisonNeue-Medium;
+    font-size: 10px;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 18px;
+}

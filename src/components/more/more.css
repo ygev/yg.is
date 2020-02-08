@@ -1,0 +1,33 @@
+.more {
+    background-color: var(--gray);
+    margin-top: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    border-top: 2px var(--black) solid;
+}
+
+.more__head {
+    font-family: Chapeau;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.83px;
+}
+
+.more__title {
+    font-family: IBMPlexSans-Medium;
+    font-size: 18px;
+    color: var(--black);
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding-bottom: 4px;
+}
+
+.img-glamor {
+    border: 2px var(--black) solid;
+}

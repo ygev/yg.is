@@ -78,3 +78,8 @@
     width: 240px;
     justify-content: space-between;
 }
+
+.abstract__txt--left {
+    display: flex;
+    flex-direction: column;
+}

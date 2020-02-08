@@ -36,13 +36,11 @@ figure.hero__img img {
   }
 
   .lead {
-    font-family: IBMPlexSans;
     font-family: IBMPlexSans-Medium;
     font-size: 24px;
     padding-top: 16px;
     letter-spacing: 0.53px;
     text-align: center;
-    font-weight: 200;
     line-height: 32px;
   }
 
