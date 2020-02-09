@@ -11,7 +11,6 @@ export default props => (
             <Scene triggerHook="onLeave" pin>
                 <section className="tracker">
                     <h4 className="tracker__head">{props.trackerHead} </h4>
-                    <img src={up} className="tracker__icon" alt=""/>
                 </section>
             </Scene>
         </Controller>

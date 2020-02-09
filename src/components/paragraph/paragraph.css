@@ -27,3 +27,27 @@
     line-height: 24px;
 
 }
+
+/* DESKTOP VERSION */
+
+
+@media (min-width: 1024px) {
+
+    .paragraph {
+        padding-left: 45vw;
+        padding-right: 16vw;
+    }
+    
+
+    .paragraph__title {
+        font-size: 12px;
+        line-height: 32px;
+    }
+    
+    .paragraph__body {
+        font-size: 18px;
+        line-height: 32px;
+    
+    }
+    
+      }

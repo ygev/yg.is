@@ -56,6 +56,7 @@
     font-family: Chapeau-Medium;
     font-size: 16px;
     color: var(--white);
+    background-color: transparent;
     letter-spacing: 1.14px;
     text-align: center;
     line-height: 24px;
@@ -103,6 +104,7 @@
         margin-left: 10vw;
     }
     
+
       }
 
 
@@ -113,11 +115,14 @@
 
     .abstract {
         margin-top: 0;
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 
     .abstract__txt--wrapper {
         padding-left: 16vw;
         padding-right: 16vw;
+        padding-top: 32px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -128,4 +133,26 @@
         margin-left: 10vw;
     }
     
+    .abstract__head {
+        font-size: 12px;
+        line-height: 32px;
+    }
+    
+    .abstract__body {
+        font-size: 18px;
+        text-rendering: optimizeLegibility;
+        font-family: SuisseNeue-Light;
+        font-weight: 100;
+        line-height: 32px;
+        width: 240px;
+    }
+
+    .abstract__body--paragraph {
+        font-size: 18px;
+        text-rendering: optimizeLegibility;
+        font-family: SuisseNeue-Light;
+        font-weight: 100;
+        line-height: 32px;
+    }
+
       }

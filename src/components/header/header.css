@@ -3,7 +3,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 100; */
     padding-left: 10vw;
     padding-right: 10vw;
 
@@ -62,6 +61,14 @@ nav {
 
     nav {
         background-color: var(--white);
+        padding-left: 6vw;
+        padding-right: 16vw;
+    }
+
+    .navlink, .navlink__active {
+        font-size: 12px;
+        line-height: 17px;
+  
     }
     
       }

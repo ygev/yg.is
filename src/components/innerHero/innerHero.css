@@ -1,12 +1,3 @@
-/* Hero Layout Style */
-
-.hero__txt {
-  padding: 1vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 /* Hero Image */
 
 figure.hero__img {
@@ -20,125 +11,41 @@ figure.hero__img img {
   width: 100%;
 }
 
-/* Hero Typography */
-
-.brow {
-    font-family: Chapeau;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.7;
-    padding-top: 24px;
-    letter-spacing: 0.83px;
-    text-align: center;
-  }
-
-  .lead {
-    font-family: IBMPlexSans-Medium;
-    font-size: 24px;
-    padding-top: 16px;
-    letter-spacing: 0.53px;
-    text-align: center;
-    line-height: 32px;
-  }
-
-/* Button */
-  
-.btn__git {
-  font-family: Chapeau-Medium;
-  font-size: 16px;
-  color: var(--black);
-  letter-spacing: 1.14px;
-  text-align: center;
-  line-height: 24px;
-  text-transform: uppercase;
-  padding: 10px;
-  background-color: var(--white);
-  border: 1px  var(--black) solid;
-  width: 240px;
-}
-
-.btn__git--iconbg {
-  background-color: var(--black);
-
-}
-
-.btn__git--icon {
-width: 24px;
-height: 24px;
-padding: 10px;
-}
-
-.btn__git--wrapper {
-  display: flex;
-  margin-top: 24px;
-  flex-direction: row;
-  align-items: center;
-}
-
-
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
 .hero {
-  display: flex;
-
-  /* align-items: center; */
-}
-  
-.hero__txt {
-  align-items: flex-start;
-  padding-left: 6vw;
-  padding-right: 6vw;
-}
-
-.lead, .brow {
-  text-align: left;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  background-color: var(--projcolor);
 }
 
 figure.hero__img {
   border-bottom: 0;
-  padding-top: 0;
+  margin-top: auto;
   padding-left: 10vw;
-  padding-right: 4vw;
-  padding-bottom: 4vw;
-  width: 80%
 }
 
 
 }
 
 
-/* DESKTOP VERSION */
-
+/* DESKTOP VERSION */ 
 
 @media (min-width: 1024px) {
 
   .hero {
-    display: flex;
-    /* align-items: center; */
-  }
-    
-  .hero__txt {
-    align-items: flex-start;
-    padding-left: 6vw;
-    padding-right: 6vw;
-  }
-  
-  .lead, .brow {
-    text-align: left;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    background-color: var(--projcolor);
   }
   
   figure.hero__img {
     border-bottom: 0;
-    padding-top: 0;
     padding-left: 10vw;
+    margin-top: auto;
     padding-right: 4vw;
-    padding-bottom: 4vw;
-    width: 80%
   }  
   
     }

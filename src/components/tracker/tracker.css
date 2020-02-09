@@ -25,6 +25,20 @@
     letter-spacing: 0.83px;
 }
 
-.tracker__icon {
-    height: 12px;
-}
+
+/* DESKTOP VERSION */
+
+
+@media (min-width: 1024px) {
+
+    .tracker {
+        height: 72px;
+        padding-left: 16vw;
+        padding-right: 16vw;
+    }
+    .tracker__head {
+        font-size: 12px;
+    }
+    
+
+      }
