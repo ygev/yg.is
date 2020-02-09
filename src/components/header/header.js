@@ -8,8 +8,10 @@ export default props => (
 <div className="wrapper-header">
    <nav>
       <img className="img-logo" src={logo} alt=""></img>
+      <section className="header__txt">
       <a className="navlink__active" href="#" alt="">Projects</a>
       <a className="navlink" href="#" alt="">About</a>
+      </section>
    </nav>
 </div>
 ); 

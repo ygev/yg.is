@@ -1,9 +1,11 @@
 nav {
     background-color: var(--projcolor);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    /* width: 100; */
+    padding-left: 10vw;
+    padding-right: 10vw;
 
 }
 
@@ -19,6 +21,7 @@ nav {
     font-size: 10px;
     color: var(--black);
     letter-spacing: 1px;
+    padding-left: 36px;
     text-align: center;
     line-height: 17px;
     text-decoration: none;
@@ -35,3 +38,30 @@ nav {
     opacity: 1;
     text-transform: uppercase;
 }
+
+
+
+/* TABLET VERSION */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  
+    nav {
+        background-color: var(--white);
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+    
+      }
+
+
+/* DESKTOP VERSION */
+
+
+@media (min-width: 1024px) {
+
+    nav {
+        background-color: var(--white);
+    }
+    
+      }

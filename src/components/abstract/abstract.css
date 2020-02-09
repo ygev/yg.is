@@ -88,6 +88,10 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .abstract {
+        margin-top: 0;
+    }
+
     .abstract__txt--wrapper {
         display: flex;
         flex-direction: row;
@@ -106,6 +110,10 @@
 
 
 @media (min-width: 1024px) {
+
+    .abstract {
+        margin-top: 0;
+    }
 
     .abstract__txt--wrapper {
         padding-left: 16vw;
