@@ -94,9 +94,8 @@
     }
 
     .abstract__txt--wrapper {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: 2fr 3fr;
     }
     
     .abstract__txt {
@@ -110,8 +109,8 @@
 
 /* DESKTOP VERSION */
 
-
 @media (min-width: 1024px) {
+
 
     .abstract {
         margin-top: 0;
@@ -120,17 +119,19 @@
     }
 
     .abstract__txt--wrapper {
-        padding-left: 16vw;
-        padding-right: 16vw;
         padding-top: 32px;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .abstract__txt--left {
+        margin-left: 16vw;
     }
     
     .abstract__txt {
         margin-top: 0;
-        margin-left: 10vw;
+        margin-left: 6vw;
+        margin-right: 16vw;
     }
     
     .abstract__head {
@@ -144,7 +145,7 @@
         font-family: SuisseNeue-Light;
         font-weight: 100;
         line-height: 32px;
-        width: 240px;
+        width: 100%;
     }
 
     .abstract__body--paragraph {

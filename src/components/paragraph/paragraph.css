@@ -33,11 +33,20 @@
 
 @media (min-width: 1024px) {
 
+
     .paragraph {
-        padding-left: 45vw;
+        grid-area: pg;
+        padding-left: 6vw;
         padding-right: 16vw;
     }
     
+
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-areas: 
+        ". pg";
+    }
 
     .paragraph__title {
         font-size: 12px;
