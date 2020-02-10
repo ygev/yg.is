@@ -1,5 +1,5 @@
 .contact {
-    background-color: var(--darkGray);
+    background-color: var(--black);
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 36px;
@@ -35,3 +35,55 @@
     width: 160px;
     margin-bottom: 24px;
 }
+
+
+
+/* TABLET VERSION */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .contact__head {
+        font-size: 32px;
+    }
+    
+    .btn__contact--wrapper {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+      }
+
+
+/* DESKTOP VERSION */
+
+
+@media (min-width: 1024px) {
+
+    .contact {
+        padding-left: 16vw;
+        padding-right: 16vw;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    
+
+    .contact__head {
+        font-size: 32px;
+    }
+
+    .btn__contact--wrapper {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+      }
