@@ -2,7 +2,6 @@ import React from "react";
 import "./tracker.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
-import up from "../../images/inner/up.svg"; 
 import { Controller, Scene } from "react-scrollmagic"
 
 export default props => (
