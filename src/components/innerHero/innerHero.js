@@ -14,7 +14,7 @@ export default props => (
                 gyroscope={true}
                 scale={1.02}
                 trackOnWindow={true}>
-                <img src={hero} alt="load butthole"/>
+                <img src={hero} alt=""/>
                 </Tilt>
             </figure>
         </section>

@@ -19,6 +19,7 @@ figure.hero__img img {
   grid-row-start: 1;
   grid-row-end: span 2;
   background-color: var(--projcolor);
+  border-right: 2px var(--black) solid;
 }
 
 figure.hero__img {
@@ -39,6 +40,7 @@ figure.hero__img {
     grid-row-start: 1;
     grid-row-end: span 2;
     background-color: var(--projcolor);
+    border-right: 2px var(--black) solid;
   }
   
   figure.hero__img {

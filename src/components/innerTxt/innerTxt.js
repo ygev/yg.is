@@ -11,7 +11,7 @@ export default props => (
             <h2 className="lead">{props.heroTitle}</h2>
             <div className="btn__git--wrapper">
                 <button className="btn__git">View Repository</button>
-                <span className="btn__git--iconbg"><img className="btn__git--icon" src={gitlogo}/></span>
+                <span className="btn__git--iconbg"><img alt="GitHub Logo" className="btn__git--icon" src={gitlogo}/></span>
             </div>
         </div>
     </>
