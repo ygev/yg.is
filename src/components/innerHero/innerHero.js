@@ -10,7 +10,7 @@ export default props => (
         <section className="hero">
             <figure className="hero__img"> 
                 <Tilt
-                perspective={500}  
+                perspective={1000}  
                 gyroscope={true}
                 scale={1.02}
                 trackOnWindow={true}>
