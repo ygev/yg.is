@@ -41,6 +41,7 @@ figure.hero__img {
     grid-row-end: span 2;
     background-color: var(--projcolor);
     border-right: 2px var(--black) solid;
+    border-bottom: 2px var(--black) solid;
   }
   
   figure.hero__img {
