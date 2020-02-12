@@ -12,7 +12,7 @@
     -moz-box-shadow: 13px 13px 0px 0px #FFFFFF;
     -webkit-box-shadow: 13px 13px 0px 0px #FFFFFF;
     box-shadow: 0px 20px 20px 0px  #FFFFFF;
-    z-index:4;
+    z-index:10;
 }
 
 .tracker__head {

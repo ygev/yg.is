@@ -1,6 +1,7 @@
 .paragraph {
     padding-left: 16px;
     padding-right: 16px;
+    z-index: -1;
 }
 
 .paragraph__section {
