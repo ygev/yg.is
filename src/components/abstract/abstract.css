@@ -49,6 +49,10 @@
     line-height: 24px;
 }
 
+.abstract__txt--left {
+    display: flex;
+    flex-direction: column;
+}
 
 /* Button */
   
@@ -56,34 +60,52 @@
     font-family: Chapeau-Medium;
     font-size: 16px;
     color: var(--white);
-    background-color: transparent;
     letter-spacing: 1.14px;
+    background-color: var(--black);
     text-align: center;
     line-height: 24px;
     text-transform: uppercase;
     padding: 10px;
+    width: 240px;
+    transition: 100ms ease-in-out;
  
 }
   
 .btn__live--iconbg {
-    padding-right: 18px;
+    background-color: var(--white);
+}
+
+.btn__live--icon {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
 }
   
 .btn__live--wrapper {
     display: flex;
-    border: 1px  var(--white) solid;
     margin-top: 24px;
     flex-direction: row;
     align-items: center;
     width: 240px;
+    border: 1px var(--white) solid;
     justify-content: space-between;
+    box-shadow:none;
 }
 
-.abstract__txt--left {
-    display: flex;
-    flex-direction: column;
-}
+/* Button hover */
 
+.btn__live--wrapper:hover .btn__live {
+    background-color: var(--white);
+    color: var(--black);
+    transition: 100ms ease-in-out;
+    box-shadow:none;
+    border: 1px var(--white) solid;
+    cursor: pointer;
+  }
+  
+  .btn__live--iconbg:hover {
+    cursor: pointer;
+  }
 
 /* TABLET VERSION */
 

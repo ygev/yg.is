@@ -1,6 +1,6 @@
 import React from "react";
-import "./innerTxt.css";
 import "../../css/normalize.css";
+import "./innerTxt.css";
 import "../../css/global.css";
 import gitlogo from "../../images/inner/gitlogo.svg";
 import Fade from 'react-reveal/Fade';

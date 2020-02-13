@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
     <title>Chevy</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -11,7 +11,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <use id="Chevy" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <use id="Chevy" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>

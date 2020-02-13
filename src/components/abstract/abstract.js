@@ -26,8 +26,8 @@ export default props => (
                         </aside>
                     </section>
                     <div className="btn__live--wrapper">
-                        <button className="btn__live">See It In Action</button>
-                        <span className="btn__live--iconbg"><img alt="" src={caret_left}/></span>
+                        <button className="btn__live">View Live</button>
+                        <span className="btn__live--iconbg"><img className="btn__live--icon" alt="" src={caret_left}/></span>
                     </div>
                 </aside>
                     <section className="abstract__txt">

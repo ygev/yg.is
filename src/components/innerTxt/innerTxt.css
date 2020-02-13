@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: -1;
   }
   
 
@@ -37,6 +36,7 @@
 /* Button */
   
 .btn__git {
+  transition: 150ms ease-in-out;
   font-family: Chapeau-Medium;
   font-size: 16px;
   color: var(--black);
@@ -56,9 +56,9 @@
 }
 
 .btn__git--icon {
-width: 24px;
-height: 24px;
-padding: 10px;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
 }
 
 .btn__git--wrapper {
@@ -66,9 +66,21 @@ padding: 10px;
   margin-top: 24px;
   flex-direction: row;
   align-items: center;
+  transition: 100ms ease-in-out;
 }
 
+/* Button hover */
 
+.btn__git--wrapper:hover .btn__git {
+  background-color: var(--black);
+  color: var(--white);
+  transition: 100ms ease-in-out;
+  cursor: pointer;
+}
+
+.btn__git--iconbg:hover {
+  cursor: pointer;
+}
 
 /* TABLET VERSION */
 
@@ -94,7 +106,6 @@ padding: 10px;
     
     
     @media (min-width: 1024px) {
-    
         
       .hero__txt {
         align-items: flex-start;
