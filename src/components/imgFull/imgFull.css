@@ -1,0 +1,26 @@
+
+.imgFull {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.imgFull__img {
+    width: 100%;
+}
+
+
+/* DESKTOP VERSION */
+
+@media (min-width: 1024px) {
+    .imgFull {
+        padding-left: 16vw;
+        padding-right: 16vw;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    
+    .imgFull__img {
+        width: 100%;
+    }
+
+          }

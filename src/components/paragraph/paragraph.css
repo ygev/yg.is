@@ -26,7 +26,6 @@
     color: var(--black);
     letter-spacing: 0;
     line-height: 24px;
-
 }
 
 /* DESKTOP VERSION */
@@ -56,8 +55,7 @@
     
     .paragraph__body {
         font-size: 18px;
-        line-height: 32px;
-    
+        line-height: 32px;    
     }
     
       }

@@ -25,20 +25,32 @@ nav {
     line-height: 17px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: 100ms ease-in-out;
+}
+
+.navlink:hover { 
+    opacity: 1;
+    transition: 100ms ease-in-out;
 }
 
 .navlink__active {
     font-family: Chapeau-Black;
     font-size: 10px;
     color: var(--black);
+    text-decoration: none;
     letter-spacing: 1px;
     text-align: center;
     line-height: 17px;
     opacity: 1;
     text-transform: uppercase;
+    border-bottom: 1px black solid;
+    transition: 100ms ease-in-out;
 }
 
-
+.navlink__active:hover { 
+    text-decoration: none;
+    transition: 100ms ease-in-out;
+}
 
 /* TABLET VERSION */
 
