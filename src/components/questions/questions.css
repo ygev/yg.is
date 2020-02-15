@@ -1,6 +1,4 @@
 .questions {
-    background: radial-gradient(0% 115%, #F9F8F8 6%, #E8E8E8 100%);
-    padding: 16px;
     margin-top: 24px;
 }
 
@@ -41,7 +39,6 @@
 @media (min-width: 1024px) {
 
 .questions {
-    padding: 32px;
     grid-area: pg;
     margin-left: 6vw;
     margin-right: 16vw;
@@ -60,7 +57,6 @@
 
 .questions__item::before {
     font-size: 12px;
-    line-height: 32px;
     margin-left: -2.5em;
     margin-right: 1.5em; 
 }

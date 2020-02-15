@@ -1,0 +1,23 @@
+.paragraph__section--bullet {
+    border-left: 2px var(--black) solid;
+    padding-left: 16px;
+}
+
+.paragraph--bullet {
+    margin-bottom: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    z-index: -1;
+}
+
+/* DESKTOP VERSION */
+
+
+@media (min-width: 1024px) {
+
+    .paragraph--bullet {
+        grid-area: pg;
+        padding-left: 5vw;
+        padding-right: 16vw;
+    }
+}

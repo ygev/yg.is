@@ -10,7 +10,7 @@ export default props => (
             <section className="questions">
                 <article className="questions__section">
                     <h4 className="paragraph__title">
-                    Research Questions
+                   {props.questionTitle}
                     </h4>
                     <ol className="questions__list">
                         <li className="questions__item">{props.questionItem1}</li>
