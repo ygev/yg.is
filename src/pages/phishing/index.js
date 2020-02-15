@@ -1,19 +1,20 @@
 import React from "react"
-import "../css/global.css";
-import "../css/inner.css";
-import Header from "../components/header/header"
-import InnerHero from "../components/innerHero/innerHero"
-import InnerTxt from "../components/innerTxt/innerTxt"
-import Abstract from "../components/abstract/abstract"
-import Tracker from "../components/tracker/tracker"
-import Questions from "../components/questions/questions"
-import Paragraph from "../components/paragraph/paragraph"
-import Bullet from "../components/bullet/bullet"
-import ImgRight from "../components/imgRight/imgRight"
-import ImgFull from "../components/imgFull/imgFull"
-import More from "../components/more/more"
-import Contact from "../components/contact/contact"
-import Footer from "../components/footer/footer"
+import "../../css/global.css";
+import "../../css/inner.css";
+import "./phishing.css";
+import Header from "../../components/header/header"
+import InnerHero from "../../components/innerHero/innerHero"
+import InnerTxt from "../../components/innerTxt/innerTxt"
+import Abstract from "../../components/abstract/abstract"
+import Tracker from "../../components/tracker/tracker"
+import Questions from "../../components/questions/questions"
+import Paragraph from "../../components/paragraph/paragraph"
+import Bullet from "../../components/bullet/bullet"
+import ImgRight from "../../components/imgRight/imgRight"
+import ImgFull from "../../components/imgFull/imgFull"
+import More from "../../components/more/more"
+import Contact from "../../components/contact/contact"
+import Footer from "../../components/footer/footer"
 
 class Index extends React.Component {
   render() {
@@ -51,6 +52,8 @@ class Index extends React.Component {
                    questionItem1="There is a rising awareness among Americans to use password managers, yet a small minority of people still get phished." 
                    questionItem2="Students at the Maryland Institute College of Art largely do not use password managers, nor do they see the importance of two factor authentication that has been established in 2019. " 
                    questionItem3="Students mindlessly enter their passwords without double checking the URL first. Frequent bugs in MICA’s system force students to enter their credentials twice, which is an explotable feature." />
+         <Paragraph paragraphTitle="Lorem Dipshit" 
+                   paragraphBody="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur felis ipsum, tincidunt sit amet metus ac, aliquet accumsan ligula. Ut vestibulum odio commodo ligula ultrices, ac vulputate ante finibus. Proin vitae felis porttitor, condimentum turpis sed, commodo tortor. Maecenas ullamcorper neque sem, sit amet tincidunt nisl pellentesque vel. Integer pharetra dolor vel nunc tempus, a mattis augue vehicula. Cras facilisis enim et enim rutrum rhoncus. Aenean ornare lacus ut nulla tristique interdum. Aenean congue eros elit."/>
         <More heroTitle="Optimizing Progress Trackers on AIGA Eye on Design With Obscure JavaScript Libraries" 
               heroCategory="UI" 
               heroYear="2020" 
