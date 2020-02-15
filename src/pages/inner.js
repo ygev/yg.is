@@ -42,7 +42,7 @@ class Index extends React.Component {
         <Paragraph paragraphTitle="Surveying Students' Opsec Engagement" 
                    paragraphBody="Even Maryland Institute College of Art's website implemented two-factor authentication for their students in 2019 with variable feedback from the students. I have informally surveyed 15 students and plotted the most insightful responses on a scale from positive to negative."/>
         <ImgFull/>
-        <Paragraph paragraphTitle="Considering Mindless UI Patterns" 
+        <Paragraph paragraphTitle={["Considering ", <mark>Mindless</mark>, " UI Patterns"]} 
                    paragraphBody="The main cause of phishing is the lack of user training. Especially in college, with weak Wi-Fi signal, students are used to mindlessly entering their password more than once without looking at the URL twice. This mindless data entry is an aspect of human behavior that can and is exploited."/>
         <Tracker trackerHead="Phase 2: Define"/>
         <Paragraph paragraphTitle="" 
