@@ -8,7 +8,7 @@ import imgFull from "../../images/inner/fb-messenger.png";
 
 export default props => (
     <>
-          <figure class="imgFull">
+          <figure className="imgFull">
             <img src={imgFull} alt="" className="imgFull__img"/>
             <figcaption className="imgRight__caption">
                 <span className="imgRight__number">01</span> Pew Research Center
