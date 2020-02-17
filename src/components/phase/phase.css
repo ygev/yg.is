@@ -1,0 +1,10 @@
+.phase__head {
+font-family: IBMPlexSans-Medium;
+font-size: 24px;
+color: var(--black);
+letter-spacing: 0.53px;
+line-height: 32px;
+margin-top: 32px;
+text-decoration: underline;
+text-decoration-color: var(--projcolor);
+}

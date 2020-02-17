@@ -9,6 +9,7 @@ import Abstract from "../../components/abstract/abstract"
 import Tracker from "../../components/tracker/tracker"
 import Questions from "../../components/questions/questions"
 import Paragraph from "../../components/paragraph/paragraph"
+import Phase from "../../components/phase/phase"
 import Bullet from "../../components/bullet/bullet"
 import ImgRight from "../../components/imgRight/imgRight"
 import ImgFull from "../../components/imgFull/imgFull"
@@ -32,7 +33,9 @@ class Index extends React.Component {
                   abstractTools="Sqlite.js · E.js · Express.js" 
                   abstractTime="14 days · September 2019" 
                   abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
-        <Tracker trackerHead="Phase 1: Understand"/>
+        <Tracker trackerHead="Raising Awareness About Cybersecurity by Creating a Targeted Phishing Tool"/>
+        <div id="p1">
+        <Phase phaseTitle="Phase 1"/>
         <Questions questionTitle="Research Questions"
                    questionItem1="How have attitudes towards OPSEC changed nation-wide, given recent data breaches and hacks?" 
                    questionItem2="To what extent do students at Maryland Institute College of Art use password managers?" 
@@ -45,15 +48,38 @@ class Index extends React.Component {
         <ImgFull/>
         <Paragraph paragraphTitle={["Considering ", <mark>Mindless</mark>, " UI Patterns"]} 
                    paragraphBody="The main cause of phishing is the lack of user training. Especially in college, with weak Wi-Fi signal, students are used to mindlessly entering their password more than once without looking at the URL twice. This mindless data entry is an aspect of human behavior that can and is exploited."/>
-        <Tracker trackerHead="Phase 2: Define"/>
         <Paragraph paragraphTitle="" 
                    paragraphBody="After researching Americans’ attitudes towards password management, surveying students and reading about behavioral patterns, I concluded the following:."/>
         <Questions questionTitle="Insights"
                    questionItem1="There is a rising awareness among Americans to use password managers, yet a small minority of people still get phished." 
                    questionItem2="Students at the Maryland Institute College of Art largely do not use password managers, nor do they see the importance of two factor authentication that has been established in 2019. " 
                    questionItem3="Students mindlessly enter their passwords without double checking the URL first. Frequent bugs in MICA’s system force students to enter their credentials twice, which is an explotable feature." />
-         <Paragraph paragraphTitle="Lorem Dipshit" 
+         </div>
+         <div id="p2">
+        <Phase phaseTitle="Phase 2"/>
+        <Paragraph paragraphTitle="Lorem Dipshit" 
                    paragraphBody="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur felis ipsum, tincidunt sit amet metus ac, aliquet accumsan ligula. Ut vestibulum odio commodo ligula ultrices, ac vulputate ante finibus. Proin vitae felis porttitor, condimentum turpis sed, commodo tortor. Maecenas ullamcorper neque sem, sit amet tincidunt nisl pellentesque vel. Integer pharetra dolor vel nunc tempus, a mattis augue vehicula. Cras facilisis enim et enim rutrum rhoncus. Aenean ornare lacus ut nulla tristique interdum. Aenean congue eros elit."/>
+        </div>
+        <div id="p3">
+        <Phase phaseTitle="Phase 3"/>
+        <Paragraph paragraphTitle="Lorem Dipshit" 
+                   paragraphBody="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur felis ipsum, tincidunt sit amet metus ac, aliquet accumsan ligula. Ut vestibulum odio commodo ligula ultrices, ac vulputate ante finibus. Proin vitae felis porttitor, condimentum turpis sed, commodo tortor. Maecenas ullamcorper neque sem, sit amet tincidunt nisl pellentesque vel. Integer pharetra dolor vel nunc tempus, a mattis augue vehicula. Cras facilisis enim et enim rutrum rhoncus. Aenean ornare lacus ut nulla tristique interdum. Aenean congue eros elit."/>
+        </div>
+        <div id="p4">
+        <Phase phaseTitle="Phase 4"/>
+        <Paragraph paragraphTitle="Lorem Dipshit" 
+                   paragraphBody="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur felis ipsum, tincidunt sit amet metus ac, aliquet accumsan ligula. Ut vestibulum odio commodo ligula ultrices, ac vulputate ante finibus. Proin vitae felis porttitor, condimentum turpis sed, commodo tortor. Maecenas ullamcorper neque sem, sit amet tincidunt nisl pellentesque vel. Integer pharetra dolor vel nunc tempus, a mattis augue vehicula. Cras facilisis enim et enim rutrum rhoncus. Aenean ornare lacus ut nulla tristique interdum. Aenean congue eros elit."/>
+        </div>
+        <div id="p5">
+        <Phase phaseTitle="Phase 5"/>
+        <Paragraph paragraphTitle="Lorem Dipshit" 
+                   paragraphBody="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur felis ipsum, tincidunt sit amet metus ac, aliquet accumsan ligula. Ut vestibulum odio commodo ligula ultrices, ac vulputate ante finibus. Proin vitae felis porttitor, condimentum turpis sed, commodo tortor. Maecenas ullamcorper neque sem, sit amet tincidunt nisl pellentesque vel. Integer pharetra dolor vel nunc tempus, a mattis augue vehicula. Cras facilisis enim et enim rutrum rhoncus. Aenean ornare lacus ut nulla tristique interdum. Aenean congue eros elit."/>
+        </div>
+        <div id="p6">
+        <Phase phaseTitle="Phase 6"/>
+        <Paragraph paragraphTitle="Lorem Dipshit" 
+                   paragraphBody="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur felis ipsum, tincidunt sit amet metus ac, aliquet accumsan ligula. Ut vestibulum odio commodo ligula ultrices, ac vulputate ante finibus. Proin vitae felis porttitor, condimentum turpis sed, commodo tortor. Maecenas ullamcorper neque sem, sit amet tincidunt nisl pellentesque vel. Integer pharetra dolor vel nunc tempus, a mattis augue vehicula. Cras facilisis enim et enim rutrum rhoncus. Aenean ornare lacus ut nulla tristique interdum. Aenean congue eros elit."/>
+        </div>
         <More heroTitle="Optimizing Progress Trackers on AIGA Eye on Design With Obscure JavaScript Libraries" 
               heroCategory="UI" 
               heroYear="2020" 

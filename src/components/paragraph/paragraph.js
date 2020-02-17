@@ -5,7 +5,7 @@ import "../../css/global.css";
 
 export default props => (
     <>
-        <div className="gridContainer">
+        <div id={props.id} className="gridContainer">
             <section className="paragraph">
                 <article className="paragraph__section">
                     <h4 className="paragraph__title">

@@ -1,31 +1,41 @@
+.pinned {
+    -moz-box-shadow: 13px 13px 0px 0px #FFFFFF;
+    -webkit-box-shadow: 13px 13px 0px 0px #FFFFFF;
+    box-shadow: 0px 20px 20px 0px  #FFFFFF;
+    -moz-box-shadow: 13px 13px 0px 0px #FFFFFF;
+    -webkit-box-shadow: 13px 13px 0px 0px #FFFFFF;
+    box-shadow: 0px 20px 20px 0px  #FFFFFF;
+}
+
 .tracker {
     background-color: var(--projcolor);
-    height: 50px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 16px;
     padding-right: 16px;
-    justify-content: space-between;
     border-bottom: 2px var(--black) solid;
     border-top: 2px var(--black) solid;
-    -moz-box-shadow: 13px 13px 0px 0px #FFFFFF;
-    -webkit-box-shadow: 13px 13px 0px 0px #FFFFFF;
-    box-shadow: 0px 20px 20px 0px  #FFFFFF;
     z-index:10;
 }
 
-.tracker__head {
-    font-family: Chapeau;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weight: 900;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.7;
-    letter-spacing: 0.83px;
+.tracker__logo {
+    width: 40px;
+    margin-right: 16px;
 }
 
+.tracker__head {
+    font-family: IBMPlexSans-Medium;
+    font-size: 12px;
+    color: var(--black);
+    letter-spacing: 0.62px;
+    line-height: 17px;
+}
+
+.phases {
+    display: none;
+}
 
 /* DESKTOP VERSION */
 
@@ -33,13 +43,45 @@
 @media (min-width: 1024px) {
 
     .tracker {
-        height: 72px;
+        height: 100px;
         padding-left: 16vw;
         padding-right: 16vw;
     }
+
+    .tracker__logo {
+        width: 40px;
+        margin-right: 36px;
+    }
+
     .tracker__head {
-        font-size: 12px;
+        font-size: 20px;
+        font-weight: 100;
     }
     
+    .phases {
+        height: 32px;
+        background-color: white;
+        border-bottom: 2px var(--black) solid;
+        display: flex;
+        padding-left: 16vw;
+        padding-right: 16vw;
+        justify-content: space-between;
+        align-items: center;
+    }
 
+    .phases__txt {
+        font-family: Chapeau-Black;
+        font-size: 12px;
+        color: #000000;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 17px;
+        opacity: 0.4;
+        transition: 100ms ease-in-out;
+    }
+
+    .phases__active {
+        opacity: 1;
+        transition: 100ms ease-in-out;
+    }
       }

@@ -42,7 +42,7 @@
     grid-area: pg;
     margin-left: 6vw;
     margin-right: 16vw;
-    margin-top: 32px;
+    margin-top: 0;
 }
 
 .questions__list {

@@ -5,3 +5,6 @@
     --darkGray: #292429;
   }
 
+html {
+  scroll-behavior: smooth;
+}
