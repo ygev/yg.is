@@ -43,7 +43,7 @@
 @media (min-width: 1024px) {
 
     .tracker {
-        height: 100px;
+        height: 80px;
         padding-left: 16vw;
         padding-right: 16vw;
     }
