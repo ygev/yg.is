@@ -4,7 +4,7 @@ import "./imgFull.css";
 import "../paragraph/paragraph.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
-import imgFull from "../../images/inner/fb-messenger.png"; 
+import imgFull from "../../pages/phishing/images/fb-messenger.png"; 
 
 export default props => (
     <>

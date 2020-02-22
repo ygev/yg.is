@@ -24,7 +24,7 @@ class Index extends React.Component {
           <InnerTxt heroCategory="ux design" 
                     heroYear="2019" 
                     heroDeliverable="Web App" 
-                    heroTitle="Raising Awareness About Cybersecurity by Creating a Targeted Phishing Tool"
+                    heroTitle="Raising Awareness About Cybersecurity with a Targeted Phishing Tool"
                     btnGit="View Repository"/>
         </div>
         <Abstract abstractRole="UI Designer · Developer" 

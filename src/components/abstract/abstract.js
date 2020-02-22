@@ -2,7 +2,7 @@ import React from "react";
 import "./abstract.css";
 import "../../css/normalize.css"
 import "../../css/global.css"
-import glamor from "../../images/inner/glamor-shot.png" 
+import glamour from "../../images/inner/glamourPH.png" 
 import caret_left from "../../images/inner/caret_left.svg" 
 import Fade from 'react-reveal/Fade';
 
@@ -10,7 +10,7 @@ export default props => (
     <>
         <Fade bottom delay={500} duration={300}>
             <section className="abstract">
-                <img className="img-glamor" src={glamor} alt=""/>
+                <img className="img-glamour" src={glamour} alt=""/>
                 <section className="abstract__txt--wrapper">
                     <aside className="abstract__txt--left">
                     <section className="abstract__details">
