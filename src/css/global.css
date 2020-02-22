@@ -3,6 +3,15 @@
   --white: #fff;
   --gray: #eee;
   --darkGray: #292429;
+  --projcolor: red;
+}
+
+:root .home {
+  --projcolor: #000;
+}
+
+:root .phishing {
+  --projcolor: #FEDB00;
 }
 
 html {

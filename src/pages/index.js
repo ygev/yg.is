@@ -1,6 +1,5 @@
 import React from "react"
-import "./../css/global.css";
-import "./index.css";
+import "./../css/global.css"
 import Header from "./../components/header/header"
 import HomeHero from "./../components/homeHero/homeHero"
 import HomeTxt from "./../components/homeTxt/homeTxt"
@@ -12,15 +11,17 @@ class Index extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="hero__wrapper">
-          <Header/>
-          <HomeHero/>
-          <HomeTxt  lulzBrow="DICKS EVERYWHERE" 
-                    heroTitle="Yana Gevorgyan is a smelly pookie today"/>
+        <div className="home">
+          <div className="hero__wrapper">
+            <Header/>
+            <HomeHero/>
+            <HomeTxt  lulzBrow="DICKS EVERYWHERE" 
+                      heroTitle="Yana Gevorgyan is a smelly pookie today"/>
+          </div>
+          <HomeBig/>
+          <Contact/>
+          <Footer/>
         </div>
-        <HomeBig/>
-        <Contact/>
-        <Footer/>
       </React.Fragment>
     )
   }
