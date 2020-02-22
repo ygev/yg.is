@@ -33,55 +33,6 @@
     line-height: 32px;
   }
 
-/* Button */
-  
-.btn__git {
-  transition: 150ms ease-in-out;
-  font-family: Chapeau-Medium;
-  font-size: 16px;
-  color: var(--black);
-  letter-spacing: 1.14px;
-  text-align: center;
-  line-height: 24px;
-  text-transform: uppercase;
-  padding: 10px;
-  background-color: var(--white);
-  border: 1px  var(--black) solid;
-  width: 240px;
-}
-
-.btn__git--iconbg {
-  background-color: var(--black);
-
-}
-
-.btn__git--icon {
-  width: 24px;
-  height: 24px;
-  padding: 10px;
-}
-
-.btn__git--wrapper {
-  display: flex;
-  margin-top: 24px;
-  flex-direction: row;
-  align-items: center;
-  transition: 100ms ease-in-out;
-}
-
-/* Button hover */
-
-.btn__git--wrapper:hover .btn__git {
-  background-color: var(--black);
-  color: var(--white);
-  transition: 100ms ease-in-out;
-  cursor: pointer;
-}
-
-.btn__git--iconbg:hover {
-  cursor: pointer;
-}
-
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {

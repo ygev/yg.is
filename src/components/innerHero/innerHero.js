@@ -22,4 +22,4 @@ export default props => (
             </section>
         </Fade>
     </>
-);  
+);

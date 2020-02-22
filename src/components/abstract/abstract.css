@@ -44,7 +44,7 @@
 .abstract__body--paragraph {
     font-family: SuisseNeue-Regular;
     font-size: 14px;
-    color: #FFFFFF;
+    color: var(--white);
     letter-spacing: 0;
     line-height: 24px;
 }

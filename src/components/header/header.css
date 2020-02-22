@@ -1,11 +1,10 @@
 nav {
-    background-color: var(--projcolor);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 10vw;
     padding-right: 10vw;
-
+    background-color: var(--projcolor)
 }
 
 .img-logo {
@@ -43,7 +42,7 @@ nav {
     line-height: 17px;
     opacity: 1;
     text-transform: uppercase;
-    border-bottom: 1px black solid;
+    border-bottom: 1px var(--black) solid;
     transition: 100ms ease-in-out;
 }
 
@@ -55,8 +54,7 @@ nav {
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-  
+    
     nav {
         background-color: var(--white);
         padding-left: 6vw;

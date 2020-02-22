@@ -1,10 +1,13 @@
 /* Hero Image */
 
 figure.hero__img {
-  background-color: var(--projcolor);
   margin:0;
   padding: 10vw;
   border-bottom: 2px var(--black) solid;
+}
+
+section.hero {
+  background-color: var(--projcolor);
 }
 
 figure.hero__img img {
@@ -18,7 +21,6 @@ figure.hero__img img {
 .hero {
   grid-row-start: 1;
   grid-row-end: span 2;
-  background-color: var(--projcolor);
   border-right: 2px var(--black) solid;
 }
 
@@ -39,7 +41,6 @@ figure.hero__img {
   .hero {
     grid-row-start: 1;
     grid-row-end: span 2;
-    background-color: var(--projcolor);
     border-right: 2px var(--black) solid;
     border-bottom: 2px var(--black) solid;
     z-index: 2;

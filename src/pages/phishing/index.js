@@ -1,7 +1,5 @@
 import React from "react"
-import "../../css/global.css";
-import "../../css/inner.css";
-import "./phishing.css";
+import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerTxt from "../../components/innerTxt/innerTxt"
@@ -10,7 +8,6 @@ import Tracker from "../../components/tracker/tracker"
 import Questions from "../../components/questions/questions"
 import Paragraph from "../../components/paragraph/paragraph"
 import Phase from "../../components/phase/phase"
-import Bullet from "../../components/bullet/bullet"
 import ImgRight from "../../components/imgRight/imgRight"
 import ImgFull from "../../components/imgFull/imgFull"
 import More from "../../components/more/more"
@@ -22,12 +19,13 @@ class Index extends React.Component {
     return (
       <React.Fragment>
         <div className="hero__wrapper">
-          <Header/>
-          <InnerHero/>
+          <Header className="phishing"/>
+          <InnerHero className="phishing"/>
           <InnerTxt heroCategory="ux design" 
                     heroYear="2019" 
                     heroDeliverable="Web App" 
-                    heroTitle="Raising Awareness About Cybersecurity by Creating a Targeted Phishing Tool"/>
+                    heroTitle="Raising Awareness About Cybersecurity by Creating a Targeted Phishing Tool"
+                    btnGit="View Repository"/>
         </div>
         <Abstract abstractRole="UI Designer · Developer" 
                   abstractTools="Sqlite.js · E.js · Express.js" 

@@ -1,10 +1,10 @@
 .pinned {
-    -moz-box-shadow: 13px 13px 0px 0px #FFFFFF;
-    -webkit-box-shadow: 13px 13px 0px 0px #FFFFFF;
-    box-shadow: 0px 20px 20px 0px  #FFFFFF;
-    -moz-box-shadow: 13px 13px 0px 0px #FFFFFF;
-    -webkit-box-shadow: 13px 13px 0px 0px #FFFFFF;
-    box-shadow: 0px 20px 20px 0px  #FFFFFF;
+    -moz-box-shadow: 13px 13px 0px 0px var(--white);
+    -webkit-box-shadow: 13px 13px 0px 0px var(--white);
+    box-shadow: 0px 20px 20px 0px  var(--white);
+    -moz-box-shadow: 13px 13px 0px 0px var(--white);
+    -webkit-box-shadow: 13px 13px 0px 0px var(--white);
+    box-shadow: 0px 20px 20px 0px  var(--white);
 }
 
 .tracker {
@@ -60,7 +60,7 @@
     
     .phases {
         height: 32px;
-        background-color: white;
+        background-color: var(--white);
         border-bottom: 2px var(--black) solid;
         display: flex;
         padding-left: 16vw;
@@ -72,7 +72,7 @@
     .phases__txt {
         font-family: Chapeau-Black;
         font-size: 12px;
-        color: #000000;
+        color: var(--black);
         letter-spacing: 1px;
         text-align: center;
         line-height: 17px;

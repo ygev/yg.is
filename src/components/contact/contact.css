@@ -36,6 +36,9 @@
     margin-bottom: 24px;
 }
 
+.marquee {
+    color: var(--white);
+}
 
 
 /* TABLET VERSION */
