@@ -1,3 +1,4 @@
+/* Legend of Colors */
 :root {
   --black: #000;
   --white: #fff;
@@ -6,18 +7,87 @@
   --projcolor: red;
 }
 
+/* Homepage Color */
 :root .home {
   --projcolor: #000;
 }
 
+/* MICA Phishing Color */
 :root .phishing {
   --projcolor: #FEDB00;
 }
 
-html {
-  scroll-behavior: smooth;
+/* Cluse Color */
+:root .cluse {
+  --projcolor: #0A7FFF;
 }
 
+/* Ditto + Banditto Color */
+:root .ditto {
+  --projcolor: #00FEB3;
+}
+
+/* Fisqual Color */
+:root .fisqual {
+  --projcolor: #0ED1A1;
+}
+
+/* Trunks Color */
+:root .trunks {
+  --projcolor: #FE8000;
+}
+
+/* AVAM Color */
+:root .avam {
+  --projcolor: #EFF1FA;
+}
+
+/* Mad Lads Color */
+:root .madlads {
+  --projcolor: #FFD200;
+}
+
+/* Semaphore Color */
+:root .semaphore {
+  --projcolor: #477FE8;
+}
+
+/* BitShit Color */
+:root .bitshit {
+  --projcolor: #8465FF;
+}
+
+/* Lissitzky Color */
+:root .lissitzky {
+  --projcolor: #e74d3c;
+}
+
+/* Spiral Draw Color */
+:root .spiral {
+  --projcolor: #5DCDCF;
+}
+
+/* Tar Pits Color */
+:root .tarpits {
+  --projcolor: #FF36D9;
+}
+
+/* Oriental Carpets Color */
+:root .carpets {
+  --projcolor: #BD0F00;
+}
+
+/* Decred Color */
+:root .decred {
+  --projcolor: #2DD8A3;
+}
+
+/* ARTECA Color */
+:root .arteca {
+  --projcolor: #fee700;
+}
+
+/* Hero Wrapper Grid Responsiveness */
 
 /* TABLET VERSION */
 
@@ -44,3 +114,7 @@ html {
                           
   }
   
+/* Misc Global Settings */
+html {
+  scroll-behavior: smooth;
+}
