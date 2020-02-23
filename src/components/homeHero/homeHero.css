@@ -42,7 +42,6 @@ figure.hero__img {
       background-color: var(--projcolor);
       border-right: 2px var(--black) solid;
       border-bottom: 2px var(--black) solid;
-      height:100vh;
       z-index: 2;
     }
     

@@ -1,5 +1,5 @@
 .abstract{
-    background-color: var(--black);
+    background-color: #000;
     margin-top: 36px;
     padding-top: 36px;
     padding-bottom: 36px;
@@ -61,7 +61,7 @@
     font-size: 16px;
     color: var(--white);
     letter-spacing: 1.14px;
-    background-color: var(--black);
+    background-color: #000;
     text-align: center;
     line-height: 24px;
     text-transform: uppercase;
@@ -96,7 +96,7 @@
 
 .btn__live--wrapper:hover .btn__live {
     background-color: var(--white);
-    color: var(--black);
+    color: #000;
     transition: 100ms ease-in-out;
     box-shadow:none;
     border: 1px var(--white) solid;
