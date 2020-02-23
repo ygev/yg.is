@@ -2,7 +2,6 @@ import React from "react";
 import "./innerHero.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
-import hero from "../../pages/phishing/images/hero.png"; 
 import Tilt from 'react-parallax-tilt';
 import Fade from 'react-reveal/Fade';
 
@@ -16,7 +15,7 @@ export default props => (
                     gyroscope={true}
                     scale={1.02}
                     trackOnWindow={true}>
-                    <img src={hero} alt=""/>
+                    <img src={props.img} alt=""/>
                     </Tilt>
                 </figure>
             </section>

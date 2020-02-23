@@ -9,9 +9,9 @@ export default props => (
     <>
         <div className="gridContainer">
           <figure className="imgRight">
-            <img src={imgRight} alt="" className="imgRight__img"/>
+            <img src={props.img} alt="" className="imgRight__img"/>
             <figcaption className="imgRight__caption">
-                <span className="imgRight__number">01</span> Pew Research Center
+                <span className="imgRight__number">{props.imgNum}</span> {props.imgCaption}
             </figcaption>
           </figure>
         </div>
