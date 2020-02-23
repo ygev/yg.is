@@ -3,7 +3,6 @@ import "./imgRight.css";
 import "../paragraph/paragraph.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
-import imgRight from "../../pages/phishing/images/pwd_managers.svg"; 
 
 export default props => (
     <>
