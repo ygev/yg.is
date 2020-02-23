@@ -1,5 +1,4 @@
 import React from "react";
-import { Controller, Scene } from "react-scrollmagic"
 import "../paragraph/paragraph.css";
 import "./phase.css";
 import "../../css/normalize.css";
