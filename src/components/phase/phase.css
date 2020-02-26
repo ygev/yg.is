@@ -1,8 +1,9 @@
 .phase__head {
-font-family: IBMPlexSans-Medium;
-font-size: 24px;
-color: var(--black);
-letter-spacing: 0.53px;
-line-height: 32px;
-margin-top: 64px;
+    font-family: Chapeau;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--black);
+    letter-spacing: 0.53px;
+    line-height: 32px;
+    margin-top: 64px;
 }

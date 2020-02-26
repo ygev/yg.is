@@ -1,11 +1,4 @@
-.pinned {
-    -moz-box-shadow: 13px 13px 0px 0px var(--white);
-    -webkit-box-shadow: 13px 13px 0px 0px var(--white);
-    box-shadow: 0px 20px 20px 0px  var(--white);
-    -moz-box-shadow: 13px 13px 0px 0px var(--white);
-    -webkit-box-shadow: 13px 13px 0px 0px var(--white);
-    box-shadow: 0px 20px 20px 0px  var(--white);
-}
+
 
 .tracker {
     background-color: var(--projcolor);
@@ -26,7 +19,8 @@
 }
 
 .tracker__head {
-    font-family: IBMPlexSans-Medium;
+    font-family: Chapeau;
+    font-weight: 500;
     font-size: 12px;
     color: var(--black);
     letter-spacing: 0.62px;
@@ -70,7 +64,8 @@
     }
 
     .phases__txt {
-        font-family: Chapeau-Black;
+        font-family: Chapeau;
+        font-weight: 900;
         font-size: 12px;
         color: var(--black);
         letter-spacing: 1px;

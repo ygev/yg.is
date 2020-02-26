@@ -20,7 +20,8 @@
 }
 
 .abstract__head {
-    font-family: Chapeau-Black;
+    font-family: Chapeau;
+    font-weight: 900;
     font-size: 10px;
     color: var(--white);
     letter-spacing: 0.83px;
@@ -57,7 +58,8 @@
 /* Button */
   
 .btn__live {
-    font-family: Chapeau-Medium;
+    font-family: Chapeau;
+    font-weight: 500;
     font-size: 16px;
     color: var(--white);
     letter-spacing: 1.14px;

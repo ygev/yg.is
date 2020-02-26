@@ -10,6 +10,7 @@
 
 .more__head {
     font-family: Chapeau;
+    font-weight: 900;
     text-transform: uppercase;
     font-size: 10px;
     font-weight: 900;
@@ -20,7 +21,8 @@
 }
 
 .more__title {
-    font-family: IBMPlexSans-Medium;
+    font-family: Chapeau;
+    font-weight: 600;
     font-size: 14px;
     color: var(--black);
     letter-spacing: 1px;

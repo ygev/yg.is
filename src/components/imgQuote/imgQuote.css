@@ -1,0 +1,54 @@
+
+    .imgQuote__fig {
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+
+    .imgQuote__img {
+        width: 100%;
+    }
+
+    .imgQuote__bg {
+        background: radial-gradient(var(--projcolor), #eee);
+        font-family: Chapeau;
+        font-weight: 900;
+        font-size: 5vw;
+        text-align: center;
+        color: var(--black);
+        padding: 10vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+        letter-spacing: 0;
+        line-height: 6vw;
+        border: 2px var(--black) solid;
+    }
+
+/* DESKTOP VERSION */
+
+@media (min-width: 1024px) {
+    .imgQuote__bg {
+        background: radial-gradient(var(--projcolor), #eee);
+        font-family: Chapeau;
+        font-weight: 900;
+        font-size: 24px;
+        color: var(--black);
+        letter-spacing: 0;
+        line-height: 32px;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        margin-left: 16vw;
+        border: 2px var(--black) solid;
+    }
+    
+    .imgQuote__fig {
+        grid-area: pg;
+    }
+    
+    .imgQuote__img {
+        height: 100%;
+        width: auto;
+    }
+    
+          }
