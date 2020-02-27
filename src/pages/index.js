@@ -15,10 +15,8 @@ class Index extends React.Component {
           <div className="hero__wrapper">
             <Header/>
             <HomeHero/>
-            <HomeTxt  lulzBrow="DICKS EVERYWHERE" 
-                      heroTitle="Yana Gevorgyan is a smelly pookie today"/>
+            <HomeTxt />
           </div>
-          <HomeBig/>
           <Contact/>
           <Footer/>
         </div>
