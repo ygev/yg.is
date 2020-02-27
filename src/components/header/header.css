@@ -11,6 +11,11 @@ nav {
     width: 50px;
     padding-top:20px;
     padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.cube_wrapper {
+    display: none;
 }
 
 .navlink {
@@ -62,7 +67,18 @@ nav {
         padding-left: 6vw;
         padding-right: 6vw;
     }
+
+    .img-logo {
+        display: block;
+    }
     
+    .logo-resizer {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+
       }
 
 
@@ -81,6 +97,14 @@ nav {
         font-size: 12px;
         line-height: 17px;
   
+    }
+
+    .img-logo {
+        display: none;
+    }
+    
+    .cube_wrapper {
+        display: block;
     }
     
       }

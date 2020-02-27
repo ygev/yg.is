@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.svg" 
+import Logo from "./logo/logo"
 import "./header.css"
 import "../../css/normalize.css"
 import "../../css/global.css"
@@ -9,6 +10,7 @@ export default props => (
 <Fade left delay={300} duration={500}>
    <div className="wrapper-header">
       <nav>
+         <Logo className="spinny-logo"/>
          <img className="img-logo" src={logo} alt=""></img>
          <section className="header__txt">
          <a className="navlink__active" href="#" alt="">Projects</a>
