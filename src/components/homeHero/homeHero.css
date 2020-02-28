@@ -1,7 +1,10 @@
 /* Hero Image */
 
+.homeHero {
+  background-color: var(--black);
+}
+
 figure.hero__img {
-    background-color: var(--projcolor);
     margin:0;
     padding: 10vw;
     border-bottom: 2px var(--black) solid;
@@ -13,12 +16,12 @@ figure.hero__img {
   
   /* TABLET VERSION */
   
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 768px) {
   
-  .hero {
+  .home__hero {
     grid-row-start: 1;
+    background-color: var(--black);
     grid-row-end: span 2;
-    background-color: var(--projcolor);
     border-right: 2px var(--black) solid;
   }
   
@@ -38,8 +41,8 @@ figure.hero__img {
   
     .hero {
       grid-row-start: 1;
+      background-color: var(--black);
       grid-row-end: span 2;
-      background-color: var(--projcolor);
       border-right: 2px var(--black) solid;
       border-bottom: 2px var(--black) solid;
       z-index: 2;

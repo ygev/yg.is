@@ -24,7 +24,7 @@ class Index extends React.Component {
     return (
       <div className="phishing">
         <div className="hero__wrapper">
-          <Header className="phishing"/>
+          <Header/>
           <InnerHero img={Hero}/>
           <InnerTxt heroCategory="ux design" 
                     heroYear="2019" 

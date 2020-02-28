@@ -3,7 +3,6 @@ import "./../css/global.css"
 import Header from "./../components/header/header"
 import HomeHero from "./../components/homeHero/homeHero"
 import HomeTxt from "./../components/homeTxt/homeTxt"
-import HomeBig from "./../components/homeBig/homeBig"
 import Contact from "./../components/contact/contact"
 import Footer from "./../components/footer/footer"
 
@@ -15,7 +14,7 @@ class Index extends React.Component {
           <div className="hero__wrapper">
             <Header/>
             <HomeHero/>
-            <HomeTxt />
+            <HomeTxt/>
           </div>
           <Contact/>
           <Footer/>

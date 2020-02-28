@@ -1,6 +1,6 @@
 /* Legend of Colors */
 :root {
-  --black: #292429;
+  --black: #000;
   --white: #fff;
   --gray: #eee;
   --darkGray: #292429;
@@ -8,8 +8,9 @@
 }
 
 /* Homepage Color */
+
 :root .home {
-  --projcolor: #000;
+  --projcolor: #fff;
 }
 
 /* MICA Phishing Color */
@@ -98,21 +99,19 @@
       grid-template-columns: 2fr 3fr;
       grid-template-rows:  auto auto ;
   }
-        }
+}
   
   
   /* DESKTOP VERSION */
   
-  
-  @media (min-width: 1024px) {
-  
-      .hero__wrapper {
-          display: grid;
-          grid-template-columns: 2fr 3fr;
-          grid-template-rows:  auto auto ;
-      }    
-                          
-  }
+@media (min-width: 1024px) {
+
+    .hero__wrapper {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows:  auto auto ;
+    }                   
+}
   
 /* Misc Global Settings */
 html {

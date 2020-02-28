@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 export default props => (
     <>
         <Fade left duration={500}>
-            <section className="hero">
+            <section className="home__hero">
             </section>
         </Fade>
     </>

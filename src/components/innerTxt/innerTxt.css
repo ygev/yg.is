@@ -6,8 +6,6 @@
     flex-direction: column;
     align-items: center;
   }
-  
-
 
 /* Hero Typography */
 
@@ -87,7 +85,6 @@
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
       
     .hero__txt {
       align-items: flex-start;
@@ -98,17 +95,15 @@
     
     .lead, .brow {
       text-align: left;
-    }
-    
-
-    }
+    }    
+}
     
     
     /* DESKTOP VERSION */
     
     
     @media (min-width: 1024px) {
-        
+
       .hero__txt {
         align-items: flex-start;
         padding-left: 6vw;
@@ -131,6 +126,5 @@
         letter-spacing: 1px;
         line-height: 17px;
       }
-
-        }
+    }
     
