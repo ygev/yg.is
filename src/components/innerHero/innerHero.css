@@ -18,19 +18,17 @@ figure.hero__img img {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-.hero {
-  grid-row-start: 1;
-  grid-row-end: span 2;
-  border-right: 2px var(--black) solid;
-}
+  .hero {
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    border-right: 2px var(--black) solid;
+  }
 
-figure.hero__img {
-  border-bottom: 0;
-  margin-top: auto;
-  padding-left: 10vw;
-}
-
-
+  figure.hero__img {
+    border-bottom: 0;
+    margin-top: auto;
+    padding-left: 10vw;
+  }
 }
 
 

@@ -1,6 +1,6 @@
 /* Hero Layout Style */
 
-.hero__txt {
+.inner__txt {
     padding: 1vw;
     display: flex;
     flex-direction: column;
@@ -10,27 +10,27 @@
 /* Hero Typography */
 
 .brow {
-    font-family: Chapeau;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.7;
-    padding-top: 24px;
-    letter-spacing: 0.83px;
-    text-align: center;
+  font-family: Chapeau;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  padding-top: 24px;
+  letter-spacing: 0.83px;
+  text-align: center;
   }
 
-  .lead {
-    font-family: Chapeau;
-    font-weight: 500;
-    font-size: 24px;
-    padding-top: 16px;
-    letter-spacing: 0.53px;
-    text-align: center;
-    line-height: 32px;
-  }
+.lead {
+  font-family: Chapeau;
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 16px;
+  letter-spacing: 0.53px;
+  text-align: center;
+  line-height: 32px;
+}
 
 /* Button */
   
@@ -86,7 +86,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
       
-    .hero__txt {
+    .inner__txt {
       align-items: flex-start;
       padding-left: 6vw;
       padding-right: 6vw;
@@ -104,7 +104,7 @@
     
     @media (min-width: 1024px) {
 
-      .hero__txt {
+      .inner__txt {
         align-items: flex-start;
         padding-left: 6vw;
         padding-right: 16vw;

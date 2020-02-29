@@ -37,23 +37,16 @@ a {
 }
 
 
-/* TABLET VERSION */
+/* TABLET + DESKTOP VERSION */
   
 @media (min-width: 768px) {
   
   .home__txt {
-    padding-bottom: 6vw; 
-    padding-top: 6vw;
+    height: 30vw;
+    padding-bottom: 6vw;
+    padding-top: 3vw;
     padding-left: 6vw;
     align-items: flex-start;
   }
-}
-    
-    
-/* DESKTOP VERSION */ 
-    
-@media (min-width: 1024px) {
-
-
 }
     

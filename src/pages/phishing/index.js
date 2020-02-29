@@ -26,7 +26,7 @@ class Index extends React.Component {
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>
-          <InnerTxt heroCategory="ux design" 
+          <InnerTxt heroCategory="software design" 
                     heroYear="2019" 
                     heroDeliverable="Web App" 
                     heroTitle="Raising Awareness About Cybersecurity with a Targeted Phishing Tool"
