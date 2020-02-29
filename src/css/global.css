@@ -10,11 +10,19 @@
 /* Homepage Color */
 
 :root .home {
-  --projcolor: #fff;
+  --projcolor: var(--white);
 }
 
+@media (min-width: 768px) {
+
+  :root .home {
+    --projcolor: var(--black);
+  }
+}
+  
+
 /* MICA Phishing Color */
-:root .phishing {
+:root .phisher {
   --projcolor: #FEDB00;
 }
 
@@ -86,6 +94,11 @@
 /* ARTECA Color */
 :root .arteca {
   --projcolor: #fee700;
+}
+
+/* ARTECA Color */
+:root .yext {
+  --projcolor: #375c3a;
 }
 
 /* Hero Wrapper Grid Responsiveness */

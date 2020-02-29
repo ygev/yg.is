@@ -8,13 +8,29 @@
 .home__head {
   font-family: Chapeau-Black;
   font-size: 48px;
-  text-align: center;
-  color: var(--black);
+  text-align: center;  
+  color: var(--white);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
   letter-spacing: 2.67px;
   line-height: 96px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: 200ms ease-in-out;
 }
+
+.home__head:hover {
+  transition: 200ms ease-in-out;
+  padding-left: 1vw;
+  color: var(--black);
+}
+
+/* Hovers Effects for the Hero */
+
+.home__head:hover ~ .home__hero {
+  background-color: red;
+}
+
 
 a {
   text-decoration: none;
