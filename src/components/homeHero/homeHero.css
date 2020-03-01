@@ -5,13 +5,23 @@
 }
 
 figure.home__img {
+  transition: 250ms ease-in-out;
   margin:0;
   padding: 10vw;
   border-bottom: 2px var(--black) solid;
 }
 
 figure.home__img img {
-  width: 100%;
+  transition: 150ms ease-in-out;
+  height: 20vw;
+}
+
+figure.home__img img:hover {
+  transform: scale(1.25);
+  -webkit-filter: drop-shadow(120px 120px 250px rgba(0, 0, 0, 0.938));
+  filter: url(#drop-shadow);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
 .home__brow {
@@ -63,7 +73,7 @@ figure.home__img img {
     display: block;
     grid-row-start: 1;
     background-color: var(--projcolor);
-    transition: 250ms ease-in-out;
+    transition: 150ms ease-in-out;
     grid-row-end: span 2;
     border-right: 2px var(--black) solid;
   }
@@ -91,9 +101,12 @@ figure.home__img img {
 
   figure.home__img {
     border-bottom: 0;
-    margin: 0 auto;
-    padding: 6vw;
+    margin: 0;
+    padding:0;
     padding-top: 9vw;
+    padding-bottom: 9vw;
+    display: flex;
+    justify-content: center;
   }  
 }
   

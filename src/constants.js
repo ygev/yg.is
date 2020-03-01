@@ -3,19 +3,19 @@ export const Constants = {
         heroCategory: "",
         heroYear: "",
         heroDeliverable: "",
-        heroTitle: "Yana Gevorgyan is a product designer and developer bridging people with technology."
+        heroTitle: "Yana Gevorgyan is a designer bridging products and people.",
     },
     phisher: {
         heroCategory: "UX Design",
         heroYear: "2019",
         heroDeliverable: "Web App",
-        heroTitle: "Raising Awareness About Cybersecurity with a Targeted Phishing Tool"
+        heroTitle: "Raising Awareness About Cybersecurity with a Targeted Phishing Tool",
     },
     cluse: {
         heroCategory: "Software Design",
         heroYear: "2020",
         heroDeliverable: "Sketch Plugin",
-        heroTitle: "Developing Inclusive Design Habits for the Average Sketch User"
+        heroTitle: "Developing Inclusive Design Habits for the Average Sketch User",
     },
     ditto: {
         heroCategory: "Software Design",
