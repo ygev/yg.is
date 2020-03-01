@@ -27,7 +27,10 @@ export default props => (
                 <div className="hero__txt">
                     <h2 className="home__brow">{Constants[props.currentHover].heroCategory} - {Constants[props.currentHover].heroYear} - {Constants[props.currentHover].heroDeliverable}</h2>
                     <div className="marquee__wrap">
-                        <Marquee>
+                        <Marquee
+                        direction = "left"
+                        delay="1000"
+                        speed ="0.1">
                         {Constants[props.currentHover].heroTitle}
                         </Marquee>
                     </div>
