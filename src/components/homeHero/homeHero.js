@@ -6,6 +6,7 @@ import Tilt from 'react-parallax-tilt';
 import Fade from 'react-reveal/Fade';
 import phishing from "../../pages/phishing/images/hero.png"; 
 import Marquee from 'react-double-marquee';
+import { Constants } from "../../constants"
 
 export default props => (
     <>
@@ -24,10 +25,10 @@ export default props => (
                     </Tilt>
                 </figure>
                 <div className="hero__txt">
-                    <h2 className="home__brow">software design - 2019 - web app</h2>
+                    <h2 className="home__brow">{Constants[props.currentHover].heroCategory} - {Constants[props.currentHover].heroYear} - {Constants[props.currentHover].heroDeliverable}</h2>
                     <div className="marquee__wrap">
                         <Marquee>
-                            Some really really really really really long text
+                        {Constants[props.currentHover].heroTitle}
                         </Marquee>
                     </div>
                 </div>

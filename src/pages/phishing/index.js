@@ -18,6 +18,7 @@ import ImgQuote from "../../components/imgQuote/imgQuote"
 import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
+import { Constants } from "../../constants"
 
 class Index extends React.Component {
   render() {
@@ -26,10 +27,10 @@ class Index extends React.Component {
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>
-          <InnerTxt heroCategory="software design" 
-                    heroYear="2019" 
-                    heroDeliverable="Web App" 
-                    heroTitle="Raising Awareness About Cybersecurity with a Targeted Phishing Tool"
+          <InnerTxt heroCategory={Constants.phisher.heroCategory}
+                    heroYear={Constants.phisher.heroYear}
+                    heroDeliverable={Constants.phisher.heroDeliverable}
+                    heroTitle={Constants.phisher.heroTitle}
                     btnGit="View Repository"/>
         </div>
         <Abstract abstractRole="UI Designer · Developer" 

@@ -86,45 +86,45 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
       
-    .inner__txt {
-      align-items: flex-start;
-      padding-left: 6vw;
-      padding-right: 6vw;
-      padding-bottom: 6vw;
-    }
-    
-    .lead, .brow {
-      text-align: left;
-    }    
+  .inner__txt {
+    align-items: flex-start;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 6vw;
+  }
+  
+  .lead, .brow {
+    text-align: left;
+  }    
 }
     
     
     /* DESKTOP VERSION */
     
     
-    @media (min-width: 1024px) {
+@media (min-width: 1024px) {
 
-      .inner__txt {
-        align-items: flex-start;
-        padding-left: 6vw;
-        padding-right: 16vw;
-        padding-bottom: 6vw;
-      }
-      
-      .lead {
-        text-align: left;
-        font-size: 45px;
-        color: var(--black);
-        letter-spacing: 1px;
-        line-height: 56px;
-      }
+  .inner__txt {
+    align-items: flex-start;
+    padding-left: 6vw;
+    padding-right: 16vw;
+    padding-bottom: 6vw;
+  }
+  
+  .lead {
+    text-align: left;
+    font-size: 45px;
+    color: var(--black);
+    letter-spacing: 1px;
+    line-height: 56px;
+  }
 
-      .brow {
-        text-align: left;
-        font-size: 12px;
-        color: var(--black);
-        letter-spacing: 1px;
-        line-height: 17px;
-      }
-    }
+  .brow {
+    text-align: left;
+    font-size: 12px;
+    color: var(--black);
+    letter-spacing: 1px;
+    line-height: 17px;
+  }
+}
     

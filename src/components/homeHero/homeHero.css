@@ -57,7 +57,7 @@ figure.home__img img {
 
   /* TABLET VERSION */
   
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
   
   .home__hero {
     display: block;
@@ -76,24 +76,24 @@ figure.home__img img {
 }
   
   
-  /* DESKTOP VERSION */ 
-  
-  @media (min-width: 1024px) {
-  
-    .hero {
-      grid-row-start: 1;
-      background-color: var(--black);
-      grid-row-end: span 2;
-      border-right: 2px var(--black) solid;
-      border-bottom: 2px var(--black) solid;
-      z-index: 2;
-    }
-    
-    figure.home__img {
-      border-bottom: 0;
-      margin: 0 auto;
-      padding: 6vw;
-      padding-top: 9vw;
-    }  
+/* DESKTOP VERSION */ 
+
+@media (min-width: 1024px) {
+
+  .hero {
+    grid-row-start: 1;
+    background-color: var(--black);
+    grid-row-end: span 2;
+    border-right: 2px var(--black) solid;
+    border-bottom: 2px var(--black) solid;
+    z-index: 2;
+  }
+
+  figure.home__img {
+    border-bottom: 0;
+    margin: 0 auto;
+    padding: 6vw;
+    padding-top: 9vw;
+  }  
 }
   
