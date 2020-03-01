@@ -10,7 +10,7 @@ export default props => (
     <>
         <section className="home__txt">
             <Fade left delay={300} duration={500}>
-                <Link to="">
+                <Link to="phisher">
                     <h1 className="home__head" onMouseOver={props.mouseOverCallback}>Phisher</h1>
                 </Link>
                 <Link to="">
@@ -21,9 +21,6 @@ export default props => (
                 </Link>
                 <Link to="">
                     <h1 className="home__head" onMouseOver={props.mouseOverCallback}>Fisqual</h1>
-                </Link>
-                <Link to="">
-                    <h1 className="home__head" onMouseOver={props.mouseOverCallback}>Yext</h1>
                 </Link>
                 <Link to="">
                     <h1 className="home__head" onMouseOver={props.mouseOverCallback}>Trunks</h1>

@@ -1,4 +1,10 @@
 export const Constants = {
+    "": {
+        heroCategory: "",
+        heroYear: "",
+        heroDeliverable: "",
+        heroTitle: "Yana Gevorgyan is a product designer and developer bridging people with technology."
+    },
     phisher: {
         heroCategory: "UX Design",
         heroYear: "2019",

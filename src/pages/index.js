@@ -26,7 +26,7 @@ class Index extends React.Component {
         <div className="home">
           <div className="hero__wrapper">
             <Header/>
-            <HomeHero currentHover={this.state.currentName} bg={this.state.bg}/>
+            <HomeHero currentHover={this.state.currentName ? this.state.currentName : ""} bg={this.state.bg}/>
             <HomeTxt mouseOverCallback={this.handleHover}/>
           </div>
           <Contact/>

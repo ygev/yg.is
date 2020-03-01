@@ -1,8 +1,8 @@
 import React from "react"
-import Hero from "../../pages/phishing/images/hero.png"; 
-import UserResearch from "../../pages/phishing/images/fb-messenger.svg"
-import PwdStats from "../../pages/phishing/images/pwd_managers.svg"
-import QuoteHaley from "../../pages/phishing/images/quote-haley.png"
+import Hero from "./images/hero.png"; 
+import UserResearch from "./images/fb-messenger.svg"
+import PwdStats from "./images/pwd_managers.svg"
+import QuoteHaley from "./images/quote-haley.png"
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -23,7 +23,7 @@ import { Constants } from "../../constants"
 class Index extends React.Component {
   render() {
     return (
-      <div className="phishing">
+      <div className="phisher">
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>

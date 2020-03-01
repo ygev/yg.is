@@ -4,7 +4,7 @@ import "../../css/normalize.css";
 import "../../css/global.css";
 import Tilt from 'react-parallax-tilt';
 import Fade from 'react-reveal/Fade';
-import phishing from "../../pages/phishing/images/hero.png"; 
+import imgPhisher from "../../pages/phisher/images/hero.png"; 
 import Marquee from 'react-double-marquee';
 import { Constants } from "../../constants"
 
@@ -21,7 +21,7 @@ export default props => (
                     gyroscope={true}
                     scale={1.02}
                     trackOnWindow={true}>
-                    <img src={phishing} alt=""/>
+                    <img src={imgPhisher} alt=""/>
                     </Tilt>
                 </figure>
                 <div className="hero__txt">
