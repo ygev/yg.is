@@ -6,18 +6,24 @@
 
 figure.home__img {
   transition: 250ms ease-in-out;
-  margin:0;
-  padding: 10vw;
+  /* margin:0 auto; */
+  /* padding: 10vw; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   border-bottom: 2px var(--black) solid;
 }
 
 figure.home__img img {
   transition: 150ms ease-in-out;
-  height: 20vw;
+  max-height: 45vh;
+  display: block;
 }
 
 figure.home__img img:hover {
-  transform: scale(1.25);
+  transform: scale(1.1);
+  transition: 150ms ease-in-out;
   -webkit-filter: drop-shadow(120px 120px 250px rgba(0, 0, 0, 0.938));
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
@@ -71,6 +77,7 @@ figure.home__img img:hover {
   
   .home__hero {
     display: block;
+    height: 80vh;
     grid-row-start: 1;
     background-color: var(--projcolor);
     transition: 150ms ease-in-out;

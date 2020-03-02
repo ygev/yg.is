@@ -26,11 +26,11 @@ export default props => (
         <Fade left duration={500}>
             <section className={"home__hero " + props.currentHover}>
                 <figure className="home__img"> 
-                    <Tilt
+                    {/* <Tilt
                      reset={true}
-                     tiltAxis="x">
+                     tiltAxis="x"> */}
                     <img src={images[props.currentHover]} alt=""/>
-                    </Tilt>
+                    {/* </Tilt> */}
                 </figure>
                 <div className="hero__txt">
                     <h2 className="home__brow">{Constants[props.currentHover].heroCategory} - {Constants[props.currentHover].heroYear} - {Constants[props.currentHover].heroDeliverable}</h2>
