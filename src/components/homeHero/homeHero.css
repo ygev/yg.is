@@ -6,8 +6,6 @@
 
 figure.home__img {
   transition: 250ms ease-in-out;
-  /* margin:0 auto; */
-  /* padding: 10vw; */
   position: absolute;
   left: 50%;
   top: 50%;
