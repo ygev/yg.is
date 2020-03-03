@@ -33,7 +33,6 @@ export default props => (
                     {/* </Tilt> */}
                 </figure>
                 <div className="hero__txt">
-                    <h2 className="home__brow">{Constants[props.currentHover].heroCategory} - {Constants[props.currentHover].heroYear} - {Constants[props.currentHover].heroDeliverable}</h2>
                     <div className="marquee__wrap">
                         <Marquee
                         direction = "left"

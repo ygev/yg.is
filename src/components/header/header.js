@@ -7,8 +7,8 @@ import "../../css/global.css"
 import Fade from 'react-reveal/Fade';
 
 export default props => (
-<Fade left delay={300} duration={500}>
-   <div className="wrapper-header">
+<Fade right duration={500}>
+   <div className="header__wrapper">
       <nav>
          <Logo className="spinny-logo"/>
          <img className="img-logo" src={logo} alt=""></img>

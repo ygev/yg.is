@@ -15,7 +15,7 @@ figure.home__img {
 
 figure.home__img img {
   transition: 150ms ease-in-out;
-  max-height: 45vh;
+  max-height: 40vh;
   display: block;
 }
 
@@ -26,21 +26,6 @@ figure.home__img img:hover {
   filter: url(#drop-shadow);
   -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-}
-
-.home__brow {
-  color: var(--black);
-  font-family: Chapeau;
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 17px;
-  text-align: center;
-  letter-spacing: 0.83px;
-  text-align: center;
-  margin-bottom: 24px;
 }
 
 .marquee__wrap {
@@ -60,22 +45,13 @@ figure.home__img img:hover {
   border-right: 2px var(--black) solid;
 }
 
-.hero__txt {
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
   /* TABLET VERSION */
   
 @media (min-width: 768px) {
   
   .home__hero {
     display: block;
-    height: 80vh;
+    height: 85vh;
     grid-row-start: 1;
     background-color: var(--projcolor);
     transition: 150ms ease-in-out;

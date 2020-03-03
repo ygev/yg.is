@@ -1,3 +1,7 @@
+.header__wrapper {
+    z-index: 2;   
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,6 +70,7 @@ nav {
         background-color: var(--white);
         padding-left: 6vw;
         padding-right: 6vw;
+        /* padding-bottom: 1vw; */
     }
 
     .img-logo {
@@ -88,7 +93,7 @@ nav {
 @media (min-width: 1024px) {
 
     nav {
-        background-color: var(--white);
+        background-color: transparent;
         padding-left: 6vw;
         padding-right: 16vw;
     }

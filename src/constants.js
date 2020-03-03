@@ -20,7 +20,7 @@ export const Constants = {
     ditto: {
         heroCategory: "Software Design",
         heroYear: "2019",
-        heroDeliverable: "Chrome Extension + Sketch Plugin",
+        heroDeliverable: "Sketch Plugin",
         heroTitle: "Optimizing the CSS-to-Sketch Conversion Workflow for Yext, Inc."
     },
     fisqual: {
@@ -68,7 +68,7 @@ export const Constants = {
     madlads: {
         heroCategory: "Machine Learning",
         heroYear: "2019",
-        heroDeliverable: "Chrome Extension + Sketch Plugin",
+        heroDeliverable: "Web App",
         heroTitle: "Reinventing Mad Libs with Machine Learning and Camera Lens"
     },
     tarpits: {
