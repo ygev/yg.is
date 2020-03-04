@@ -10,9 +10,9 @@ export default props => (
           <figure className="imgQuote__fig">
             <img src={props.img} alt="" className="imgQuote__img"/>
           </figure>
-          <section className="imgQuote__bg">
+          <aside className="imgQuote__bg">
           “Never needed extra security, so it’s totally unnecessary to me.”
-          </section>
+          </aside>
         </div>
     </>
 );  
