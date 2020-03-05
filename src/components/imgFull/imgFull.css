@@ -5,8 +5,8 @@
 }
 
 .imgFull__img {
-    width: 100%;
-    border: 2px var(--black) solid;
+    /* width: 100%; */
+    /* border: 2px var(--black) solid; */
 }
 
 
@@ -21,7 +21,7 @@
     }
     
     .imgFull__img {
-        width: 100%;
+        /* width: 100%; */
     }
 
           }
