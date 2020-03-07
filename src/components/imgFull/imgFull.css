@@ -2,11 +2,13 @@
 .imgFull {
     padding-left: 16px;
     padding-right: 16px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .imgFull__img {
-    width: 100%;
-    /* border: 2px var(--black) solid; */
+    max-width: 100%;
 }
 
 
@@ -21,7 +23,7 @@
     }
     
     .imgFull__img {
-        width: 100%;
+        max-width: 100%;
     }
 
           }

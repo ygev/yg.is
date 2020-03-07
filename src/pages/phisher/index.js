@@ -6,6 +6,10 @@ import Fig3 from "./images/fig3-quote-haley.png"
 import Fig4 from "./images/fig4-venn.png"
 import Fig5 from "./images/fig5-mindmap.png"
 import Fig6 from "./images/fig6-styles.svg"
+import FigFlow from "./images/fig-flow.svg"
+import Fig7 from "./images/fig7-logos.svg"
+import Fig8 from "./images/fig8-micaweb.svg"
+import Fig9 from "./images/fig9-layouts.png"
 import FigSketch from "./images/fig-sketch.svg"
 import IssueSubtle from "./images/issue-subtle.svg"
 import "../../css/global.css"
@@ -55,7 +59,7 @@ class Index extends React.Component {
                   questionItem3="To what extend do people mindlessly enter personal data into credible interfaces?" />
         <Paragraph paragraphTitle="Surveying National Opsec Engagement" 
                   paragraphBody="According to a study by the Pew Research Center, as of 2016, most Americans kept track of their online passwords by either memorizing them or writing them down. However, with subsequent data breaches, such as Capital One and Equifax, the popularity of password managers rose up. In 2019 a Threatpost poll found that 84% of respondents use password managers, with only 10 percent of people saying that they don't due to perceived security risks."/>
-        <ImgRight img={Fig1} imgNum="02" imgCaption="Pew Research Center, 2019"/>
+        <ImgRight img={Fig1} imgNum="01" imgCaption="Pew Research Center, 2019"/>
         <Paragraph paragraphTitle="Surveying Students' Opsec Engagement" 
                   paragraphBody="Even Maryland Institute College of Art's website implemented two-factor authentication for their students in 2019 with variable feedback from the students. I have informally surveyed 15 students and plotted the most insightful responses on a scale from positive to negative."/>
         <ImgFull img={Fig2} imgNum="02" imgCaption="Plotted testimonies from MICA students about the two-factor authentication system established in Fall 2019."/>
@@ -79,26 +83,32 @@ class Index extends React.Component {
         <Phase phaseTitle="Brainstorming Awareness Campaigns"/>  
         <Paragraph paragraphTitle="" 
                   paragraphBody="I decided to think about how people unlearn poor user behaviors. After a mind-mapping exercise, I came up with three main ideas between which my ideal solution would lie."/>
-        <ImgFull img={Fig5} imgNum="07" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
-        <ImgLeft img={Fig4} imgNum="03" imgCaption="The solution lies at the intersection of Visual Routines, Experiential Learning and Gesamkunstwerk"/>
+        <ImgFull img={Fig5} imgNum="03" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
+        <ImgLeft img={Fig4} imgNum="04" imgCaption="The solution lies at the intersection of Visual Routines, Experiential Learning and Gesamkunstwerk"/>
         <Paragraph paragraphTitle="Visual Routines" 
                   paragraphBody="As discovered, people are relying on previously learned habits to fall for phishing tricks. In order to be effective, my solution needs to reveal the presence of these routines and allow people to notice them in the future."/>
         <Paragraph paragraphTitle="Experiential Learning" 
                   paragraphBody="People should learn from experience. In order to be effective, my solution must be a piece that can be interacted with: something that either is or resembles a phishing website."/>
         <Paragraph paragraphTitle="Gesamkunstwerk" 
                   paragraphBody="The solution is forming up to be a type of a phishing site. Since my primary audience are my student peers, the site should target students from the Maryland Institute College of Art. I wanted to create a back-end interface that shows an infographic of which websites have been caught."/>
-        {/* <ImgBlkLeft img={Fig4} imgNum="03" imgCaption="The solution lies at the intersection of Visual Routines, Experiential Learning and Gesamkunstwerk"/> */}
         <Paragraph paragraphTitle="" 
-                  paragraphBody="With these parameters in mind, I set out to create what I think is an engaging experiment: a phishing site that targets students from the Maryland Institute College of Art and displays the number of passwords caught since launch once the user logs in."/>
+                  paragraphBody={["With these parameters in mind, I set out to create what I think is an engaging experiment: a phishing site that targets students from the Maryland Institute College of Art and displays the number of passwords caught since launch once the user logs in. The site will consist of a ",<mark>login page</mark>, " and a ", <mark> page that displays the stolen passwords.</mark>, " The user will be redirected to the page after they enter their password and press enter, as per this user flow diagram:"]}/>
+         <ImgFull img={FigFlow} imgNum="05" imgCaption="Simple user flow for displaying the credentials caught by MICA Phisher"/>
         </div>
         <div id="p4">
         <Phase phaseTitle="Prototyping Phishing Site Layout"/>
-        <ImgLeft img={Fig6} imgNum="03" padding="true" imgCaption="MICA’s Communication Toolkit"/>
+        <ImgLeft img={Fig6} imgNum="06" padding="true" imgCaption="MICA’s Communication Toolkit"/>
         <Paragraph paragraphTitle="Brandjacking" 
-                  paragraphBody="I decided to use MICA’s branding designed by Pentagram as the visual language, identity and style guide for the alternate landing page.  I created a logo in the style of MICA’s sub-brands."/>
+                  paragraphBody="I decided to use MICA’s branding designed by Pentagram as the visual language, identity and style guide for the alternate landing page. I created a logo in the style of MICA’s sub-brands."/>
+        <ImgRight img={Fig7} imgNum="07" padding="true" imgCaption="MICA’s Sub-Brands, now including Phisher."/>
         <Paragraph paragraphTitle=""
                           paragraphBody="Although there is a plethora of colors to choose from, I picked the top three colors seen on MICA’s front page, since this is something that has already been prioritized before me by the original creators of the site."/>
-        <ImgFull img={FigSketch} imgNum="07" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
+        <ImgRight img={Fig8} imgNum="08" padding="true" imgCaption="MICA’s Home Page displaying the most commonly used colors by the brand."/>
+        <Paragraph paragraphTitle="Wireframing the Displays" 
+                  paragraphBody="I started sketching out the pass-word display screen. The following information needed to be displayed: the number of credentials caught, running list of 10-15 credentials, Phisher logotype, disclaimer."/>
+         <ImgFull img={Fig9} imgNum="09" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
+        <ImgFull img={FigSketch} imgNum="10" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
+       
         </div>
         <div id="p5">
         <Phase phaseTitle="Validating the Design with Students"/>
