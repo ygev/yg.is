@@ -4,7 +4,10 @@ import Fig1 from "./images/fig1-pwd_managers.svg"
 import Fig2 from "./images/fig2-fb-messenger.svg"
 import Fig3 from "./images/fig3-quote-haley.png"
 import Fig4 from "./images/fig4-venn.png"
+import Fig5 from "./images/fig5-mindmap.png"
+import Fig6 from "./images/fig6-styles.svg"
 import FigSketch from "./images/fig-sketch.svg"
+import IssueSubtle from "./images/issue-subtle.svg"
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -15,9 +18,11 @@ import Questions from "../../components/questions/questions"
 import Paragraph from "../../components/paragraph/paragraph"
 import Phase from "../../components/phase/phase"
 import ImgRight from "../../components/imgRight/imgRight"
+import ImgLeft from "../../components/imgLeft/imgLeft"
 import ImgFull from "../../components/imgFull/imgFull"
 import ImgQuote from "../../components/imgQuote/imgQuote"
 import HowMightWe from "../../components/howMightWe/howMightWe"
+import Issues from "../../components/issues/issues"
 import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
@@ -41,7 +46,7 @@ class Index extends React.Component {
                   abstractTime="14 days · September 2019" 
                   abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
         <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'IDEATE', 'ITERATE', 'VALIDATE']}
-                  trackerHead="Raising Awareness About Cybersecurity by Creating a Targeted Phishing Tool"/>
+                  trackerHead={Constants.phisher.heroTitle}/>
         <div id="p1">
         <Phase phaseTitle="Understanding the State of Casual Operational Security"/>
         <Questions questionTitle="Research Questions"
@@ -74,18 +79,21 @@ class Index extends React.Component {
         <Phase phaseTitle="Brainstorming Awareness Campaigns"/>  
         <Paragraph paragraphTitle="" 
                   paragraphBody="I decided to think about how people unlearn poor user behaviors. After a mind-mapping exercise, I came up with three main ideas between which my ideal solution would lie."/>
+        <ImgFull img={Fig5} imgNum="07" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
+        <ImgLeft img={Fig4} imgNum="03" imgCaption="The solution lies at the intersection of Visual Routines, Experiential Learning and Gesamkunstwerk"/>
         <Paragraph paragraphTitle="Visual Routines" 
                   paragraphBody="As discovered, people are relying on previously learned habits to fall for phishing tricks. In order to be effective, my solution needs to reveal the presence of these routines and allow people to notice them in the future."/>
         <Paragraph paragraphTitle="Experiential Learning" 
                   paragraphBody="People should learn from experience. In order to be effective, my solution must be a piece that can be interacted with: something that either is or resembles a phishing website."/>
         <Paragraph paragraphTitle="Gesamkunstwerk" 
                   paragraphBody="The solution is forming up to be a type of a phishing site. Since my primary audience are my student peers, the site should target students from the Maryland Institute College of Art. I wanted to create a back-end interface that shows an infographic of which websites have been caught."/>
-        <ImgRight img={Fig4} imgNum="03" imgCaption="The solution lies at the intersection of Visual Routines, Experiential Learning and Gesamkunstwerk"/>
+        {/* <ImgBlkLeft img={Fig4} imgNum="03" imgCaption="The solution lies at the intersection of Visual Routines, Experiential Learning and Gesamkunstwerk"/> */}
         <Paragraph paragraphTitle="" 
                   paragraphBody="With these parameters in mind, I set out to create what I think is an engaging experiment: a phishing site that targets students from the Maryland Institute College of Art and displays the number of passwords caught since launch once the user logs in."/>
         </div>
         <div id="p4">
         <Phase phaseTitle="Prototyping Phishing Site Layout"/>
+        <ImgLeft img={Fig6} imgNum="03" padding="true" imgCaption="MICA’s Communication Toolkit"/>
         <Paragraph paragraphTitle="Brandjacking" 
                   paragraphBody="I decided to use MICA’s branding designed by Pentagram as the visual language, identity and style guide for the alternate landing page.  I created a logo in the style of MICA’s sub-brands."/>
         <Paragraph paragraphTitle=""
@@ -94,8 +102,12 @@ class Index extends React.Component {
         </div>
         <div id="p5">
         <Phase phaseTitle="Validating the Design with Students"/>
-        <Paragraph paragraphTitle="Lorem Dipshit" 
-                  paragraphBody="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur felis ipsum, tincidunt sit amet metus ac, aliquet accumsan ligula. Ut vestibulum odio commodo ligula ultrices, ac vulputate ante finibus. Proin vitae felis porttitor, condimentum turpis sed, commodo tortor. Maecenas ullamcorper neque sem, sit amet tincidunt nisl pellentesque vel. Integer pharetra dolor vel nunc tempus, a mattis augue vehicula. Cras facilisis enim et enim rutrum rhoncus. Aenean ornare lacus ut nulla tristique interdum. Aenean congue eros elit."/>
+        <Paragraph paragraphTitle="Presenting the Phishing Site" 
+                   paragraphBody="To assess the effectiveness of my idea before setting up the exhibition, I presented the site to a series of Maryland Institute College of Art seniors. The following is a compilation of comments I have received that could improve the design:"/>
+        <Issues img={IssueSubtle} 
+                issue="The warning on the home page is too subtle. Most people overlooked it, like on a real phishing site. Some suggested making the warning painfully obvious so that no legal issues arise in case someone does insert their real password into the Phisher."/>
+        <Paragraph paragraphTitle="Future for the Concept"
+                  paragraphBody="An idea I had during the brainstorming phase was brought up during the critique: a phishing website generator. The concept is simple, a website URL will be processed and a clone will be created locally, containing the same markup, stylesheets and scripts. However, the password and login fields would be compromised and lead to an external site that will record the input and display it to the administrator. Although wanted by my classmates, the concept was a little bit too evil and legally gray for me to pursue.  " />
         </div>
         <More heroTitle="Optimizing Progress Trackers on AIGA Eye on Design With Obscure JavaScript Libraries" 
               heroCategory="UI" 

@@ -8,6 +8,11 @@
     /* border: 2px var(--black) solid; */
 }
 
+.imgRight--padding {
+    padding: 1em;
+    background-color: var(--black);
+}
+
 .imgRight__caption {
     font-family: Chapeau;
     font-weight: 900;

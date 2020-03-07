@@ -1,6 +1,7 @@
 .imgLeft {
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 24px;
 }
 
 .imgLeft__img {
@@ -18,13 +19,23 @@
     padding-top: 8px;
 }
 
+.imgLeft--padding {
+    padding: 1em;
+    background-color: var(--black);
+}
+
 /* DESKTOP VERSION */
 
+
 @media (min-width: 1024px) {
+
+.imgLeft__absoluter {
+    position: absolute;
+    z-index: -2;
+}
+
     .imgLeft {
-        grid-area: pg;
-        padding-left: 6vw;
-        padding-right: 16vw;
+        padding-left: 16vw;
         padding-top: 24px;
         padding-bottom: 24px;
     }

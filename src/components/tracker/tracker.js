@@ -20,9 +20,9 @@ export default props => (
                             {
                                 Array.from(Array(props.phaseList.length).keys()).map((i) => {
                                     return <Controller>
-                                        <Scene   duration={() => { if (document.getElementById('p' + (i+1)) != null) return document.getElementById('p' + (i+1)).clientHeight } }
+                                        <Scene duration={() => { if (document.getElementById('p' + (i+1)) != null) return document.getElementById('p' + (i+1)).clientHeight } }
                                                     classToggle="phases__active" triggerElement={'#p' + (i+1)}>
-                                        <h3 className="phases__txt">PHASE {i+1}: {props.phaseList[i]}</h3>
+                                            <h3 className="phases__txt">PHASE {i+1}: {props.phaseList[i]}</h3>
                                         </Scene>
                                     </Controller>;
                                 })
