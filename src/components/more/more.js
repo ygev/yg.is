@@ -11,21 +11,21 @@ export default props => (
             </h4>
             <div className="more__group">
                 <figure className="more__item">
-                    <img className="img-glamour" src={glamour} alt=""/>
+                    <img className="more__img" src={glamour} alt=""/>
                     <figcaption className="more__title">{props.heroTitle}
                     </figcaption>
                     <h4 className="more__head">{props.heroCategory} - {props.heroYear} - {props.heroDeliverable}
                     </h4>
                 </figure>
                 <figure className="more__item">
-                    <img className="img-glamour" src={glamour} alt=""/>
+                    <img className="more__img" src={glamour} alt=""/>
                     <figcaption className="more__title">{props.heroTitle}
                     </figcaption>
                     <h4 className="more__head">{props.heroCategory} - {props.heroYear} - {props.heroDeliverable}
                     </h4>
                 </figure>
                 <figure className="more__item">
-                    <img className="img-glamour" src={glamour} alt=""/>
+                    <img className="more__img" src={glamour} alt=""/>
                     <figcaption className="more__title">{props.heroTitle}
                     </figcaption>
                     <h4 className="more__head">{props.heroCategory} - {props.heroYear} - {props.heroDeliverable}

@@ -30,8 +30,12 @@
     padding-bottom: 4px;
 }
 
-.img-glamour {
+.more__img
+ {
     border: 2px var(--black) solid;
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .more__group {
