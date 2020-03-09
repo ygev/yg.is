@@ -4,10 +4,10 @@ import "../../css/normalize.css"
 import "../../css/global.css"
 import glamour from "../../images/inner/phisher-login.webm" 
 import glamour1 from "../../images/inner/phisher-fullscreen.png" 
-import glamour2 from "../../images/inner/phisher-fish.webm" 
-import glamour3 from "../../images/inner/phisher-num1.webm" 
-import glamour4 from "../../images/inner/phisher-num2.webm" 
-import glamour5 from "../../images/inner/phisher-num3.webm" 
+import glamour2 from "../../images/inner/phisher-fish.gif" 
+import glamour3 from "../../images/inner/phisher-num1.gif" 
+import glamour4 from "../../images/inner/phisher-num2.gif" 
+import glamour5 from "../../images/inner/phisher-num3.gif" 
 import caret_left from "../../images/inner/caret_left.svg" 
 import Fade from 'react-reveal/Fade';
 
@@ -23,20 +23,12 @@ export default props => (
                         <video className="abstract__img" preLoad="yes" autoplay="autoplay" loop muted playsinline>
                             <source src={glamour} type="video/webm"/>
                         </video>
-                        <video className="abstract__img" preLoad="yes" autoplay="autoplay" loop muted playsinline>
-                            <source src={glamour2} type="video/webm"/>
-                        </video>
+                        <img className="abstract__img"  src={glamour2}/>
                     </div>
                     <div className="abstract__img--wrapper" data-width="3">
-                    <video className="abstract__img" preLoad="yes" autoplay="autoplay" loop muted playsinline>
-                        <source src={glamour3} type="video/webm"/>
-                    </video>                        
-                    <video className="abstract__img" preLoad="yes" autoplay="autoplay" loop muted playsinline>
-                        <source src={glamour4} type="video/webm"/>
-                    </video>                        
-                    <video className="abstract__img" preLoad="yes" autoplay="autoplay" loop muted playsinline>
-                        <source src={glamour5} type="video/webm"/>
-                    </video>
+                        <img className="abstract__img"  src={glamour3}/>                     
+                        <img className="abstract__img"  src={glamour4}/>
+                        <img className="abstract__img"  src={glamour5}/>
                     </div>
                 </section>
                 <section className="abstract__txt--wrapper">
