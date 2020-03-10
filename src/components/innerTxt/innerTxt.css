@@ -115,7 +115,7 @@
     text-align: left;
     color: var(--black);
     letter-spacing: 1px;
-    font-size: 1.8em;
+    font-size: 2.25em;
     line-height: 1.35em;
   }
 
@@ -130,7 +130,7 @@
   
 
 /* 4K VERSION */
-@media (min-width: 1441px) {
+@media (min-width: 2561px) {
   .lead{
     font-size: 3.5em;
     line-height: 1.25em;

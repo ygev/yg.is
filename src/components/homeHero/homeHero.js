@@ -2,7 +2,6 @@ import React from "react";
 import "./homeHero.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
-import Tilt from 'react-parallax-tilt';
 import Fade from 'react-reveal/Fade';
 import Marquee from 'react-double-marquee';
 import { Constants } from "../../constants"
@@ -26,11 +25,7 @@ export default props => (
         <Fade left duration={500}>
             <section className={"home__hero " + props.currentHover}>
                 <figure className="home__img"> 
-                    {/* <Tilt
-                     reset={true}
-                     tiltAxis="x"> */}
                     <img src={images[props.currentHover]} alt=""/>
-                    {/* </Tilt> */}
                 </figure>
                 <div className="hero__txt">
                     <div className="marquee__wrap">

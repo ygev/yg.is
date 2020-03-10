@@ -4,12 +4,11 @@ import "../../css/normalize.css";
 import "../../css/global.css";
 import logo from "../../images/logo.svg" 
 import { Controller, Scene } from "react-scrollmagic"
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal';
 import {Link} from "gatsby"
 
 export default props => (
     <>
-        <Fade bottom duration={300}>
             <Controller>
                 <Scene triggerHook="onLeave" pin>
                     <section className="pinned">
@@ -32,7 +31,6 @@ export default props => (
                     </section>
                 </Scene>
             </Controller>
-        </Fade>
     </>
 
 );  

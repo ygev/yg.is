@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from 'react-reveal/Fade';
 import "./abstract.css";
 import "../../css/normalize.css"
 import "../../css/global.css"
@@ -9,12 +10,13 @@ import glamour3 from "../../images/inner/phisher-num1.gif"
 import glamour4 from "../../images/inner/phisher-num2.gif" 
 import glamour5 from "../../images/inner/phisher-num3.gif" 
 import caret_left from "../../images/inner/caret_left.svg" 
-import Fade from 'react-reveal/Fade';
+
 
 export default props => (
     <>
-        <Fade bottom delay={500} duration={300}>
+        <Fade bottom delay={0} duration={300}>
             <section className="abstract">
+            
                 <section className="abstract__gallery">
                     <div className="abstract__img--wrapper" data-width="1">
                         <img className="abstract__img"  src={glamour1}/>
@@ -55,6 +57,12 @@ export default props => (
                         <p className="abstract__body--paragraph">{props.abstractBody}</p>
                     </section>
                 </section>
+                <Fade top delay={0} duration={500}>
+                <section className="abstract__hint">
+                    <h4 className="abstract__head">Read How the Sausage Gets Made</h4>
+                    <h4 className="abstract__head abstract__head--arrow">↓</h4>
+                </section>
+                </Fade>
             </section>
         </Fade>
     </>

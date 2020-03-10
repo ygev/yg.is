@@ -3,9 +3,11 @@ import "./questions.css";
 import "../paragraph/paragraph.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
+import Fade from 'react-reveal/Fade';
 
 export default props => (
     <>
+    {/* <Fade bottom delay={0} duration={300}> */}
         <div className="gridContainer">
             <section className="questions">
                 <article className="questions__section">
@@ -20,5 +22,6 @@ export default props => (
                 </article>
             </section>
         </div>
+    {/* </Fade> */}
     </>
 );  

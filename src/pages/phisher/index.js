@@ -106,7 +106,7 @@ class Index extends React.Component {
         <ImgRight img={Fig8} imgNum="08" padding="true" imgCaption="MICA’s Home Page displaying the most commonly used colors by the brand."/>
         <Paragraph paragraphTitle="Wireframing the Displays" 
                   paragraphBody="I started sketching out the pass-word display screen. The following information needed to be displayed: the number of credentials caught, running list of 10-15 credentials, Phisher logotype, disclaimer."/>
-         <ImgFull img={Fig9} imgNum="09" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
+         <ImgFull img={Fig9} imgNum="09" imgCaption="Finalizing wireframes."/>
         <ImgFull img={FigSketch} imgNum="10" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
        
         </div>
