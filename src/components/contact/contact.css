@@ -1,9 +1,13 @@
 .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: var(--black);
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 36px;
     padding-bottom: 36px;
+    height: 60vh;
 }
 
 .contact__head {
@@ -28,14 +32,40 @@
     font-size: 16px;
     color: var(--white);
     letter-spacing: 1.14px;
-    text-align: center;
+    text-align: left;
     line-height: 24px;
     text-transform: uppercase;
     padding: 10px;
-    border: 2px var(--white) solid;
-    background: transparent;
-    width: 160px;
+    border: 0;
+    border-bottom: 2px var(--white) solid;
+    background: var(--black);
+    width: 320px;
     margin-bottom: 24px;
+    cursor: pointer;
+    transition: 150ms ease-in-out;
+}
+
+.btn__contact:after {
+    /* z-index : -1; */
+    /* font-size : 60px; */
+    position: relative;
+    content: "\2192";
+    color: var(--white); 
+    transition: 150ms ease-in-out;
+    margin-left: 20px;
+    float: right;
+    /* bottom : -4px; */
+  }
+  
+  .btn__contact:hover:after {
+    transition: 150ms ease-in-out;
+    color: var(--projcolor) ;
+  }
+  
+
+.btn__contact:hover  {
+    border-bottom: 2px var(--projcolor) solid;
+    transition: 150ms ease-in-out;
 }
 
 .marquee {
@@ -53,7 +83,6 @@
     
     .btn__contact--wrapper {
         display: flex;
-        flex-direction: row;
         align-content: center;
         justify-content: space-between;
         align-items: center;
@@ -83,7 +112,6 @@
 
     .btn__contact--wrapper {
         display: flex;
-        flex-direction: row;
         align-content: center;
         justify-content: space-between;
         align-items: center;
