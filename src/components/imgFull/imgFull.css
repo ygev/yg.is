@@ -1,7 +1,7 @@
 
 .imgFull {
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -16,10 +16,10 @@
 
 @media (min-width: 1024px) {
     .imgFull {
-        padding-left: 16vw;
-        padding-right: 16vw;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        margin-left: 16vw;
+        margin-right: 16vw;
+        margin-top: 24px;
+        margin-bottom: 24px;
     }
     
     .imgFull__img {

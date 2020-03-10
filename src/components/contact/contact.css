@@ -7,7 +7,8 @@
     padding-right: 16px;
     padding-top: 36px;
     padding-bottom: 36px;
-    height: 60vh;
+    margin-top: 36px;
+    height: 80vh;
 }
 
 .contact__head {
@@ -46,15 +47,12 @@
 }
 
 .btn__contact:after {
-    /* z-index : -1; */
-    /* font-size : 60px; */
     position: relative;
     content: "\2192";
     color: var(--white); 
     transition: 150ms ease-in-out;
     margin-left: 20px;
     float: right;
-    /* bottom : -4px; */
   }
   
   .btn__contact:hover:after {
@@ -103,6 +101,7 @@
         padding-right: 16vw;
         padding-top: 64px;
         padding-bottom: 64px;
+        margin-top: 120px;
     }
     
 

@@ -28,8 +28,8 @@
 @media (min-width: 1024px) {
     .imgRight {
         grid-area: pg;
-        padding-left: 6vw;
-        padding-right: 16vw;
+        margin-left: 6vw;
+        margin-right: 16vw;
         padding-top: 24px;
         padding-bottom: 24px;
     }
