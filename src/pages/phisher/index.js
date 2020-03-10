@@ -42,6 +42,7 @@ class Index extends React.Component {
                     heroYear={Constants.phisher.heroYear}
                     heroDeliverable={Constants.phisher.heroDeliverable}
                     heroTitle={Constants.phisher.heroTitle}
+                    heroSummary="MICA Phisher is a proof-of-concept phishing site which spoof the login page of the Maryland Institute College of Art."
                     btnGit="View Repository"/>
         </div>
         <Abstract abstractRole="UI Designer · Developer" 

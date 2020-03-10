@@ -32,6 +32,16 @@
   line-height: 1.35em;
 }
 
+.head {
+  font-family: SuisseNeue-Regular;
+  font-size: 0.8em;
+  line-height: 1.35em;
+  color: var(--black);
+  padding-top: 16px;
+  letter-spacing: 0.53px;
+  text-align: center;
+}
+
 /* Button */
   
 .btn__git {
@@ -93,12 +103,15 @@
     padding-bottom: 6vw;
   }
   
-  .lead, .brow {
+  .lead, .brow, .head {
     text-align: left;
   }    
 }
     
-    
+.head {
+  font-size: 0.65em;
+}    
+
     /* DESKTOP VERSION */
     
     
@@ -126,14 +139,33 @@
     letter-spacing: 1px;
     line-height: 17px;
   }
+    
+  .head {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: left;
+    color: var(--black);
+    letter-spacing: 1px;
+    font-size: 1em;
+    line-height: 1.5em;
+    width: 40vw;
+  }
+
 }
   
 
 /* 4K VERSION */
-@media (min-width: 2561px) {
+@media (min-width: 2560px) {
   .lead{
     font-size: 3.5em;
     line-height: 1.25em;
     max-width: 36vw;
+  }
+
+  .head{
+    font-size: 1.3em;
+    line-height: 1.6em;
+    max-width: 30vw;
+    padding-bottom: 12px;
   }
 }

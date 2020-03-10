@@ -246,9 +246,7 @@
 
 @keyframes slide-down{
     from { transform: translateY(0px); 
-
     }
-
     to {
         transform: translateY(20px); 
     }

@@ -18,25 +18,25 @@ export default props => (
                             <h2 className="home__brow">{Constants.phisher.heroYear} - {Constants.phisher.heroDeliverable}</h2>
                         </div>
                     </Link>
-                    <Link to="">
+                    <Link to="cluse">
                         <div className="link__wrapper">
                             <h1 className="home__head" onMouseOver={props.mouseOverCallback}>Cluse</h1>
                             <h2 className="home__brow">{Constants.cluse.heroYear} - {Constants.cluse.heroDeliverable}</h2>
                         </div>
                     </Link>
-                    <Link to="">
+                    <Link to="ditto">
                         <div className="link__wrapper">
                             <h1 className="home__head" onMouseOver={props.mouseOverCallback}>Ditto</h1>
                             <h2 className="home__brow">{Constants.ditto.heroYear} - {Constants.ditto.heroDeliverable}</h2>
                         </div>
                     </Link>
-                    <Link to="">
+                    <Link to="fisqual">
                         <div className="link__wrapper">
                             <h1 className="home__head" onMouseOver={props.mouseOverCallback}>Fisqual</h1>
                             <h2 className="home__brow">{Constants.fisqual.heroYear} - {Constants.fisqual.heroDeliverable}</h2>
                         </div>
                     </Link>
-                    <Link to="">
+                    <Link to="trunks">
                         <div className="link__wrapper">
                             <h1 className="home__head" onMouseOver={props.mouseOverCallback}>Trunks</h1>
                             <h2 className="home__brow">{Constants.trunks.heroYear} - {Constants.trunks.heroDeliverable}</h2>
