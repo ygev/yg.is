@@ -5,6 +5,7 @@ import "../../css/global.css";
 import logo from "../../images/logo.svg" 
 import { Controller, Scene } from "react-scrollmagic"
 import Fade from 'react-reveal/Fade';
+import {Link} from "gatsby"
 
 export default props => (
     <>
@@ -13,7 +14,7 @@ export default props => (
                 <Scene triggerHook="onLeave" pin>
                     <section className="pinned">
                         <div className="tracker">
-                            <img className="tracker__logo" src={logo} alt=""/>
+                            <Link to="/"><img className="tracker__logo" src={logo} alt=""/></Link>
                             <h4 className="tracker__head">{props.trackerHead} </h4>
                         </div>
                         <div className="phases">
