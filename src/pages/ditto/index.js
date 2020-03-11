@@ -21,7 +21,9 @@ class Index extends React.Component {
                     heroYear={Constants.ditto.heroYear}
                     heroDeliverable={Constants.ditto.heroDeliverable}
                     heroTitle={Constants.ditto.heroTitle}
-                    btnGit="View Repository"/>
+                    heroSummary="Klepto is a Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch."
+                    btnGit="View Repository"
+                    gitLink="https://github.com/ygev/klepto"/>/>
         </div>
         <Abstract abstractRole="UI Designer · Developer" 
                   abstractTools="Sqlite.js · E.js · Express.js" 

@@ -17,11 +17,13 @@ class Index extends React.Component {
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>
-          <InnerTxt heroCategory={Constants.phisher.heroCategory}
-                    heroYear={Constants.phisher.heroYear}
-                    heroDeliverable={Constants.phisher.heroDeliverable}
-                    heroTitle={Constants.phisher.heroTitle}
-                    btnGit="View Repository"/>
+          <InnerTxt heroCategory={Constants.trunks.heroCategory}
+                    heroYear={Constants.trunks.heroYear}
+                    heroDeliverable={Constants.trunks.heroDeliverable}
+                    heroTitle={Constants.trunks.heroTitle}
+                    heroSummary="Trunks is what happens when you chop down a family tree: an ancestry visualization tool inspired by rings on a tree trunk. "
+                    btnGit="View Repository"
+                    gitLink="https://github.com/ygev/trunks"/>
         </div>
         <Abstract abstractRole="UI Designer · Developer" 
                   abstractTools="Sqlite.js · E.js · Express.js" 
