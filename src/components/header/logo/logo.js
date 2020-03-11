@@ -3,14 +3,14 @@ import "./logo.css"
 
 export default props => (
     <>
-        <div class="cube_wrapper">
-            <div class="cube">
-                <div class="cube_face"><span class="cube_txt">.is</span></div>
-                <div class="cube_face"><span class="cube_txt">Y</span></div>
-                <div class="cube_face"><span class="cube_txt">G</span></div>
-                <div class="cube_face"><span class="cube_txt">Y</span></div>
-                <div class="cube_face"><span class="cube_txt">G</span></div>
-                <div class="cube_face"><span class="cube_txt">.is</span></div>
+        <div className="cube_wrapper">
+            <div className="cube">
+                <div className="cube_face"><span className="cube_txt">.is</span></div>
+                <div className="cube_face"><span className="cube_txt">Y</span></div>
+                <div className="cube_face"><span className="cube_txt">G</span></div>
+                <div className="cube_face"><span className="cube_txt">Y</span></div>
+                <div className="cube_face"><span className="cube_txt">G</span></div>
+                <div className="cube_face"><span className="cube_txt">.is</span></div>
             </div>
         </div>
     </>
