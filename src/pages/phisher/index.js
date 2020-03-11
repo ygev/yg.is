@@ -24,7 +24,7 @@ import InnerHero from "../../components/innerHero/innerHero"
 import InnerTxt from "../../components/innerTxt/innerTxt"
 import Abstract from "../../components/abstract/abstract"
 import Tracker from "../../components/tracker/tracker"
-import Questions from "../../components/questions/questions"
+import List from "../../components/list/list"
 import Paragraph from "../../components/paragraph/paragraph"
 import Phase from "../../components/phase/phase"
 import ImgRight from "../../components/imgRight/imgRight"
@@ -57,7 +57,6 @@ class Index extends React.Component {
                   Glam4={Glam4}
                   Glam5={Glam5}
                   Glam6={Glam6}
-                  abstractTeam="Yana Gevorgyan"
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sqlite.js · E.js · Express.js" 
                   abstractTime="14 days · September 2019" 
@@ -66,10 +65,8 @@ class Index extends React.Component {
                   trackerHead={Constants.phisher.heroTitle}/>
         <div id="p1">
         <Phase phaseTitle="Understanding the State of Casual Operational Security"/>
-        <Questions questionTitle="Research Questions"
-                  questionItem1="How have attitudes towards OPSEC changed nation-wide, given recent data breaches and hacks?" 
-                  questionItem2="To what extent do students at Maryland Institute College of Art use password managers?" 
-                  questionItem3="To what extend do people mindlessly enter personal data into credible interfaces?" />
+        <List listTitle="Research Questions" listType='ol'
+                  listItems={["Chicken", "Egg", "Waffle"]} />
         <Paragraph paragraphTitle="Surveying National Opsec Engagement" 
                   paragraphBody="According to a study by the Pew Research Center, as of 2016, most Americans kept track of their online passwords by either memorizing them or writing them down. However, with subsequent data breaches, such as Capital One and Equifax, the popularity of password managers rose up. In 2019 a Threatpost poll found that 84% of respondents use password managers, with only 10 percent of people saying that they don't due to perceived security risks."/>
         <ImgRight img={Fig1} imgNum="01" imgCaption="Pew Research Center, 2019"/>
@@ -83,10 +80,8 @@ class Index extends React.Component {
         <Phase phaseTitle="Defining the Problem"/>
         <Paragraph paragraphTitle="" 
                   paragraphBody="After researching Americans’ attitudes towards password management, surveying students and reading about behavioral patterns, I concluded the following:."/>
-        <Questions questionTitle="Insights"
-                  questionItem1="There is a rising awareness among Americans to use password managers, yet a small minority of people still get phished." 
-                  questionItem2="Students at the Maryland Institute College of Art largely do not use password managers, nor do they see the importance of two factor authentication that has been established in 2019. " 
-                  questionItem3="Students mindlessly enter their passwords without double checking the URL first. Frequent bugs in MICA’s system force students to enter their credentials twice, which is an explotable feature." />
+        <List listTitle="Insights" listType='ol'
+                  listItems={["Chicken", "Egg", "Waffle"]} />
         <ImgQuote img={Fig3}/>
         <Paragraph paragraphTitle="Lack of Awareness" 
                   paragraphBody="Based on these insights, I’ve concluded there is not enough awareness about how easy it is to steal one’s data on campus compared to the national average presentd by the Pew Research Center. Phisher websites can be generated programmatically and it is far too easy to store passwords in a database with malicious intentions, even by an art student like me. Students largely didnt care much for the two-factor authentication employed by the school after a number of phishing attacks. There was clearly not enough awareness around the campus, leading me to pose the following design challenge: "/>

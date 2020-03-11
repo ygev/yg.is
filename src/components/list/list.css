@@ -1,17 +1,24 @@
-.questions {
+.list {
     margin-top: 24px;
     margin-left: 6vw;
     margin-right: 6vw;
 }
 
-.questions__list {
-    list-style: none;
+.list__ordered {
+    list-style: armenian;
     counter-reset: item;
     font-size: 10px;
     line-height: 32px;
 }
 
-.questions__item {
+.list__unordered {
+    list-style: disc;
+    counter-reset: item;
+    font-size: 10px;
+    line-height: 32px;
+}
+
+.list__item {
     font-family: SuisseNeue-Regular;
     color: var(--black);
     letter-spacing: 0;
@@ -20,7 +27,7 @@
     counter-increment: item;
 }
 
-.questions__item::before {
+.list__item::before {
     font-family: Chapeau;
     font-size: 10px;
     line-height: 24px;
@@ -40,24 +47,24 @@
 
 @media (min-width: 1024px) {
 
-.questions {
+.list {
     grid-area: pg;
     margin-left: 6vw;
     margin-right: 16vw;
     margin-top: 0;
 }
 
-.questions__list {
+.list__list {
     font-size: 12px;
     line-height: 32px;
 }
 
-.questions__item {
+.list_item {
     font-size: 18px;
     line-height: 32px;   
 }
 
-.questions__item::before {
+.list__item::before {
     font-size: 12px;
     margin-left: -2.5em;
     margin-right: 1.5em; 
