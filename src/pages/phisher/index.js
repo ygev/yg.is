@@ -1,5 +1,11 @@
 import React from "react"
 import Hero from "./images/hero.png"; 
+import Glam1 from "../../images/inner/phisher-fullscreen.png" 
+import Glam2 from "../../images/inner/phisher-login.webm" 
+import Glam3 from "../../images/inner/phisher-fish.gif" 
+import Glam4 from "../../images/inner/phisher-num1.gif" 
+import Glam5 from "../../images/inner/phisher-num2.gif" 
+import Glam6 from "../../images/inner/phisher-num3.gif" 
 import Fig1 from "./images/fig1-pwd_managers.svg"
 import Fig2 from "./images/fig2-fb-messenger.svg"
 import Fig3 from "./images/fig3-quote-haley.png"
@@ -45,7 +51,13 @@ class Index extends React.Component {
                     heroSummary="MICA Phisher is a proof-of-concept phishing site which spoof the login page of the Maryland Institute College of Art."
                     btnGit="View Repository"/>
         </div>
-        <Abstract abstractTeam="Yana Gevorgyan"
+        <Abstract Glam1={Glam1}
+                  Glam2={Glam2}
+                  Glam3={Glam3}
+                  Glam4={Glam4}
+                  Glam5={Glam5}
+                  Glam6={Glam6}
+                  abstractTeam="Yana Gevorgyan"
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sqlite.js · E.js · Express.js" 
                   abstractTime="14 days · September 2019" 
@@ -94,7 +106,7 @@ class Index extends React.Component {
                   paragraphBody="The solution is forming up to be a type of a phishing site. Since my primary audience are my student peers, the site should target students from the Maryland Institute College of Art. I wanted to create a back-end interface that shows an infographic of which websites have been caught."/>
         <Paragraph paragraphTitle="" 
                   paragraphBody={["With these parameters in mind, I set out to create what I think is an engaging experiment: a phishing site that targets students from the Maryland Institute College of Art and displays the number of passwords caught since launch once the user logs in. The site will consist of a ",<mark>login page</mark>, " and a ", <mark> page that displays the stolen passwords.</mark>, " The user will be redirected to the page after they enter their password and press enter, as per this user flow diagram:"]}/>
-         <ImgFull img={FigFlow} imgNum="05" imgCaption="Simple user flow for displaying the credentials caught by MICA Phisher"/>
+         <ImgRight img={FigFlow} imgNum="05" imgCaption="Simple user flow for displaying the credentials caught by MICA Phisher"/>
         </div>
         <div id="p4">
         <Phase phaseTitle="Prototyping Phishing Site Layout"/>
@@ -107,7 +119,7 @@ class Index extends React.Component {
         <ImgRight img={Fig8} imgNum="08" padding="true" imgCaption="MICA’s Home Page displaying the most commonly used colors by the brand."/>
         <Paragraph paragraphTitle="Wireframing the Displays" 
                   paragraphBody="I started sketching out the pass-word display screen. The following information needed to be displayed: the number of credentials caught, running list of 10-15 credentials, Phisher logotype, disclaimer."/>
-         <ImgFull img={Fig9} imgNum="09" imgCaption="Finalizing wireframes."/>
+        <ImgFull img={Fig9} imgNum="09" imgCaption="Finalizing wireframes."/>
         <ImgFull img={FigSketch} imgNum="10" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
        
         </div>

@@ -3,12 +3,6 @@ import Fade from 'react-reveal/Fade';
 import "./abstract.css";
 import "../../css/normalize.css"
 import "../../css/global.css"
-import Glam1 from "../../images/inner/phisher-fullscreen.png" 
-import Glam2 from "../../images/inner/phisher-login.webm" 
-import Glam3 from "../../images/inner/phisher-fish.gif" 
-import Glam4 from "../../images/inner/phisher-num1.gif" 
-import Glam5 from "../../images/inner/phisher-num2.gif" 
-import Glam6 from "../../images/inner/phisher-num3.gif" 
 import caret_left from "../../images/inner/caret_left.svg" 
 
 
@@ -18,18 +12,18 @@ export default props => (
             <section className="abstract">
                 <section className="abstract__gallery">
                     <div className="abstract__img--wrapper" data-width="1">
-                        <img className="abstract__img"  src={Glam1}/>
+                        <img className="abstract__img"  src={props.Glam1}/>
                     </div>
                     <div className="abstract__img--wrapper" data-width="2">
                         <video className="abstract__img" preLoad="yes" autoplay="autoplay" loop muted playsinline>
-                            <source src={Glam2} type="video/webm"/>
+                            <source src={props.Glam2} type="video/webm"/>
                         </video>
-                        <img className="abstract__img"  src={Glam3}/>
+                        <img className="abstract__img"  src={props.Glam3}/>
                     </div>
                     <div className="abstract__img--wrapper" data-width="3">
-                        <img className="abstract__img"  src={Glam4}/>                     
-                        <img className="abstract__img"  src={Glam5}/>
-                        <img className="abstract__img"  src={Glam6}/>
+                        <img className="abstract__img"  src={props.Glam4}/>                     
+                        <img className="abstract__img"  src={props.Glam5}/>
+                        <img className="abstract__img"  src={props.Glam6}/>
                     </div>
                 </section>
                 <section className="abstract__txt--wrapper">
