@@ -45,7 +45,8 @@ class Index extends React.Component {
                     heroSummary="MICA Phisher is a proof-of-concept phishing site which spoof the login page of the Maryland Institute College of Art."
                     btnGit="View Repository"/>
         </div>
-        <Abstract abstractRole="UI Designer · Developer" 
+        <Abstract abstractTeam="Yana Gevorgyan"
+                  abstractRole="UI Designer · Developer" 
                   abstractTools="Sqlite.js · E.js · Express.js" 
                   abstractTime="14 days · September 2019" 
                   abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>

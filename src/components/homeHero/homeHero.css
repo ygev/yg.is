@@ -1,69 +1,16 @@
-/* Hero Image */
 .home__hero {
   display: none;
   position: relative;
 }
 
-figure.home__img {
-  transition: 250ms ease-in-out;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-bottom: 2px var(--black) solid;
-}
-
-figure.home__img img {
-  transition: 150ms ease-in-out;
-  max-height: 40vh;
-  display: block;
-}
-
-figure.home__img img:hover {
-  transform: scale(1.1);
-  transition: 150ms ease-in-out;
-  -webkit-filter: drop-shadow(120px 120px 250px rgba(0, 0, 0, 0.938));
-  filter: url(#drop-shadow);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-}
-
-.marquee__wrap {
-  width: 39.9vw; 
-  white-space: nowrap;
-  background-color: var(--white);
-  border-top: 2px var(--black) solid;
-  border-bottom: 2px var(--black) solid;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  font-family: Chapeau;
-  font-weight: 500;
-  font-size: 20px;
-  color: var(--black);
-  letter-spacing: 1.11px;
-  line-height: 24px;
-  border-right: 2px var(--black) solid;
-}
-
   /* TABLET VERSION */
   
 @media (min-width: 768px) {
-  
   .home__hero {
-    display: block;
-    height: 85vh;
-    grid-row-start: 1;
-    background-color: var(--projcolor);
-    transition: 150ms ease-in-out;
-    grid-row-end: span 2;
-    border-right: 2px var(--black) solid;
+    display: none;
+    position: relative;
   }
-  
-  figure.hero__img {
-    border-bottom: 0;
-    margin-top: auto;
-    padding-left: 10vw;
-  }
+
 }
   
   
@@ -71,6 +18,17 @@ figure.home__img img:hover {
 
 @media (min-width: 1024px) {
 
+
+  .home__hero {
+    display: block;
+    height: 100vh;
+    grid-row-start: 1;
+    background-color: var(--projcolor);
+    transition: 150ms ease-in-out;
+    grid-row-end: span 2;
+    border-right: 2px var(--black) solid;
+  }
+  
   .hero {
     grid-row-start: 1;
     background-color: var(--black);
@@ -80,14 +38,42 @@ figure.home__img img:hover {
     z-index: 2;
   }
 
+
+figure.home__img img {
+  max-width: 30vw;
+  max-height: 80vh;
+  filter: drop-shadow(0px 20px 20px rgba(38, 44, 75, 0.3));
+}
+
   figure.home__img {
     border-bottom: 0;
-    margin: 0;
-    padding:0;
-    padding-top: 9vw;
-    padding-bottom: 9vw;
+    transition: 250ms ease-in-out;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px var(--black) solid;
   }  
+
+
+  /* Hero Image */
+  .marquee__wrap {
+    width: 39.675vw; 
+    white-space: nowrap;
+    background-color: var(--white);
+    border-top: 2px var(--black) solid;
+    /* border-bottom: 2px var(--black) solid; */
+    border-right: 2px var(--black) solid;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Chapeau;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--black);
+    letter-spacing: 1.11px;
+    line-height: 24px;
+  }
 }
   

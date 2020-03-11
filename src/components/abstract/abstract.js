@@ -36,11 +36,13 @@ export default props => (
                     <aside className="abstract__txt--left">
                     <section className="abstract__details">
                         <aside className="abstract__head">
+                            <h4>Team</h4>
                             <h4>Role</h4>
                             <h4>Tools</h4>
                             <h4>Time</h4>
                         </aside>
                         <aside className="abstract__body">
+                            <p>{props.abstractTeam}</p>
                             <p>{props.abstractRole}</p>
                             <p>{props.abstractTools}</p>
                             <p>{props.abstractTime}</p>

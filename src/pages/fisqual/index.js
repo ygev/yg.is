@@ -21,11 +21,13 @@ class Index extends React.Component {
                     heroYear={Constants.fisqual.heroYear}
                     heroDeliverable={Constants.fisqual.heroDeliverable}
                     heroTitle={Constants.fisqual.heroTitle}
+                    heroSummary="Fisqual is an app that analyzes your bank statements and calculates a stable monthly income from variable earnings."
                     btnGit="View Repository"/>
         </div>
-        <Abstract abstractRole="UI Designer · Developer" 
-                  abstractTools="Sqlite.js · E.js · Express.js" 
-                  abstractTime="14 days · September 2019" 
+        <Abstract abstractTeam="Yana Gevorgyan &amp; Amanda Yeh"
+                  abstractRole="UX Researcher · UI Designer" 
+                  abstractTools="Figma" 
+                  abstractTime="24 hours · November 2019" 
                   abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
         <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'IDEATE', 'ITERATE', 'VALIDATE']}
                   trackerHead={Constants.fisqual.heroTitle}/>

@@ -99,6 +99,10 @@ a {
     align-items: flex-start;
   }
 
+  .home__txt::-webkit-scrollbar {
+    display: none;
+  }
+
 .home__txt:after {
   position: absolute;
   height: 110%;
@@ -116,7 +120,7 @@ a {
 
 }
     
-
+/* DESKTOP VERSION */
 @media (min-width: 1024px) {
 
   .home__txt {
@@ -130,5 +134,18 @@ a {
     align-items: flex-start;
   }
 
+  .home__head {
+    -webkit-text-stroke-width: 2px;
+    font-size: 48px;
+    line-height: 128px;
+  }
 }
-  
+
+/* 4K */
+@media(min-width: 2560px) {
+  .home__head {
+    -webkit-text-stroke-width: 3px;
+    font-size: 64px;
+    line-height: 200px;
+  }
+}

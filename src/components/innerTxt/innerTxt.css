@@ -34,11 +34,10 @@
 
 .head {
   font-family: SuisseNeue-Regular;
-  font-size: 0.8em;
+  font-size: 1em;
   line-height: 1.35em;
   color: var(--black);
   padding-top: 16px;
-  letter-spacing: 0.53px;
   text-align: center;
 }
 
@@ -109,7 +108,7 @@
 }
     
 .head {
-  font-size: 0.65em;
+  font-size: 1em;
 }    
 
     /* DESKTOP VERSION */
@@ -145,7 +144,6 @@
     padding-bottom: 32px;
     text-align: left;
     color: var(--black);
-    letter-spacing: 1px;
     font-size: 1em;
     line-height: 1.5em;
     width: 40vw;
