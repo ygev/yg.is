@@ -12,10 +12,11 @@ export default props => (
                 <h3 className="brow">{props.heroCategory} - {props.heroYear} - {props.heroDeliverable}</h3>
                 <h2 className="lead">{props.heroTitle}</h2>
                 <h2 className="head">{props.heroSummary}</h2>
-                <div className="btn__git--wrapper">
+                <a href={props.gitLink}><div className="btn__git--wrapper">
                     <button className="btn__git">{props.btnGit}</button>
                     <span className="btn__git--iconbg"><img alt="GitHub Logo" className="btn__git--icon" src={gitlogo}/></span>
                 </div>
+                </a>
             </div>
         </Fade>
     </>

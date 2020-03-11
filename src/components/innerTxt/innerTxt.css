@@ -53,7 +53,7 @@
   text-align: center;
   line-height: 24px;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 9.5px;
   background-color: var(--white);
   border: 1px  var(--black) solid;
   width: 240px;
@@ -67,7 +67,7 @@
 .btn__git--icon {
   width: 24px;
   height: 24px;
-  padding: 10px;
+  padding: 9.5px;
 }
 
 .btn__git--wrapper {
@@ -153,11 +153,11 @@
   
 
 /* 4K VERSION */
-@media (min-width: 2560px) {
+@media (min-width: 1440px) {
   .lead{
     font-size: 3.5em;
     line-height: 1.25em;
-    max-width: 36vw;
+    max-width: 40vw;
   }
 
   .head{
