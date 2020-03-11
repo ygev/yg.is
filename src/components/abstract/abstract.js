@@ -5,26 +5,36 @@ import "../../css/normalize.css"
 import "../../css/global.css"
 import caret_left from "../../images/inner/caret_left.svg" 
 
+function buildImgWrapperDiv(listOfSrc) {
+    return Array.from(Array(listOfSrc.length).keys()).map((i) => {
+        if (listOfSrc[i].toLowerCase().endsWith('mp4')) {
+            return <video className="abstract__img" preload="yes" autoPlay="autoplay" loop muted playsInline>
+                    <source src={listOfSrc[i]} type="video/mp4"/>
+                </video>
+        } else if (listOfSrc[i].toLowerCase().endsWith('webm')) {
+            return <video className="abstract__img" preload="yes" autoPlay="autoplay" loop muted playsInline>
+                <source src={listOfSrc[i]} type="video/webm"/>
+            </video>
+        } else {
+            return <img className="abstract__img" src={listOfSrc[i]}/>
+        }
+    })
+}
+
+function buildGallery(listOfLists) {
+    return Array.from(Array(listOfLists.length).keys()).map((i) => {
+        return <div className="abstract__img--wrapper" data-width={listOfLists[i].length}>
+            {buildImgWrapperDiv(listOfLists[i])}
+        </div>
+    })
+}
 
 export default props => (
     <>
         <Fade bottom delay={0} duration={300}>
             <section className="abstract">
                 <section className="abstract__gallery">
-                    <div className="abstract__img--wrapper" data-width="1">
-                        <img className="abstract__img"  src={props.Glam1}/>
-                    </div>
-                    <div className="abstract__img--wrapper" data-width="2">
-                        <video className="abstract__img" preLoad="yes" autoplay="autoplay" loop muted playsinline>
-                            <source src={props.Glam2} type="video/webm"/>
-                        </video>
-                        <img className="abstract__img"  src={props.Glam3}/>
-                    </div>
-                    <div className="abstract__img--wrapper" data-width="3">
-                        <img className="abstract__img"  src={props.Glam4}/>                     
-                        <img className="abstract__img"  src={props.Glam5}/>
-                        <img className="abstract__img"  src={props.Glam6}/>
-                    </div>
+                    {buildGallery(props.glams)}
                 </section>
                 <section className="abstract__txt--wrapper">
                     <aside className="abstract__txt--left">

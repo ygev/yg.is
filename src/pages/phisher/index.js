@@ -51,12 +51,14 @@ class Index extends React.Component {
                     heroSummary="MICA Phisher is a proof-of-concept phishing site which spoof the login page of the Maryland Institute College of Art."
                     btnGit="View Repository"/>
         </div>
-        <Abstract Glam1={Glam1}
-                  Glam2={Glam2}
-                  Glam3={Glam3}
-                  Glam4={Glam4}
-                  Glam5={Glam5}
-                  Glam6={Glam6}
+        <Abstract 
+                  glams={
+                    [
+                      [Glam1],
+                      [Glam2, Glam3],
+                      [Glam4, Glam5, Glam6]
+                    ]
+                  }
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sqlite.js · E.js · Express.js" 
                   abstractTime="14 days · September 2019" 
