@@ -31,7 +31,7 @@ function buildGallery(listOfLists) {
 
 export default props => (
     <>
-        <Fade bottom delay={0} duration={300}>
+        <Fade bottom delay={0} duration={250}>
             <section className="abstract">
                 <section className="abstract__gallery">
                     {buildGallery(props.glams)}

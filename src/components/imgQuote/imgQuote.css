@@ -8,7 +8,7 @@
 }
 
 .imgQuote__bg {
-    background: radial-gradient(var(--projcolor), #eee);
+    background: radial-gradient(#aaa, #eee);
     font-family: Chapeau;
     font-weight: 500;
     font-size: 5vw;
@@ -30,7 +30,7 @@
     .imgQuote__bg {
         margin-top: 32px;
         margin-bottom: 32px;
-        background: radial-gradient(var(--projcolor), #eee);
+        background: radial-gradient(#aaa, #eee);
         font-family: Chapeau;
         font-weight: 500;
         font-size: 24px;
