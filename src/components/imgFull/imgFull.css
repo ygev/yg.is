@@ -34,4 +34,8 @@
         margin-left: 24vw;
         margin-right: 24vw;
     }
+
+    .imgFull__img {
+        max-width:80%;
+    }
 }
