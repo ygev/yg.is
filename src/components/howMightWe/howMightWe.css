@@ -68,3 +68,11 @@
     }
 
 }
+
+/* 4K VERSION */
+@media (min-width: 2560px) {
+    .howMightWe {
+        margin-left: 24vw;
+        margin-right: 24vw;
+    }
+}

@@ -26,4 +26,12 @@
         max-width: 100%;
     }
 
-          }
+}
+
+/* 4K VERSION */
+@media (min-width: 2560px) {
+    .imgFull {
+        margin-left: 24vw;
+        margin-right: 24vw;
+    }
+}

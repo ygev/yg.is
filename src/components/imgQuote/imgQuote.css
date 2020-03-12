@@ -1,6 +1,7 @@
 .imgQuote__fig {
     margin-left: 6vw;
     margin-right: 6vw;
+    margin-top: 32px;
 }
 
 .imgQuote__img {
@@ -19,6 +20,7 @@
     padding: 10vw;
     margin-left: 6vw;
     margin-right: 6vw;
+    margin-bottom: 32px;
     letter-spacing: 0;
     line-height: 6vw;
     border: 2px var(--black) solid;
@@ -58,4 +60,11 @@
         width: auto;
     }
     
-          }
+}
+
+/* 4K VERSION */
+@media (min-width: 2560px) {
+    .imgQuote__bg {
+        margin-left: 24vw;
+    }
+}

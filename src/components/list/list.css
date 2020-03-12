@@ -32,22 +32,30 @@ ul > .list__item::before {
 
 @media (min-width: 1024px) {
 
-.list {
-    grid-area: pg;
-    margin-left: 6vw;
-    margin-right: 16vw;
-    margin-top: 0;
-}
+    .list {
+        grid-area: pg;
+        margin-left: 6vw;
+        margin-right: 16vw;
+        margin-top: 0;
+    }
 
 
-.list__items {
-    font-size: 18px;
-    line-height: 32px;   
+    .list__items {
+        font-size: 18px;
+        line-height: 32px;   
+    }
+
+    .list__item:before {
+        font-size: 12px;
+        margin-left: -2.5em;
+        margin-right: 1.5em; 
+    }   
 }
 
-.list__item:before {
-    font-size: 12px;
-    margin-left: -2.5em;
-    margin-right: 1.5em; 
+/* 4K VERSION */
+@media (min-width: 2560px) {
+
+    .list  {
+        margin-right: 24vw;
+    }
 }
-      }

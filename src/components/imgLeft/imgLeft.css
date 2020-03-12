@@ -50,4 +50,11 @@
         line-height: 24px;
         padding-top: 8px;
     }
-          }
+}
+
+/* 4K VERSION */
+@media (min-width: 2560px) {
+    .imgLeft {
+        padding-left: 24vw;
+    }
+}

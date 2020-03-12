@@ -110,6 +110,13 @@
         width: 20vw;
         padding-right: 0;
     }
-        
+}
 
-      }
+/* 4K VERSION */
+@media (min-width: 2560px) {
+
+    .more  {
+        padding-left: 24vw;
+        padding-right: 24vw;
+    }
+}

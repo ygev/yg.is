@@ -80,4 +80,15 @@
         margin-right: 0;
     }
     
-          }
+}
+
+/* 4K VERSION */
+@media (min-width: 2560px) {
+    .issues__screen  {
+        margin-left: 24vw;
+    }
+
+    .issues__list  {
+        margin-right: 24vw;
+    }
+}

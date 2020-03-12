@@ -113,3 +113,10 @@ nav {
     }
     
       }
+
+/* 4K VERSION */
+@media (min-width: 2560px) {
+    .nav {
+        padding-right: 24vw;
+    }
+}

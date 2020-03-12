@@ -118,4 +118,11 @@
         margin: 0 auto;
     }
 
+
+    @media (min-width: 2560px) {
+        .contact {
+            padding-left: 24vw;
+            padding-right: 24vw;
+        }
+    }
       }

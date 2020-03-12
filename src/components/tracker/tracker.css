@@ -93,3 +93,16 @@
         
     }
 
+/* 4K VERSION */
+@media (min-width: 2560px) {
+
+    .tracker  {
+        padding-left: 24vw;
+        padding-right: 24vw;
+    }
+
+    .phases  {
+        padding-left: 24vw;
+        padding-right: 24vw;
+    }
+}

@@ -161,6 +161,10 @@
 
 /* 4K VERSION */
 @media (min-width: 1440px) {
+  .inner__txt {
+    padding-right: 24vw;
+  }
+
   .lead{
     font-size: 3.5em;
     line-height: 1.25em;

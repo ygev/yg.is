@@ -81,3 +81,11 @@ mark {
     line-height: 0em;
     padding-bottom: 0.5em;
 }
+
+/* 4K VERSION */
+@media (min-width: 2560px) {
+
+    .paragraph  {
+        padding-right: 24vw;
+    }
+}

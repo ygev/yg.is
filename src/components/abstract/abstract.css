@@ -231,9 +231,17 @@
 
 @media (min-width: 1440px) {
     .abstract__gallery {
-        margin-left: 16vw;
-        margin-right: 16vw;
+        margin-left: 24vw;
+        margin-right: 24vw;
         width: auto;
+    }
+
+    .abstract__txt {
+        margin-right: 24vw;
+    }
+    
+    .abstract__txt--left {
+        margin-left: 24vw;
     }
 
     .abstract__hint {
