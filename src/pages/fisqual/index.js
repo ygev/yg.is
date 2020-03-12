@@ -5,6 +5,7 @@ import Glam2 from "./images/hero.png";
 import Glam3 from "./images/hero.png"; 
 import Glam4 from "./images/hero.png"; 
 import Glam5 from "./images/hero.png"; 
+import Glam6 from "./images/hero.png"; 
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -34,7 +35,7 @@ class Index extends React.Component {
                     [
                       [Glam1],
                       [Glam2, Glam3],
-                      [Glam4, Glam5]
+                      [Glam4, Glam5, Glam6]
                     ]
                   }
                   abstractTeam="Yana Gevorgyan &amp; Amanda Yeh"
