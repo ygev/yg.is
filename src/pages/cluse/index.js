@@ -40,9 +40,9 @@ class Index extends React.Component {
                   }
                   abstractTeam="Yana Gevorgyan"
                   abstractRole="UI Designer · Developer" 
-                  abstractTools="Sketch API · JavaScript · Objective C" 
+                  abstractTools="Sketch API · JS · Objective C" 
                   abstractTime="3 months · December 2019" 
-                  abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
+                  abstractBody="Cluse is a Sketch plugin that aims to develop inclusive design habits for the average Sketch user. However, there is no optimal way to incorporate them all into the workflow. From my interviews with interns and full-time designers, the most common manner for verifying WCAG color contrast compliance is manually pasting in HEX codes to online tools. Thus, the idea for Cluse was born."/>
         <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'IDEATE', 'ITERATE', 'VALIDATE']}
                   trackerHead={Constants.cluse.heroTitle}/>
         <Contact/>
