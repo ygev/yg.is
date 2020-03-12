@@ -67,8 +67,10 @@ class Index extends React.Component {
                   trackerHead={Constants.phisher.heroTitle}/>
         <div id="p1">
         <Phase phaseTitle="Understanding the State of Casual Operational Security"/>
-        <List listTitle="Research Questions" listType='ol'
-                  listItems={["Chicken", "Egg", "Waffle"]} />
+        <List listTitle="Research Questions" listType='ul'
+                  listItems={["How have attitudes towards OPSEC changed nation-wide, given recent data breaches and hacks?", 
+                              "To what extent do people at Maryland Institute College of Art use password managers?", 
+                              "To what extend do people mindlessly enter personal data into credible interfaces?"]} />
         <Paragraph paragraphTitle="Surveying National Opsec Engagement" 
                   paragraphBody="According to a study by the Pew Research Center, as of 2016, most Americans kept track of their online passwords by either memorizing them or writing them down. However, with subsequent data breaches, such as Capital One and Equifax, the popularity of password managers rose up. In 2019 a Threatpost poll found that 84% of respondents use password managers, with only 10 percent of people saying that they don't due to perceived security risks."/>
         <ImgRight img={Fig1} imgNum="01" imgCaption="Pew Research Center, 2019"/>
@@ -82,8 +84,10 @@ class Index extends React.Component {
         <Phase phaseTitle="Defining the Problem"/>
         <Paragraph paragraphTitle="" 
                   paragraphBody="After researching Americans’ attitudes towards password management, surveying students and reading about behavioral patterns, I concluded the following:."/>
-        <List listTitle="Insights" listType='ol'
-                  listItems={["Chicken", "Egg", "Waffle"]} />
+        <List listTitle="Insights" listType='ul'
+                  listItems={["There is a rising awareness among Americans to use password managers, yet a small minority of people still get phished. ", 
+                              "Students at the Maryland Institute College of Art largely do not use password managers, nor do they see the importance of two factor authentication that has been established in 2019.", 
+                              "Students mindlessly enter their passwords without double checking the URL first. Frequent bugs in MICA’s system force students to enter their credentials twice, which is an explotable feature."]} />
         <ImgQuote img={Fig3}/>
         <Paragraph paragraphTitle="Lack of Awareness" 
                   paragraphBody="Based on these insights, I’ve concluded there is not enough awareness about how easy it is to steal one’s data on campus compared to the national average presentd by the Pew Research Center. Phisher websites can be generated programmatically and it is far too easy to store passwords in a database with malicious intentions, even by an art student like me. Students largely didnt care much for the two-factor authentication employed by the school after a number of phishing attacks. There was clearly not enough awareness around the campus, leading me to pose the following design challenge: "/>

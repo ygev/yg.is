@@ -4,21 +4,8 @@
     margin-right: 6vw;
 }
 
-.list__ordered {
-    list-style: armenian;
-    counter-reset: item;
-    font-size: 10px;
-    line-height: 32px;
-}
 
-.list__unordered {
-    list-style: disc;
-    counter-reset: item;
-    font-size: 10px;
-    line-height: 32px;
-}
-
-.list__item {
+.list__items {
     font-family: SuisseNeue-Regular;
     color: var(--black);
     letter-spacing: 0;
@@ -27,21 +14,19 @@
     counter-increment: item;
 }
 
-.list__item::before {
-    font-family: Chapeau;
-    font-size: 10px;
-    line-height: 24px;
-    font-weight: 900;
-    content: counter(item);
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -4.5em;
-    margin-right: 3.5em; 
-    text-align: right; 
-    direction: rtl;
+ul.list__items {
+    list-style: none; 
 }
 
-
+ul > .list__item::before {
+    content: "➜"; 
+    font-family: SuisseNeueegular;
+    color: var(--projcolor); 
+    font-weight: 900; 
+    display: inline-block;
+    width: 1.4em;
+    margin-left: -3em;
+  }
 
 /* DESKTOP VERSION */
 
@@ -54,17 +39,13 @@
     margin-top: 0;
 }
 
-.list__list {
-    font-size: 12px;
-    line-height: 32px;
-}
 
-.list_item {
+.list__items {
     font-size: 18px;
     line-height: 32px;   
 }
 
-.list__item::before {
+.list__item:before {
     font-size: 12px;
     margin-left: -2.5em;
     margin-right: 1.5em; 
