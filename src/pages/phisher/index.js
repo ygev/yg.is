@@ -83,7 +83,7 @@ class Index extends React.Component {
         <div id="p2">
         <Phase phaseTitle="Defining the Problem"/>
         <Paragraph paragraphTitle="" 
-                  paragraphBody="After researching Americans’ attitudes towards password management, surveying students and reading about behavioral patterns, I concluded the following:."/>
+                  paragraphBody="After researching Americans’ attitudes towards password management, surveying students and reading about behavioral patterns, I concluded the following:"/>
         <List listTitle="Insights" listType='ul'
                   listItems={["There is a rising awareness among Americans to use password managers, yet a small minority of people still get phished. ", 
                               "Students at the Maryland Institute College of Art largely do not use password managers, nor do they see the importance of two factor authentication that has been established in 2019.", 
@@ -119,7 +119,12 @@ class Index extends React.Component {
                           paragraphBody="Although there is a plethora of colors to choose from, I picked the top three colors seen on MICA’s front page, since this is something that has already been prioritized before me by the original creators of the site."/>
         <ImgRight img={Fig8} imgNum="08" padding="true" imgCaption="MICA’s Home Page displaying the most commonly used colors by the brand."/>
         <Paragraph paragraphTitle="Wireframing the Displays" 
-                  paragraphBody="I started sketching out the pass-word display screen. The following information needed to be displayed: the number of credentials caught, running list of 10-15 credentials, Phisher logotype, disclaimer."/>
+                  paragraphBody="I started sketching out the pass-word display screen. The following information needed to be displayed:"/>
+        <List listTitle="" listType='ul'
+              listItems={["the number of credentials caught", 
+                          "a running list of 10-15 credentials", 
+                          "the Phisher logotype",
+                          "a disclaimer"]} />
         <ImgFull img={Fig9} imgNum="09" imgCaption="Finalizing wireframes."/>
         <ImgFull img={FigSketch} imgNum="10" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
        

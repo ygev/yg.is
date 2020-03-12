@@ -4,6 +4,7 @@ import "../../css/normalize.css";
 import "../../css/global.css";
 import Fade from 'react-reveal/Fade';
 
+
 function highlight(input) {
 
     var output = [];
