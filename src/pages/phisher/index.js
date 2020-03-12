@@ -63,7 +63,7 @@ class Index extends React.Component {
                   abstractTools="Sqlite.js · E.js · Express.js" 
                   abstractTime="14 days · September 2019" 
                   abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
-        <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'IDEATE', 'ITERATE', 'VALIDATE']}
+        <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'BRAINSTORM', 'PROTOTYPE', 'VALIDATE']}
                   trackerHead={Constants.phisher.heroTitle}/>
         <div id="p1">
         <Phase phaseTitle="Understanding the State of Casual Operational Security"/>

@@ -22,7 +22,7 @@ export default props => (
                                     return <Controller>
                                         <Scene duration={() => { if (document.getElementById('p' + (i+1)) != null) return document.getElementById('p' + (i+1)).clientHeight } }
                                                     classToggle="phases__active" triggerElement={'#p' + (i+1)}>
-                                            <h3 className="phases__txt">PHASE {i+1}: {props.phaseList[i]}</h3>
+                                            <h3 className="phases__txt">{props.phaseList[i]}</h3>
                                         </Scene>
                                     </Controller>;
                                 })
@@ -34,3 +34,5 @@ export default props => (
     </>
 
 );  
+
+// PHASE {i+1}: add this to "phases__txt if you want phases..."
