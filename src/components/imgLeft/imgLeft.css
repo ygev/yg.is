@@ -12,7 +12,7 @@
 
 .imgLeft__caption {
     font-family: Chapeau;
-    font-weight: 900;
+    font-weight: 300;
     font-size: 10px;
     color: var(--black);
     letter-spacing: 1px;
@@ -42,8 +42,6 @@
     }
 
     .imgLeft__caption {
-        font-family: Chapeau;
-        font-weight: 900;
         font-size: 12px;
         color: var(--black);
         letter-spacing: 1px;
