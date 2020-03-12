@@ -129,7 +129,7 @@ class Index extends React.Component {
         <ImgFull img={FigSketch} imgNum="10" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
        
         </div>
-        <div id="p5">
+        <div class="end" id="p5">
         <Phase phaseTitle="Validating the Design with Students"/>
         <Paragraph paragraphTitle="Presenting the Phishing Site" 
                    paragraphBody="To assess the effectiveness of my idea before setting up the exhibition, I presented the site to a series of Maryland Institute College of Art seniors. The following is a compilation of comments I have received that could improve the design:"/>

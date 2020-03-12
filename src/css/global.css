@@ -19,7 +19,10 @@
     --projcolor: var(--black);
   }
 }
-  
+
+.end {
+  margin-bottom: 128px;
+}
 
 /* MICA Phisher Color */
 :root .phisher {
