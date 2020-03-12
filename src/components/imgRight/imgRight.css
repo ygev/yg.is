@@ -15,6 +15,7 @@
 
 .imgRight__number {
     border-bottom: 1px solid var(--projcolor);
+    font-weight: 500;
 }
 
 .imgRight__caption {
