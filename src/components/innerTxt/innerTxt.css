@@ -149,6 +149,13 @@
     width: 40vw;
   }
 
+  .btns__wrapper {
+    display: flex;
+  }
+
+  .btn {
+    margin-right: 2em;
+  }
 }
   
 
