@@ -6,7 +6,7 @@ import "../../css/global.css";
 
 function buildList(input) {
     return Array.from(Array(input.length).keys()).map((i) => {
-        return <li class="list__item">{input[i]}</li>
+        return <li className="list__item">{input[i]}</li>
     })
 }
 

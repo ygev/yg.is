@@ -68,7 +68,7 @@ class Index extends React.Component {
         <div id="p1">
         <Phase phaseTitle="Understanding the State of Casual Operational Security"/>
         <List listTitle="Research Questions" listType='ul'
-                  listItems={["How have attitudes towards OPSEC changed nation-wide, given recent data breaches and hacks?", 
+              listItems={["How have attitudes towards OPSEC changed nation-wide, given recent data breaches and hacks?", 
                               "To what extent do people at Maryland Institute College of Art use password managers?", 
                               "To what extend do people mindlessly enter personal data into credible interfaces?"]} />
         <Paragraph paragraphTitle="Surveying National Opsec Engagement" 
@@ -106,7 +106,7 @@ class Index extends React.Component {
         <Paragraph paragraphTitle="Gesamkunstwerk" 
                   paragraphBody="The solution is forming up to be a type of a phishing site. Since my primary audience are my student peers, the site should target students from the Maryland Institute College of Art. I wanted to create a back-end interface that shows an infographic of which websites have been caught."/>
         <Paragraph paragraphTitle="" 
-                  paragraphBody={["With these parameters in mind, I set out to create what I think is an engaging experiment: a phishing site that targets students from the Maryland Institute College of Art and displays the number of passwords caught since launch once the user logs in. The site will consist of a ",<mark>login page</mark>, " and a ", <mark> page that displays the stolen passwords.</mark>, " The user will be redirected to the page after they enter their password and press enter, as per this user flow diagram:"]}/>
+                  paragraphBody="With these parameters in mind, I set out to create what I think is an engaging experiment: a phishing site that targets students from the Maryland Institute College of Art and displays the number of passwords caught since launch once the user logs in. The site will consist of a <<login page>> and a <<page that displays the stolen passwords.>> The user will be redirected to the page after they enter their password and press enter, as per this user flow diagram:"/>
          <ImgRight img={FigFlow} imgNum="05" imgCaption="Simple user flow for displaying the credentials caught by MICA Phisher"/>
         </div>
         <div id="p4">
