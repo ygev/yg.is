@@ -10,7 +10,7 @@ export default props => (
           <figure className="imgRight">
             <img src={props.img} alt="" className={ "imgRight__img " + (props.padding ? "imgRight--padding" : "") }/>
             <figcaption className="imgRight__caption">
-                <span className="imgRight__number">{props.imgNum}</span> {props.imgCaption}
+                <span className="imgRight__number">Fig {props.imgNum}</span> {props.imgCaption}
             </figcaption>
           </figure>
         </div>

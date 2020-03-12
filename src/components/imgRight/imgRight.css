@@ -13,6 +13,10 @@
     background-color: var(--black);
 }
 
+.imgRight__number {
+    border-bottom: 1px solid var(--projcolor);
+}
+
 .imgRight__caption {
     font-family: Chapeau;
     font-weight: 300;

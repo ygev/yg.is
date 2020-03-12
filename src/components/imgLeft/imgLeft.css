@@ -25,6 +25,10 @@
     background-color: var(--black);
 }
 
+.imgLeft__number {
+    border-bottom: 1px solid var(--projcolor);
+}
+
 /* DESKTOP VERSION */
 
 
