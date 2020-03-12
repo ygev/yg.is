@@ -1,5 +1,11 @@
 import React from "react"
 import Hero from "./images/hero.png"; 
+import Glam1 from "./images/hero.png"; 
+import Glam2 from "./images/hero.png"; 
+import Glam3 from "./images/hero.png"; 
+import Glam4 from "./images/hero.png"; 
+import Glam5 from "./images/hero.png"; 
+import Glam6 from "./images/hero.png"; 
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -25,7 +31,14 @@ class Index extends React.Component {
                     btnGit="View Repository"
                     gitLink="https://github.com/ygev/cluse"/>
         </div>
-        <Abstract abstractTeam="Yana Gevorgyan"
+        <Abstract glams={
+                    [
+                      [Glam1],
+                      [Glam2, Glam3],
+                      [Glam4, Glam5, Glam6]
+                    ]
+                  }
+                  abstractTeam="Yana Gevorgyan"
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sketch API · JavaScript · Objective C" 
                   abstractTime="3 months · December 2019" 

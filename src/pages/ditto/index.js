@@ -1,5 +1,11 @@
 import React from "react"
-import Hero from "./images/hero.png"; 
+import Hero from "./images/hero.png";
+import Glam1 from "./images/hero.png"; 
+import Glam2 from "./images/hero.png"; 
+import Glam3 from "./images/hero.png"; 
+import Glam4 from "./images/hero.png"; 
+import Glam5 from "./images/hero.png"; 
+import Glam6 from "./images/hero.png";  
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -25,9 +31,17 @@ class Index extends React.Component {
                     btnGit="View Repository"
                     gitLink="https://github.com/ygev/klepto"/>/>
         </div>
-        <Abstract abstractRole="UI Designer · Developer" 
-                  abstractTools="Sqlite.js · E.js · Express.js" 
-                  abstractTime="14 days · September 2019" 
+        <Abstract glams={
+                    [
+                      [Glam1],
+                      [Glam2, Glam3],
+                      [Glam4, Glam5, Glam6]
+                    ]
+                  }
+                  abstractTeam="Yana Gevorgyan &amp; Blake Quigley"
+                  abstractRole="UI Designer · Developer" 
+                  abstractTools="Sketch API · CocoaScript · JS" 
+                  abstractTime="2 months · Summer 2019" 
                   abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
         <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'IDEATE', 'ITERATE', 'VALIDATE']}
                   trackerHead={Constants.ditto.heroTitle}/>

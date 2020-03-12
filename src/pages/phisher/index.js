@@ -59,7 +59,6 @@ class Index extends React.Component {
                       [Glam4, Glam5, Glam6]
                     ]
                   }
-                  abstractFor="Maryland Institute College of Art"
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sqlite.js · E.js · Express.js" 
                   abstractTime="14 days · September 2019" 

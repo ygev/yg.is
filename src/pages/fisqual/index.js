@@ -29,7 +29,7 @@ class Index extends React.Component {
                     heroTitle={Constants.fisqual.heroTitle}
                     heroSummary="Fisqual is an app that analyzes your bank statements and calculates a stable monthly income from variable earnings."
                     btnGit="View Devpost"
-                    gitLink="https://devpost.com/software/fisqual#updates"/>
+                    gitLink="https://devpost.com/software/fisqual"/>
         </div>
         <Abstract glams={
                     [
