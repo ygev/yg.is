@@ -92,13 +92,13 @@ export const Constants = {
     decred: {
         heroCategory: "Experience Design",
         heroYear: "2019",
-        heroDeliverable: "Cryptocurrency Calculator",
+        heroDeliverable: "Crypto Calculator",
         heroTitle: "Visualizing Ticket Staking History for the Decred Cryptocurrency"
     },
     arteca: {
         heroCategory: "UI/UX Design",
         heroYear: "2016",
-        heroDeliverable: "Web Publishing Platform",
+        heroDeliverable: "Publishing Platform",
         heroTitle: "Creating an Interdisciplinary Online Publishing Platform for MIT Press"
     }
 }
