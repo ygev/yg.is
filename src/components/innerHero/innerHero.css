@@ -44,7 +44,7 @@ figure.hero__img img {
 
 /* DESKTOP VERSION */ 
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
 
   .hero {
 

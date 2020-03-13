@@ -108,14 +108,14 @@
 
 /* TABLET VERSION */
 
-/* @media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
-  .hero__wrapper {
+div > .hero__wrapper {
       display: grid;
       grid-template-columns: 2fr 3fr;
       grid-template-rows:  auto auto ;
   }
-} */
+}
   
   
   /* DESKTOP VERSION */

@@ -23,7 +23,7 @@ class Index extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="home">
+        <main className="home">
           <div className="hero__wrapper">
             <Header/>
             <HomeHero currentHover={this.state.currentName ? this.state.currentName : ""} bg={this.state.bg}/>
@@ -31,7 +31,7 @@ class Index extends React.Component {
           </div>
           <Contact/>
           <Footer/>
-        </div>
+        </main>
       </React.Fragment>
     )
   }
