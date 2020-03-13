@@ -76,7 +76,7 @@ class Index extends React.Component {
         <ImgRight img={Fig1} imgNum="01" imgCaption="Pew Research Center, 2019"/>
         <Paragraph paragraphTitle="Surveying Students' Opsec Engagement" 
                   paragraphBody="Even Maryland Institute College of Art's website implemented two-factor authentication for their students in 2019 with variable feedback from the students. I have informally <<surveyed 15 students>> and plotted the most insightful responses on a scale from positive to negative."/>
-        <ImgFull img={Fig2} imgNum="02" imgCaption="Plotted testimonies from MICA students about the two-factor authentication system established in Fall 2019."/>
+        <ImgRight img={Fig2} imgNum="02" imgCaption="Plotted testimonies from MICA students about the two-factor authentication system established in Fall 2019."/>
         <Paragraph paragraphTitle="Considering Mindless UI Patterns"   
                   paragraphBody="<<The main cause of phishing is the lack of user training.>> Especially in college, with weak Wi-Fi signal, students are used to mindlessly entering their password more than once without looking at the URL twice. This mindless data entry is an aspect of human behavior that can and is exploited."/>
         </div>
@@ -97,7 +97,7 @@ class Index extends React.Component {
         <Phase phaseTitle="Brainstorming Awareness Campaigns"/>  
         <Paragraph paragraphTitle="" 
                   paragraphBody="I decided to think about how people unlearn poor user behaviors. After a <<mind-mapping exercise>>, I came up with three main ideas between which my ideal solution would lie."/>
-        <ImgFull img={Fig5} imgNum="03" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
+        <ImgRight img={Fig5} imgNum="03" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
         <ImgLeft img={Fig4} imgNum="04" imgCaption="The solution lies at the intersection of Visual Routines, Experiential Learning and Gesamkunstwerk"/>
         <Paragraph paragraphTitle="Visual Routines" 
                   paragraphBody="As discovered, people are relying on <<previously learned habits>> to fall for phishing tricks. In order to be effective, my solution needs to reveal the presence of these routines and allow people to notice them in the future."/>
@@ -107,7 +107,7 @@ class Index extends React.Component {
                   paragraphBody="The experiential quality of the solution will be successful because of the <<totality of the experience>>, or gesamtkunstwerk. The students will log in to the same login page they use every day, but instead of being taken to the home page, they will be taken to a page that creates a <<meta-commentary on their naiveté.>>"/>
         <Paragraph paragraphTitle="" 
                   paragraphBody="With these parameters in mind, I set out to create what I think is an engaging experiment: a phishing site that targets students from the Maryland Institute College of Art and displays the number of passwords caught since launch once the user logs in. The site will consist of a <<login page>> and the previously mentioned <<meta page.>> The user will be redirected to the page after they enter their password and press enter, as per this user flow diagram:"/>
-         <ImgRight img={FigFlow} imgNum="05" imgCaption="Simple user flow for displaying the credentials caught by MICA Phisher"/>
+        <ImgRight img={FigFlow} imgNum="05" imgCaption="Simple user flow for displaying the credentials caught by MICA Phisher"/>
         </div>
         <div id="p4">
         <Phase phaseTitle="Prototyping Phishing Site Layout"/>
@@ -125,8 +125,8 @@ class Index extends React.Component {
                           "a running list of 10-15 credentials", 
                           "the Phisher logotype",
                           "a disclaimer"]} />
-        <ImgFull img={Fig9} imgNum="09" imgCaption="Finalizing wireframes."/>
-        <ImgFull img={FigSketch} imgNum="10" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
+        <ImgRight img={Fig9} imgNum="09" imgCaption="Finalizing wireframes."/>
+        <ImgRight img={FigSketch} imgNum="10" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
        
         </div>
         <div class="end" id="p5">
