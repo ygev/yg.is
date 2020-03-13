@@ -3,6 +3,10 @@
   position: relative;
 }
 
+figure.home__img img {
+  max-height: 80vw;
+}
+
   /* TABLET VERSION */
   
 @media (min-width: 768px) {
