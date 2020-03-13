@@ -9,7 +9,9 @@ export default props => (
     <div className="imgLeft__absoluter">
         <div className="gridContainer">
           <figure className="imgLeft">
-            <img src={props.img} alt="" className={ "imgLeft__img " + (props.padding ? "imgLeft--padding" : "") }/>
+            <div className={ (props.padding ? "imgLeft--padding" : "")}>
+            <img src={props.img} alt="" className="imgLeft__img"/>
+            </div>
             <figcaption className="imgLeft__caption">
                 <span className="imgLeft__number">Fig {props.imgNum}</span> {props.imgCaption}
             </figcaption>

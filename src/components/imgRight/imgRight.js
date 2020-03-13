@@ -8,7 +8,10 @@ export default props => (
     <>
         <div className="gridContainer">
           <figure className="imgRight">
-            <img src={props.img} alt="" className={ "imgRight__img " + (props.padding ? "imgRight--padding" : "") }/>
+
+          <div className={ (props.padding ? "imgRight--padding" : "")}>
+            <img src={props.img} alt="" className="imgRight__img"/>
+          </div>
             <figcaption className="imgRight__caption">
                 <span className="imgRight__number">Fig {props.imgNum}</span> {props.imgCaption}
             </figcaption>
