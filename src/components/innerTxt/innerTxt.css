@@ -25,6 +25,8 @@
 .lead {
   font-family: Chapeau;
   font-weight: 500;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-top: 16px;
   letter-spacing: 0.53px;
   text-align: center;
@@ -35,6 +37,8 @@
 .head {
   font-family: SuisseNeue-Regular;
   font-size: 1em;
+  padding-left: 16px;
+  padding-right: 16px;
   line-height: 1.35em;
   color: var(--black);
   padding-top: 16px;
@@ -104,6 +108,8 @@
   
   .lead, .brow, .head {
     text-align: left;
+    padding-left: 0;
+    padding-right: 0;
   }    
 }
     
@@ -129,6 +135,8 @@
     letter-spacing: 1px;
     font-size: 2.25em;
     line-height: 1.35em;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .brow {
@@ -137,6 +145,8 @@
     color: var(--black);
     letter-spacing: 1px;
     line-height: 17px;
+    padding-left: 0;
+    padding-right: 0;
   }
     
   .head {
@@ -147,6 +157,8 @@
     font-size: 1em;
     line-height: 1.5em;
     width: 40vw;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .btns__wrapper {
@@ -166,15 +178,19 @@
   }
 
   .lead{
-    font-size: 3.5em;
+    font-size: 2.25vw;
     line-height: 1.25em;
     max-width: 40vw;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .head{
-    font-size: 1.3em;
-    line-height: 1.6em;
+    font-size: 14px;
+    line-height: 24px;
     max-width: 30vw;
     padding-bottom: 12px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
