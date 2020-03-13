@@ -36,6 +36,8 @@
 
 .head {
   font-family: SuisseNeue-Regular;
+  font-weight: 400;
+  letter-spacing: 0.2px;
   font-size: 1em;
   padding-left: 16px;
   padding-right: 16px;
@@ -186,8 +188,8 @@
   }
 
   .head{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 28px;
     max-width: 30vw;
     padding-bottom: 12px;
     padding-left: 0;
