@@ -11,7 +11,7 @@ export default props => (
 <Fade right duration={500}>
    <div className="header__wrapper">
       <nav>
-        <Logo className="spinny-logo"/>
+        <Link to="/"><Logo className="spinny-logo"/></Link>
          <img className="img-logo" src={logo} alt=""></img>
          <section className="header__txt">
          <Link className="navlink__active" to="">Projects</Link>
