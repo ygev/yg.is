@@ -25,12 +25,12 @@ import InnerTxt from "../../components/innerTxt/innerTxt"
 import Abstract from "../../components/abstract/abstract"
 import Tracker from "../../components/tracker/tracker"
 import List from "../../components/list/list"
+import Quote from "../../components/quote/quote"
 import Paragraph from "../../components/paragraph/paragraph"
 import Phase from "../../components/phase/phase"
 import ImgRight from "../../components/imgRight/imgRight"
 import ImgLeft from "../../components/imgLeft/imgLeft"
 import ImgFull from "../../components/imgFull/imgFull"
-import ImgQuote from "../../components/imgQuote/imgQuote"
 import HowMightWe from "../../components/howMightWe/howMightWe"
 import Issues from "../../components/issues/issues"
 import Contact from "../../components/contact/contact"
@@ -84,11 +84,11 @@ class Index extends React.Component {
         <Phase phaseTitle="Defining the Problem"/>
         <Paragraph paragraphTitle="" 
                   paragraphBody="After researching Americans’ attitudes towards password management, surveying students and reading about behavioral patterns, I concluded the following:"/>
+        <Quote quote="Never needed extra security, so it’s totally unnecessary to me." />
         <List listTitle="Insights" listType='ul'
                   listItems={["There is a rising awareness among Americans to use password managers, yet a small minority of people still get phished. ", 
                               "Students at the Maryland Institute College of Art largely do not use password managers, nor do they see the importance of two factor authentication that has been established in 2019.", 
                               "Students mindlessly enter their passwords without double checking the URL first. Frequent bugs in MICA’s system force students to enter their credentials twice, which is an explotable feature."]} />
-        <ImgQuote img={Fig3}/>
         <Paragraph paragraphTitle="Lack of Awareness" 
                   paragraphBody="Based on these insights, I’ve concluded there is not enough awareness about how easy it is to steal one’s data on campus compared to the national average presented by the Pew Research Center. Phisher websites can be generated programmatically and it is far too easy to store passwords in a database with malicious intentions, even by an art student like me. <<Students largely didnt care much for the two-factor authentication>> employed by the school after a number of phishing attacks. There was clearly not enough awareness around the campus, leading me to pose the following design challenge: "/>
         <HowMightWe howMightWe="How might we raise on-campus awareness about phishing through an experiential medium while maintaining safety?"/>

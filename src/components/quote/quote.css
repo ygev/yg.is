@@ -1,0 +1,49 @@
+.quote {
+    display: none;
+}
+
+/* DESKTOP VERSION */
+
+
+@media (min-width: 1024px) {
+
+.quote__absoluter {
+    position: absolute;
+    z-index: -2;
+}
+
+.quote__text--mark-line {
+    line-height: 0.55em;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16vw;
+}
+
+.quote__text {
+    font-family: Chapeau;
+    font-weight: 100;
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+.quote__text--mark {
+    font-weight: 100;
+    color: var(--projcolor);
+    font-size: 4em;
+}
+
+}
+
+/* 4K VERSION */
+@media (min-width: 2560px) {
+    .quote {
+        padding-left: 24vw;
+    }
+
+    .quote__text {
+        font-size: 2em;
+    }
+}

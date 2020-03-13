@@ -11,7 +11,7 @@ export default props => (
     <>
         <div className="home__txt--wrapper">
             <section className="home__txt">
-                <Fade right duration={500}>
+                <Fade opposite right duration={500}>
                     <Link to="phisher">
                         <div className="link__wrapper">
                             <h1 className="home__head" onMouseOver={props.mouseOverCallback}>Phisher</h1>
