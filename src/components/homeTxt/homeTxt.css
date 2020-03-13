@@ -79,15 +79,55 @@ a {
 /* TABLET + DESKTOP VERSION */
   
 @media (min-width: 768px) {
+  
+  .home__txt--wrapper {
+    position: relative;
+  }
+
+  .link__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    border-bottom: 2px var(--black) solid;
+  }
+
   .home__head {
     text-align: left; 
     font-size: 32px;
     -webkit-text-stroke-width: 2px;
   }
 
-  .home__brow {
-    font-size: 12px;
+  .home__txt {
+    overflow: scroll;
+    align-items: flex-start;
+    text-align: left;
+    height: 70vw;
+    padding-bottom: 6vw;
+    padding-top: 3vw;
+    padding-left: 6vw;
+    align-items: flex-start;
   }
+
+  .home__txt::-webkit-scrollbar {
+    display: none;
+  }
+
+.home__txt:after {
+  position: absolute;
+  height: 110%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  background: linear-gradient(180deg, var(--white) 10%, transparent 20%, transparent 78%, var(--white) 90%);
+  pointer-events: none; 
+}
+
+.home__brow {
+  font-size: 12px;
+}
+
 }
     
 /* DESKTOP VERSION */
