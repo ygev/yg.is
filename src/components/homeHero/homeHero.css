@@ -9,7 +9,7 @@ figure.home__img img {
 
   /* TABLET VERSION */
   
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px){
   .home__hero {
     display: none;
     position: relative;

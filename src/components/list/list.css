@@ -28,6 +28,17 @@ ul > .list__item::before {
     margin-left: -3em;
   }
 
+
+/* TABLET VERSION */
+@media(min-width: 768px) and (max-width: 1023px)
+{
+    .list {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+
+
 /* DESKTOP VERSION */
 
 @media (min-width: 1024px) {

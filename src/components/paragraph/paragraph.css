@@ -19,8 +19,8 @@
 }
 
 .paragraph__section {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .paragraph__title {
@@ -41,6 +41,16 @@
     color: var(--black);
     letter-spacing: 0;
     line-height: 24px;
+}
+
+
+/* TABLET VERSION */
+@media(min-width: 768px) and (max-width: 1023px)
+{
+    .paragraph {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
 }
 
 /* DESKTOP VERSION */

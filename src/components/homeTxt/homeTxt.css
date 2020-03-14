@@ -1,3 +1,7 @@
+.home__txt--wrapper {
+  overflow-x: hidden;
+}
+
 .home__txt {
   padding-bottom: 64px;
   display: flex;

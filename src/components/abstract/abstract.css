@@ -157,10 +157,15 @@
 
 /* TABLET VERSION */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
     .abstract {
         margin-top: 0;
+    }
+
+    .abstract__details {
+        margin-left: 5vw;
+        padding-top: 5px;
     }
 
     .abstract__txt--wrapper {
@@ -170,9 +175,18 @@
     
     .abstract__txt {
         margin-top: 0;
-        margin-left: 10vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
     
+    /* TABLET VERSION */
+@media(min-width: 768px)
+{
+    .paragraph {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+}
 
 
       }
