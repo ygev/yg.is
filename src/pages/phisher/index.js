@@ -133,8 +133,8 @@ class Index extends React.Component {
         <Phase phaseTitle="Validating the Design with Students"/>
         <Paragraph paragraphTitle="Presenting the Phishing Site" 
                    paragraphBody="To assess the effectiveness of my idea before setting up the exhibition, I presented the site to a series of Maryland Institute College of Art seniors. The following is a compilation of comments I have received that could improve the design:"/>
-        <Issues img={IssueSubtle} 
-                issue="The warning on the home page is too subtle. Most people overlooked it, like on a real phishing site. Some suggested making the warning painfully obvious so that no legal issues arise in case someone does insert their real password into the Phisher."/>
+        {/* <Issues img={IssueSubtle} 
+                issue="The warning on the home page is too subtle. Most people overlooked it, like on a real phishing site. Some suggested making the warning painfully obvious so that no legal issues arise in case someone does insert their real password into the Phisher."/> */}
         <Paragraph paragraphTitle="Future for the Concept"
                   paragraphBody="An idea I had during the brainstorming phase was brought up during the critique: a phishing website generator. The concept is simple, a website URL will be processed and a clone will be created locally, containing the same markup, stylesheets and scripts. However, the password and login fields would be compromised and lead to an external site that will record the input and display it to the administrator. Although wanted by my classmates, the concept was a little bit too evil and legally gray for me to pursue.  " />
         </div>
