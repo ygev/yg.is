@@ -24,13 +24,13 @@
 
 .quote__text {
     font-family: Chapeau;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5em;
     font-size: 1.5em;
 }
 
 .quote__text--mark {
-    font-weight: 100;
+    font-weight: 300;
     color: var(--projcolor);
     font-size: 4em;
 }

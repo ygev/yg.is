@@ -32,7 +32,8 @@
 }
 
 .home__head {
-  font-family: Chapeau-Black;
+  font-family: Chapeau;
+  font-weight: 900;
   font-size: 24px;
   /* text-align: center;   */
   color: var(--white);
