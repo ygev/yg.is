@@ -30,14 +30,14 @@
   display: none;
 }
 
-.progress-bar {
+/* .progress-bar {
   display: none;
-}
+} */
 
 /* DESKTOP VERSION */
 
 @media (min-width: 1024px) {
-  .progress-bar {
+  /* .progress-bar {
     display: block;
     height: 2px;
     background: var(--black);
@@ -45,7 +45,7 @@
     width: 0%;
     position: absolute;
     top: 96px;
-  }
+  } */
 
   .tracker {
     height: 60px;
@@ -72,7 +72,7 @@
   .phases {
     height: 32px;
     background-color: var(--white);
-    border-bottom: 2px rgba(0, 0, 0, 0.3) solid;
+    border-bottom: 2px var(--black) solid;
     display: flex;
     padding-left: 16vw;
     padding-right: 16vw;
