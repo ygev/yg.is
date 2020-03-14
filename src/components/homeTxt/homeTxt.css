@@ -39,7 +39,7 @@
   color: var(--white);
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
-  letter-spacing: 2.67px;
+  letter-spacing: 4px;
   line-height: 96px;
   text-transform: uppercase;
   text-decoration: none;
