@@ -20,9 +20,9 @@
 .howMightWe__head {
     font-family: Chapeau;
     font-weight: 900;
+    letter-spacing: 1.3px;
     font-size: 10px;
     color: var(--white) ;
-    letter-spacing: 1px;
     padding-bottom: 8px;
     text-align: center;
     text-transform: uppercase;

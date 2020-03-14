@@ -20,9 +20,8 @@ ul.list__items {
 
 ul > .list__item::before {
     content: "➜"; 
-    font-family: SuisseNeueegular;
-    color: var(--projcolor); 
-    font-weight: 900; 
+    font-family: Chapeau;
+    color: var(--projcolor);
     display: inline-block;
     width: 1.4em;
     margin-left: -3em;
