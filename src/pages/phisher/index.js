@@ -1,21 +1,21 @@
 import React from "react"
 import Hero from "./images/hero.png"; 
-import Glam1 from "./images/phisher-fullscreen.png" 
-import Glam2 from "./images/phisher-login.webm" 
-import Glam3 from "./images/phisher-fish.gif" 
-import Glam4 from "./images/phisher-num1.gif" 
-import Glam5 from "./images/phisher-num2.gif" 
-import Glam6 from "./images/phisher-num3.gif" 
-import Fig1 from "./images/fig1-pwd_managers.svg"
-import Fig2 from "./images/fig2-fb-messenger.svg"
-import Fig3 from "./images/fig3-quote-haley.png"
-import Fig4 from "./images/fig4-venn.png"
-import Fig5 from "./images/fig5-mindmap.png"
-import Fig6 from "./images/fig6-styles.svg"
+import Glam1 from "./images/glam1.png" 
+import Glam2 from "./images/glam2.webm" 
+import Glam3 from "./images/glam3.gif" 
+import Glam4 from "./images/glam4.gif" 
+import Glam5 from "./images/glam5.gif" 
+import Glam6 from "./images/glam6.gif" 
+import Fig1 from "./images/fig1.svg"
+import Fig2 from "./images/fig2.svg"
+import Fig3 from "./images/fig3.png"
+import Fig4 from "./images/fig4.png"
+import Fig5 from "./images/fig5.png"
+import Fig6 from "./images/fig6.svg"
 import FigFlow from "./images/fig-flow.svg"
-import Fig7 from "./images/fig7-logos.svg"
-import Fig8 from "./images/fig8-micaweb.svg"
-import Fig9 from "./images/fig9-layouts.png"
+import Fig7 from "./images/fig7.svg"
+import Fig8 from "./images/fig8.svg"
+import Fig9 from "./images/fig9.png"
 import FigSketch from "./images/fig-sketch.svg"
 import IssueSubtle from "./images/issue-subtle.svg"
 import "../../css/global.css"
@@ -77,6 +77,7 @@ class Index extends React.Component {
         <Paragraph paragraphTitle="Surveying Students' Opsec Engagement" 
                   paragraphBody="Even Maryland Institute College of Art's website implemented two-factor authentication for their students in 2019 with variable feedback from the students. I have informally <<surveyed 15 students>> and plotted the most insightful responses on a scale from positive to negative."/>
         <ImgRight img={Fig2} imgNum="02" imgCaption="Plotted testimonies from MICA students about the two-factor authentication system established in Fall 2019."/>
+        <ImgLeft img={Fig3} imgNum="03" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
         <Paragraph paragraphTitle="Considering Mindless UI Patterns"   
                   paragraphBody="<<The main cause of phishing is the lack of user training.>> Especially in college, with weak Wi-Fi signal, students are used to mindlessly entering their password more than once without looking at the URL twice. This mindless data entry is an aspect of human behavior that can and is exploited."/>
         </div>
@@ -97,8 +98,8 @@ class Index extends React.Component {
         <Phase phaseTitle="Brainstorming Awareness Campaigns"/>  
         <Paragraph paragraphTitle="" 
                   paragraphBody="I decided to think about how people unlearn poor user behaviors. After a <<mind-mapping exercise>>, I came up with three main ideas between which my ideal solution would lie."/>
-        <ImgRight img={Fig5} imgNum="03" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
-        <ImgLeft img={Fig4} imgNum="04" imgCaption="The solution lies at the intersection of Visual Routines, Experiential Learning and Gesamkunstwerk"/>
+        <ImgRight img={Fig5} imgNum="04" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
+        <ImgLeft img={Fig4} imgNum="05" imgCaption="The solution lies at the intersection of Visual Routines, Experiential Learning and Gesamkunstwerk"/>
         <Paragraph paragraphTitle="Visual Routines" 
                   paragraphBody="As discovered, people are relying on <<previously learned habits>> to fall for phishing tricks. In order to be effective, my solution needs to reveal the presence of these routines and allow people to notice them in the future."/>
         <Paragraph paragraphTitle="Experiential Learning" 
@@ -107,17 +108,17 @@ class Index extends React.Component {
                   paragraphBody="The experiential quality of the solution will be successful because of the <<totality of the experience>>, or gesamtkunstwerk. The students will log in to the same login page they use every day, but instead of being taken to the home page, they will be taken to a page that creates a <<meta-commentary on their naiveté.>>"/>
         <Paragraph paragraphTitle="" 
                   paragraphBody="With these parameters in mind, I set out to create what I think is an engaging experiment: a phishing site that targets students from the Maryland Institute College of Art and displays the number of passwords caught since launch once the user logs in. The site will consist of a <<login page>> and the previously mentioned <<meta page.>> The user will be redirected to the page after they enter their password and press enter, as per this user flow diagram:"/>
-        <ImgRight img={FigFlow} imgNum="05" imgCaption="Simple user flow for displaying the credentials caught by MICA Phisher"/>
+        <ImgRight img={FigFlow} imgNum="06" imgCaption="Simple user flow for displaying the credentials caught by MICA Phisher"/>
         </div>
         <div id="p4">
         <Phase phaseTitle="Prototyping Phishing Site Layout"/>
-        <ImgLeft img={Fig6} imgNum="06" padding="true" imgCaption="MICA’s Communication Toolkit"/>
+        <ImgLeft img={Fig6} imgNum="07" padding="true" imgCaption="MICA’s Communication Toolkit"/>
         <Paragraph paragraphTitle="Brandjacking" 
                   paragraphBody="I decided to use MICA’s branding designed by Pentagram as the visual language, identity and style guide for the alternate landing page. Like many style guidelines, it was available publicly and marketed as the [[MICA Communication Toolkit>>https://www.mica.edu/offices-divisions/division-of-strategic-communications/toolkit/branding/]]. I created a logo in the style of MICA’s sub-brands to follow the <<common phishing practice of brandjacking.>>"/>
-        <ImgRight img={Fig7} imgNum="07" padding="true" imgCaption="MICA’s Sub-Brands, now including Phisher."/>
+        <ImgRight img={Fig7} imgNum="08" padding="true" imgCaption="MICA’s Sub-Brands, now including Phisher."/>
         <Paragraph paragraphTitle=""
                           paragraphBody="Although there is a plethora of colors to choose from, I picked the top three colors seen on [[MICA’s front page>https://www.mica.edu]], since this is something that has already been prioritized before me by the original creators of the site."/>
-        <ImgRight img={Fig8} imgNum="08" padding="true" imgCaption="MICA’s Home Page displaying the most commonly used colors by the brand."/>
+        <ImgRight img={Fig8} imgNum="09" padding="true" imgCaption="MICA’s Home Page displaying the most commonly used colors by the brand."/>
         <Paragraph paragraphTitle="Wireframing the Displays" 
                   paragraphBody="I started sketching out the pass-word display screen. The following information needed to be displayed:"/>
         <List listTitle="" listType='ul'
@@ -125,8 +126,8 @@ class Index extends React.Component {
                           "a running list of 10-15 credentials", 
                           "the Phisher logotype",
                           "a disclaimer"]} />
-        <ImgRight img={Fig9} imgNum="09" imgCaption="Finalizing wireframes."/>
-        <ImgRight img={FigSketch} imgNum="10" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
+        <ImgRight img={Fig9} imgNum="10" imgCaption="Finalizing wireframes."/>
+        <ImgRight img={FigSketch} imgNum="11" imgCaption="Screenshot of Sketch artboards for the final layout, designed with atomic design principles in mind."/>
        
         </div>
         <div class="end" id="p5">
