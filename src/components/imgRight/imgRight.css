@@ -5,12 +5,13 @@
 
 .imgRight__img {
     width: 100%;
-    /* border: 2px var(--black) solid; */
 }
+/* max-width:100% doesn't make images stretched/too big, but if they're too small for you to stretch em, maybe they should be imgLeft instead, huh? */
 
 .imgRight--padding {
     padding: 1em;
     background-color: var(--black);
+    /* max-inline-size: max-content; */
 }
 
 .imgRight__number {
@@ -47,6 +48,8 @@
         margin-right: 16vw;
         padding-top: 24px;
         padding-bottom: 24px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .imgRight__caption {

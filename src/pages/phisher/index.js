@@ -79,7 +79,6 @@ class Index extends React.Component {
         <ImgRight img={Fig2} imgNum="02" imgCaption="Plotted testimonies from MICA students about the two-factor authentication system established in Fall 2019."/>
         <Paragraph paragraphTitle="Considering Mindless UI Patterns"   
                    paragraphBody="<<The main cause of phishing is the lack of user training.>> Especially in college, with weak Wi-Fi signal, students are used to mindlessly entering their password more than once without looking at the URL twice. This mindless data entry is an aspect of human behavior that can and is exploited."/>
-        <ImgRight img={Fig3} imgNum="03" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
         </div>
         <div id="p2">
         <Phase phaseTitle="Defining the Problem"/>
@@ -90,6 +89,7 @@ class Index extends React.Component {
                   listItems={["There is a rising awareness among Americans to use password managers, yet a small minority of people still get phished. ", 
                               "Students at the Maryland Institute College of Art largely do not use password managers, nor do they see the importance of two factor authentication that has been established in 2019.", 
                               "Students mindlessly enter their passwords without double checking the URL first. Frequent bugs in MICA’s system force students to enter their credentials twice, which is an explotable feature."]} />
+        <ImgLeft img={Fig3} imgNum="03" imgCaption="MICA Senior, Haley Clark, logging in to the school website."/>
         <Paragraph paragraphTitle="Lack of Awareness" 
                   paragraphBody="Based on these insights, I’ve concluded there is not enough awareness about how easy it is to steal one’s data on campus compared to the national average presented by the Pew Research Center. Phisher websites can be generated programmatically and it is far too easy to store passwords in a database with malicious intentions, even by an art student like me. <<Students largely didnt care much for the two-factor authentication>> employed by the school after a number of phishing attacks. There was clearly not enough awareness around the campus, leading me to pose the following design challenge: "/>
         <HowMightWe howMightWe="How might we raise on-campus awareness about phishing through an experiential medium while maintaining safety?"/>
@@ -116,9 +116,9 @@ class Index extends React.Component {
         <Paragraph paragraphTitle="Brandjacking" 
                   paragraphBody="I decided to use MICA’s branding designed by Pentagram as the visual language, identity and style guide for the alternate landing page. Like many style guidelines, it was available publicly and marketed as the [[MICA Communication Toolkit>>https://www.mica.edu/offices-divisions/division-of-strategic-communications/toolkit/branding/]]. I created a logo in the style of MICA’s sub-brands to follow the <<common phishing practice of brandjacking.>>"/>
         <ImgRight img={Fig7} imgNum="08" padding="true" imgCaption="MICA’s Sub-Brands, now including Phisher."/>
+        <ImgLeft img={Fig8} imgNum="09" padding="true" imgCaption="MICA’s Home Page displaying the most commonly used colors by the brand."/>
         <Paragraph paragraphTitle=""
                           paragraphBody="Although there is a plethora of colors to choose from, I picked the top three colors seen on [[MICA’s front page>https://www.mica.edu]], since this is something that has already been prioritized before me by the original creators of the site."/>
-        <ImgRight img={Fig8} imgNum="09" padding="true" imgCaption="MICA’s Home Page displaying the most commonly used colors by the brand."/>
         <Paragraph paragraphTitle="Wireframing the Displays" 
                   paragraphBody="I started sketching out the pass-word display screen. The following information needed to be displayed:"/>
         <List listTitle="" listType='ul'
