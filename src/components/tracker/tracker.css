@@ -37,6 +37,16 @@
 /* DESKTOP VERSION */
 
 @media (min-width: 1024px) {
+  .progress-bar {
+    display: block;
+    height: 2px;
+    background: var(--black);
+    border-right: 2px var(--projcolor) solid;
+    width: 0%;
+    position: absolute;
+    top: 96px;
+  }
+
   .tracker {
     height: 60px;
     padding-left: 16vw;
@@ -92,16 +102,6 @@
   .phases__txt {
     font-size: 12px;
   }
-
-  .progress-bar {
-    height: 2px;
-    background: var(--black);
-    border-right: 2px var(--projcolor) solid;
-    width: 0%;
-    position: absolute;
-    top: 96px;
-  }
-  
 }
 
 /* 4K VERSION */
@@ -116,4 +116,3 @@
     padding-right: 24vw;
   }
 }
-
