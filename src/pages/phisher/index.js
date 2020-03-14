@@ -77,9 +77,9 @@ class Index extends React.Component {
         <Paragraph paragraphTitle="Surveying Students' Opsec Engagement" 
                   paragraphBody="Even Maryland Institute College of Art's website implemented two-factor authentication for their students in 2019 with variable feedback from the students. I have informally <<surveyed 15 students>> and plotted the most insightful responses on a scale from positive to negative."/>
         <ImgRight img={Fig2} imgNum="02" imgCaption="Plotted testimonies from MICA students about the two-factor authentication system established in Fall 2019."/>
-        <ImgLeft img={Fig3} imgNum="03" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
         <Paragraph paragraphTitle="Considering Mindless UI Patterns"   
-                  paragraphBody="<<The main cause of phishing is the lack of user training.>> Especially in college, with weak Wi-Fi signal, students are used to mindlessly entering their password more than once without looking at the URL twice. This mindless data entry is an aspect of human behavior that can and is exploited."/>
+                   paragraphBody="<<The main cause of phishing is the lack of user training.>> Especially in college, with weak Wi-Fi signal, students are used to mindlessly entering their password more than once without looking at the URL twice. This mindless data entry is an aspect of human behavior that can and is exploited."/>
+        <ImgRight img={Fig3} imgNum="03" imgCaption="Mind-mapping exercise that led to the project's three main foci."/>
         </div>
         <div id="p2">
         <Phase phaseTitle="Defining the Problem"/>

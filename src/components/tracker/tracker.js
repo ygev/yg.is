@@ -7,6 +7,15 @@ import { Controller, Scene } from "react-scrollmagic"
 import Fade from 'react-reveal';
 import {Link} from "gatsby"
 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
 export default props => (
     <>
             <Controller>
@@ -28,6 +37,7 @@ export default props => (
                                 })
                             }
                         </div>
+                        <div class="progress-bar" id="myBar"></div>
                     </section>
                 </Scene>
             </Controller>

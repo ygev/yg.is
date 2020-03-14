@@ -30,6 +30,15 @@
   display: none;
 }
 
+.progress-bar {
+  height: 2px;
+  background: var(--black);
+  border-right: 2px var(--projcolor) solid;
+  width: 0%;
+  position: absolute;
+  top: 96px;
+}
+
 /* DESKTOP VERSION */
 
 @media (min-width: 1024px) {
@@ -58,7 +67,7 @@
   .phases {
     height: 32px;
     background-color: var(--white);
-    border-bottom: 2px var(--black) solid;
+    border-bottom: 2px rgba(0, 0, 0, 0.3) solid;
     display: flex;
     padding-left: 16vw;
     padding-right: 16vw;
@@ -102,3 +111,4 @@
     padding-right: 24vw;
   }
 }
+
