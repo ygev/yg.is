@@ -248,6 +248,7 @@
       /* 4K VERSION */
 
 @media (min-width: 1440px) {
+
     .abstract__gallery {
         margin-left: 16vw;
         margin-right: 16vw;
@@ -255,11 +256,11 @@
     }
 
     .abstract__txt {
-        margin-right: 24vw;
+        margin-right: 16vw;
     }
     
     .abstract__txt--left {
-        margin-left: 24vw;
+        margin-left: 16vw;
     }
 
     .abstract__hint {
