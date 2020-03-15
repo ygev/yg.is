@@ -112,11 +112,9 @@ class Index extends React.Component {
         </div>
         <div id="p4">
         <Phase phaseTitle="Prototyping Phishing Site Layout"/>
-        <ImgLeft img={Fig6} imgNum="07" padding="true" imgCaption="MICA’s Communication Toolkit"/>
+        <ImgLeft img={[Fig6, Fig7, Fig8]} imgNum={["07", "08", "09"]} imgCaption={["MICA’s Communication Toolkit", "MICA’s Sub-Brands, now including Phisher.", "MICA’s Home Page displaying the most commonly used colors by the brand."]}/>
         <Paragraph paragraphTitle="Brandjacking" 
                   paragraphBody="I decided to use MICA’s branding designed by Pentagram as the visual language, identity and style guide for the alternate landing page. Like many style guidelines, it was available publicly and marketed as the [[MICA Communication Toolkit>>https://www.mica.edu/offices-divisions/division-of-strategic-communications/toolkit/branding/]]. I created a logo in the style of MICA’s sub-brands to follow the <<common phishing practice of brandjacking.>>"/>
-        <ImgRight img={Fig7} imgNum="08" padding="true" imgCaption="MICA’s Sub-Brands, now including Phisher."/>
-        <ImgLeft img={Fig8} imgNum="09" padding="true" imgCaption="MICA’s Home Page displaying the most commonly used colors by the brand."/>
         <Paragraph paragraphTitle=""
                           paragraphBody="Although there is a plethora of colors to choose from, I picked the top three colors seen on [[MICA’s front page>https://www.mica.edu]], since this is something that has already been prioritized before me by the original creators of the site."/>
         <Paragraph paragraphTitle="Wireframing the Displays" 
