@@ -27,7 +27,7 @@ export const Constants = {
         heroCategory: "Interaction Design",
         heroYear: "2019",
         heroDeliverable: "Mobile App",
-        heroTitle: "Ensuring Financial Wellness for Variable Incomes"
+        heroTitle: "Ensuring Financial Wellness for Those with Variable Incomes"
     },
     trunks: {
         heroCategory: "Data Visualization",
