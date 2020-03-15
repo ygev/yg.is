@@ -12,6 +12,15 @@ import InnerHero from "../../components/innerHero/innerHero"
 import InnerTxt from "../../components/innerTxt/innerTxt"
 import Abstract from "../../components/abstract/abstract"
 import Tracker from "../../components/tracker/tracker"
+import List from "../../components/list/list"
+import Quote from "../../components/quote/quote"
+import Paragraph from "../../components/paragraph/paragraph"
+import Phase from "../../components/phase/phase"
+import ImgRight from "../../components/imgRight/imgRight"
+import ImgLeft from "../../components/imgLeft/imgLeft"
+import ImgFull from "../../components/imgFull/imgFull"
+import HowMightWe from "../../components/howMightWe/howMightWe"
+import Issues from "../../components/issues/issues"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
@@ -42,9 +51,23 @@ class Index extends React.Component {
                   abstractRole="UX Researcher · UI Designer" 
                   abstractTools="Figma" 
                   abstractTime="24 hours · November 2019" 
-                  abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
-        <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'IDEATE', 'ITERATE', 'VALIDATE']}
+                  abstractBody="Fisqual is a tool that empowers freelancers and small businesses to feel financially secure in their independent ventures. The app analyzes freelancers’ income and spending history and calculates a stable monthly income from variable earnings."/>
+        <Tracker  phaseList={['UNDERSTAND', 'ANALYZE', 'BRAINSTORM', 'PROTOTYPE', 'VALIDATE','POST-VALIDATION']}
                   trackerHead={Constants.fisqual.heroTitle}/>
+        <div id="p1">
+          <Phase phaseTitle="Empathizing with Self-Employment"/>
+          <Paragraph paragraphTitle="The Starving Artist" 
+                    paragraphBody="As designers and art students, many of our peers use freelance as their primary form of income. As a result, they are often plagued with considerable anxiety over the variability of their money flow. Some months may be ripe with client contracts, others may result in a barren checking account. Our first-hand experiences with freelancers pushed Amanda and I to dive deep into the lives of self-employed people. We were inspired to pursue a product-based solution to the struggles people with variable incomes may face."/>
+           <Paragraph paragraphTitle="Surveying Freelancers" 
+                    paragraphBody="To research how widespread this postulated problem may be, we sent out a questionnaire around the Maryland Institute College of Art, as well as freelancers that were in our professional network on LinkedIn. We received 20+ responses to the following questions posed:"/>
+          <List listTitle="" listType='ul'
+                listItems={["As a freelancer, how do you manage your income?",
+                  "What tools, if any, do you use for budgeting?",
+                  "How much time do you spend creating a budget or managing your finances?",
+                  "What adjectives run through your head when you think about budgeting?",
+                  "How many freelance gigs are you usually working on simultaneously?"
+                  ]} />
+        </div>
         <Contact/>
         <Footer/>
       </div>

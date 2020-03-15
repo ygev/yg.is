@@ -15,9 +15,8 @@ export default props => (
         <div className="gridContainer">
             <section className="list">
                 <article className="list__section">
-                    <h4 className="paragraph__title">
-                        {props.listTitle}
-                    </h4>
+                    
+                    {props.listTitle ? <h4 className="paragraph__title">{props.listTitle}</h4> : ""}
                     {
                         props.listType == 'ol'
                             ? <ol className="list__items list__ordered">{buildList(props.listItems)}</ol>
