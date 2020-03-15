@@ -6,12 +6,12 @@ import { Constants } from "../../constants";
 import { Link } from "gatsby"
 import Fade from 'react-reveal/Fade';
 
-function buildProjectLinks(input, mouseOverCallback) {
-    return Array.from(Array(input.length).keys()).map((i) => {
-        return <Link to={input[i]}>
-                    <div className="link__wrapper">
-                        <h1 className="home__head" onMouseOver={mouseOverCallback}>{capitalizeFirstLetter(input[i])}</h1>
-                        <h2 className="home__brow">{Constants[input[i]].heroYear} - {Constants[input[i]].heroDeliverable}</h2>
+function buildProjectLinks(projects, mouseOverCallback) {
+    return Array.from(Array(projects.length).keys()).map((i) => {
+        return <Link to={projects[i]}>
+                    <div className="link__wrapper" onMouseOver={mouseOverCallback}>
+                        <h1 className="home__head">{capitalizeFirstLetter(projects[i])}</h1>
+                        <h2 className="home__brow">{Constants[projects[i]].heroYear} - {Constants[projects[i]].heroDeliverable}</h2>
                     </div>
                 </Link>
     })

@@ -9,14 +9,12 @@ import Footer from "./../components/footer/footer"
 class Index extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {bg: "blue"};
+    this.state = {bg: ""};
   }
 
-  handleHover = (input) => {
-    console.log("mouse over: " + JSON.stringify(input.currentTarget.innerHTML));
+  handleHover = (event) => {
     this.setState({
-      currentName: input.currentTarget.innerHTML.toLowerCase(),
-      bg: "green",
+      currentName: event.currentTarget.querySelector(".home__head").innerHTML.toLowerCase()
     })
   }
 
