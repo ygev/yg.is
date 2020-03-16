@@ -21,25 +21,25 @@ export default props => (
                         <h2 className="listStats__txt">of respondents note irregular income as the worst part of freelancing.</h2>
                     </article>
                     <figcaption className="imgRight__caption">
-                            <span className="imgRight__number">Fig 24</span> Pew Research Center
+                            <span className="imgRight__number">Fig 24</span> PayPal · 2018 Freelancer Insights Report
                     </figcaption>
                 </div>  
                 <div className="listStats__item--wrapper">   
                     <article className="listStats__item">
-                        <h1 className="listStats__num">46%</h1>
-                        <h2 className="listStats__txt">of respondents note irregular income as the worst part of freelancing.</h2>
+                        <h1 className="listStats__num">70%</h1>
+                        <h2 className="listStats__txt">of freelancers have a business relationship with a bank</h2>
                     </article>
                     <figcaption className="imgRight__caption">
-                            <span className="imgRight__number">Fig 24</span> Pew Research Center
+                            <span className="imgRight__number">Fig 24</span> And Co · The Slash Workers Study
                     </figcaption>
                 </div>  
                 <div className="listStats__item--wrapper">   
                     <article className="listStats__item">
-                        <h1 className="listStats__num">46%</h1>
-                        <h2 className="listStats__txt">of respondents note irregular income as the worst part of freelancing.</h2>
+                        <h1 className="listStats__num">63%</h1>
+                        <h2 className="listStats__txt">of freelancers withdraw from their savings at least once a month</h2>
                     </article>
                     <figcaption className="imgRight__caption">
-                            <span className="imgRight__number">Fig 24</span> Pew Research Center
+                            <span className="imgRight__number">Fig 24</span> FreshBooks · Freelancer Finance Report 
                     </figcaption>
                 </div>  
             </section>

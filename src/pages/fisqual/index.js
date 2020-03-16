@@ -58,9 +58,9 @@ class Index extends React.Component {
         <div id="p1">
           <Phase phaseTitle="Empathizing with Self-Employment"/>
           <Paragraph paragraphTitle="The Starving Artist" 
-                    paragraphBody="As designers and art students, many of our peers use freelance as their primary form of income. As a result, they are often plagued with considerable anxiety over the variability of their money flow. Some months may be ripe with client contracts, others may result in a barren checking account. Our first-hand experiences with freelancers pushed Amanda and I to dive deep into the lives of self-employed people. We were inspired to pursue a product-based solution to the struggles people with variable incomes may face."/>
-          <Paragraph paragraphTitle="Surveying Freelancers" 
-                    paragraphBody="To research how widespread this postulated problem may be, we sent out a questionnaire around the Maryland Institute College of Art, as well as freelancers that were in our professional network on LinkedIn. We received several responses to the following questions posed:"/>
+                    paragraphBody="As designers and art students, many of our peers use freelance as their primary form of income. As a result, they are often plagued with considerable anxiety over the variability of their money flow. <<Some months may be ripe with client contracts, others may result in a barren checking account.>> Our first-hand experiences with freelancers pushed Amanda and I to dive deep into the lives of self-employed people. We were inspired to pursue a product-based solution to the struggles faced by people with variable income."/>
+          <Paragraph paragraphTitle="Contextual Inquiry" 
+                    paragraphBody="To research how widespread this postulated problem may be, we sent out a <<questionnaire>> around the Maryland Institute College of Art, as well as freelancers that were in our professional network on LinkedIn. We received several responses to the following questions posed:"/>
           <List listTitle="" listType='ul'
                 listItems={["As a freelancer, how do you manage your income?",
                   "What tools, if any, do you use for budgeting?",
@@ -76,16 +76,10 @@ class Index extends React.Component {
                   "I usually just try to ensure there is some sort of rainy-day fund, and trying to keep my monthly spending in check. - Trevor, Freelance 3D Artist"
                   ]} />
           <Paragraph paragraphTitle="Selected Responder Interviews" 
-                    paragraphBody="We picked two interviewers who were most vocal about their habits as freelancers and conducted in depth interviews with them for further insight. Amanda took on Devin, a freelance product designer from New York City, while I interviewed Katie, a freelance graphic designer from rural Maryland."/>
+                    paragraphBody="We picked two interviewers who were most vocal about their habits as freelancers and conducted in depth interviews with them for further insight. Amanda took on Devin, a <<freelance product designer from New York City>>, while I interviewed Katie, a <<freelance graphic designer from rural Maryland.>>"/>
           <Paragraph paragraphTitle="Supplemental Research" 
                       paragraphBody="Additionally, we consulted studies conducted by outside companies on freelance work, and drew the following statistics of significance."/>
-          <List listTitle="" listType='ul'
-                listItems={["46% of respondents pointed out irregular income as the worst part of freelancing Paypal's 2018 Freelancer Insights Report",
-                  "70% of freelancers are juggling 2 to 4 projects at the same time And Co.",
-                  "<50% of freelancers have a business relationship with a bank The Freelancer Finance Report by FreshBooks",
-                  "63% of freelancers withdraw from their savings at least once a month Upwork · 2,700+ Americans Surveyed",
-                  "77% of freelancers are less financially stable since ditching their day jobs Slash Workers"
-                  ]} /> 
+          <ListStats />
           <Paragraph paragraphTitle="Market Insight" 
                       paragraphBody="To get a bigger picture for the future of self-employment, we read a study on freelancing conducted by Forbes in 2018. Most statistics pointed to a rapid increase in freelancing within the next decade."/>
           <List listTitle="" listType='ul'
@@ -109,7 +103,7 @@ class Index extends React.Component {
         </div>
         <div id="p3">
         <Phase phaseTitle="Brainstorming the Scope of the Product"/>
-        <ListStats />
+      
         </div>
         <div id="p4"></div>
         <div id="p5"></div>

@@ -10,6 +10,7 @@
 
 .listStats__item--wrapper {
     margin-bottom: 16px;
+    /* width: 100%; */
 }
 
 .listStats__item  {
@@ -69,7 +70,7 @@
     }
 
     .listStats__item {
-        width: 100%;
+        width: 15vw;
         margin-right: 0;
         padding: 1.2em;
     }
@@ -88,20 +89,20 @@
 /* 4K VERSION */
 @media (min-width: 2318px) {
     
-    .listStats__num {
+    /* .listStats__num {
         text-align: center;
     }
 
     .listStats__txt {
         text-align: center;
-    }
+    } */
 
     .listStats { 
         margin-right: 24vw;
     }
 
     .listStats__item {
-        width: 8vw;
+        width: 13vw;
     }
 
 }
