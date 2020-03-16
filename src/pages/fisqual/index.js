@@ -13,6 +13,7 @@ import InnerTxt from "../../components/innerTxt/innerTxt"
 import Abstract from "../../components/abstract/abstract"
 import Tracker from "../../components/tracker/tracker"
 import List from "../../components/list/list"
+import ListStats from "../../components/listStats/listStats"
 import Quote from "../../components/quote/quote"
 import Paragraph from "../../components/paragraph/paragraph"
 import Phase from "../../components/phase/phase"
@@ -108,6 +109,7 @@ class Index extends React.Component {
         </div>
         <div id="p3">
         <Phase phaseTitle="Brainstorming the Scope of the Product"/>
+        <ListStats />
         </div>
         <div id="p4"></div>
         <div id="p5"></div>
