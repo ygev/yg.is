@@ -58,8 +58,8 @@ class Index extends React.Component {
           <Phase phaseTitle="Empathizing with Self-Employment"/>
           <Paragraph paragraphTitle="The Starving Artist" 
                     paragraphBody="As designers and art students, many of our peers use freelance as their primary form of income. As a result, they are often plagued with considerable anxiety over the variability of their money flow. Some months may be ripe with client contracts, others may result in a barren checking account. Our first-hand experiences with freelancers pushed Amanda and I to dive deep into the lives of self-employed people. We were inspired to pursue a product-based solution to the struggles people with variable incomes may face."/>
-           <Paragraph paragraphTitle="Surveying Freelancers" 
-                    paragraphBody="To research how widespread this postulated problem may be, we sent out a questionnaire around the Maryland Institute College of Art, as well as freelancers that were in our professional network on LinkedIn. We received 20+ responses to the following questions posed:"/>
+          <Paragraph paragraphTitle="Surveying Freelancers" 
+                    paragraphBody="To research how widespread this postulated problem may be, we sent out a questionnaire around the Maryland Institute College of Art, as well as freelancers that were in our professional network on LinkedIn. We received several responses to the following questions posed:"/>
           <List listTitle="" listType='ul'
                 listItems={["As a freelancer, how do you manage your income?",
                   "What tools, if any, do you use for budgeting?",
@@ -67,7 +67,51 @@ class Index extends React.Component {
                   "What adjectives run through your head when you think about budgeting?",
                   "How many freelance gigs are you usually working on simultaneously?"
                   ]} />
+          <Paragraph paragraphTitle="What Freelancers Say" 
+                    paragraphBody="The following are some of the most insightful quotes we have gathered from the aforementioned survey, as well as the interviews."/>
+          <List listTitle="" listType='ul'
+                listItems={["We spend about 30 minutes budgeting for our week. Cindy and Stuart, Freelance Movie Location Scouts",
+                  "Budgeting as a freelancer is definitely stressful, but necessary. I worry about the instability of it. - Katie, Freelance Graphic Designer",
+                  "I usually just try to ensure there is some sort of rainy-day fund, and trying to keep my monthly spending in check. - Trevor, Freelance 3D Artist"
+                  ]} />
+          <Paragraph paragraphTitle="Selected Responder Interviews" 
+                    paragraphBody="We picked two interviewers who were most vocal about their habits as freelancers and conducted in depth interviews with them for further insight. Amanda took on Devin, a freelance product designer from New York City, while I interviewed Katie, a freelance graphic designer from rural Maryland."/>
+          <Paragraph paragraphTitle="Supplemental Research" 
+                      paragraphBody="Additionally, we consulted studies conducted by outside companies on freelance work, and drew the following statistics of significance."/>
+          <List listTitle="" listType='ul'
+                listItems={["46% of respondents pointed out irregular income as the worst part of freelancing Paypal's 2018 Freelancer Insights Report",
+                  "70% of freelancers are juggling 2 to 4 projects at the same time And Co.",
+                  "<50% of freelancers have a business relationship with a bank The Freelancer Finance Report by FreshBooks",
+                  "63% of freelancers withdraw from their savings at least once a month Upwork · 2,700+ Americans Surveyed",
+                  "77% of freelancers are less financially stable since ditching their day jobs Slash Workers"
+                  ]} /> 
+          <Paragraph paragraphTitle="Market Insight" 
+                      paragraphBody="To get a bigger picture for the future of self-employment, we read a study on freelancing conducted by Forbes in 2018. Most statistics pointed to a rapid increase in freelancing within the next decade."/>
+          <List listTitle="" listType='ul'
+                listItems={["35% of Americans had a freelance gig in 2018",
+                "50% of Americans will be freelancing by 2027"
+                ]} /> 
         </div>
+        <div id="p2">
+        <Phase phaseTitle="Gaining Insight on the Sentiment of Managing Finances"/>
+        <Paragraph paragraphTitle="Discoveries" 
+                      paragraphBody="After conducting questionnaires, interviewing freelance designers and consulting outside sources on the state of self-employment, as well as the future of the market, we concluded the following:"/>
+        <List listTitle="" listType='ul'
+                listItems={["Freelancers use tools that aren’t designed for financial budgeting.",
+                "Freelancers think making a budget is convoluted, stress inducing and time consuming, but feel like it is completely necessary.",
+                "Freelancers feel big banks don’t meet their unique needs",
+                "The need for freelancers is growing, and there is no one good option for financial management for such a rapidly growing market."
+                ]} /> 
+        <Paragraph paragraphTitle="User Journey" 
+                      paragraphBody="Given the discoveries, we created a user journey for the average freelance project to put our findings onto a centralized timeline and analyze possible pain points associated with self-employment."/>
+        <HowMightWe howMightWe="How might we ensure financial wellness for self-employed people with variable incomes?"/>
+        </div>
+        <div id="p3">
+        <Phase phaseTitle="Brainstorming the Scope of the Product"/>
+        </div>
+        <div id="p4"></div>
+        <div id="p5"></div>
+        <div id="p6"></div>
         <Contact/>
         <Footer/>
       </div>
