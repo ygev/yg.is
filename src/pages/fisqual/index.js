@@ -16,6 +16,7 @@ import InnerTxt from "../../components/innerTxt/innerTxt"
 import Abstract from "../../components/abstract/abstract"
 import Tracker from "../../components/tracker/tracker"
 import List from "../../components/list/list"
+import ListQuotes from "../../components/listQuotes/listQuotes"
 import ListStats from "../../components/listStats/listStats"
 import Quote from "../../components/quote/quote"
 import Paragraph from "../../components/paragraph/paragraph"
@@ -73,7 +74,7 @@ class Index extends React.Component {
                   ]} />
           <Paragraph paragraphTitle="What Freelancers Say" 
                     paragraphBody="The following are some of the most insightful quotes we have gathered from the aforementioned survey, as well as the interviews."/>
-          <List listTitle="" listType='ul'
+          <ListQuotes listTitle="" listType='ul'
                 listItems={["We spend about 30 minutes budgeting for our week. Cindy and Stuart, Freelance Movie Location Scouts",
                   "Budgeting as a freelancer is definitely stressful, but necessary. I worry about the instability of it. - Katie, Freelance Graphic Designer",
                   "I usually just try to ensure there is some sort of rainy-day fund, and trying to keep my monthly spending in check. - Trevor, Freelance 3D Artist"
