@@ -13,7 +13,7 @@ export default props => (
             <img src={props.img} alt="" className="imgRight__img"/>
           </div>
             <figcaption className="imgRight__caption">
-                <span className="imgRight__number">Fig {props.imgNum}</span> {props.imgCaption}
+                <span className="imgRight__number">{props.imgNum}</span> {props.imgCaption}
             </figcaption>
           </figure>
         </div>

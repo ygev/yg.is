@@ -12,7 +12,7 @@ function buildImageList(img, imgNum, imgCaption, padding) {
                 <img src={img} alt="" className="imgLeft__img"/>
               </div>
               <figcaption className="imgLeft__caption">
-                  <span className="imgLeft__number">Fig {imgNum}</span> {imgCaption}
+                  <span className="imgLeft__number">{imgNum}</span> {imgCaption}
               </figcaption>
             </figure>
           </div>
@@ -24,7 +24,7 @@ function buildImageList(img, imgNum, imgCaption, padding) {
                     <img src={img[i]} alt="" className="imgLeft__img"/>
                   </div>
                   <figcaption className="imgLeft__caption">
-                      <span className="imgLeft__number">Fig {imgNum[i]}</span> {imgCaption[i]}
+                      <span className="imgLeft__number">{imgNum[i]}</span> {imgCaption[i]}
                   </figcaption>
                 </figure>
               </div>

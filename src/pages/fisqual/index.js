@@ -6,6 +6,9 @@ import Glam3 from "./images/hero.png";
 import Glam4 from "./images/hero.png"; 
 import Glam5 from "./images/hero.png"; 
 import Glam6 from "./images/hero.png"; 
+import Fig2 from "./images/fig2.svg"; 
+import Fig3 from "./images/fig3.png"; 
+import Fig4 from "./images/fig4.png"; 
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -77,6 +80,10 @@ class Index extends React.Component {
                   ]} />
           <Paragraph paragraphTitle="Selected Responder Interviews" 
                     paragraphBody="We picked two interviewers who were most vocal about their habits as freelancers and conducted in depth interviews with them for further insight. Amanda took on Devin, a <<freelance product designer from New York City>>, while I interviewed Katie, a <<freelance graphic designer from rural Maryland.>>"/>
+          <Quote quote="Using finance apps, I often forget to input hours, add a client, or lose track of expenses because i don't remember to check it." />
+          <ImgRight img={Fig3} imgNum="03" imgCaption="Devin Halladay Selected Responder Interview"/>
+          <Quote quote="Budgeting as a freelancer is definitely stressful, but necessary. I worry about the instability of it." />
+          <ImgRight img={Fig4} imgNum="04" imgCaption="Katie Hurley Selected Responder Interview"/>
           <Paragraph paragraphTitle="Supplemental Research" 
                       paragraphBody="Additionally, we consulted studies conducted by outside companies on freelance work, and drew the following statistics of significance."/>
           <ListStats statNum={["46%", "70%", "77%", "63%"]} 
@@ -94,10 +101,7 @@ class Index extends React.Component {
                     ]}/>
           <Paragraph paragraphTitle="Market Insight" 
                       paragraphBody="To get a bigger picture for the future of self-employment, we read a study on freelancing conducted by Forbes in 2018. Most statistics pointed to a rapid increase in freelancing within the next decade."/>
-          <List listTitle="" listType='ul'
-                listItems={["35% of Americans had a freelance gig in 2018",
-                "50% of Americans will be freelancing by 2027"
-                ]} /> 
+          <ImgRight img={Fig2} imgNum="02" imgCaption="Forbes · Are We Ready For A Workforce That is 50% Freelance? · 2018"/>
         </div>
         <div id="p2">
         <Phase phaseTitle="Gaining Insight on the Sentiment of Managing Finances"/>
