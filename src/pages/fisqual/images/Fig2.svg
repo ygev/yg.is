@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="661px" height="199px" viewBox="0 0 661 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fisqual" transform="translate(-636.000000, -1358.000000)">
+            <g id="Statistics-Image" transform="translate(636.000000, 1358.000000)">
+                <g id="Group-2">
+                    <rect id="Rectangle" fill="#0ED1A1" x="0" y="0" width="661" height="199"></rect>
+                    <text id="35%" font-family="Chapeau-Bold, Chapeau" font-size="50" font-weight="bold" fill="#000000">
+                        <tspan x="25" y="115">35%</tspan>
+                    </text>
+                    <text id="50%" stroke="#000000" font-family="Chapeau-Bold, Chapeau" font-size="50" font-weight="bold" fill="#000000" fill-opacity="0">
+                        <tspan x="515.65" y="115">50%</tspan>
+                    </text>
+                    <text id="Sub" font-family="Chapeau-Black, Chapeau" font-size="12" font-weight="700" line-spacing="17" letter-spacing="1" fill="#292429">
+                        <tspan x="25" y="175">2018</tspan>
+                    </text>
+                    <text id="Sub-Copy-3" font-family="Chapeau-Black, Chapeau" font-size="12" font-weight="700" line-spacing="17" letter-spacing="1" fill="#292429">
+                        <tspan x="590" y="175">2027</tspan>
+                    </text>
+                    <g id="Arrows" transform="translate(65.000000, 169.000000)" fill="#000000" fill-rule="nonzero">
+                        <path id="Angled-Arrow" d="M489.745131,-4.93578777 L497.745131,-0.435787769 L498.519864,0 L497.745131,0.435787769 L489.745131,4.93578777 L489.254869,4.06421223 L495.591,0.5 L0,0.5 L0,-0.5 L495.591,-0.5 L489.254869,-4.06421223 L489.745131,-4.93578777 Z"></path>
+                    </g>
+                    <text id="Sub-Copy-3" font-family="Chapeau-Black, Chapeau" font-size="12" font-weight="700" line-spacing="17" letter-spacing="1" fill="#292429">
+                        <tspan x="25" y="38">PROJECTED AMERICAN FREELANCING WORKFORCE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

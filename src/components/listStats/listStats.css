@@ -73,6 +73,7 @@
         width: 15vw;
         margin-right: 0;
         padding: 1.2em;
+        min-height: 110px;
     }
 
     .listStats__num {

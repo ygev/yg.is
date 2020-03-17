@@ -79,7 +79,19 @@ class Index extends React.Component {
                     paragraphBody="We picked two interviewers who were most vocal about their habits as freelancers and conducted in depth interviews with them for further insight. Amanda took on Devin, a <<freelance product designer from New York City>>, while I interviewed Katie, a <<freelance graphic designer from rural Maryland.>>"/>
           <Paragraph paragraphTitle="Supplemental Research" 
                       paragraphBody="Additionally, we consulted studies conducted by outside companies on freelance work, and drew the following statistics of significance."/>
-          <ListStats />
+          <ListStats statNum={["46%", "70%", "77%", "63%"]} 
+                    statTxt={[
+                    "of respondents pointed out irregular income as the worst part of freelancing", 
+                    "of freelancers are juggling 2 to 4 projects at the same time", 
+                    "of freelancers are less financially stable since ditching their day jobs",
+                    "of freelancers withdraw from their savings at least once a month"
+                  ]} 
+                    imgCaption={[
+                    "Paypal · Freelancer Insights Report · 2018", 
+                    "And Co. · The Slash Workers · 2017", 
+                    "FreshBooks · Freelancer Finance Report", 
+                    "Upwork · Freelancing in America · 2017"
+                    ]}/>
           <Paragraph paragraphTitle="Market Insight" 
                       paragraphBody="To get a bigger picture for the future of self-employment, we read a study on freelancing conducted by Forbes in 2018. Most statistics pointed to a rapid increase in freelancing within the next decade."/>
           <List listTitle="" listType='ul'
