@@ -172,11 +172,13 @@ class Index extends React.Component {
         <ImgRight img={Fig15} imgNum="08" imgCaption="Features Based on Principles"/>
         </div>
         <div id="p5">
-        <ImgLeft img={Fig17} imgNum="06" padding="true" imgCaption="The most optimal solution lies at the intersection of centralization, handsfree and adaptability."/>
         <Phase phaseTitle="Validating the Initial Iteration"/>
+        <ImgLeft img={Fig17} imgNum="06" padding="true" imgCaption="The most optimal solution lies at the intersection of centralization, handsfree and adaptability."/>
         <Paragraph paragraphTitle="On-Site User Testing" 
                   paragraphBody="Once the first iteration was completed, Amanda and I seeked out several testers, which there were plenty of in a hackathon setting. We sat down with several volunteers and had them go through the user flow one by one, jotting down any comments they might have. The following issues became apparent after our user tests:"/>
-       <Issue img={Fig18}/>
+       <Issue img={Fig18} issueTitle="Information Overload" issueItems={["What is the graph representing?", "Where do the small buttons go?", "What does the top number mean?"]}/>
+       <Issue img={Fig19} issueTitle="Inconsistent Language" issueItems={["Confused about Savings vs. Taxes word choice", "Confused about Net Income vs. Budget  word choice"]}/>
+       <Issue img={Fig20} issueTitle="Unintuitive Information Architecture" issueItems={["Confused about Savings vs. Taxes word choice", "Confused about Net Income vs. Budget  word choice"]}/>
        </div>
         <div id="p6"></div>
         <Contact/>

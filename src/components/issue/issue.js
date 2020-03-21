@@ -4,6 +4,12 @@ import "../paragraph/paragraph.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
 
+function buildList(input) {
+  return Array.from(Array(input.length).keys()).map((i) => {
+      return <li className="issue__quote--item">{input[i]}</li>
+  })
+}
+
 export default props => (
     <>
         <div className="gridContainer">
@@ -12,10 +18,8 @@ export default props => (
             <img className="issue__screen--img" src={props.img} alt=""/>
           </aside>
           <article className="issue__txt">
-            <h2 className="issue__title paragraph__title">Bad Information Hierarchy</h2>
-            <ul className="issues__quote paragraph__body">
-              <li className="issue__quote--item">What were you thinking?</li>
-              <li className="issue__quote--item">Are you retarded?</li>
+            <h2 className="issue__title paragraph__title">{props.issueTitle}</h2>
+            <ul className="issues__quote paragraph__body">{buildList(props.issueItems)}
             </ul>
           </article>
           </section>
