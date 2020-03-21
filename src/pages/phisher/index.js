@@ -32,7 +32,7 @@ import ImgRight from "../../components/imgRight/imgRight"
 import ImgLeft from "../../components/imgLeft/imgLeft"
 import ImgFull from "../../components/imgFull/imgFull"
 import HowMightWe from "../../components/howMightWe/howMightWe"
-import Issues from "../../components/issues/issues"
+import Issues from "../../components/issue/issue"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
@@ -89,7 +89,7 @@ class Index extends React.Component {
                     listItems={["There is a rising awareness among Americans to use password managers, yet a small minority of people still get phished. ", 
                                 "Students at the Maryland Institute College of Art largely do not use password managers, nor do they see the importance of two factor authentication that has been established in 2019.", 
                                 "Students mindlessly enter their passwords without double checking the URL first. Frequent bugs in MICA’s system force students to enter their credentials twice, which is an explotable feature."]} />
-          <ImgLeft img={Fig3} imgNum="03" imgCaption="MICA Senior, Haley Clark, logging in to the school website."/>
+          <ImgLeft  padding="true" img={Fig3} imgNum="03" imgCaption="MICA Senior, Haley Clark, logging in to the school website."/>
           <Paragraph paragraphTitle="Lack of Awareness" 
                     paragraphBody="Based on these insights, I’ve concluded there is not enough awareness about how easy it is to steal one’s data on campus compared to the national average presented by the Pew Research Center. Phisher websites can be generated programmatically and it is far too easy to store passwords in a database with malicious intentions, even by an art student like me. <<Students largely didnt care much for the two-factor authentication>> employed by the school after a number of phishing attacks. There was clearly not enough awareness around the campus, leading me to pose the following design challenge: "/>
           <HowMightWe howMightWe="How might we raise on-campus awareness about phishing through an experiential medium while maintaining safety?"/>
@@ -112,7 +112,7 @@ class Index extends React.Component {
         </div>
         <div id="p4">
           <Phase phaseTitle="Prototyping Phishing Site Layout"/>
-          <ImgLeft img={[Fig6, Fig7, Fig8]} imgNum={["07", "08", "09"]} imgCaption={["MICA’s Communication Toolkit", "MICA’s Sub-Brands, now including Phisher.", "MICA’s Home Page displaying the most commonly used colors by the brand."]}/>
+          <ImgLeft img={[Fig6, Fig7, Fig8]} imgNum={["07", "08", "09"]} imgCaption={["MICA’s Communication Toolkit", "MICA’s Sub-Brands, now including Phisher.", "MICA’s Home Page displaying the most commonly used colors by the brand."]} padding="true"/>
           <Paragraph paragraphTitle="Brandjacking" 
                     paragraphBody="I decided to use MICA’s branding designed by Pentagram as the visual language, identity and style guide for the alternate landing page. Like many style guidelines, it was available publicly and marketed as the [[MICA Communication Toolkit>>https://www.mica.edu/offices-divisions/division-of-strategic-communications/toolkit/branding/]]. I created a logo in the style of MICA’s sub-brands to follow the <<common phishing practice of brandjacking.>>"/>
           <Paragraph paragraphTitle=""

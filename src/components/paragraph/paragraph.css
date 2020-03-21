@@ -31,7 +31,8 @@
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
-    line-height: 32px;
+    line-height: 18px;
+    padding-bottom: 8px;
     letter-spacing: 1.3px;
 }
 
@@ -87,7 +88,7 @@
 
 mark {
     background-color: var(--projcolor);
-    box-shadow: inset 0 14px 0px var(--white);
+    box-shadow: inset 0 14px 10px var(--white);
     display: inline;
 }
 

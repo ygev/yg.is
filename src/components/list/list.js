@@ -3,10 +3,11 @@ import "./list.css";
 import "../paragraph/paragraph.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
+import Syntax from "../syntax/syntax.js"
 
 function buildList(input) {
     return Array.from(Array(input.length).keys()).map((i) => {
-        return <li className="list__item">{input[i]}</li>
+        return <li className="list__item"><Syntax content={input[i]} /></li>
     })
 }
 

@@ -1,0 +1,57 @@
+.issue {
+    grid-area: pg;
+    display: flex;
+    align-items: center;
+}
+
+.issue__screen {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    max-width: 240px;
+}
+
+.issue__screen--img {
+    width: 100%;
+}
+
+.issue__txt {
+    margin-right: 6vw;
+}
+
+.issue__title::before {
+    content: "⚠️"; 
+    margin-right: 8px;
+}
+
+.issue__quote--item {
+    list-style:none;
+}
+
+.issue__quote--item::before {
+    content: "❝"; 
+    font-family: Chapeau;
+    color: var(--projcolor);
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+}
+
+/* DESKTOP VERSION */
+
+@media (min-width: 1024px) {
+    .issue__screen  {
+        /* margin-left: 16vw; */
+        margin-right: 0;
+    }
+
+    .issue__txt {
+        margin-left: 16px;
+    }
+}
+
+/* 4K VERSION */
+@media (min-width: 2560px) {
+    .issue__screen  {
+        /* margin-left: 24vw; */
+    }
+}
