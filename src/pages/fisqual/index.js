@@ -125,13 +125,13 @@ class Index extends React.Component {
                 ]} /> 
         <Paragraph paragraphTitle="Journey Mapping" 
                       paragraphBody="Given the discoveries, we created a journey map for the average freelance project to put our findings onto a centralized timeline and analyze possible pain points associated with self-employment."/>
-        <ImgRight img={Fig5} imgNum="05" imgCaption="Analyzing Freelance Processes"/>
+        <ImgRight img={Fig5} imgNum="04" imgCaption="Analyzing Freelance Processes"/>
         <HowMightWe howMightWe="How might we ensure financial wellness for self-employed people with variable incomes?"/>
         
         </div>
         <div id="p3">
         <Phase phaseTitle="Brainstorming the Scope of the Product"/>
-        <ImgLeft img={Fig3} imgNum="04" imgCaption="Amanda compiling the features we've brainstormed on the wall." padding="true"/>
+        <ImgLeft img={Fig3} imgNum="05" imgCaption="Amanda compiling the features we've brainstormed on the wall." padding="true"/>
         <Paragraph paragraphTitle="Feature-First Competitive Analysis" 
                     paragraphBody="We decided to conduct a competitive analysis of existing finance management applications to see <<how compatible they are with freelance work>>. The following financial management and budgeting mobile applications were installed and thoroughly researched:"/>
         <List listTitle="" listType='ul'
@@ -165,21 +165,23 @@ class Index extends React.Component {
         </div>
         <div id="p4">
         <Phase phaseTitle="Prototyping an Interface for the Features"/>
-        <ImgLeft img={Fig16} imgNum="06" padding="true" imgCaption="Wireframing the main screen."/>
+        <ImgLeft img={Fig16} imgNum="07" padding="true" imgCaption="Wireframing the main screen."/>
         <Paragraph paragraphTitle="Progress-Centric Layout vs. Timeline Centric Layout" 
                   paragraphBody="A major pivot for the project is whether we want to visualize the data in terms of time or in terms of money. The tree of prototypes below is an exploration of this idea. At the time, the timeline-based view has grown to be more favored by us, because, based on our interviews, freelancers often worded their concerns about living paycheck-to-paycheck."/>
         <ImgRight img={Fig15} imgNum="08" imgCaption="Features Based on Principles"/>
         </div>
         <div id="p5">
         <Phase phaseTitle="Validating the Initial Iteration"/>
-        <ImgLeft img={Fig17} imgNum="06" padding="true" imgCaption="The most optimal solution lies at the intersection of centralization, handsfree and adaptability."/>
+        <ImgLeft img={Fig17} imgNum="08" padding="true" imgCaption="User Testing with Technica 2019 Attendees"/>
         <Paragraph paragraphTitle="On-Site User Testing" 
                   paragraphBody="Once the first iteration was completed, Amanda and I seeked out several testers, which there were plenty of in a hackathon setting. We sat down with several volunteers and had them go through the user flow one by one, jotting down any comments they might have. The following issues became apparent after our user tests:"/>
        <Issue img={Fig18} issueTitle="Information Overload" issueItems={["What is the graph representing?", "Where do the small buttons go?", "What does the top number mean?"]}/>
        <Issue img={Fig19} issueTitle="Inconsistent Language" issueItems={["Confused about Savings vs. Taxes word choice", "Confused about Net Income vs. Budget  word choice"]}/>
        <Issue img={Fig20} issueTitle="Unintuitive Information Architecture" issueItems={["Confused about Savings vs. Taxes word choice", "Confused about Net Income vs. Budget  word choice"]}/>
        </div>
-        <div id="p6"></div>
+        <div id="p6">
+        <Phase phaseTitle="Finalizing Design for Judging"/>
+        </div>
         <Contact/>
         <Footer/>
       </div>
