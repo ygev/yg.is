@@ -1,8 +1,8 @@
 import React from "react"
 import Hero from "./images/hero.png"; 
-import Glam1 from "./images/hero.png"; 
-import Glam2 from "./images/hero.png"; 
-import Glam3 from "./images/hero.png"; 
+import Glam1 from "./images/Glam1.webm"; 
+import Glam2 from "./images/Glam2.png"; 
+import Glam3 from "./images/Glam3.png"; 
 import Glam4 from "./images/hero.png"; 
 import Glam5 from "./images/hero.png"; 
 import Glam6 from "./images/hero.png"; 
@@ -58,9 +58,8 @@ class Index extends React.Component {
         </div>
         <Abstract glams={
                     [
-                      [Glam1],
-                      [Glam2, Glam3],
-                      [Glam4, Glam5, Glam6]
+                      [Glam2],
+                      [Glam1, Glam3]
                     ]
                   }
                   abstractTeam="Yana Gevorgyan &amp; Amanda Yeh"
