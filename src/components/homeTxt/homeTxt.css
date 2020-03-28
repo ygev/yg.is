@@ -146,10 +146,10 @@ a {
 }
 
 /* 4K */
-@media (min-width: 2560px) {
+/* @media (min-width: 2560px) {
   .home__head {
     -webkit-text-stroke-width: 3px;
     font-size: 64px;
     line-height: 200px;
   }
-}
+} */

@@ -7,6 +7,11 @@
   --projcolor: red;
 }
 
+::selection { 
+  background: var(--black); 
+  color: var(--white);
+}
+
 /* Homepage Color */
 
 :root .home {

@@ -87,8 +87,8 @@
       }
 
 mark {
-    background-color: var(--projcolor);
-    box-shadow: inset 0 14px 10px var(--white);
+    background-color: rgb(217, 227, 248);
+    box-shadow: inset 0 0px 10px var(--white);
     display: inline;
 }
 

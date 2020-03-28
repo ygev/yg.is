@@ -15,7 +15,7 @@
 }
 
 .imgRight__number {
-    border-bottom: 1px solid var(--projcolor);
+    color: var(--projcolor);
     font-weight: 500;
 }
 

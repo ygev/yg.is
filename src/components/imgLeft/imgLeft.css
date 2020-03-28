@@ -26,7 +26,8 @@
 }
 
 .imgLeft__number {
-    border-bottom: 1px solid var(--projcolor);
+    /* border-bottom: 1px solid var(--projcolor); */
+    color: var(--projcolor);
     font-weight: 500;
 }
 
