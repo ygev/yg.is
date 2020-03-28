@@ -1,5 +1,5 @@
 export const Constants = {
-    "": {
+    default: {
         heroCategory: "",
         heroYear: "",
         heroDeliverable: "",

@@ -110,7 +110,12 @@ class Index extends React.Component {
                     paragraphBody="Based on my competitive analysis, Stark is the best Sketch accessibility plugin the internet had to offer. I was most impressed with its clear display of pass/fail ratios and flexibility; in addition to checking text, you could check contrast between two shape layers. <<However, as a premium and proprietary software, it lacked accessibility.>>"/>
           <ImgRight img={Fig10} imgNum="10" imgCaption="Testing Stark's website with Stark's plugin."/>
           <Paragraph paragraphBody="<<None of the plugins suggest substitutes for failing color combinations.>> This is a problem, because it still forces the designer to go back to WebAIM's Contrast Checker to procure passing hex values. <<The workflow remains a   long copy-pasting journey.>> Additionally, no Sketch plugin exists for checking the differentiation in hover states and descriptive link text. "/>
+          <Paragraph paragraphTitle="Slider's the Key" paragraphBody="Empowering the designer to easily make changes to failing WCAG values is the number one thing that will make color contrast accessibility more widely practiced. I set out to create a tool that allows users to not only detect poor contrast, but to change it without minimizing their Sketch workspace."/>
           <HowMightWe howMightWe="How might we develop inclusive design habits for the average Sketch user by optimizing their workflow?"/>
+        </div>
+        <div id="p3">
+          <Phase phaseTitle="Gay"/>
+
         </div>
         <Contact/>
         <Footer/>

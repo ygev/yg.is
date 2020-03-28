@@ -9,12 +9,20 @@ import Footer from "./../components/footer/footer"
 class Index extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {bg: ""};
+    this.state = {
+      currentName: "default"
+    };
   }
 
-  handleHover = (event) => {
+  handleProjectHover = (event) => {
     this.setState({
       currentName: event.currentTarget.querySelector(".home__head").innerHTML.toLowerCase()
+    })
+  }
+
+  handleHeaderHover = (event) => {
+    this.setState({
+      currentName: "default"
     })
   }
 
@@ -23,11 +31,11 @@ class Index extends React.Component {
       <React.Fragment>
         <main className="home">
           <div className="hero__wrapper">
-            <Header/>
-            <HomeHero currentHover={this.state.currentName ? this.state.currentName : ""} bg={this.state.bg}/>
-            <HomeTxt  currentHover={this.state.currentName ? this.state.currentName : ""} bg={this.state.bg}
+            <Header mouseOverCallback={this.handleHeaderHover}/>
+            <HomeHero currentHover={this.state.currentName}/>
+            <HomeTxt  currentHover={this.state.currentName}
                       projects={['cluse', 'ditto', 'fisqual', 'trunks', 'phisher', 'semaphore', 'avam', 'bitshit', 'spiral', 'lissitzky', 'madlads', 'tarpits', 'yext', 'carpets', 'decred', 'arteca']}
-                      mouseOverCallback={this.handleHover}/>
+                      mouseOverCallback={this.handleProjectHover}/>
           </div>
           <Contact/>
           <Footer/>

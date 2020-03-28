@@ -46,7 +46,7 @@ figure.home__img img {
 figure.home__img img {
   max-width: 30vw;
   max-height: 80vh;
-  filter: drop-shadow(0px 20px 20px rgba(38, 44, 75, 0.3));
+  /* filter: drop-shadow(0px 20px 20px rgba(38, 44, 75, 0.3)); */
 }
 
   figure.home__img {

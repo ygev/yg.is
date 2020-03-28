@@ -11,7 +11,7 @@ export default props => (
 <Fade right duration={500}>
    <div className="header__wrapper">
       <nav>
-         <Link to="/">
+         <Link to="/" onMouseOver={props.mouseOverCallback}>
             <Logo className="spinny-logo"/>
             <img className="img-logo" src={logo} alt=""></img>
          </Link>
