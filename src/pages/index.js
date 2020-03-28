@@ -26,7 +26,7 @@ class Index extends React.Component {
             <Header/>
             <HomeHero currentHover={this.state.currentName ? this.state.currentName : ""} bg={this.state.bg}/>
             <HomeTxt  currentHover={this.state.currentName ? this.state.currentName : ""} bg={this.state.bg}
-                      projects={['phisher', 'cluse', 'ditto', 'fisqual', 'trunks', 'semaphore', 'avam', 'bitshit', 'spiral', 'lissitzky', 'madlads', 'tarpits', 'yext', 'carpets', 'decred', 'arteca']}
+                      projects={['cluse', 'ditto', 'fisqual', 'trunks', 'phisher', 'semaphore', 'avam', 'bitshit', 'spiral', 'lissitzky', 'madlads', 'tarpits', 'yext', 'carpets', 'decred', 'arteca']}
                       mouseOverCallback={this.handleHover}/>
           </div>
           <Contact/>
