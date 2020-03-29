@@ -154,7 +154,7 @@ class Index extends React.Component {
           <Paragraph paragraphTitle="Final Modal Evaluation" paragraphBody="The final modal for the 1.0 release of Cluse adapted the verticality of Sketch's sidebar menu."/>
           <Issue img={Fig18} issueTitle="Cluse UI 3.0: Live Preview" issueItems={["Cleaner colors.", "Sliders are too thick.", "Opportunity for compact layout."]}/>
           <Paragraph paragraphTitle="Final Modal Evaluation" paragraphBody="The final modal for the 1.0 release of Cluse adapted the verticality of Sketch's sidebar menu."/>
-          <Issue img={Fig20} issueTitle="Current Cluse Interface" issueItems={["What is the graph representing?", "Where do the small buttons go?", "What does the top number mean?"]}/>
+          <Issue img={Fig20} issueTitle="Current Cluse Interface" issueItems={["Compact, allows for extra features.", "Resembles Sketch's sidebar.", "Sketch-style inputs and sliders.", "Logistics at the bottom.", "Action items on top."]}/>
           <Paragraph paragraphTitle="Final Modal Evaluation" paragraphBody="The final modal for the 1.0 release of Cluse adapted the verticality of Sketch's sidebar menu."/>
         </div>
         <div id="p4">
