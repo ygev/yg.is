@@ -16,6 +16,19 @@ import Fig7 from "./images/Fig7.png";
 import Fig8 from "./images/Fig8.png"; 
 import Fig9 from "./images/Fig9.svg"; 
 import Fig10 from "./images/Fig10.png"; 
+import Fig11 from "./images/Fig11.gif"; 
+import Fig12 from "./images/Fig12.png"; 
+import Fig13 from "./images/Fig13.png"; 
+import Fig14 from "./images/Fig14.png"; 
+import Fig15 from "./images/Fig15.png"; 
+import Fig16 from "./images/Fig16.png"; 
+import Fig17 from "./images/Fig17.png"; 
+import Fig18 from "./images/Fig18.png"; 
+import Fig19 from "./images/Fig19.png"; 
+import Fig20 from "./images/Fig20.png";
+import Fig21 from "./images/Fig21.png";
+import Fig22 from "./images/Fig22.png";
+import Fig23 from "./images/Fig23.png";
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -61,7 +74,7 @@ class Index extends React.Component {
                   abstractTime="3 months · December 2019" 
                   abstractBody="Cluse is a Sketch plugin that serves as a diagnostic tool to ensure that the design meets WCAG 2.0 color contrast standards. To address the lack of an accessibility workflow on design teams, I set out to create a tool that is free, open-source, lightweight and baked into the tools designers use most."
                   liveLink="https://cluse.cc"/>
-        <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'IDEATE', 'ITERATE', 'VALIDATE']}
+        <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'DESIGN', 'DEVELOP', 'VALIDATE', 'PROMOTE']}
                   trackerHead={Constants.cluse.heroTitle}/>
         <div id="p1">
           <Phase phaseTitle="The State of Web Accessibility"/>
@@ -88,8 +101,9 @@ class Index extends React.Component {
                     paragraphBody="I have a conjecture regarding the lack of importance placed on accessibility in most teams: it is an issue of unresolved responsibility. Simply put: <<teams are not sure who is responsible for accessibility.>> Is it the copywriters who compose descriptive text? Is it the developers who put in place aria-labels and alt-tags? Although both roles are pivotal, the foundation of accessibility does not lie in writing or code."/>
           <Paragraph paragraphTitle="So where does web accessibility start?" 
                     paragraphBody="The barrier to full accessibility is erected before the developer even fires up his IDE. It is solidified before the copywriter rests his fingers on the keyboard. The key to the pearly gates of accessibility is visual design. Visual designers are the first line of defense against poor contrast, insufficient differentiation between hover states and non-descriptive link text. <<The path to accessibility begins in the designer’s Sketch file.>>"/>
+        <HowMightWe howMightWe="How might we develop inclusive design habits for the average Sketch user by optimizing their workflow?"/>
         </div>
-        <div id="p1">
+        <div id="p2">
           <Phase phaseTitle="Defining the Project's Scope"/>
           <ImgLeft img={[Fig7, Fig8]} imgNum={["04", "05"]} imgCaption={["Proper contrast ratio at 3.82:1 and poor contrast ratio at 1.34:1.", "Passing contrast ratio at 3.02:1, Hex #3396FF, and failing contrast ratio at 2.95:1, Hex #3898FF."]} padding="true"/>
           <Paragraph paragraphTitle="Designers' Biggest Blunder" 
@@ -99,23 +113,62 @@ class Index extends React.Component {
           <ImgRight img={Fig5} imgNum="06" imgCaption="The most commonly used tool in the industry, WebAIM Contrast Checker."/>
           <Paragraph paragraphTitle="Contrast Checks and Workflow" 
                     paragraphBody="During my time on Yext’s consulting team, I’ve observed a well-defined accessibility workflow. All branded assets were rigorously tested for passing color contrast. The team used WebAIM’s online Contrast Checker. I've interviewed visual designers from other companies. I learned that the <<WebAIM Contrast Checker is the most common used tool in the industry>>. It is used by many notable designers, including Studio Rodrigo, the team behind Adobe Fonts. Although this method is the most common, it is the least efficient. Below is a workflow of how each contrast check took place:"/>
-          <ImgFull img={Fig3} imgNum="07" imgCaption="Current contrast checking workflow of most design teams: a lot of tabbing back and forth that could be eliminated."/>
+          <ImgRight img={Fig3} imgNum="07" imgCaption="Current contrast checking workflow of most design teams: a lot of tabbing back and forth that could be eliminated."/>
           <Paragraph paragraphTitle="" 
                     paragraphBody="Instead of spending up to ten minutes tabbing in-and-out of Chrome and pasting in dozens of HEX codes, one could <<optimize the process using a design accelerator, like a Sketch or Figma plugin.>> If we eliminate all the copy-pasting and tabbing back and forth, this is what the new workflow would look like:"/>
-          <ImgFull img={Fig4} imgNum="08" imgCaption="Proposed contrast checking workflow with the use of a built-in design accelerator."/>
+          <ImgRight img={Fig4} imgNum="08" imgCaption="Proposed contrast checking workflow with the use of a built-in design accelerator."/>
           <Paragraph paragraphTitle="Competitive Analysis" 
-                    paragraphBody="Thankfully, there are a handful of color contrast plugins. After lurking the Sketch Plugins library, I compiled full chart of accessibility-based Sketch Plugins I've tested, sorted by feature:"/>
-          <ImgRight img={Fig9} imgNum="09" imgCaption="Competitive analysis findings of color contrast plugins big and small."/>
+                    paragraphBody="Thankfully, there are a handful of color contrast plugins. After lurking the Sketch Plugins library, I compiled full chart of accessibility-based Sketch Plugins I've tested, sorted by feature. There was a clear leader in the field. A lot of people tried and failed "/>
+          <ImgLeft img={Fig9} imgNum="09" imgCaption="Competitive analysis findings of color contrast plugins big and small." padding="yes"/>
           <Paragraph paragraphTitle="Stripping Stark Naked" 
                     paragraphBody="Based on my competitive analysis, Stark is the best Sketch accessibility plugin the internet had to offer. I was most impressed with its clear display of pass/fail ratios and flexibility; in addition to checking text, you could check contrast between two shape layers. <<However, as a premium and proprietary software, it lacked accessibility.>>"/>
           <ImgRight img={Fig10} imgNum="10" imgCaption="Testing Stark's website with Stark's plugin."/>
           <Paragraph paragraphBody="<<None of the plugins suggest substitutes for failing color combinations.>> This is a problem, because it still forces the designer to go back to WebAIM's Contrast Checker to procure passing hex values. <<The workflow remains a   long copy-pasting journey.>> Additionally, no Sketch plugin exists for checking the differentiation in hover states and descriptive link text. "/>
-          <Paragraph paragraphTitle="Slider's the Key" paragraphBody="Empowering the designer to easily make changes to failing WCAG values is the number one thing that will make color contrast accessibility more widely practiced. I set out to create a tool that allows users to not only detect poor contrast, but to change it without minimizing their Sketch workspace."/>
-          <HowMightWe howMightWe="How might we develop inclusive design habits for the average Sketch user by optimizing their workflow?"/>
+          <ImgLeft img={Fig11} imgNum="11" imgCaption="The Key" padding="yes"/>
+          <Paragraph paragraphTitle="Slider's the Key" paragraphBody="People don't use the current color contrast plugins because WebAIM's Constrast Checker is still a better option. Why? The slider's the key. The ability to fix failing WCAG values empowers designers in a way that current Sketch plugins don't. I set out to create a tool that allows users to not only detect poor contrast, but to change it without minimizing their Sketch workspace. After determining what I want to make, I established my deliverables for the project: "/>
+          <List listTitle="Deliverables" listType='ul'
+                listItems={["<<Downloadable .sketchplugin File>> The plugin itself.", 
+                                "<<Informational Website>> All good plugins ought to have one.",
+                                "<<Exhibition Plan>> This project will be shown at MICA's ArtWalk Exhibition",
+                                "<<Promotional Stickers>> Small and fun way to promote the plugin.",
+                                "<<Documentation on Github>> Necessary for all open-source projects."]} />
         </div>
         <div id="p3">
-          <Phase phaseTitle="Gay"/>
-
+          
+          <Phase phaseTitle="Designing a Sketch-Esque Interface"/>
+          <Paragraph paragraphTitle="Feature Downselection" paragraphBody="With 3 months to complete the project, I wanted to add everything that makes WebAIM's Contrast Checker great, and more. Although I minimized the number of features for the plugin to the essentials, I compiled a backlog of nice-to-have additions for the future."/>
+          <ImgRight img={Fig12} imgNum="12" imgCaption="Isolating the Essentials"/>
+          <ImgLeft img={[Fig16, Fig17, Fig22, Fig21]} imgNum={["04", "05", "02", "03"]} imgCaption={["Drafting priority guidelines for the need-to-have features and drawing wireframes.", 
+          "More in-depth wireframes and brainstorming the slider.", 
+          "Primary inspiration for Cluse's Check Color Contrast header, from Sketch's own modals.", 
+          "Late inspiration for Cluse's slider styles, from Sketch's own color picker menu."
+          ]} padding="true"/>
+          <Paragraph paragraphTitle="Familiar Patterns" paragraphBody="Good plugins look like an extension of the software. They do not visually overpower the tool they supplement. As my main guides, I once again looked towards the accessibility tool designers use most: WebAIM's Contrast Checker. I aimed to design a syncretic tool that functions like the Contrast Checker and fits into the Sketch family."/>
+          <ImgRight img={Fig15} imgNum="12" imgCaption="Cluse's Interface = WebAIM's Contrast Checker masked as a Sketch modal."/>
+          <Paragraph paragraphTitle="Iteratively Designing the Modal" paragraphBody="The most inobtrusive and realistic way to adapt a new feature into Sketch is to use the same technique that the software uses for auxilliary features. In this case, it's a modal.Below is the timeline of Cluse's interface with notes and issues gleaned from interviews and tests. The final version was created while in-development. My process looked something like this: create mockup, interview designers, re-assess priority guidelines, iterate. I started with MacOS Native features, as well as tabs to allow for flexibility and future features for the plugin. By the in-development version, the modal looked simpler. I trimmed the fat. The closer Cluse looked to Sketch, the more uninstrusive was the user's experience."/>
+          <Issue img={Fig13} issueTitle="Cluse UI 1.0: Big Preview" issueItems={["Why is the preview so prominent?", "Why is there no Cluse branding?", "What does the half-color mean?", "What's in the other tabs?"]}/>
+          <Paragraph paragraphTitle="Final Modal Evaluation" paragraphBody="The final modal for the 1.0 release of Cluse adapted the verticality of Sketch's sidebar menu."/>
+          <Issue img={Fig19} issueTitle="Cluse UI 1.5: Branded Big Preview" issueItems={["Three buttons for a simple modal?", "What's the point of two previews?", "Why are the hex inputs dark mode?", "Tautological labels."]}/>
+          <Paragraph paragraphTitle="Final Modal Evaluation" paragraphBody="The final modal for the 1.0 release of Cluse adapted the verticality of Sketch's sidebar menu."/>
+          <Issue img={Fig14} issueTitle="Cluse UI 2.0: Small Preview" issueItems={["Resembles Sketch a lot.", "Why not live preview instead?", "The sliders are comically thin."]}/>
+          <Paragraph paragraphTitle="Final Modal Evaluation" paragraphBody="The final modal for the 1.0 release of Cluse adapted the verticality of Sketch's sidebar menu."/>
+          <Issue img={Fig18} issueTitle="Cluse UI 3.0: Live Preview" issueItems={["Cleaner colors.", "Sliders are too thick.", "Opportunity for compact layout."]}/>
+          <Paragraph paragraphTitle="Final Modal Evaluation" paragraphBody="The final modal for the 1.0 release of Cluse adapted the verticality of Sketch's sidebar menu."/>
+          <Issue img={Fig20} issueTitle="Current Cluse Interface" issueItems={["What is the graph representing?", "Where do the small buttons go?", "What does the top number mean?"]}/>
+          <Paragraph paragraphTitle="Final Modal Evaluation" paragraphBody="The final modal for the 1.0 release of Cluse adapted the verticality of Sketch's sidebar menu."/>
+        </div>
+        <div id="p4">
+          <Phase phaseTitle="Development: Some Assembly Needed"/>
+          <Paragraph paragraphTitle="Iteratively Designing the Modal" paragraphBody="The most inobtrusive and realistic way to adapt a new feature into Sketch is to use the same technique that the software uses for auxilliary features. In this case, it's a modal.Below is the timeline of Cluse's interface with notes and issues gleaned from interviews and tests. The final version was created while in-development. My process looked something like this: create mockup, interview designers, re-assess priority guidelines, iterate. I started with MacOS Native features, as well as tabs to allow for flexibility and future features for the plugin. By the in-development version, the modal looked simpler. I trimmed the fat. The closer Cluse looked to Sketch, the more uninstrusive was the user's experience."/>
+        </div>
+        <div id="p5">
+          <Phase phaseTitle="Bug Triage, QA and User Testing"/>
+          <Paragraph paragraphTitle="Iteratively Designing the Modal" paragraphBody="The most inobtrusive and realistic way to adapt a new feature into Sketch is to use the same technique that the software uses for auxilliary features. In this case, it's a modal.Below is the timeline of Cluse's interface with notes and issues gleaned from interviews and tests. The final version was created while in-development. My process looked something like this: create mockup, interview designers, re-assess priority guidelines, iterate. I started with MacOS Native features, as well as tabs to allow for flexibility and future features for the plugin. By the in-development version, the modal looked simpler. I trimmed the fat. The closer Cluse looked to Sketch, the more uninstrusive was the user's experience."/>
+        </div>
+        <div id="p5">
+          <Phase phaseTitle="Promoting Web Accessibility"/>
+          <Paragraph paragraphTitle="How do you exhibit a Sketch plugin?" paragraphBody="The most inobtrusive and realistic way to adapt a new feature into Sketch is to use the same technique that the software uses for auxilliary features. In this case, it's a modal.Below is the timeline of Cluse's interface with notes and issues gleaned from interviews and tests. The final version was created while in-development. My process looked something like this: create mockup, interview designers, re-assess priority guidelines, iterate. I started with MacOS Native features, as well as tabs to allow for flexibility and future features for the plugin. By the in-development version, the modal looked simpler. I trimmed the fat. The closer Cluse looked to Sketch, the more uninstrusive was the user's experience."/>
+          <ImgRight img={Fig23} />
         </div>
         <Contact/>
         <Footer/>

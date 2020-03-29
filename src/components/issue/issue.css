@@ -1,7 +1,10 @@
 .issue {
     grid-area: pg;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .issue__screen {
@@ -11,11 +14,13 @@
 }
 
 .issue__screen--img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .issue__txt {
+    margin-top: 6vw;
     margin-right: 6vw;
+    margin-left: 6vw;
 }
 
 .issue__title::before {
@@ -28,7 +33,7 @@
 }
 
 .issue__quote--item::before {
-    content: "❝"; 
+    content: "💬"; 
     font-family: Chapeau;
     color: var(--projcolor);
     display: inline-block;
@@ -39,19 +44,24 @@
 /* DESKTOP VERSION */
 
 @media (min-width: 1024px) {
+    .issue {
+        flex-direction: row;
+    }
+
     .issue__screen  {
-        /* margin-left: 16vw; */
+        max-width: 240px;
         margin-right: 0;
     }
 
     .issue__txt {
-        margin-left: 16px;
+        margin-left: 36px;
+        margin-right: 16vw;
+        margin-top: 0;
     }
 }
 
 /* 4K VERSION */
 @media (min-width: 2560px) {
     .issue__screen  {
-        /* margin-left: 24vw; */
     }
 }

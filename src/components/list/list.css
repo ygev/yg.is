@@ -19,7 +19,7 @@ ul.list__items {
 }
 
 ul > .list__item::before {
-    content: "➜"; 
+    content: "🡲"; 
     font-family: Chapeau;
     color: var(--projcolor);
     display: inline-block;

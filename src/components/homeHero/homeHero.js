@@ -33,8 +33,9 @@ export default props => (
                     <div className="marquee__wrap">
                         <Marquee
                         direction = "left"
-                        delay="500"
-                        speed ="0.1">
+                        children ="Booty"
+                        delay="0"
+                        speed ="0.2">
                         {Constants[props.currentHover].heroTitle}
                         </Marquee>
                     </div>
