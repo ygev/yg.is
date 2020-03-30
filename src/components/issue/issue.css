@@ -34,7 +34,7 @@
 
 .issue__quote--item::before {
     content: "💬"; 
-    font-family: Chapeau;
+    font-family: Chapeau-Medium
     color: var(--projcolor);
     display: inline-block;
     width: 2em;

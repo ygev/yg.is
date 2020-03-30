@@ -1,3 +1,23 @@
+/* Font Loading */
+@font-face {
+  font-family: "Chapeau-Black";
+  src: url("../fonts/Chapeau-Black.woff") format("woff"),
+  url("../fonts/Chapeau-Black.woff2") format("woff2");
+  }
+
+@font-face {
+  font-family: "Chapeau-Medium";
+  src: url("../fonts/Chapeau-Medium.woff") format("woff"),
+  url("../fonts/Chapeau-Medium.woff2") format("woff2");
+  }
+
+
+@font-face {
+  font-family: "SuisseNeue-Regular";
+  src: url("../fonts/SuisseNeue-Regular.woff") format("woff"),
+  url("../fonts/SuisseNeue-Regular.woff2") format("woff2");
+  }
+
 /* Legend of Colors */
 :root {
   --black: #000;

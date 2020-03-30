@@ -66,7 +66,7 @@
 }
 
 .abstract__head {
-    font-family: Chapeau;
+    font-family: Chapeau-Black;
     font-weight: 900;
     font-size: 10px;
     color: var(--white);
@@ -104,7 +104,7 @@
 /* Button */
   
 .btn__live {
-    font-family: Chapeau;
+    font-family: Chapeau-Medium;
     font-weight: 500;
     font-size: 16px;
     color: var(--white);
@@ -229,7 +229,7 @@
     .abstract__body {
         font-size: 18px;
         text-rendering: optimizeLegibility;
-        font-family: SuisseNeue-Light;
+        font-family: SuisseNeue-Regular;
         font-weight: 100;
         line-height: 32px;
         width: 100%;
@@ -238,7 +238,7 @@
     .abstract__body--paragraph {
         font-size: 18px;
         text-rendering: optimizeLegibility;
-        font-family: SuisseNeue-Light;
+        font-family: SuisseNeue-Regular;
         font-weight: 100;
         line-height: 32px;
     }

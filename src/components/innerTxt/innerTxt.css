@@ -10,7 +10,7 @@
 /* Hero Typography */
 
 .brow {
-  font-family: Chapeau;
+  font-family: Chapeau-Black;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 10px;
@@ -23,7 +23,7 @@
   }
 
 .lead {
-  font-family: Chapeau;
+  font-family: Chapeau-Medium;
   font-weight: 500;
   padding-left: 16px;
   padding-right: 16px;
@@ -51,7 +51,7 @@
   
 .btn__git {
   transition: 150ms ease-in-out;
-  font-family: Chapeau;
+  font-family: Chapeau-Medium
   font-weight: 500;
   font-size: 16px;
   color: var(--black);

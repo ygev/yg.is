@@ -7,7 +7,7 @@
 }
 
 .howMightWe__txt {
-    font-family: Chapeau;
+    font-family: Chapeau-Medium;
     font-weight: 500;
     font-size: 18px;
     color: var(--white);
@@ -18,7 +18,7 @@
 }
 
 .howMightWe__head {
-    font-family: Chapeau;
+    font-family: Chapeau-Black;
     font-weight: 900;
     letter-spacing: 1.3px;
     font-size: 10px;

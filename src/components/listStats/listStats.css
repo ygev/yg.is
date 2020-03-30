@@ -21,13 +21,13 @@
 
 .listStats__num {
     font-size: 32px;
-    font-family: Chapeau;
+    font-family: Chapeau-Medium
     font-weight: 500;
 }
 
 .listStats__txt {
     font-size: 10px;
-    font-family: Chapeau;
+    font-family: Chapeau-Medium
     font-weight: 500;
     line-height: 1.3em;
     text-transform: uppercase;

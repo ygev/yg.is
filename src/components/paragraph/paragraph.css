@@ -24,7 +24,7 @@
 }
 
 .paragraph__title {
-    font-family: Chapeau;
+    font-family: Chapeau-Black;
     color: var(--black);
     text-transform: uppercase;
     font-size: 10px;

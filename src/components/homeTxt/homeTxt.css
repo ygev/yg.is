@@ -21,7 +21,7 @@
 .home__brow {
   text-align: left;
   color: var(--black);
-  font-family: Chapeau;
+  font-family: Chapeau-Black;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 10px;
@@ -32,7 +32,7 @@
 }
 
 .home__head {
-  font-family: Chapeau;
+  font-family: Chapeau-Black;
   font-weight: 900;
   font-size: 24px;
   /* text-align: center;   */

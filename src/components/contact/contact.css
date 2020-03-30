@@ -12,7 +12,7 @@
 }
 
 .contact__head {
-    font-family: Chapeau;
+    font-family: Chapeau-Medium;
     font-weight: 500;
     font-size: 24px;
     color: var(--white) ;
@@ -28,7 +28,7 @@
 }
 
 .btn__contact {
-    font-family: Chapeau;
+    font-family: Chapeau-Medium;
     font-weight: 500;
     font-size: 16px;
     color: var(--white);
