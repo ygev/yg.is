@@ -11,7 +11,7 @@
 }
 
 .imgLeft__caption {
-    font-family: Chapeau-Medium
+    font-family: Chapeau-Medium;
     font-weight: 500;
     font-size: 10px;
     color: var(--black);
