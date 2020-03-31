@@ -19,7 +19,7 @@ ul.list__items {
 }
 
 ul > .listQuotes__item::before {
-    content: "❝"; 
+    content: "❛❛"; 
     font-family: Chapeau-Medium;
     color: var(--projcolor);
     display: inline-block;
