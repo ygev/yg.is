@@ -4,9 +4,6 @@
     <img alt="YG.IS Logotype" src="https://i.imgur.com/tzvneWn.gif" width="100" />
   </a>
 </p>
-<h1 align="center">
-  ʏɢ.ɪꜱ
-</h1>
 <h2 align="center">Yana's Portfolio Website</h2>
 
 
