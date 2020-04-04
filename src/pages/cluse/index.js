@@ -78,7 +78,7 @@ class Index extends React.Component {
                     [
                       [Glam1],
                       [Glam2, Glam6],
-                      [Glam3, Glam7],
+                      [Glam7, Glam3],
                       [Glam4, Glam5]
                     ]
                   }
