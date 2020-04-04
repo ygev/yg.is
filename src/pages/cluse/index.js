@@ -152,10 +152,10 @@ class Index extends React.Component {
           <Phase phaseTitle="Designing a Sketch-Esque Interface"/>
           <Paragraph paragraphTitle="Feature Downselection" paragraphBody="With 3 months to complete the project, I wanted to add everything that makes WebAIM's Contrast Checker great, and more. Although I minimized the number of features for the plugin to the essentials, I compiled a backlog of nice-to-have additions for the future."/>
           <ImgRight img={Fig12} imgNum="12" imgCaption="Isolating the Essentials"/>
-          <ImgLeft img={[Fig16]} imgNum={["04"]} imgCaption={["Drafting priority guidelines for the need-to-have features and drawing wireframes."
+          <ImgLeft img={[Fig16]} imgNum={["13"]} imgCaption={["Drafting priority guidelines for the need-to-have features and drawing wireframes."
           ]} padding="true"/>
           <Paragraph paragraphTitle="Familiar Patterns" paragraphBody="<<Good plugins look like an extension of the software. They do not visually overpower the tool they supplement.>> I think back to Stark's huge modal that covered 25% of my 13&quot; MacBook screen. As my visual guide, I once again look towards the accessibility tool designers use most: WebAIM's Contrast Checker. I aimed to design a syncretic tool that functions like the Contrast Checker and fits into the Sketch visual language."/>
-          <ImgRight img={Fig15} imgNum="12" imgCaption="Cluse's Interface = WebAIM's Contrast Checker masked as a Sketch modal."/>
+          <ImgRight img={Fig15} imgNum="14" imgCaption="Cluse's Interface = WebAIM's Contrast Checker masked as a Sketch modal."/>
           <Paragraph paragraphTitle="Iteratively Designing the Modal" paragraphBody="The most inobtrusive and realistic way to adapt a new external feature is to use the same technique as the software uses internally. <<In this case, Sketch displays auxilliary features as modals.>> After brainstorming wireframes based on my priority guidelines, I took to the artboard:"/>
           <Issue img={Fig13} issueTitle="Cluse UI 1.0 User Feedback" issueItems={["Why is the preview so prominent?", "Why is there no Cluse branding?", "What does the half-color mean?", "What's in the other tabs?"]}/>
           <Paragraph paragraphTitle="More Mac OS than Sketch" paragraphBody="The code for Sketch's UI consists of many native macOS frameworks. I followed Sketch's example and created a macOS-style modal for a start. With high hopes, I tabulated the feature groups for future development. I borrowed the half-colored scrubber from Adobe, so that one could keep track of the original color. The crown on the initial design is a large preview that takes up a quarter of the modal. Upon speaking with users, as well as my degree project advisor, issues were noted. <<The premature tabulation ensures scope creep.>> The preview is not representative of most elements that are tested for color contrast. The modal lacked Cluse identifiers. The half-color scrubber was an unfamiliar pattern to most users tested and was too small to click on."/>
@@ -163,7 +163,7 @@ class Index extends React.Component {
           <Paragraph paragraphTitle="More Sketch than Mac OS" paragraphBody="Cluse's next iteration was more Sketch than macOS. Instead of the dark-mode hex inputs, it mimicked the Sketch inputs. The Sketch-modal-style header was now adornished with Cluse's logo and some instructions. It also sported two previews, one for large text, and another for small text. <<However, the copywriting of the labels was unclear; the interface suffered from feature bloat and poor whitespace management.>> The next version aimed to trim down the fat."/>
           <Issue img={Fig14} issueTitle="Cluse UI 1.7 User Feedback" issueItems={["Resembles Sketch a lot.", "Why not live preview instead?", "The sliders are comically thin."]}/>
           <Paragraph paragraphTitle="Downsizing" paragraphBody="<<After removing the superfluous preview, I concluded that this was the safest stage to start the code.>> Most of my time was spent on connecting the Sketch API and my WebUI, a methodology to create plugin interfaces for Sketch Plugins using HTML/CSS. <<While reading the Sketch API documentation, I learned that I could do a live preview instead of an in-modal preview of the color contrast. As a result, the next interface change is a significant pivot in the priority guidelines.>>"/>
-          <ImgLeft img={[Fig24]} imgNum={["04"]} imgCaption={["Demonstration of the new live preview feature."
+          <ImgLeft img={[Fig24]} imgNum={["15"]} imgCaption={["Demonstration of the new live preview feature."
           ]} padding="true"/>
           <Issue img={Fig18} issueTitle="Cluse UI 1.9 User Feedback" issueItems={["Cleaner colors.", "Sliders are too thick.", "Opportunity for compact layout.", "Repetitive instructions."]}/>
           <Paragraph paragraphTitle="Live Preview" paragraphBody="The live preview was a game changer. From this point on, when you moved the sliders, it affected the selected layers directly. With the blue box of placeholder text rendered obsolete, the UI was down to the essentials. I confidently proceeded with this design until the later stages of development."/>
@@ -172,7 +172,7 @@ class Index extends React.Component {
         </div>
         <div id="p4">
           <Phase phaseTitle="Quirks of Sketch Plugin Development"/>
-          <ImgLeft img={[Fig30, Fig25]} imgNum={["11", "12"]} imgCaption={["Notes on Sketch Plugin Development","The Hue Data Loss Bug"]} padding="yes" />
+          <ImgLeft img={[Fig30, Fig25]} imgNum={["16", "17"]} imgCaption={["Notes on Sketch Plugin Development","The Hue Data Loss Bug"]} padding="yes" />
           <Paragraph paragraphTitle="Learning Curve" paragraphBody="Having no experience with making Sketch Plugins of this size, I took to Googling some tutorials. Surprisingly, there are very few resources on this sort of thing, especially when you're trying to make your own user interface. [[Matt Curtis' tutorial in Smashing Magazine>https://www.smashingmagazine.com/2019/07/build-sketch-plugin-javascript-html-css-part-1/]] is the most helpful guide I've found. I took meticulous notes on Sketch API, Objective-C and MochaJS concepts and seeked outside help from Kian Bradley, a developer at AWS."/>
           
           <Paragraph paragraphTitle="Bridging Sketch API and a Web UI" paragraphBody="Although my interface is minimal, its implementation is not as simple as it looks. The actions of my plugin are more than Sketch API can accomplish singlehandedly. Sketch API needs to be supplemented by CocoaScript and MochaJS. CocoaScript is Sketch's proprietary language bridging Sketch API and internal macOS frameworks. MochaJS is used to bridge internal macOS frameworks and JavaScript. This allows me to create the UI with HTML and CSS and write all the logic in JavaScript."/>
@@ -183,7 +183,7 @@ class Index extends React.Component {
         <div id="p5">
           <Phase phaseTitle="Conducting Usability Testing"/>  
           <Paragraph paragraphTitle="Task Analysis" paragraphBody="In order to test Cluse's ease of use, I planned a task analysis. I created a test file to disseminate throughout my user testing group. In addition to testing basic actions, I want to test one variation: whether users select an artboard or the layers for testing. All my users were proficient in Sketch, although only one of them has used any sort of plugin before."/>
-          <ImgRight img={Fig27} imgNum="05" imgCaption="Cluse Usability Assessment Sketch File"/>
+          <ImgRight img={Fig27} imgNum="18" imgCaption="Cluse Usability Assessment Sketch File"/>
           <Issue img={Fig29} issueTitle="Verbal Instructions for the Assessment" 
           issueItems={["Launch Cluse for Button 1", 
                                 "Make Button 1 AA accessible", 
@@ -194,7 +194,7 @@ class Index extends React.Component {
                                 "Swap the Colors on Button 2",
                                 "Save Button 2",
                                 "Now do the same actions to the next set of buttons."]}/>
-        <ImgLeft img={Fig28} imgNum="04" padding="yes" imgCaption="Usability testing set-up with screen-sharing and video chat."/>
+        <ImgLeft img={Fig28} imgNum="19" padding="yes" imgCaption="Usability testing set-up with screen-sharing and video chat."/>
         <Paragraph paragraphTitle="What Users Said During a Cognitive Walkthrough" 
                     paragraphBody="The following are some of the most insightful quotes I have gathered from the usability test:"/>
         <ListQuotes listTitle="" listType='ul'
@@ -207,22 +207,22 @@ class Index extends React.Component {
         </div>
         <div id="p6">
           
-          <ImgLeft img={Fig31} imgNum="04" imgCaption="The evolution of Cluse's website through Sketch artboards."/>
+          <ImgLeft img={Fig31} imgNum="20" imgCaption="The evolution of Cluse's website through Sketch artboards."/>
           <Phase phaseTitle="Promoting Web Accessibility"/>
           <Paragraph paragraphTitle="Online Presence" paragraphBody="In addition to maintaining a readme on GitHub, a good way to establish an online presence for the plugin is to create a website for it. I used my accelerated process for building sites: priority guidelines, wireframes, then mid- to hi-fidelity mockups."/>
-          <ImgRight img={Fig23} imgNum="04" imgCaption="Planning out and wireframing Cluse's website." />
-          <ImgLeft img={Fig32} imgNum="04" imgCaption="Demonstration of the interactive slider on Cluse's website." padding="yes"/>
+          <ImgRight img={Fig23} imgNum="21" imgCaption="Planning out and wireframing Cluse's website." />
+          <ImgLeft img={Fig32} imgNum="22" imgCaption="Demonstration of the interactive slider on Cluse's website." padding="yes"/>
           <Paragraph paragraphTitle="Breaking the Fourth Wall" paragraphBody="Although most plugin websites were minimal, consisting of a few screenshots and a download link, I wanted to try something different. After some experimentation, <<I chose to highlight what separates this contrast plugin from the rest: a slider.>> My final iterations included an interactive slider on top of the site. <<Upon scrubbing back and forth, the entire background of the site changes and reveals whether the combination passes WCAG or not.>> This was also the most time-effective option, as I reused the very code Cluse uses to analyze color contrast. [[Feel free to mess with it on Cluse's site.>https://cluse.cc/]]"/>
           </div>
         <div id="p7">
           <Phase phaseTitle="How does one exhibit software?"/>
           <Paragraph paragraphTitle="Beyond Screen-Centric Exhibitions" paragraphBody="As Cluse is my degree capstone, it was to be exhibited in the senior show. This posed an interesting challenge. <<Cluse was a piece of software, unlike other exhibited projects rooted in graphic design.>> How do I exhibit software? I did not want to put a screen on a pedestal and call it a day, so I decided to think about the context in which Cluse would be used in. <<As a result, my exhibition aims to recreate a designer's workspace.>>  I had a large desk, a chair and a plant to accompany the monitor. Additionally, I painted the gallery wall Cluse-blue and plotted vinyl decals on it to mimic the Cluse's homepage."/>
-          <ImgLeft img={Fig34} imgNum="04" imgCaption="Sticker preview cubes, stickers and the modal posters on the desk." />
-          <ImgRight img={Fig33} imgNum="04" imgCaption="My assistant taking photos of the exhibition post-setup. Just kidding, that's me." />
+          <ImgLeft img={Fig34} imgNum="23" imgCaption="Sticker preview cubes, stickers and the modal posters on the desk." />
+          <ImgRight img={Fig33} imgNum="24" imgCaption="My assistant taking photos of the exhibition post-setup. Just kidding, that's me." />
           <Paragraph paragraphTitle="Guerilla Sticker Campaign" paragraphBody="To expand on my exhibition, I designed transparent stickers with the three WCAG conformance levels and had them printed on transparent sticker paper with white ink. Each pile of stickers on the table was accompanied by a cube showcasing an example of that kind of color contrast, as well as a corresponding Cluse modal poster above it. The stickers were disseminated to people as a form of a guerilla campaign against poor color contrast. The audience were encouraged to place the stickers in places around campus. For instance, examples of exemplary color contrast, would get the AAA sticker, whereas poor color contrast would receive the A sticker."/>
           <Paragraph paragraphTitle="Exhibition Feedback and Future Endeavors" paragraphBody="Feedback from faculty and students has been overwhelmingly positive. The new chair of Graphic Design at MICA proposed that it should be part of the curriculum of a UX class taught in the fall. I have started working on a Figma port for the plugin, so that it can be used in the classroom, starting Fall 2020. Otherwise, I will work on bug fixes as they come in and maintain the project as long as I can. [[Check GitHub for the latest release.>https://www,github.com/ygev/cluse]]"/> 
           <Paragraph paragraphTitle="Sketch Endorsement" paragraphBody="Since February 2020, Cluse has been officially endorsed by Sketch."/>         
-          <ImgRight img={Fig35} imgNum="" imgCaption="" />
+          <ImgRight img={Fig35}/>
         </div>
         <Contact/>
         <Footer/>
