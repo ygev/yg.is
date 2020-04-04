@@ -23,7 +23,6 @@ import Fig13 from "./images/Fig13.png";
 import Fig14 from "./images/Fig14.png"; 
 import Fig15 from "./images/Fig15.png"; 
 import Fig16 from "./images/Fig16.png"; 
-import Fig17 from "./images/Fig17.png"; 
 import Fig18 from "./images/Fig18.png"; 
 import Fig19 from "./images/Fig19.png"; 
 import Fig20 from "./images/Fig20.png";
@@ -41,6 +40,7 @@ import Fig31 from "./images/Fig31.png";
 import Fig32 from "./images/Fig32.gif";
 import Fig33 from "./images/Fig33.png";
 import Fig34 from "./images/Fig34.png";
+import Fig35 from "./images/Fig35.png";
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -81,8 +81,7 @@ class Index extends React.Component {
                       [Glam1],
                       [Glam2, Glam6],
                       [Glam3, Glam7],
-                      [Glam4, Glam5],
-                      [Fig33]
+                      [Glam4, Glam5]
                     ]
                   }
                   abstractTeam="Yana Gevorgyan"
@@ -155,11 +154,7 @@ class Index extends React.Component {
           <Phase phaseTitle="Designing a Sketch-Esque Interface"/>
           <Paragraph paragraphTitle="Feature Downselection" paragraphBody="With 3 months to complete the project, I wanted to add everything that makes WebAIM's Contrast Checker great, and more. Although I minimized the number of features for the plugin to the essentials, I compiled a backlog of nice-to-have additions for the future."/>
           <ImgRight img={Fig12} imgNum="12" imgCaption="Isolating the Essentials"/>
-          <ImgLeft img={[Fig16, Fig17, Fig22, Fig21, Fig24]} imgNum={["04", "05", "02", "03", "04"]} imgCaption={["Drafting priority guidelines for the need-to-have features and drawing wireframes.", 
-          "More in-depth wireframes and brainstorming the slider.", 
-          "Primary inspiration for Cluse's Check Color Contrast header, from Sketch's own modals.", 
-          "Late inspiration for Cluse's slider styles, from Sketch's own color picker menu.",
-          "Demonstration of the new live preview feature."
+          <ImgLeft img={[Fig16]} imgNum={["04"]} imgCaption={["Drafting priority guidelines for the need-to-have features and drawing wireframes."
           ]} padding="true"/>
           <Paragraph paragraphTitle="Familiar Patterns" paragraphBody="<<Good plugins look like an extension of the software. They do not visually overpower the tool they supplement.>> I think back to Stark's huge modal that covered 25% of my 13&quot; MacBook screen. As my visual guide, I once again look towards the accessibility tool designers use most: WebAIM's Contrast Checker. I aimed to design a syncretic tool that functions like the Contrast Checker and fits into the Sketch visual language."/>
           <ImgRight img={Fig15} imgNum="12" imgCaption="Cluse's Interface = WebAIM's Contrast Checker masked as a Sketch modal."/>
@@ -170,6 +165,8 @@ class Index extends React.Component {
           <Paragraph paragraphTitle="More Sketch than Mac OS" paragraphBody="Cluse's next iteration was more Sketch than macOS. Instead of the dark-mode hex inputs, it mimicked the Sketch inputs. The Sketch-modal-style header was now adornished with Cluse's logo and some instructions. It also sported two previews, one for large text, and another for small text. <<However, the copywriting of the labels was unclear; the interface suffered from feature bloat and poor whitespace management.>> The next version aimed to trim down the fat."/>
           <Issue img={Fig14} issueTitle="Cluse UI 1.7 User Feedback" issueItems={["Resembles Sketch a lot.", "Why not live preview instead?", "The sliders are comically thin."]}/>
           <Paragraph paragraphTitle="Downsizing" paragraphBody="<<After removing the superfluous preview, I concluded that this was the safest stage to start the code.>> Most of my time was spent on connecting the Sketch API and my WebUI, a methodology to create plugin interfaces for Sketch Plugins using HTML/CSS. <<While reading the Sketch API documentation, I learned that I could do a live preview instead of an in-modal preview of the color contrast. As a result, the next interface change is a significant pivot in the priority guidelines.>>"/>
+          <ImgLeft img={[Fig24]} imgNum={["04"]} imgCaption={["Demonstration of the new live preview feature."
+          ]} padding="true"/>
           <Issue img={Fig18} issueTitle="Cluse UI 1.9 User Feedback" issueItems={["Cleaner colors.", "Sliders are too thick.", "Opportunity for compact layout.", "Repetitive instructions."]}/>
           <Paragraph paragraphTitle="Live Preview" paragraphBody="The live preview was a game changer. From this point on, when you moved the sliders, it affected the selected layers directly. With the blue box of placeholder text rendered obsolete, the UI was down to the essentials. I confidently proceeded with this design until the later stages of development."/>
           <Issue img={Fig20} issueTitle="Cluse UI 2.0 User Feedback" issueItems={["Compact, allows for extra features.", "Resembles Sketch's sidebar.", "Sketch-style inputs and sliders.", "Logistics at the bottom.", "Action items on top."]}/>
@@ -187,8 +184,8 @@ class Index extends React.Component {
         </div>
         <div id="p5">
           <Phase phaseTitle="Conducting Usability Testing"/>  
-          <ImgLeft img={Fig27} imgNum="05" imgCaption="Cluse Usability Assessment Sketch File"/>
           <Paragraph paragraphTitle="Task Analysis" paragraphBody="In order to test Cluse's ease of use, I planned a task analysis. I created a test file to disseminate throughout my user testing group. In addition to testing basic actions, I want to test one variation: whether users select an artboard or the layers for testing. All my users were proficient in Sketch, although only one of them has used any sort of plugin before."/>
+          <ImgRight img={Fig27} imgNum="05" imgCaption="Cluse Usability Assessment Sketch File"/>
           <Issue img={Fig29} issueTitle="Verbal Instructions for the Assessment" 
           issueItems={["Launch Cluse for Button 1", 
                                 "Make Button 1 AA accessible", 
@@ -225,7 +222,9 @@ class Index extends React.Component {
           <ImgLeft img={Fig34} imgNum="04" imgCaption="Sticker preview cubes, stickers and the modal posters on the desk." />
           <ImgRight img={Fig33} imgNum="04" imgCaption="My assistant taking photos of the exhibition post-setup. Just kidding, that's me." />
           <Paragraph paragraphTitle="Guerilla Sticker Campaign" paragraphBody="To deepen to my exhibition, I designed transparent stickers with the three WCAG conformance levels and had them printed on transparent sticker paper with white ink. Each pile of stickers on the table was accompanied by a cube showcasing an example of that kind of color contrast, as well as a corresponding Cluse modal poster above it. The stickers were disseminated to people as a form of a guerilla campaign against poor color contrast. The audience were encouraged to place the stickers in places around campus. For instance, examples of exemplary color contrast, would get the AAA sticker, whereas poor color contrast would receive the A sticker."/>
-          <Paragraph paragraphTitle="Exhibition Feedback and Future Endeavors" paragraphBody="Feedback from faculty and students has been overwhelmingly positive. The new chair of Graphic Design at MICA proposed that it should be part of the curriculum of a UX class taught in the fall. I have started working on a Figma port for the plugin, so that it can be used in the classroom, starting Fall 2020. Otherwise, I will work on bug fixes as they come in and maintain the project as long as I can."/>         
+          <Paragraph paragraphTitle="Exhibition Feedback and Future Endeavors" paragraphBody="Feedback from faculty and students has been overwhelmingly positive. The new chair of Graphic Design at MICA proposed that it should be part of the curriculum of a UX class taught in the fall. I have started working on a Figma port for the plugin, so that it can be used in the classroom, starting Fall 2020. Otherwise, I will work on bug fixes as they come in and maintain the project as long as I can. [[Check GitHub for the latest release.>https://www,github.com/ygev/cluse]]"/> 
+          <Paragraph paragraphTitle="Sketch Endorsement" paragraphBody="Since February 2020, Cluse has been officially endorsed by Sketch."/>         
+          <ImgRight img={Fig35} imgNum="" imgCaption="" />
         </div>
         <Contact/>
         <Footer/>
