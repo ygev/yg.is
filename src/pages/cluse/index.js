@@ -26,8 +26,6 @@ import Fig16 from "./images/Fig16.png";
 import Fig18 from "./images/Fig18.png"; 
 import Fig19 from "./images/Fig19.png"; 
 import Fig20 from "./images/Fig20.png";
-import Fig21 from "./images/Fig21.png";
-import Fig22 from "./images/Fig22.png";
 import Fig23 from "./images/Fig23.png";
 import Fig24 from "./images/Fig24.gif";
 import Fig25 from "./images/Fig25.gif";
