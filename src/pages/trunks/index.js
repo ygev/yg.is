@@ -1,11 +1,12 @@
 import React from "react"
 import Hero from "./images/hero.png"; 
-import Glam1 from "./images/hero.png"; 
-import Glam2 from "./images/hero.png"; 
-import Glam3 from "./images/hero.png"; 
-import Glam4 from "./images/hero.png"; 
-import Glam5 from "./images/hero.png"; 
-import Glam6 from "./images/hero.png"; 
+import Glam1 from "./images/Glam1.gif"; 
+import Glam2 from "./images/Glam2.webm"; 
+import Glam3 from "./images/Glam3.webm"; 
+import Glam4 from "./images/Glam4.png"; 
+import Glam5 from "./images/Glam5.png"; 
+import Glam6 from "./images/Glam6.png"; 
+import Glam7 from "./images/Glam7.png"; 
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -46,7 +47,8 @@ class Index extends React.Component {
                     [
                       [Glam1],
                       [Glam2, Glam3],
-                      [Glam4, Glam5, Glam6]
+                      [Glam4],
+                      [Glam5, Glam6, Glam7]
                     ]
                   }
                   abstractRole="UI Designer · Developer" 
