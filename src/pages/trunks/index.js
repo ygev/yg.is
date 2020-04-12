@@ -9,6 +9,8 @@ import Glam6 from "./images/Glam6.png";
 import Glam7 from "./images/Glam7.png"; 
 import Fig1 from "./images/Fig1.svg"; 
 import Fig2 from "./images/Fig2.svg"; 
+import Fig3 from "./images/Fig3.svg";  
+import Fig4 from "./images/Fig4.svg";
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -84,6 +86,7 @@ class Index extends React.Component {
           <ImgRight img={Fig2} imgNum="02" imgCaption="Example of a Directed Acyclic Graph."/>
           <Paragraph paragraphTitle="Depth- vs. Breadth-First Search" 
                     paragraphBody=" To understand human cognition, it is often helpful to look at how computer algorithms work. After all, they are inspired by human cognition. In this case, we will look at two common graph search algorithms: <<depth-first search (DFS) and breadth-first search (BFS)>>. These are two different ways people can construct and read familly trees. DFS follows the descendants of one child as far as it can go, from root to finish. On the other hand BFS traverses through all the children of a node, before moving on to the descendants."/>
+          <ImgRight img={Fig3} imgNum="03" imgCaption="Illustrating different search orders in binary trees: breadth-first and depth-first."/>
           <Paragraph paragraphBody="<<Family trees are usually created with a depth-first search in mind.>> In the context of geneology, this means that the creator of a family tree takes one child and follows it deeply through generations of children, not thinking much about the auxilliary relatives, like siblings and cousins. <<In order to design a geneology visualization model that can display these auxilliary family members, one must take a breadth-first approach.>> The ideal system would account for all collateral ancestral relations. The challenge then lies in finding a visualization methodology that analyses and displays both the depth and the breadth of genealogical data."/>
           <HowMightWe howMightWe="How might we architect a breadth-first model of ancenstral data visualization?"/>
           </div>
@@ -91,6 +94,7 @@ class Index extends React.Component {
           <Phase phaseTitle="Making the Trunk Model Reality"/>
           <Paragraph paragraphTitle="JSON Structure" 
                     paragraphBody="The first step in redefining genealogical data visualization is translating from traditional family tree models into something a computer can easily comprehend. I used the algorithm of a directed acyclic graph to determine vertices and edges by matching up parents and common children in a JSON file through name-value pairs. I then calculated generations by analyzing the structural depth of parental relations. Below is an illustration of how the pair structure works in a traditional tree model and a JSON file."/>
+          <ImgRight img={Fig4} imgNum="04" imgCaption="Illustrating the output and its JSON structure."/>
           <Paragraph paragraphTitle="Tangential Inspiration" 
                     paragraphBody="Instead of using the branch-system of ancestral relation, I drew inspiration from annual growth rings on tree trunks. The resulting visualization technique expanded multilaterally, rather than just to the left or right. As a result, I developed something I call the trunk model of genealogical data visualization. This radial model presents three distinct solutions to the issues posed by the traditional family tree."/>
            <Paragraph paragraphTitle="Validating the First Iteration" 
