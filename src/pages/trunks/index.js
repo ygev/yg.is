@@ -7,6 +7,8 @@ import Glam4 from "./images/Glam4.png";
 import Glam5 from "./images/Glam5.png"; 
 import Glam6 from "./images/Glam6.png"; 
 import Glam7 from "./images/Glam7.png"; 
+import Fig1 from "./images/Fig1.svg"; 
+import Fig2 from "./images/Fig2.svg"; 
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -54,18 +56,20 @@ class Index extends React.Component {
                   abstractRole="UI Designer · Developer" 
                   abstractTools="D3.js · Node.js" 
                   abstractTime="3 weeks · Winter 2018" 
-                  abstractBody="Trunks is what happens when you chop down a family tree. It is a web application visualizes familial bonds in the form of a sunburst chart, inspired by rings on tree trunks."/>
+                  abstractBody="Trunks is what happens when you chop down a family tree. It is a web application visualizes familial bonds in the form of a sunburst chart, inspired by rings on tree trunks."
+                  liveLink="https://ygev.github.io/trunks"/>
         <Tracker  phaseList={['UNDERSTAND', 'ANALYSE`', 'DESIGN', 'VALIDATE']}
                   trackerHead={Constants.trunks.heroTitle}/>
         <div id="p1">
           <Phase phaseTitle="Understanding Ancestry Visualization"/>
           <Paragraph paragraphTitle="Doubting the Establishment" 
-                    paragraphBody="I first thought about the limitations of the traditional tree model in my summer Cultural Anthropology class. We were assigned to map a historical dynasty of our choosing using genogram notation. While sinking my teeth into the Habsburgs, I found myself pondering whether a family tree is the ideal way to display multi-generational swaths of data. <<Instead of diving deeper into descendants upon descendants, what if I wanted to display more lateral information on siblings, second aunts and cousins?>> Thus, this side-project was born. What is a better alternative to family trees that is more concerned with breadth of relations, rather than their depths?"/>
+                    paragraphBody="I first thought about the limitations of the traditional tree model in my summer Cultural Anthropology class. We were assigned to map a historical dynasty of our choosing using genogram notation. While sinking my teeth into the Habsburgs, I found myself pondering whether a family tree is the ideal way to display multi-generational swaths of data. <<Instead of diving deeper into descendants upon descendants, what if I wanted to display more lateral information on siblings, second aunts and cousins?>> Thus, this personal project was born. What is a better alternative to family trees that is more concerned with the breadth of relationships, rather than the depth?"/>
            <Paragraph paragraphTitle="Identifying Pain-Points of the Tree Model" 
                     paragraphBody="I interviewed classmates in my Cultural Anthropology course about the same assignment assignment that inspired my inquiry into ancestral data visualization. I interviewed 5 people for 15 minutes each about their experience with the family tree project. Here are some of the things the students have said: "/>
           <ListQuotes listTitle="" listType='ul'
                 listItems={["I can only focus on <<one branch at a time>> and kind of ignore second cousins and anyone who is not a direct descendant.", 
                                 "I have to move a lot of members to the side when I learn that the sibling got married and had children. It gets kind of convoluted and stretched in strange directions."]} />
+          <ImgLeft img={Fig1} imgNum="01" imgCaption="Illustrating the main issues with browsing family trees on the web. You have to scroll to get the full idea. The tree model is decentralized, dense and convoluted."/>
           <Paragraph paragraphTitle="🔍 Poor Digital Scalability" 
                     paragraphBody="The dimensions of family trees are unpredictable and based on the data being mapped. When the ancestor has many siblings, the graph is bloated horizontally. On the other hand, when the ancestor has many descendants, the chart is bloated vertically. Usually, full family trees are a bit of both. <<This variability is not accounted for when displaying graphs on digital screens, especially smaller viewport sizes. Even when viewed on a large screen, the window needs to scroll both vertically and horizontally, leading to unnecesasry gestures that diminish the user's experience.>> Therefore, the tree model is not suitable for a lot of screen usage, especially for a complete view of a large dynasty."/>
           <Paragraph paragraphTitle="🔍 Perceptual Density" 
@@ -77,6 +81,7 @@ class Index extends React.Component {
           <Phase phaseTitle="Developing the Trunk Model with Graph Theory"/>
           <Paragraph paragraphTitle="What type of graph is a family tree?" 
                     paragraphBody="To understand the tree-model of ancestral visualization better, I decided to think of familial relationships mathematically. <<At the end of the day, a family tree is a graph, namely, a directed acyclic graph (DAC).>> A directed acyclic graph is a finite graph with no cycle, which means that there is a finite amount of vertices and edges, which can never loop. In the context of family trees, <<this means that no one can become their own ancestor.>> Therefore, I reframed the data visualization model of trees into a more general DAC graph pattern which will help me analyse its usage better."/>
+          <ImgRight img={Fig2} imgNum="02" imgCaption="Example of a Directed Acyclic Graph."/>
           <Paragraph paragraphTitle="Depth- vs. Breadth-First Search" 
                     paragraphBody=" To understand human cognition, it is often helpful to look at how computer algorithms work. After all, they are inspired by human cognition. In this case, we will look at two common graph search algorithms: <<depth-first search (DFS) and breadth-first search (BFS)>>. These are two different ways people can construct and read familly trees. DFS follows the descendants of one child as far as it can go, from root to finish. On the other hand BFS traverses through all the children of a node, before moving on to the descendants."/>
           <Paragraph paragraphBody="<<Family trees are usually created with a depth-first search in mind.>> In the context of geneology, this means that the creator of a family tree takes one child and follows it deeply through generations of children, not thinking much about the auxilliary relatives, like siblings and cousins. <<In order to design a geneology visualization model that can display these auxilliary family members, one must take a breadth-first approach.>> The ideal system would account for all collateral ancestral relations. The challenge then lies in finding a visualization methodology that analyses and displays both the depth and the breadth of genealogical data."/>

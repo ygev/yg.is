@@ -33,7 +33,7 @@ export const Constants = {
         heroCategory: "Data Visualization",
         heroYear: "2018",
         heroDeliverable: "Web App",
-        heroTitle: "Architecting Breadth-First Ancestry Visualization with D3.js"
+        heroTitle: "Architecting a Compact Family Tree Model for Easy Web Browsing"
     },
     semaphore: {
         heroCategory: "Machine Learning",
