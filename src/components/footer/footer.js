@@ -7,7 +7,7 @@ export default props => (
     <>
         <section className="footer">
             <h4 className="footer__txt">
-            2019 © YANA GEVORGYAN
+            2020 © YANA GEVORGYAN
             </h4>
         </section>
     </>

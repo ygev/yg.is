@@ -20,6 +20,7 @@ import Fig17 from "./images/fig17.png";
 import Fig18 from "./images/fig18.png"; 
 import Fig19 from "./images/fig19.png"; 
 import Fig20 from "./images/fig20.png"; 
+import Fig21 from "./images/fig21.png"; 
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -181,6 +182,11 @@ class Index extends React.Component {
        </div>
         <div id="p6">
         <Phase phaseTitle="Finalizing Design for Judging"/>
+        <Paragraph paragraphTitle="Solving Hierarchical Issues" 
+                    paragraphBody="After the user tests, we condensed our concepts into fewer screens, cleaned up our copywriting and re-structured the information architecture:"/>
+        <ImgFull img={Fig21}/>
+        <Paragraph paragraphTitle="Winning the Technica 2019 Hackathon"
+                  paragraphBody="After we finalized our changes, we created an animated prototype using Principle and prepared our pitch. During the judging session, we allowed students, mentors and judges alike try out our product. At the end of the hackathon, it was announced that <<Fisqual has won the Best Product for Small Businesses award.>>"/>
         </div>
         <Contact/>
         <Footer/>
