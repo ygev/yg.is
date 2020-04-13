@@ -103,21 +103,20 @@ class Index extends React.Component {
                     paragraphBody="Instead of using the branch-system of ancestral relation, I drew inspiration from annual growth rings on tree trunks. The resulting visualization technique expanded multilaterally, rather than just to the left or right. As a result, I developed something I call the trunk model of genealogical data visualization. This radial model presents three distinct solutions to the issues posed by the traditional family tree."/>
            <Paragraph paragraphTitle="Validating the First Iteration" 
                     paragraphBody="The following is my first iteration for the web application Trunks, that uses the eponymous model in d3 to visualize some dynasties. I am using a color palette that is recommended by Colorbrewer 3.0, a colorblind-friendly and accessible palette generator. This iteration is the prototype one can view and work with live. While I am content with the model itself, the interface presented several issues that I am in the process of solving."/>
-          <ImgRight img={Fig7} imgNum="04" imgCaption="Illustrating the output and its JSON structure."/>
+          <ImgRight img={Fig7} imgNum="04" imgCaption="The first and current coded demonstration of the Trunks concept."/>
           <Issue img={Fig7} issueTitle="Trunks 1.0 Demo" 
-          issueItems={["Launch Cluse for Button 1", 
-                                "Make Button 1 AA accessible", 
-                                "Undo the change.",
-                                "Make Button 1 AAA accessible"]}/>
+          issueItems={["No descriptive labels.", 
+                                "Unintriguing choices.", 
+                                "Potential not fully explored."]}/>
           <Paragraph paragraphTitle="Developing the Second Iteration" 
-                    paragraphBody="THIS IS DESIGN ONLY. NOT CODED YET. The following are projected solutions to the issues presented in first web app iteration. This interface is more visual and, by including previews of other family trees, prompts the viewer to explore them. In addition, the json structure allows me to pull more data and visualizations from it, and allow the user to view general statistics about the dynasty. Moreover, one can explore various branches of the family in depth."/>
+                    paragraphBody="While the first iteration is a sufficient demonstration of the concept, I wanted to go further and create a more illustrative way to explore various family trees with this model. The next and final interface is more visual and, by including previews of other family trees, prompts the viewer to explore them. In addition, the json structure allows me to pull more data and visualizations from it, and allow the user to view general statistics about the dynasty. Moreover, one can explore various branches of the family in depth. This concept is just that, a concept. It is not developed nor interactive. At least, not yet."/>
            </div>
            <div id="p4">
           <Phase phaseTitle="Testing the Model on Real Familial Lines"/>
           <Paragraph paragraphTitle="Forebears" 
-                    paragraphBody="Look at all the old families blah blah blah"/>
+                    paragraphBody="To test out the concept of family trees I looked for a good geneological archive. The best one was found on Wikipedia. From there, I used the most complicated family tree I could find: [[Genghis Khan's lineage.>https://en.wikipedia.org/wiki/Family_tree_of_Genghis_Khan]]  Additionally, the family trees I used the demonstrations were primarily pantheons of various world mythologies that I've found on Wikipedia. They were just complicated enough and allowed for some interesting variations in the trunks generated."/>
            <Paragraph paragraphTitle="Future Development" 
-                    paragraphBody="Hook it up to Wikipedia. Here is what I tried and why it's crazy weird and hard. Wikipedia's weird format."/>
+                    paragraphBody="Since Wikipedia was such a good resource for testing, a good next step for the project is to set up a way to feed family tree data from Wikipedia to Trunks. My search for an API was unsuccessful. Looks like Wikipedia uses a very strange, visual way to format their family trees which would be very difficult to translate into JSON. Nevertheless, the project as is remains a good proof-of-concept and can be expounded upon very easily. [[Try fiddling with it on GitHub!>https:ygev.github.io/trunks]]"/>
            </div>
         <Contact/>
         <Footer/>
