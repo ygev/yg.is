@@ -61,7 +61,7 @@ class Index extends React.Component {
                   abstractRole="UI Designer · Developer" 
                   abstractTools="D3.js · Node.js" 
                   abstractTime="3 weeks · Winter 2018" 
-                  abstractBody="Trunks is what happens when you chop down a family tree. It is a web application visualizes familial bonds in the form of a sunburst chart, inspired by rings on tree trunks."
+                  abstractBody="Trunks is what happens when you chop down a family tree. It is a web application visualizes familial bonds in the form of a sunburst chart, inspired by rings on tree trunks. It serves as a screen-friendly alternative for the tree-model of ancestry visualization."
                   liveLink="https://ygev.github.io/trunks"/>
         <Tracker  phaseList={['UNDERSTAND', 'ANALYSE', 'DESIGN', 'VALIDATE']}
                   trackerHead={Constants.trunks.heroTitle}/>
