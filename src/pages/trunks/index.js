@@ -11,6 +11,9 @@ import Fig1 from "./images/Fig1.svg";
 import Fig2 from "./images/Fig2.svg"; 
 import Fig3 from "./images/Fig3.svg";  
 import Fig4 from "./images/Fig4.svg";
+import Fig5 from "./images/Fig5.png";  
+import Fig6 from "./images/Fig6.png";
+import Fig7 from "./images/Fig7.png";
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -95,10 +98,17 @@ class Index extends React.Component {
           <Paragraph paragraphTitle="JSON Structure" 
                     paragraphBody="The first step in redefining genealogical data visualization is translating from traditional family tree models into something a computer can easily comprehend. I used the algorithm of a directed acyclic graph to determine vertices and edges by matching up parents and common children in a JSON file through name-value pairs. I then calculated generations by analyzing the structural depth of parental relations. Below is an illustration of how the pair structure works in a traditional tree model and a JSON file."/>
           <ImgRight img={Fig4} imgNum="04" imgCaption="Illustrating the output and its JSON structure."/>
+          <ImgLeft img={[Fig5, Fig6]} imgNum={["05", "06"]} imgCaption={["Notes on Sketch Plugin Development","The Hue Data Loss Bug"]} padding="yes" />
           <Paragraph paragraphTitle="Tangential Inspiration" 
                     paragraphBody="Instead of using the branch-system of ancestral relation, I drew inspiration from annual growth rings on tree trunks. The resulting visualization technique expanded multilaterally, rather than just to the left or right. As a result, I developed something I call the trunk model of genealogical data visualization. This radial model presents three distinct solutions to the issues posed by the traditional family tree."/>
            <Paragraph paragraphTitle="Validating the First Iteration" 
                     paragraphBody="The following is my first iteration for the web application Trunks, that uses the eponymous model in d3 to visualize some dynasties. I am using a color palette that is recommended by Colorbrewer 3.0, a colorblind-friendly and accessible palette generator. This iteration is the prototype one can view and work with live. While I am content with the model itself, the interface presented several issues that I am in the process of solving."/>
+          <ImgRight img={Fig7} imgNum="04" imgCaption="Illustrating the output and its JSON structure."/>
+          <Issue img={Fig7} issueTitle="Trunks 1.0 Demo" 
+          issueItems={["Launch Cluse for Button 1", 
+                                "Make Button 1 AA accessible", 
+                                "Undo the change.",
+                                "Make Button 1 AAA accessible"]}/>
           <Paragraph paragraphTitle="Developing the Second Iteration" 
                     paragraphBody="THIS IS DESIGN ONLY. NOT CODED YET. The following are projected solutions to the issues presented in first web app iteration. This interface is more visual and, by including previews of other family trees, prompts the viewer to explore them. In addition, the json structure allows me to pull more data and visualizations from it, and allow the user to view general statistics about the dynasty. Moreover, one can explore various branches of the family in depth."/>
            </div>
