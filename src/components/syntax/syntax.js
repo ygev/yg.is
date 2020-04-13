@@ -15,7 +15,7 @@ function highlight(input) {
 
     console.log("start is " + start + ", end is " + end)
 
-    if (start == -1 || end == -1) {
+    if (start === -1 || end === -1) {
         // No more special characters
         return input;
     } else {
@@ -37,7 +37,7 @@ function linkAndHighlight(input) {
     var start = input.indexOf("[[");
     var end = input.indexOf("]]");
 
-    if (start == -1 || end == -1) {
+    if (start === -1 || end === -1) {
         // No more special characters. Perform highlighting
         return highlight(input);
     } else {

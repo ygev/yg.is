@@ -16,7 +16,7 @@ function buildImgWrapperDiv(listOfSrc) {
                 <source src={listOfSrc[i]} type="video/webm"/>
             </video>
         } else {
-            return <img className="abstract__img" src={listOfSrc[i]}/>
+            return <img alt="" className="abstract__img" src={listOfSrc[i]}/>
         }
     })
 }
@@ -52,7 +52,7 @@ export default props => (
                     </aside>
                 </section>
                 {props.liveLink ? 
-                    <a target="_blank" href={props.liveLink}>
+                    <a target="_blank" rel="noopener noreferrer" href={props.liveLink}>
                         <div className="btn__live--wrapper">
                             <button className="btn__live">View Live</button>
                             <span className="btn__live--iconbg"><img className="btn__live--icon" alt="" src={caret_left}/></span>

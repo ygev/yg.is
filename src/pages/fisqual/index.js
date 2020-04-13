@@ -3,9 +3,6 @@ import Hero from "./images/hero.png";
 import Glam1 from "./images/Glam1.webm"; 
 import Glam2 from "./images/Glam2.png"; 
 import Glam3 from "./images/Glam3.png"; 
-import Glam4 from "./images/hero.png"; 
-import Glam5 from "./images/hero.png"; 
-import Glam6 from "./images/hero.png"; 
 import Fig1 from "./images/fig1.png"; 
 import Fig2 from "./images/fig2.png"; 
 import Fig3 from "./images/fig3.jpg"; 
@@ -30,7 +27,6 @@ import Tracker from "../../components/tracker/tracker"
 import List from "../../components/list/list"
 import ListQuotes from "../../components/listQuotes/listQuotes"
 import ListStats from "../../components/listStats/listStats"
-import Quote from "../../components/quote/quote"
 import Paragraph from "../../components/paragraph/paragraph"
 import Phase from "../../components/phase/phase"
 import ImgRight from "../../components/imgRight/imgRight"

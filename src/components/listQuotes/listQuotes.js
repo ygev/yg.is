@@ -19,7 +19,7 @@ export default props => (
                     
                     {props.listTitle ? <h4 className="paragraph__title">{props.listTitle}</h4> : ""}
                     {
-                        props.listType == 'ol'
+                        props.listType === 'ol'
                             ? <ol className="list__items list__ordered">{buildList(props.listItems)}</ol>
                             : <ul className="list__items list__unordered">{buildList(props.listItems)}</ul>
                     }

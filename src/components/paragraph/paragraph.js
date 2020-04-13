@@ -3,7 +3,6 @@ import "./paragraph.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
 import Syntax from "../syntax/syntax.js"
-import Fade from 'react-reveal/Fade';
 
 export default props => (
     <>

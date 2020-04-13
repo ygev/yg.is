@@ -4,7 +4,6 @@ import "../../css/normalize.css";
 import "../../css/global.css";
 import logo from "../../images/logo.svg" 
 import { Controller, Scene } from "react-scrollmagic"
-import Fade from 'react-reveal';
 import {Link} from "gatsby"
 
 // window.onscroll = function() {myFunction()};

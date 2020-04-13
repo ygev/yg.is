@@ -15,7 +15,7 @@ export default props => (
                 <h2 className="head">{props.heroSummary}</h2>
                 <div className="btns__wrapper">
                     {props.devpostLink ? 
-                        <a target="_blank" href={props.devpostLink}>
+                        <a target="_blank" rel="noopener noreferrer" href={props.devpostLink}>
                             <div className="btn btn__git--wrapper">
                                 <button className="btn__git">See Devpost</button>
                                 <span className="btn__git--iconbg"><img alt="Devpost Logo" className="btn__git--icon" src={devpostlogo}/></span>
@@ -23,7 +23,7 @@ export default props => (
                         </a> 
                     : ""}
                     {props.gitLink ? 
-                        <a target="_blank" href={props.gitLink}>
+                        <a target="_blank" rel="noopener noreferrer" href={props.gitLink}>
                             <div className="btn btn__git--wrapper">
                                 <button className="btn__git">See Repository</button>
                                 <span className="btn__git--iconbg"><img alt="Devpost Logo" className="btn__git--icon" src={gitlogo}/></span>
