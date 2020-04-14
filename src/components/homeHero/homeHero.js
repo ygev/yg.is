@@ -5,7 +5,7 @@ import "../../css/global.css";
 import Fade from 'react-reveal/Fade';
 import Marquee from 'react-double-marquee';
 import { Constants } from "../../constants"
-import defaultHero from "../../images/meatspin.gif"
+import defaultHero from "../../images/hero.webm"
 import phisherHero from "../../pages/phisher/images/hero.webm"; 
 import cluseHero from "../../pages/cluse/images/hero.webm"; 
 import dittoHero from "../../pages/ditto/images/hero.webm"; 
