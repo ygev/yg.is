@@ -6,11 +6,11 @@ import Fade from 'react-reveal/Fade';
 import Marquee from 'react-double-marquee';
 import { Constants } from "../../constants"
 import defaultHero from "../../images/meatspin.gif"
-import phisherHero from "../../pages/phisher/images/hero.png"; 
-import cluseHero from "../../pages/cluse/images/hero.png"; 
-import dittoHero from "../../pages/ditto/images/hero.png"; 
-import fisqualHero from "../../pages/fisqual/images/hero.png"; 
-import trunksHero from "../../pages/trunks/images/hero.png"; 
+import phisherHero from "../../pages/phisher/images/hero.webm"; 
+import cluseHero from "../../pages/cluse/images/hero.webm"; 
+import dittoHero from "../../pages/ditto/images/hero.webm"; 
+import fisqualHero from "../../pages/fisqual/images/hero.webm"; 
+import trunksHero from "../../pages/trunks/images/hero.webm"; 
   
 
 var images = {
@@ -27,7 +27,9 @@ export default props => (
         <Fade left duration={500}>
             <section className={"home__hero " + props.currentHover}>
                 <figure className="home__img"> 
-                    <img src={images[props.currentHover]} alt=""/>
+                    <video className="home__img--limiter" preload="yes" autoPlay="autoplay" key={images[props.currentHover]} loop muted playsInline>
+                        <source src={images[props.currentHover]} type="video/webm"/>
+                    </video>
                 </figure>
                 <div className="hero__txt">
                     <div className="marquee__wrap">
