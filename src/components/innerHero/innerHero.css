@@ -20,6 +20,11 @@ figure.hero__img img {
   max-height: 80vh;
 }
 
+.inner__img--limiter {
+  max-width: 80%;
+  filter: drop-shadow(0px 20px 20px rgba(0, 14, 82, 0.2));
+}
+
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {

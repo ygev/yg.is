@@ -3,9 +3,9 @@
   position: relative;
 }
 
-figure.home__img img {
+/* figure.home__img img {
   max-height: 80vw;
-}
+} */
 
   /* TABLET VERSION */
   
@@ -57,7 +57,7 @@ figure.home__img img {
   }  
 
 .home__img--limiter {
-  max-width: 100%;
+  max-width: 80%;
   filter: drop-shadow(0px 20px 20px rgba(0, 14, 82, 0.2));
 }
 

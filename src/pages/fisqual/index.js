@@ -1,5 +1,5 @@
 import React from "react"
-import Hero from "./images/hero.png"; 
+import Hero from "./images/hero.webm"; 
 import Glam1 from "./images/Glam1.webm"; 
 import Glam2 from "./images/Glam2.png"; 
 import Glam3 from "./images/Glam3.png"; 

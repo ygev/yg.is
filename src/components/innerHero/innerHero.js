@@ -9,7 +9,9 @@ export default props => (
         <Fade left duration={500}>
             <section className="hero">
                 <figure className="hero__img"> 
-                    <img src={props.img} alt=""/>
+                <video className="inner__img--limiter" preload="yes" autoPlay="autoplay" loop muted playsInline>
+                        <source src={props.img} type="video/webm"/>
+                    </video>
                 </figure>
             </section>
         </Fade>
