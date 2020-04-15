@@ -14,18 +14,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.17.4",
+    "gatsby": "^2.20.20",
     "gh-pages": "^2.2.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-double-marquee": "^1.0.1",
     "react-helmet": "^6.0.0",
-    "react-parallax-tilt": "^1.3.39",
+    "react-parallax-tilt": "^1.3.41",
     "react-reveal": "^1.2.2",
-    "react-scrollmagic": "^2.1.1"
+    "react-scrollmagic": "^2.2.0"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
