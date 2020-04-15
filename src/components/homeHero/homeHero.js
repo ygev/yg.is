@@ -30,18 +30,16 @@ export default props => (
                     <video className="home__img--limiter" preload="yes" autoPlay="autoplay" key={images[props.currentHover]} loop muted playsInline>
                         <source src={images[props.currentHover]} type="video/webm"/>
                     </video>
-                </figure>
-                <div className="hero__txt">
                     <div className="marquee__wrap">
-                        <Marquee
-                        direction = "left"
-                        children ="Booty"
-                        delay="0"
-                        speed ="0.2">
-                        {Constants[props.currentHover].heroTitle}
-                        </Marquee>
+                            <Marquee
+                            direction = "left"
+                            children ="Booty"
+                            delay="0"
+                            speed ="0.2">
+                            {Constants[props.currentHover].heroTitle}
+                            </Marquee>
                     </div>
-                </div>
+                </figure>
             </section>
         </Fade>
     </>
