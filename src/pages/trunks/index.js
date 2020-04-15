@@ -102,10 +102,9 @@ class Index extends React.Component {
            <Paragraph paragraphTitle="Validating the First Iteration" 
                     paragraphBody="The following is my first iteration for the web application Trunks, that uses the eponymous model in d3 to visualize some dynasties. I am using a color palette that is recommended by Colorbrewer 3.0, a colorblind-friendly and accessible palette generator. This iteration is the prototype one can view and work with live. While I am content with the model itself, the interface presented several issues that I am in the process of solving."/>
           <ImgRight img={Fig7} imgNum="04" imgCaption="The first and current coded demonstration of the Trunks concept."/>
-          <Issue img={Fig7} issueTitle="Trunks 1.0 Demo" 
-          issueItems={["No descriptive labels.", 
-                                "Unintriguing choices.", 
-                                "Potential not fully explored."]}/>
+          <Issue img={Fig7} issueTitle="No Descriptive Labels" 
+          issueItems={["Simply says that you're cutting down a tree.", 
+                                "Doesn't really tell you what you are looking at."]}/>
           <Paragraph paragraphTitle="Developing the Second Iteration" 
                     paragraphBody="While the first iteration is a sufficient demonstration of the concept, I wanted to go further and create a more illustrative way to explore various family trees with this model. The next and final interface is more visual and, by including previews of other family trees, prompts the viewer to explore them. In addition, the json structure allows me to pull more data and visualizations from it, and allow the user to view general statistics about the dynasty. Moreover, one can explore various branches of the family in depth. This concept is just that, a concept. It is not developed nor interactive. At least, not yet."/>
            </div>
