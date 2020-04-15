@@ -41,7 +41,7 @@
 @media (min-width: 768px) {
 
   :root .home {
-    --projcolor: var(--black);
+    --projcolor: #222;
   }
 }
 

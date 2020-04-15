@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from '../../components/seo';
 import Hero from "./images/hero.webm"; 
 import Glam1 from "./images/glam1.png" 
 import Glam2 from "./images/glam2.webm" 
@@ -40,6 +41,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="phisher">
+        <SEO title="Phisher"/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>

@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from '../components/seo';
 import "./../css/global.css"
 import Header from "./../components/header/header"
 import HomeHero from "./../components/homeHero/homeHero"
@@ -7,6 +8,7 @@ import Contact from "./../components/contact/contact"
 import Footer from "./../components/footer/footer"
 
 class Index extends React.Component {
+
   constructor(props) {
     super(props);
     this.state = {
@@ -29,6 +31,7 @@ class Index extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <SEO title="Yana Gevorgyan"/>
         <main className="home">
           <div className="hero__wrapper">
             <Header mouseOverCallback={this.handleHeaderHover}/>

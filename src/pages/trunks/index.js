@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from '../../components/seo';
 import Hero from "./images/hero.webm"; 
 import Glam1 from "./images/Glam1.gif"; 
 import Glam2 from "./images/Glam2.webm"; 
@@ -35,6 +36,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="trunks">
+        <SEO title="Trunks"/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>
@@ -117,7 +119,6 @@ class Index extends React.Component {
         <Contact/>
         <Footer/>
       </div>
-      
     )
   }
 }
