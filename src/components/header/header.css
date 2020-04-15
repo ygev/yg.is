@@ -6,8 +6,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
     background-color: var(--projcolor)
 }
 
@@ -23,7 +23,7 @@ nav {
 }
 
 .navlink {
-    opacity: 0.6;
+    /* opacity: 0.6; */
     font-family: Chapeau-Black;
     font-weight: 900;
     font-size: 10px;
@@ -52,6 +52,7 @@ nav {
     text-align: center;
     line-height: 17px;
     opacity: 1;
+    text-decoration: none;
     text-transform: uppercase;
     border-bottom: 1px var(--black) solid;
     transition: 100ms ease-in-out;
@@ -91,6 +92,9 @@ nav {
 
 
 @media (min-width: 1024px) {
+    .header__txt {
+    padding-top: 30px;
+    }
 
     nav {
         background-color: transparent;

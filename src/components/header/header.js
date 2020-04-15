@@ -16,8 +16,8 @@ export default props => (
             <img className="img-logo" src={logo} alt=""></img>
          </Link>
          <section className="header__txt">
-         <Link className="navlink__active" to="">Projects</Link>
-         <Link className="navlink" to="">About</Link>
+         {/* <Link className="navlink__active" to="">Yana Gevorgyan</Link> */}
+         <Link className="navlink" to="">Yana Gevorgyan</Link>
          </section>
       </nav>
    </div>
