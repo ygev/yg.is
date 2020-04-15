@@ -7,5 +7,8 @@ module.exports = {
         "Yana Gevorgyan is a Seattle-based product designer, developer and theorist.",
       url: "https://www.yg.is", 
       image: "/images/logo.png", 
-    }
+    },
+    plugins: [
+      `gatsby-plugin-transition-link`
+    ]
   }

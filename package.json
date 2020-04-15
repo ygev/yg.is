@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "gatsby": "^2.20.20",
+    "gatsby-plugin-transition-link": "^1.18.0",
     "gh-pages": "^2.2.0",
+    "gsap": "^3.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-double-marquee": "^1.0.1",
