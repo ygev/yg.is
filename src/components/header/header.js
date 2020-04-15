@@ -4,6 +4,7 @@ import Logo from "./logo/logo"
 import "./header.css"
 import "../../css/normalize.css"
 import "../../css/global.css"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import {Link} from "gatsby"
 import Fade from 'react-reveal/Fade';
 
@@ -11,10 +12,10 @@ export default props => (
 <Fade right duration={500}>
    <div className="header__wrapper">
       <nav>
-         <Link to="/" onMouseOver={props.mouseOverCallback}>
+         <AniLink paintDrip hex="#ffffff" to="/" onMouseOver={props.mouseOverCallback}>
             <Logo className="spinny-logo"/>
             <img className="img-logo" src={logo} alt=""></img>
-         </Link>
+         </AniLink>
          <section className="header__txt">
          {/* <Link className="navlink__active" to="">Yana Gevorgyan</Link> */}
          <Link className="navlink" to="">Yana Gevorgyan</Link>

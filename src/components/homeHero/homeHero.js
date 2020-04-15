@@ -1,6 +1,4 @@
 import React from "react";
-import TransitionLink from "gatsby-plugin-transition-link"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "./homeHero.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
@@ -33,13 +31,13 @@ export default props => (
                         <source src={images[props.currentHover]} type="video/webm"/>
                     </video>
                     <div className="marquee__wrap">
-                            <Marquee
-                            direction = "left"
-                            children ="Booty"
-                            delay="0"
-                            speed ="0.2">
-                            {Constants[props.currentHover].heroTitle}
-                            </Marquee>
+                        <Marquee
+                        direction = "left"
+                        children ="Booty"
+                        delay="0"
+                        speed ="0.2">
+                        {Constants[props.currentHover].heroTitle}
+                        </Marquee>
                     </div>
                 </figure>
             </section>
