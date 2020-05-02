@@ -1,6 +1,6 @@
 import React from "react"
 import SEO from '../../components/seo';
-import Hero from "./images/hero.webm"; 
+import Hero from "./images/hero.png"; 
 import Glam1 from "./images/Glam1.gif"; 
 import Glam2 from "./images/Glam2.webm"; 
 import Glam3 from "./images/Glam3.webm"; 

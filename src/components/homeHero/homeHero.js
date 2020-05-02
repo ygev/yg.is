@@ -5,12 +5,12 @@ import "../../css/global.css";
 import Fade from 'react-reveal/Fade';
 import Marquee from 'react-double-marquee';
 import { Constants } from "../../constants"
-import defaultHero from "../../images/hero.webm"
-import phisherHero from "../../pages/phisher/images/hero.webm"; 
-import cluseHero from "../../pages/cluse/images/hero.webm"; 
-import dittoHero from "../../pages/ditto/images/hero.webm"; 
-import fisqualHero from "../../pages/fisqual/images/hero.webm"; 
-import trunksHero from "../../pages/trunks/images/hero.webm"; 
+import defaultHero from "../../images/hero.png"
+import phisherHero from "../../pages/phisher/images/hero.png"; 
+import cluseHero from "../../pages/cluse/images/hero.png"; 
+import dittoHero from "../../pages/ditto/images/hero.png"; 
+import fisqualHero from "../../pages/fisqual/images/hero.png"; 
+import trunksHero from "../../pages/trunks/images/hero.png"; 
   
 
 var images = {
@@ -27,10 +27,9 @@ export default props => (
         <Fade duration={500}>
             <section className={"home__hero " + props.currentHover}>
                 <figure className="home__img"> 
-                    <video className="home__img--limiter" preload="yes" autoPlay="autoplay" key={images[props.currentHover]} loop muted playsInline>
-                        <source src={images[props.currentHover]} type="video/webm"/>
-                    </video>
-                    <div className="marquee__wrap">
+                    <img className="home__img--limiter" src={images[props.currentHover]}/>
+                </figure>
+                <div className="marquee__wrap">
                         <Marquee
                         direction = "left"
                         children ="Booty"
@@ -39,7 +38,6 @@ export default props => (
                         {Constants[props.currentHover].heroTitle}
                         </Marquee>
                     </div>
-                </figure>
             </section>
         </Fade>
     </>
