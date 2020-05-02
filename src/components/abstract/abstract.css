@@ -44,7 +44,6 @@
 .abstract__img--wrapper[data-width="1"] .abstract__img{
     /* space around topmost image if it's not big enough for the screen */
     margin: 0 auto;
-    max-width: 100%;
     max-height: 50vw;
   }
 
