@@ -26,7 +26,7 @@ export default props => (
     <>
         <div className="home__txt--wrapper">
             <section className="home__txt">
-                <Fade opposite right duration={500}>
+                <Fade opposite duration={500}>
                     {
                         buildProjectLinks(props.projects, props.mouseOverCallback)
                     }

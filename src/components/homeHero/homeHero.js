@@ -24,7 +24,7 @@ var images = {
 
 export default props => (
     <>
-        <Fade left duration={500}>
+        <Fade duration={500}>
             <section className={"home__hero " + props.currentHover}>
                 <figure className="home__img"> 
                     <video className="home__img--limiter" preload="yes" autoPlay="autoplay" key={images[props.currentHover]} loop muted playsInline>

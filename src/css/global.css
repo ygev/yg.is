@@ -131,6 +131,10 @@
 
 /* Hero Wrapper Grid Responsiveness */
 
+.hero__wrapper {
+  z-index: -10;
+}
+
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {

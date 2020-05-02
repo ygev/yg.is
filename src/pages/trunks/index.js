@@ -37,17 +37,17 @@ class Index extends React.Component {
     return (
       <div className="trunks">
         <SEO title="Trunks"/>
-        <div className="hero__wrapper">
-          <Header/>
-          <InnerHero img={Hero}/>
-          <InnerTxt heroCategory={Constants.trunks.heroCategory}
-                    heroYear={Constants.trunks.heroYear}
-                    heroDeliverable={Constants.trunks.heroDeliverable}
-                    heroTitle={Constants.trunks.heroTitle}
-                    heroSummary="Trunks is an ancestry visualization tool inspired by rings on a tree trunk. "
-                    btnGit="View Repository"
-                    gitLink="https://github.com/ygev/trunks"/>
-        </div>
+            <div className="hero__wrapper">
+              <Header/>
+              <InnerHero img={Hero}/>
+              <InnerTxt heroCategory={Constants.trunks.heroCategory}
+                        heroYear={Constants.trunks.heroYear}
+                        heroDeliverable={Constants.trunks.heroDeliverable}
+                        heroTitle={Constants.trunks.heroTitle}
+                        heroSummary="Trunks is an ancestry visualization tool inspired by rings on a tree trunk. "
+                        btnGit="View Repository"
+                        gitLink="https://github.com/ygev/trunks"/>
+            </div>
         <Abstract glams={
                     [
                       [Glam1],

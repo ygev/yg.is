@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 export default props => (
     <>
-        <Fade left duration={500}>
+        <Fade duration={500}>
             <section className="hero">
                 <figure className="hero__img"> 
                 <video className="inner__img--limiter" preload="yes" autoPlay="autoplay" loop muted playsInline>
