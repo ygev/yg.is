@@ -1,0 +1,135 @@
+/* Hero Layout Style */
+
+.aboutTxt {
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+/* Hero Typography */
+
+.aboutTxt__brow {
+  font-family: Chapeau-Black;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1.3px;
+  padding-top: 24px;
+  padding-left: 16px;
+  letter-spacing: 1.3px;
+  text-align: left;
+  }
+
+.aboutTxt__lead {
+  font-family: Chapeau-Medium;
+  font-weight: 500;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  letter-spacing: 0.53px;
+  text-align: left;
+  font-size: 1.5em;
+  line-height: 1.35em;
+}
+
+.aboutTxt__head {
+  font-family: SuisseNeue-Regular;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  font-size: 0.8em;
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 1.5em;
+  color: var(--black);
+  padding-top: 16px;
+  text-align: left;
+  margin-bottom: 4em;
+}
+
+
+/* TABLET VERSION */
+  
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .aboutTxt {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+
+}
+
+ /* DESKTOP VERSION */
+    
+    
+@media (min-width: 1024px) {
+
+  .aboutTxt {
+    align-items: flex-start;
+    padding-left: 6vw;
+    padding-right: 16vw;
+    padding-bottom: 6vw;
+  }
+  
+  .aboutTxt__lead {
+    text-align: left;
+    color: var(--black);
+    letter-spacing: 1px;
+    font-size: 2.25em;
+    line-height: 1.35em;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .aboutTxt__brow {
+    text-align: left;
+    font-size: 12px;
+    color: var(--black);
+    letter-spacing: 1px;
+    line-height: 17px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+    
+  .aboutTxt__head {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: left;
+    color: var(--black);
+    font-size: 0.8em;
+    line-height: 1.5em;
+    width: 40vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+  
+
+/* 4K VERSION */
+@media (min-width: 1440px) {
+  .aboutTxt {
+    padding-right: 24vw;
+  }
+
+  .aboutTxt__lead{
+    font-size: 2.25vw;
+    line-height: 1.25em;
+    max-width: 40vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .aboutTxt__head{
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 30vw;
+    padding-bottom: 12px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
