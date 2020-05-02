@@ -3,7 +3,7 @@ export const Constants = {
         heroCategory: "",
         heroYear: "",
         heroDeliverable: "",
-        heroTitle: "Yana Gevorgyan ★ Product Designer & Developer ",
+        heroTitle: "Multidisciplinary Product Designer",
     },
     phisher: {
         heroCategory: "UX Design",
