@@ -9,7 +9,7 @@ import {Link} from "gatsby"
 import Fade from 'react-reveal/Fade';
 
 export default props => (
-<Fade duration={500}>
+<Fade delay={100} duration={1000}>
    <div className="header__wrapper">
       <nav>
          <AniLink paintDrip hex="#ffffff" to="/" onMouseOver={props.mouseOverCallback}>

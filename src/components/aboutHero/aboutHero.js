@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 export default props => (
     <>
-        <Fade left duration={500}>
+        <Fade duration={500}>
             <section className="about">
                 <figure className="about__img"> 
                     <img src={props.img} className="about__img--limiter"/>

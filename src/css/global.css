@@ -41,7 +41,7 @@
 @media (min-width: 768px) {
 
   :root .home {
-    --projcolor: #222;
+    --projcolor: #000;
   }
 }
 
@@ -66,7 +66,7 @@
 
 /* Fisqual Color */
 :root .fisqual {
-  --projcolor: #0ED1A1;
+  --projcolor: #3476e9;
 }
 
 /* Trunks Color */
