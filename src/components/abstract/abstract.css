@@ -32,7 +32,7 @@
 }
 
 .abstract__img--wrapper[data-width="3"] .abstract__img{
-    max-width: calc(100% / 3 - 2%);
+    /* max-width: calc(100% / 3 - 2%); */
     max-height: 16vw;
 }
 
