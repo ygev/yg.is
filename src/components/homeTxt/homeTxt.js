@@ -1,19 +1,19 @@
 import React from "react";
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "../../css/normalize.css";
 import "./homeTxt.css";
 import "../../css/global.css";
 import { Constants } from "../../constants";
 import Fade from 'react-reveal/Fade';
+import { Link } from "gatsby"
 
 function buildProjectLinks(projects, mouseOverCallback) {
     return Array.from(Array(projects.length).keys()).map((i) => {
-        return <AniLink paintDrip hex="#000000" to={projects[i]}>
+        return <Link paintDrip hex="#000000" to={projects[i]}>
                         <div className="link__wrapper" onMouseOver={mouseOverCallback}>
                             <h1 className="home__head">{capitalizeFirstLetter(projects[i])}</h1>
                             <h2 className="home__brow">{Constants[projects[i]].heroYear}</h2>
                         </div>
-                </AniLink>
+                </Link>
     })
 }
 
