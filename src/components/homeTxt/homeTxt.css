@@ -120,8 +120,8 @@ a {
     background: linear-gradient(
       180deg,
       var(--white) 10%,
-      transparent 20%,
-      transparent 78%,
+      rgba(255,255,255,0.001) 20%,
+      rgba(255,255,255,0.001) 78%,
       var(--white) 90%
     );
     pointer-events: none;
