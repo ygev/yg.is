@@ -2,8 +2,8 @@ import React from "react"
 import SEO from '../../components/seo';
 import Hero from "./images/hero.png"; 
 import Glam1 from "./images/Glam1.png"; 
-import Glam2 from "./images/Glam2.webm"; 
-import Glam3 from "./images/Glam3.webm"; 
+import Glam2 from "./images/Glam2.mp4"; 
+import Glam3 from "./images/Glam3.mp4"; 
 import Glam4 from "./images/Glam4.png"; 
 import Glam5 from "./images/Glam5.png"; 
 import Glam6 from "./images/Glam6.png"; 
