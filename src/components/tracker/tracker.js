@@ -3,6 +3,7 @@ import "./tracker.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
 import logo from "../../images/logo.svg"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { Controller, Scene } from "react-scrollmagic"
 import { Link } from "gatsby"
 
@@ -20,7 +21,7 @@ export default props => (
             <Scene triggerHook="onLeave" pin>
                 <section className="pinned">
                     <div className="tracker">
-                        <Link to="/"><img className="tracker__logo" src={logo} alt=""/></Link>
+                        <AniLink paintDrip hex="#ffffff" to="/"><img className="tracker__logo" src={logo} alt=""/></AniLink>
                         <h4 className="tracker__head">{props.trackerHead} </h4>
                     </div>
                     <div className="phases">
