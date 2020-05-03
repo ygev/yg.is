@@ -33,6 +33,7 @@ import ImgRight from "../../components/imgRight/imgRight"
 import ImgLeft from "../../components/imgLeft/imgLeft"
 import HowMightWe from "../../components/howMightWe/howMightWe"
 import Issue from "../../components/issue/issue"
+import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
@@ -136,6 +137,7 @@ class Index extends React.Component {
           <Paragraph paragraphTitle="Future for the Concept"
                     paragraphBody="<<An idea I had during the brainstorming phase was brought up during the critique: a phishing website generator.>> The concept is simple, a website URL will be processed and a clone will be created locally, containing the same markup, stylesheets and scripts. However, the password and login fields would be compromised and lead to an external site that will record the input and display it to the administrator. <<Although wanted by my classmates, the concept was a little bit too evil and legally gray for me to pursue. >> " />
         </div>
+        <More/>
         <Contact/>
         <Footer/>
       </div>

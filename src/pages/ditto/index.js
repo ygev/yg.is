@@ -12,7 +12,7 @@ import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerTxt from "../../components/innerTxt/innerTxt"
 import Abstract from "../../components/abstract/abstract"
-import Tracker from "../../components/tracker/tracker"
+import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
@@ -45,8 +45,7 @@ class Index extends React.Component {
                   abstractTools="Sketch API · CocoaScript · JS" 
                   abstractTime="2 months · Summer 2019" 
                   abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
-        <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'IDEATE', 'ITERATE', 'VALIDATE']}
-                  trackerHead={Constants.ditto.heroTitle}/>
+        <More/>
         <Contact/>
         <Footer/>
       </div>

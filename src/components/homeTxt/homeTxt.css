@@ -81,7 +81,6 @@ a {
   .home__head {
     text-align: left;
     font-size: 32px;
-    -webkit-text-stroke-width: 2px;
   }
 
   .home__brow {
@@ -136,7 +135,6 @@ a {
   }
 
   .home__head {
-    -webkit-text-stroke-width: 2px;
     font-size: 58px;
     line-height: 128px;
   }
@@ -145,7 +143,6 @@ a {
 /* 4K */
 @media (min-width: 2559px) {
   .home__head {
-    -webkit-text-stroke-width: 3px;
     font-size: 64px;
     line-height: 200px;
   }

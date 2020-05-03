@@ -35,6 +35,7 @@ import ImgLeft from "../../components/imgLeft/imgLeft"
 import ImgFull from "../../components/imgFull/imgFull"
 import HowMightWe from "../../components/howMightWe/howMightWe"
 import Issue from "../../components/issue/issue"
+import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
@@ -186,6 +187,7 @@ class Index extends React.Component {
         <Paragraph paragraphTitle="Winning the Technica 2019 Hackathon"
                   paragraphBody="After we finalized our changes, we created an animated prototype using Principle and prepared our pitch. During the judging session, we allowed students, mentors and judges alike try out our product. At the end of the hackathon, it was announced that <<Fisqual has won the Best Product for Small Businesses award.>>"/>
         </div>
+        <More/>
         <Contact/>
         <Footer/>
       </div>
