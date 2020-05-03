@@ -32,16 +32,13 @@
 }
 
 .home__head {
-  font-family: Chapeau-Black;
-  font-weight: 900;
+  font-family: Chapeau-Medium;
+  font-weight: 500;
   font-size: 24px;
-  /* text-align: center;   */
-  color: var(--white);
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: black;
+  color: var(--black);
   letter-spacing: 4px;
   line-height: 96px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
   transition: 200ms ease-in-out;
 }
@@ -140,7 +137,7 @@ a {
 
   .home__head {
     -webkit-text-stroke-width: 2px;
-    font-size: 48px;
+    font-size: 58px;
     line-height: 128px;
   }
 }
