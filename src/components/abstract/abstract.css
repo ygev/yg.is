@@ -248,15 +248,6 @@
         line-height: 32px;
     }
 
-    .abstract__lead {
-        font-size: 2.25vw;
-        line-height: 1.25em;
-        font-family: Chapeau-Medium;
-        font-weight: 500;
-        color: var(--white);
-        letter-spacing: 1px;
-    }
-
 }
 
       /* 4K VERSION */

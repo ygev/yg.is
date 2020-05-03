@@ -34,7 +34,6 @@ export default props => (
         <section className="abstract">
             <section className="abstract__gallery">
                 {buildGallery(props.glams)}
-            <h2 className="abstract__lead">Adjust the color contrast of design elements live.</h2>
             </section>
             <section className="abstract__txt--wrapper">
                 <aside className="abstract__txt--left">
