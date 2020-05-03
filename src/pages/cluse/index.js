@@ -54,6 +54,7 @@ import ImgRight from "../../components/imgRight/imgRight"
 import ImgLeft from "../../components/imgLeft/imgLeft"
 import HowMightWe from "../../components/howMightWe/howMightWe"
 import Issue from "../../components/issue/issue"
+import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
@@ -224,6 +225,7 @@ class Index extends React.Component {
           <Paragraph paragraphTitle="Sketch Endorsement" paragraphBody="Since February 2020, Cluse has been officially endorsed by Sketch."/>         
           <ImgRight img={Fig35}/>
         </div>
+        <More/>
         <Contact/>
         <Footer/>
       </div>
