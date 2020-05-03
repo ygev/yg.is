@@ -31,21 +31,21 @@ function buildMoreProjects(projects){
     console.log("project 1 is " + JSON.stringify(project1));
 
     return <div className="more__group">
-         <Link to="/">
+         <Link to="/trunks">
             <figure className="more__item">
                 <img className="more__img" src={images.trunks} alt=""/>
                 <figcaption className="more__title">{project1.heroTitle}</figcaption>
                 <h4 className="more__head">{project1.heroCategory} - {project1.heroYear} - {project1.heroDeliverable}</h4>
             </figure>
         </Link>
-        <Link to="/">
+        <Link to="/fisqual">
             <figure className="more__item">
                 <img className="more__img" src={images.fisqual} alt=""/>
                 <figcaption className="more__title">{project2.heroTitle}</figcaption>
                 <h4 className="more__head">{project2.heroCategory} - {project2.heroYear} - {project2.heroDeliverable}</h4>
             </figure>
         </Link>
-         <Link to="/">
+         <Link to="/phisher">
             <figure className="more__item">
                 <img className="more__img" src={images.phisher} alt=""/>
                 <figcaption className="more__title">{project3.heroTitle}</figcaption>
