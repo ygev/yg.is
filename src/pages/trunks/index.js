@@ -28,6 +28,7 @@ import ImgRight from "../../components/imgRight/imgRight"
 import ImgLeft from "../../components/imgLeft/imgLeft"
 import HowMightWe from "../../components/howMightWe/howMightWe"
 import Issue from "../../components/issue/issue"
+import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
@@ -115,6 +116,7 @@ class Index extends React.Component {
            <Paragraph paragraphTitle="Future Development" 
                     paragraphBody="Since Wikipedia was such a good resource for testing, a good next step for the project is to set up a way to feed family tree data from Wikipedia to Trunks. My search for an API was unsuccessful. Looks like Wikipedia uses a very strange, visual way to format their family trees which would be very difficult to translate into JSON. Nevertheless, the project as is remains a good proof-of-concept and can be expounded upon very easily. [[Try fiddling with it on GitHub!>https:ygev.github.io/trunks]]"/>
            </div>
+        <More/>
         <Contact/>
         <Footer/>
       </div>
