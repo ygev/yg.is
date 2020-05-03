@@ -1,11 +1,11 @@
 .more {
-    background-color: var(--gray);
+    background-color: #222222;
     /* margin-top: 48px; */
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 24px;
     padding-bottom: 32px;
-    border-top: 2px var(--black) solid;
+    /* border-bottom: 2px var(--white) solid; */
 }
 
 .more__head {
@@ -17,13 +17,14 @@
     font-style: normal;
     line-height: 1.7;
     letter-spacing: 1.3px;
+    color: var(--white)
 }
 
 .more__title {
     font-family: Chapeau-Medium;
     font-weight: 500;
     font-size: 14px;
-    color: var(--black);
+    color: var(--white);
     letter-spacing: 1px;
     line-height: 18px;
     padding-bottom: 4px;
@@ -31,7 +32,7 @@
 
 .more__img
  {
-    border: 2px var(--black) solid;
+    /* border: 2px var(--black) solid; */
     width: 100%;
     margin-bottom: 16px;
     margin-top: 16px;
@@ -49,8 +50,18 @@
     flex: 0 0 auto;
     width: 240px;
     padding-right: 24px;
+    transition: 300ms ease-in-out;
 }
 
+.more:hover .more__item:hover {
+    opacity: 1;
+    transition: 300ms ease-in-out;
+}
+
+.more:hover .more__item {
+    opacity: 0.5;
+    transition: 300ms ease-in-out;
+}
 
 /* TABLET VERSION */
 

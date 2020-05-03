@@ -11,7 +11,6 @@ import cluseHero from "../../pages/cluse/images/hero.png";
 import dittoHero from "../../pages/ditto/images/hero.png"; 
 import fisqualHero from "../../pages/fisqual/images/hero.png"; 
 import trunksHero from "../../pages/trunks/images/hero.png"; 
-  
 
 var images = {
     default: defaultHero,
