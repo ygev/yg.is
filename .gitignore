@@ -3,8 +3,6 @@ src/styles/styles.css.map
 src/styles/styles.css
 src/styles/styles.min.css
 
-public/
-
 # Logs
 logs
 *.log
@@ -43,7 +41,8 @@ bin/published.js
 test/**/public
 .gatsby-context.js
 .DS_Store
-public/
+public/*
+!public/CNAME
 node_modules/
 .cache/
 .netlify
