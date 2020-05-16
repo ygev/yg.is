@@ -2,8 +2,10 @@ import React from "react"
 import SEO from '../../components/seo';
 import Hero from "./images/hero.png"; 
 import Glam1 from "./images/Glam1.gif"; 
-import Glam2 from "./images/Glam2.webm"; 
-import Glam3 from "./images/Glam3.webm"; 
+import Glam2_webm from "./images/Glam2.webm"; 
+import Glam2_mp4 from "./images/Glam2.mp4"; 
+import Glam3_webm from "./images/Glam3.webm"; 
+import Glam3_mp4 from "./images/Glam3.mp4"; 
 import Glam4 from "./images/Glam4.png"; 
 import Glam5 from "./images/Glam5.png"; 
 import Glam6 from "./images/Glam6.png"; 
@@ -32,6 +34,28 @@ import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
+
+const Glam2 = [
+  {
+    extension: "mp4",
+    file: Glam2_mp4
+  },
+  {
+    extension: "webm",
+    file: Glam2_webm
+  }
+]
+
+const Glam3 = [
+  {
+    extension: "mp4",
+    file: Glam3_mp4
+  },
+  {
+    extension: "webm",
+    file: Glam3_webm
+  }
+]
 
 class Index extends React.Component {
   render() {

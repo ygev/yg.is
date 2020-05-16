@@ -7,15 +7,19 @@ import caret_left from "../../images/inner/caret_left.svg"
 
 function buildImgWrapperDiv(listOfSrc) {
     return Array.from(Array(listOfSrc.length).keys()).map((i) => {
-        if (listOfSrc[i].toLowerCase().endsWith('mp4')) {
-            return <video className="abstract__img" preload="yes" autoPlay="autoplay" loop muted playsInline>
-                    <source src={listOfSrc[i]} type="video/mp4"/>
-                </video>
-        } else if (listOfSrc[i].toLowerCase().endsWith('webm')) {
-            return <video className="abstract__img" preload="yes" autoPlay="autoplay" loop muted playsInline>
-                <source src={listOfSrc[i]} type="video/webm"/>
-            </video>
-        } else {
+        if (Array.isArray(listOfSrc[i])){
+            var videoSources = [];
+            for(var j = 0; j < listOfSrc[i].length; j++){
+                if (listOfSrc[i][j].extension === "webm"){
+                    videoSources.push(<source src={listOfSrc[i][j].file} type="video/webm"/>)
+                }
+                else if (listOfSrc[i][j].extension === "mp4"){
+                    videoSources.push(<source src={listOfSrc[i][j].file} type="video/mp4"/>)
+                }
+            }
+            return <video className="abstract__img" preload="yes" autoPlay="autoplay" loop muted playsInline>{videoSources}</video>
+        }
+        else {
             return <img alt="" className="abstract__img" src={listOfSrc[i]}/>
         }
     })

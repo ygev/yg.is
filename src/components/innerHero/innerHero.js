@@ -9,7 +9,7 @@ export default props => (
         <Fade delay={100} duration={1000}>
             <section className="hero">
                 <figure className="hero__img"> 
-                <img className="inner__img--limiter" src={props.img}/>
+                <img alt="" className="inner__img--limiter" src={props.img}/>
                 </figure>
             </section>
         </Fade>

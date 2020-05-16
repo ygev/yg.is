@@ -4,7 +4,6 @@ import "../../css/normalize.css";
 import "../../css/global.css";
 import { Constants } from "../../constants"
 import { Link } from "gatsby"
-import glamour from "../../images/inner/glamourPH.png" 
 import defaultHero from "../../images/hero.gif"
 import phisherHero from "../../pages/phisher/images/hero.png"; 
 import cluseHero from "../../pages/cluse/images/hero.png"; 
