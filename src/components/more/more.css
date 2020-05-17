@@ -1,8 +1,5 @@
 .more {
     background-color: #eee;
-    /* margin-top: 48px; */
-    /* padding-left: 16px; */
-    /* padding-right: 16px; */
     padding-top: 24px;
     padding-bottom: 32px;
     border-bottom: 2px var(--black) solid;
@@ -91,9 +88,6 @@
 @media (min-width: 1024px) {
 
     .more {
-        /* margin-top: 64px; */
-        /* padding-left: 16vw; */
-        /* padding-right: 16vw; */
         padding-top: 64px;
         padding-bottom: 64px;
     }
@@ -121,14 +115,5 @@
         flex: 0 1 auto;
         width: 20vw;
         padding-right: 0;
-    }
-}
-
-/* 4K VERSION */
-@media (min-width: 2560px) {
-
-    .more  {
-        /* padding-left: 24vw; */
-        /* padding-right: 24vw; */
     }
 }
