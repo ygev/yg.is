@@ -1,11 +1,12 @@
 .more {
-    background-color: #222222;
+    background-color: #eee;
     /* margin-top: 48px; */
-    padding-left: 16px;
-    padding-right: 16px;
+    /* padding-left: 16px; */
+    /* padding-right: 16px; */
     padding-top: 24px;
     padding-bottom: 32px;
-    /* border-bottom: 2px var(--white) solid; */
+    border-bottom: 2px var(--black) solid;
+    border-top: 2px var(--black) solid;
 }
 
 .more__head {
@@ -17,28 +18,29 @@
     font-style: normal;
     line-height: 1.7;
     letter-spacing: 1.3px;
-    color: var(--white)
+    color: var(--black)
 }
 
 .more__title {
     font-family: Chapeau-Medium;
     font-weight: 500;
     font-size: 14px;
-    color: var(--white);
+    color: var(--black);
     letter-spacing: 1px;
     line-height: 18px;
     padding-bottom: 4px;
 }
 
 .more__img
- {
-    /* border: 2px var(--black) solid; */
+ {  
     width: 100%;
     margin-bottom: 16px;
     margin-top: 16px;
 }
 
 .more__group {
+    margin-left: 32px;
+    margin-right: 32px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -90,8 +92,8 @@
 
     .more {
         /* margin-top: 64px; */
-        padding-left: 16vw;
-        padding-right: 16vw;
+        /* padding-left: 16vw; */
+        /* padding-right: 16vw; */
         padding-top: 64px;
         padding-bottom: 64px;
     }
@@ -126,7 +128,7 @@
 @media (min-width: 2560px) {
 
     .more  {
-        padding-left: 24vw;
-        padding-right: 24vw;
+        /* padding-left: 24vw; */
+        /* padding-right: 24vw; */
     }
 }

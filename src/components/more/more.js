@@ -4,6 +4,7 @@ import "../../css/normalize.css";
 import "../../css/global.css";
 import { Constants } from "../../constants"
 import { Link } from "gatsby"
+import Ticker from 'react-ticker'
 import defaultHero from "../../images/hero.gif"
 import phisherHero from "../../pages/phisher/images/hero.png"; 
 import cluseHero from "../../pages/cluse/images/hero.png"; 
@@ -29,29 +30,21 @@ function buildMoreProjects(projects){
 
     console.log("project 1 is " + JSON.stringify(project1));
 
-    return <div className="more__group">
-         <Link to="/trunks">
-            <figure className="more__item">
-                <img className="more__img" src={images.trunks} alt=""/>
-                <figcaption className="more__title">{project1.heroTitle}</figcaption>
-                <h4 className="more__head">{project1.heroCategory} - {project1.heroYear} - {project1.heroDeliverable}</h4>
-            </figure>
-        </Link>
-        <Link to="/fisqual">
-            <figure className="more__item">
-                <img className="more__img" src={images.fisqual} alt=""/>
-                <figcaption className="more__title">{project2.heroTitle}</figcaption>
-                <h4 className="more__head">{project2.heroCategory} - {project2.heroYear} - {project2.heroDeliverable}</h4>
-            </figure>
-        </Link>
-         <Link to="/phisher">
-            <figure className="more__item">
-                <img className="more__img" src={images.phisher} alt=""/>
-                <figcaption className="more__title">{project3.heroTitle}</figcaption>
-                <h4 className="more__head">{project3.heroCategory} - {project3.heroYear} - {project3.heroDeliverable}</h4>
-            </figure>
-        </Link>
-    </div>
+    return     <Ticker>
+    {({ index }) => (
+        <>
+        <div className="more__group">
+            <Link to="/trunks">
+                <figure className="more__item">
+                    <img className="more__img" src={images.trunks} alt=""/>
+                    <figcaption className="more__title">{project1.heroTitle}</figcaption>
+                    <h4 className="more__head">{project1.heroCategory} - {project1.heroYear} - {project1.heroDeliverable}</h4>
+                </figure>
+            </Link>
+        </div>
+        </>
+        )}
+    </Ticker>
 
 }
 

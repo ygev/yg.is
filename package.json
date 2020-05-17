@@ -24,7 +24,8 @@
     "react-helmet": "^6.0.0",
     "react-parallax-tilt": "^1.3.41",
     "react-reveal": "^1.2.2",
-    "react-scrollmagic": "^2.2.0"
+    "react-scrollmagic": "^2.2.0",
+    "react-ticker": "^1.2.2"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
