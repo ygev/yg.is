@@ -12,14 +12,15 @@ export default props => (
             <Scene triggerHook="onLeave" pin>
                 <section className="pinned">
                     <div className="tracker">
-                        <AniLink paintDrip hex="#ffffff" to="/"><img className="tracker__logo" src={logo} alt=""/></AniLink>
+                        <AniLink paintDrip hex="#000" to="/"><img className="tracker__logo" src={logo} alt=""/></AniLink>
                         <h4 className="tracker__head">{props.trackerHead} </h4>
                     </div>
                     <div className="phases">
                         {
                             Array.from(Array(props.phaseList.length).keys()).map((i) => {
                                 return <Controller>
-                                    <Scene duration={() => { if (document.getElementById('p' + (i+1)) != null) return document.getElementById('p' + (i+1)).clientHeight } }
+                                    <Scene duration={() => { if (document.getElementById('p' + (i+1)) != null) 
+                                                return document.getElementById('p' + (i+1)).clientHeight } }
                                                 classToggle="phases__active" triggerElement={'#p' + (i+1)}>
                                         <h3 className="phases__txt">{props.phaseList[i]}</h3>
                                     </Scene>

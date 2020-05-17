@@ -21,40 +21,37 @@ var images = {
     trunks: trunksHero
 }
 
+var projectNames= ['cluse', 'trunks', 'fisqual', 'phisher']
+
 function buildMoreProjects(projects){
-    console.log("projects: " + JSON.stringify(projects));
-
-    var project1 = projects["trunks"];
-    var project2 = projects["fisqual"];
-    var project3 = projects["phisher"];
-
-    console.log("project 1 is " + JSON.stringify(project1));
-
-    return     <Ticker>
-    {({ index }) => (
-        <>
-        <div className="more__group">
-            <Link to="/trunks">
-                <figure className="more__item">
-                    <img className="more__img" src={images.trunks} alt=""/>
-                    <figcaption className="more__title">{project1.heroTitle}</figcaption>
-                    <h4 className="more__head">{project1.heroCategory} - {project1.heroYear} - {project1.heroDeliverable}</h4>
-                </figure>
-            </Link>
-        </div>
-        </>
-        )}
-    </Ticker>
-
+    var moreProjects = [];
+    for (var i=0; i < projectNames.length; i++){
+        moreProjects.push(
+                <Link to={projects[projectNames[i]]}>
+                    <figure className="more__item">
+                        <img className="more__img" src={images[projectNames[i]]} alt=""/>
+                        <figcaption className="more__title">{projects[projectNames[i]].heroTitle}</figcaption>
+                        <h4 className="more__head">{projects[projectNames[i]].heroYear} - {projects[projectNames[i]].heroDeliverable}</h4>
+                    </figure>
+                </Link>
+        );
+    }
+    return moreProjects
 }
 
 export default props => (
     <>
         <section className="more">
             {/* <h4 className="more__head">Check Out More</h4> */}
-            <div>
-               {buildMoreProjects(Constants)}
-            </div>
+            < Ticker>
+            {({ index }) => (
+                <div className="more__group">
+                    {buildMoreProjects(Constants)}                  
+                </div>
+             )}
+            </Ticker>  
         </section>
     </>
 );  
+
+
