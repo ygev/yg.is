@@ -7,10 +7,10 @@
 <h2 align="center">Yana's Portfolio Website</h2>
 
 
-<p align="center">   <a href="https://www.yg.is">
+<p align="center">   <a href="https://2019.yg.is">
     Old Site
   </a> ·
-<a href="https://ygev.github.io/ygis/">
+<a href="https://yg.is">
   <bold>Staging Site</bold>
   </a>
 </p>
