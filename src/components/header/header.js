@@ -12,13 +12,13 @@ export default props => (
 <Fade delay={100} duration={1000}>
    <div className="header__wrapper">
       <nav>
-         <AniLink paintDrip hex="#ffffff" to="/" onMouseOver={props.mouseOverCallback}>
+         <AniLink paintDrip hex="#000" to="/" onMouseOver={props.mouseOverCallback}>
             <Logo className="spinny-logo"/>
             <img className="img-logo" src={logo} alt=""></img>
          </AniLink>
          <section className="header__txt">
          {/* <Link className="navlink" to="/">Work</Link> */}
-         <AniLink paintDrip hex="#ffffff" className="navlink" to="about">Yana Gevorgyan</AniLink>
+         <AniLink paintDrip hex="#000" className="navlink" to="about">Yana Gevorgyan</AniLink>
          </section>
       </nav>
    </div>
