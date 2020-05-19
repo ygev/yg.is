@@ -1,10 +1,12 @@
 import React from "react";
+import { useState } from 'react'
 import "./more.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
 import { Constants } from "../../constants"
 import { Link } from "gatsby"
 import Ticker from 'react-ticker'
+import PageVisibility from 'react-page-visibility';
 import defaultHero from "../../images/hero.gif"
 import phisherHero from "../../pages/phisher/images/hero.png"; 
 import cluseHero from "../../pages/cluse/images/hero.png"; 
@@ -39,19 +41,31 @@ function buildMoreProjects(projects){
     return moreProjects
 }
 
-export default props => (
+const MoveStuffAround = () => {
+    const [pageIsVisible, setPageIsVisible] = useState(true)
+
+const handleVisibilityChange = (isVisible) => {
+    setPageIsVisible(isVisible)
+  }
+
+  return (
     <>
         <section className="more">
             {/* <h4 className="more__head">Check Out More</h4> */}
-            < Ticker>
-            {({ index }) => (
-                <div className="more__group">
-                    {buildMoreProjects(Constants)}                  
-                </div>
-             )}
-            </Ticker>  
+            <PageVisibility onChange={handleVisibilityChange}>
+            {pageIsVisible && (
+                < Ticker>
+                {({ index }) => (
+                    <div className="more__group">
+                        {buildMoreProjects(Constants)}                  
+                    </div>
+                )}
+                </Ticker> 
+            )}
+            </PageVisibility> 
         </section>
-    </>
-);  
+    </> 
+    )
+}
 
-
+export default MoveStuffAround
