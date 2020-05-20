@@ -39,6 +39,7 @@
 .more__group {
     display: flex;
     flex-wrap: nowrap;
+    /* height: 600px; */
 }
 
 .more__item {
@@ -106,7 +107,7 @@
 
     .more__group {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-between;
         overflow-x: hidden;  
     }
