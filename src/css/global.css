@@ -16,6 +16,12 @@
   url("../fonts/SuisseNeue-Regular.woff2") format("woff2");
   }
 
+/* Focus */
+*:focus {
+  outline: var(--projcolor) auto 3px;
+}
+ 
+
 /* Legend of Colors */
 :root {
   --black: #000;
@@ -39,7 +45,7 @@
 @media (min-width: 768px) {
 
   :root .home {
-    --projcolor: #000;
+    --projcolor: #222;
   }
 }
 
