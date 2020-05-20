@@ -29,7 +29,7 @@ class Index extends React.Component {
                     heroYear={Constants.webx.heroYear}
                     heroDeliverable={Constants.webx.heroDeliverable}
                     heroTitle={Constants.webx.heroTitle}
-                    heroSummary="Klepto is a Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch."
+                    heroSummary="Pixelation is an online exhibition of works from the Graphic Design graduating class of 2020 at the Maryland Institute College of Art."
                     btnGit="View Repository"
                     gitLink="https://github.com/ygev/webx"/>
         </div>
