@@ -21,7 +21,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="webx">
-        <SEO title="WebX"/>
+        <SEO title="Pixelation"/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>
@@ -40,11 +40,11 @@ class Index extends React.Component {
                       [Glam4, Glam5, Glam6]
                     ]
                   }
-                  abstractTeam="Yana Gevorgyan &amp; Blake Quigley"
-                  abstractRole="UI Designer · Developer" 
-                  abstractTools="Sketch API · CocoaScript · JS" 
-                  abstractTime="2 months · Summer 2019" 
-                  abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
+                  abstractTeam="Yana Gevorgyan · Amanda Yeh · Tony Kim · Zoey Russomano · Anne Xin"
+                  abstractRole="Full-Stack Developer" 
+                  abstractTools="React · Gatsby" 
+                  abstractTime="2 months · Spring 2020" 
+                  abstractBody="Historically, MICA's Artwalk Exhibition has been a physical space for viewers to come in and experience in-person degree projects by our graduating class. Due to COVID-19, this pandemic rejuvenated a team of graduating students in the Bachelor's of Fine Arts in Graphic Design program to spearhead, lead, and invent this alternative virtual exhibition for their class."/>
         <More/>
         <Contact/>
         <Footer/>
