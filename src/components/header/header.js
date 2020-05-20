@@ -17,7 +17,6 @@ export default props => (
             <img className="img-logo" src={logo} alt=""></img>
          </AniLink>
          <section className="header__txt">
-         {/* <Link className="navlink" to="/">Work</Link> */}
          <AniLink paintDrip hex="#000" className="navlink" to="about">Yana Gevorgyan</AniLink>
          </section>
       </nav>
