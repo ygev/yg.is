@@ -39,7 +39,7 @@
 .more__group {
     display: flex;
     flex-wrap: nowrap;
-    /* height: 331px; */
+    height: 331px;
 }
 
 .more__item {
@@ -55,6 +55,7 @@
     filter: grayscale(0);
     opacity: 1;
     transition: 300ms ease-in-out;
+    cursor: pointer;
 }
 
 .more:hover .more__item {
