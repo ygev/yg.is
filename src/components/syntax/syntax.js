@@ -46,7 +46,7 @@ function linkAndHighlight(input) {
         var linkUnparsed = input.substring(start + 2, end);
         var linkName = linkUnparsed.substring(0, linkUnparsed.indexOf('>'))
         var linkSource = linkUnparsed.substring(linkUnparsed.indexOf('>') + 1)
-        output.push(<a className="paragraph__link" href={linkSource}>{linkName}</a>);
+        output.push(<a target="_blank" rel="noreferrer noopener" className="paragraph__link" href={linkSource}>{linkName}</a>);
 
         var inputLeft = input.substring(input.indexOf(']]') + 2)
         output.push(linkAndHighlight(inputLeft))
