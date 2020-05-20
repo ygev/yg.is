@@ -20,8 +20,8 @@ import { Constants } from "../../constants"
 class Index extends React.Component {
   render() {
     return (
-      <div className="semaphore">
-        <SEO title="Semaphore"/>
+      <div className="avam">
+        <SEO title="American Visionary Art Museum"/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>

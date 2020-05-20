@@ -20,15 +20,15 @@ import { Constants } from "../../constants"
 class Index extends React.Component {
   render() {
     return (
-      <div className="semaphore">
-        <SEO title="Semaphore"/>
+      <div className="lissitzky">
+        <SEO title="Красным Клином Белых Бей"/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>
-          <InnerTxt heroCategory={Constants.semaphore.heroCategory}
-                    heroYear={Constants.semaphore.heroYear}
-                    heroDeliverable={Constants.semaphore.heroDeliverable}
-                    heroTitle={Constants.semaphore.heroTitle}
+          <InnerTxt heroCategory={Constants.lissitzky.heroCategory}
+                    heroYear={Constants.lissitzky.heroYear}
+                    heroDeliverable={Constants.lissitzky.heroDeliverable}
+                    heroTitle={Constants.lissitzky.heroTitle}
                     heroSummary="Klepto is a Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch."
                     btnGit="View Repository"
                     gitLink="https://github.com/ygev/klepto"/>
