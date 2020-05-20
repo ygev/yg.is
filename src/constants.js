@@ -8,7 +8,7 @@ export const Constants = {
     phisher: {
         heroCategory: "UX Design",
         heroYear: "2019",
-        heroDeliverable: "Web App",
+        heroDeliverable: "Phishing Tool",
         heroTitle: "Raising Awareness About Infosec with a Targeted Phishing Tool",
     },
     cluse: {
@@ -26,19 +26,19 @@ export const Constants = {
     fisqual: {
         heroCategory: "Interaction Design",
         heroYear: "2019",
-        heroDeliverable: "Mobile App",
+        heroDeliverable: "Finances App",
         heroTitle: "Ensuring Financial Wellness for Those with Variable Incomes"
     },
     trunks: {
-        heroCategory: "Data Visualization",
+        heroCategory: "Visual Design",
         heroYear: "2018",
-        heroDeliverable: "Web App",
+        heroDeliverable: "Data Visualization",
         heroTitle: "Architecting a Compact Family Tree Model for Easy Web Browsing"
     },
     semaphore: {
         heroCategory: "Machine Learning",
         heroYear: "2019",
-        heroDeliverable: "Web App",
+        heroDeliverable: "Learning Tool",
         heroTitle: "Teaching Flag Semaphore with Gamification and Machine Learning"
     },
     avam: {
@@ -100,5 +100,11 @@ export const Constants = {
         heroYear: "2016",
         heroDeliverable: "Publishing Platform",
         heroTitle: "Creating an Interdisciplinary Online Publishing Platform for MIT Press"
+    },
+    webx: {
+        heroCategory: "Web Development",
+        heroYear: "2020",
+        heroDeliverable: "Online Exhibition",
+        heroTitle: "Hosting a Graduating Designers Exhibition in Times of COVID-19"
     }
 }

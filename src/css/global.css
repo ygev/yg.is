@@ -128,9 +128,14 @@
   --projcolor: #fee700;
 }
 
-/* ARTECA Color */
+/* Yext Color */
 :root .yext {
   --projcolor: #375c3a;
+}
+
+/* ARTECA Color */
+:root .webx {
+  --projcolor: #11edd3;
 }
 
 /* Hero Wrapper Grid Responsiveness */
