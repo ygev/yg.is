@@ -30,22 +30,14 @@
   display: none;
 }
 
-/* .progress-bar {
-  display: none;
-} */
+.pinned {
+  position: sticky;
+  top: 0;
+}
 
 /* DESKTOP VERSION */
 
 @media (min-width: 1024px) {
-  /* .progress-bar {
-    display: block;
-    height: 2px;
-    background: var(--black);
-    border-right: 2px var(--projcolor) solid;
-    width: 0%;
-    position: absolute;
-    top: 96px;
-  } */
 
   .tracker {
     height: 60px;
