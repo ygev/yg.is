@@ -1,6 +1,60 @@
+
+/* Button */
+  
+.btn__git {
+  transition: 150ms ease-in-out;
+  font-family: Chapeau-Medium;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--black);
+  letter-spacing: 1.14px;
+  text-align: center;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 9.5px;
+  background-color: var(--white);
+  border: 1px  var(--black) solid;
+  width: 240px;
+  margin-left: 16px;
+}
+
+.btn__git--iconbg {
+  background-color: var(--black);
+
+}
+
+.btn__git--icon {
+  width: 24px;
+  height: 24px;
+  padding: 9.5px;
+}
+
+.btn__git--wrapper {
+  display: flex;
+  margin-top: 24px;
+  flex-direction: row;
+  align-items: center;
+  transition: 100ms ease-in-out;
+}
+
+/* Button hover */
+
+.btn__git--wrapper:hover .btn__git {
+  background-color: var(--black);
+  color: var(--white);
+  transition: 100ms ease-in-out;
+  cursor: pointer;
+}
+
+.btn__git--iconbg:hover {
+  cursor: pointer;
+}
+
+
 /* Hero Layout Style */
 
 .aboutTxt {
+    margin-bottom: 4em;
     padding: 1vw;
     display: flex;
     flex-direction: column;
@@ -46,7 +100,6 @@
   color: var(--black);
   padding-top: 16px;
   text-align: left;
-  margin-bottom: 4em;
 }
 
 
@@ -55,6 +108,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .aboutTxt {
+        margin-bottom: 0;
         padding-top: 0;
         padding-bottom: 0;
         padding-left: 6vw;
@@ -68,7 +122,12 @@
     
 @media (min-width: 1024px) {
 
+  .btn__git {
+    margin-left: 0;
+  }
+
   .aboutTxt {
+    margin-bottom: 0;
     align-items: flex-start;
     padding-left: 6vw;
     padding-right: 16vw;
