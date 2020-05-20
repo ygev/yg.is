@@ -14,8 +14,20 @@
     letter-spacing: 1.3px;
     font-size: 10px;
     color: var(--white);
+    text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
     width: 100%;
     line-height: 16px;
+}
+
+.footer__txt--link {
+    color: var(--white);
+    border-bottom: 1px var(--white) solid;
+    transition: 100ms ease-in-out;
+}
+
+.footer__txt--link:hover {
+    border-bottom: 0 var(--white) solid;
+    transition: 100ms ease-in-out;
 }
