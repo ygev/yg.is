@@ -3,7 +3,6 @@ import "../../css/normalize.css";
 import "../paragraph/paragraph.css";
 import "./aboutTxt.css";
 import "../../css/global.css";
-import gitlogo from "../../images/inner/gitlogo.svg";
 import download from "../../images/inner/download.svg";
 import Fade from 'react-reveal/Fade';
 
