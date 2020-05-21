@@ -10,6 +10,7 @@ import phisherHero from "../../pages/phisher/images/hero.png";
 import cluseHero from "../../pages/cluse/images/hero.png"; 
 import dittoHero from "../../pages/ditto/images/hero.png"; 
 import fisqualHero from "../../pages/fisqual/images/hero.png"; 
+import webxHero from "../../pages/webx/images/hero.png"; 
 import trunksHero from "../../pages/trunks/images/hero.png"; 
 
 var images = {
@@ -17,6 +18,7 @@ var images = {
     phisher: phisherHero,
     cluse: cluseHero,
     ditto: dittoHero,
+    webx: webxHero,
     fisqual: fisqualHero,
     trunks: trunksHero
 }
