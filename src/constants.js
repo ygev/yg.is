@@ -105,6 +105,6 @@ export const Constants = {
         heroCategory: "Web Development",
         heroYear: "2020",
         heroDeliverable: "Online Exhibition",
-        heroTitle: "Hosting a Graduating Designers Exhibition in Times of COVID-19"
+        heroTitle: "Hosting a Graduation Exhibition for Designers in Times of COVID-19"
     }
 }
