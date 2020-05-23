@@ -7,7 +7,7 @@ export default props => (
     <>
         <section className="footer">
             <h4 className="footer__txt">
-            2020 © Yana Gevorgyan 🟊 <a rel="noopener noreferrer" target="_blank" href="https://www.github.com/ygev/ygis" className="footer__txt--link">Open-Source Portfolio</a>
+            2020 © Yana Gevorgyan 🖤 <a rel="noopener noreferrer" target="_blank" href="https://www.github.com/ygev/ygis" className="footer__txt--link">Open-Source Portfolio</a>
             </h4>
         </section>
     </>
