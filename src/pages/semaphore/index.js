@@ -21,7 +21,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="semaphore">
-        <SEO title="Semaphore"/>
+        <SEO title="Learn Semaphore"/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>
@@ -29,9 +29,9 @@ class Index extends React.Component {
                     heroYear={Constants.semaphore.heroYear}
                     heroDeliverable={Constants.semaphore.heroDeliverable}
                     heroTitle={Constants.semaphore.heroTitle}
-                    heroSummary="Klepto is a Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch."
+                    heroSummary="Learn Semaphore is an award-winning AI game designed and developed at HackUMBC 2019. "
                     btnGit="View Repository"
-                    gitLink="https://github.com/ygev/klepto"/>
+                    gitLink="https://github.com/ygev/semaphore"/>
         </div>
         <Abstract glams={
                     [
@@ -40,11 +40,11 @@ class Index extends React.Component {
                       [Glam4, Glam5, Glam6]
                     ]
                   }
-                  abstractTeam="Yana Gevorgyan &amp; Blake Quigley"
-                  abstractRole="UI Designer · Developer" 
-                  abstractTools="Sketch API · CocoaScript · JS" 
-                  abstractTime="2 months · Summer 2019" 
-                  abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
+                  abstractTeam="Yana Gevorgyan &amp; Amanda Yeh"
+                  abstractRole="Primary Developer · Support UI Designer" 
+                  abstractTools="poseNet( ) · JS · Figma" 
+                  abstractTime="24 hours · October 2019" 
+                  abstractBody="This pose-recognition based game introduces the user to flag semaphore in a fun and competitive way. The player is prompted with a letter and a corresponding pose that they must recreate. As the player completes more rounds, they develop muscle memory and think more quickly about each pose, improving their fluency in flag semaphore. Who knows when they will need it?"/>
         <More/>
         <Contact/>
         <Footer/>
