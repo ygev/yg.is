@@ -25,7 +25,7 @@ var images = {
     trunks: trunksHero
 }
 
-var projectNames= ['cluse', 'webx', 'fisqual', 'trunks', 'phisher']
+var projectNames= ['cluse', 'fisqual', 'trunks', 'webx', 'phisher']
 
 function buildMoreProjects(projects){
     var moreProjects = [];

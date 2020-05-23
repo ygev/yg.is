@@ -23,6 +23,9 @@
 
 .imgLeft--padding {
     padding: 1em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     background-color: var(--black);
 }
 
