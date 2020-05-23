@@ -10,7 +10,7 @@ import Glam4 from "./images/Glam4.png";
 import Glam5 from "./images/Glam5.png"; 
 import Glam6 from "./images/Glam6.png"; 
 import Glam7 from "./images/Glam7.png"; 
-import Glam8 from "./images/Glam8.png"; 
+import Glam8 from "./images/Glam8.jpg"; 
 import Fig1 from "./images/Fig1.png"; 
 import Fig2 from "./images/Fig2.png"; 
 import Fig3 from "./images/Fig3.gif"; 
