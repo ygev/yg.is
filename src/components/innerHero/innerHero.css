@@ -8,7 +8,6 @@ figure.hero__img {
   align-content: center;
   align-items: center;
   height: 40vh;
-  /* filter: drop-shadow(0px 20px 20px rgba(38, 44, 75, 0.3)); */
 }
 
 section.hero {
@@ -22,7 +21,6 @@ figure.hero__img img {
 
 .inner__img--limiter {
   max-width: 80%;
-  /* filter: drop-shadow(0px 20px 20px rgba(0, 14, 82, 0.2)); */
 }
 
 /* TABLET VERSION */
@@ -64,7 +62,6 @@ figure.hero__img img {
   figure.hero__img {
     border-bottom: 0;
     margin-top: auto;
-    padding-right: 4vw;
     height: 100vh;
   }  
 
