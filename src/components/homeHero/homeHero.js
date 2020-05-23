@@ -30,15 +30,6 @@ export default props => (
                 <figure className="home__img"> 
                     <img className="home__img--limiter" src={images[props.currentHover]}/>
                 </figure>
-                {/* <div className="marquee__wrap">
-                        <Marquee
-                        direction = "left"
-                        children ="Booty"
-                        delay="0"
-                        speed ="0.2">
-                        {Constants[props.currentHover].heroTitle}
-                        </Marquee>
-                    </div> */}
             </section>
         </Fade>
     </>
