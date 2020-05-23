@@ -96,7 +96,7 @@ class Index extends React.Component {
                     heroYear={Constants.cluse.heroYear}
                     heroDeliverable={Constants.cluse.heroDeliverable}
                     heroTitle={Constants.cluse.heroTitle}
-                    heroSummary="Cluse is a Sketch Plugin that allows you to test the color contrast of your design for accessibility and make changes without interrupting your workflow."
+                    heroSummary="Cluse is a Sketch Plugin that allows you to test the color contrast of your design for accessibility and make changes without interrupting your workflow. Officially endorsed by Sketch. 💫"
                     btnGit="View Repository"
                     gitLink="https://github.com/ygev/cluse"/>
         </div>

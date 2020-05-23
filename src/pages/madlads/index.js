@@ -29,9 +29,9 @@ class Index extends React.Component {
                     heroYear={Constants.madlads.heroYear}
                     heroDeliverable={Constants.madlads.heroDeliverable}
                     heroTitle={Constants.madlads.heroTitle}
-                    heroSummary="Klepto is a Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch."
+                    heroSummary="MadLads is an award-winning phrasal template word game with image recognition. Not your grandmother's Mad Libs game. Winner at BitCamp 2019 🏆"
                     btnGit="View Repository"
-                    gitLink="https://github.com/ygev/klepto"/>
+                    gitLink="https://github.com/ygev/madlads"/>
         </div>
         <Abstract glams={
                     [
@@ -40,11 +40,11 @@ class Index extends React.Component {
                       [Glam4, Glam5, Glam6]
                     ]
                   }
-                  abstractTeam="Yana Gevorgyan &amp; Blake Quigley"
-                  abstractRole="UI Designer · Developer" 
-                  abstractTools="Sketch API · CocoaScript · JS" 
-                  abstractTime="2 months · Summer 2019" 
-                  abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
+                  abstractTeam="Yana Gevorgyan &amp; Amanda Yeh"
+                  abstractRole="Primary Developer · Support UI Designer" 
+                  abstractTools="imageClassifier( ) · p5.speech( ) · JS" 
+                  abstractTime="48 hours · April 2019" 
+                  abstractBody="Created at the BitCamp hackathon in 36 hours, MadLads is a mobile web app reinvention of the famous phrasal template word game called Mad Libs, in which a player is prompted to fill in blanks to create a custom story. In order to pick a sufficiently out-of-context word for the blanks, the user takes a photo of an object, which is then recognized and inputted into a list. After choosing up to five words, the user is presented with the crafted story, often humorous."/>
         <More/>
         <Contact/>
         <Footer/>

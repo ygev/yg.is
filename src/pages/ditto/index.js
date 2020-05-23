@@ -29,7 +29,7 @@ class Index extends React.Component {
                     heroYear={Constants.ditto.heroYear}
                     heroDeliverable={Constants.ditto.heroDeliverable}
                     heroTitle={Constants.ditto.heroTitle}
-                    heroSummary="Klepto is a Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch."
+                    heroSummary="Ditto is a tool that allows designers to copy CSS font styles from live websites and paste them into Sketch."
                     btnGit="View Repository"
                     gitLink="https://github.com/ygev/klepto"/>
         </div>
@@ -44,7 +44,7 @@ class Index extends React.Component {
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sketch API · CocoaScript · JS" 
                   abstractTime="2 months · Summer 2019" 
-                  abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
+                  abstractBody="Ditto is a Chrome extension with a companion Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch as Sketch styles. It was created to improve the workflow of the UI Design team at Yext."/>
         <More/>
         <Contact/>
         <Footer/>

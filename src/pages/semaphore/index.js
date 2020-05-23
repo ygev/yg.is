@@ -29,7 +29,7 @@ class Index extends React.Component {
                     heroYear={Constants.semaphore.heroYear}
                     heroDeliverable={Constants.semaphore.heroDeliverable}
                     heroTitle={Constants.semaphore.heroTitle}
-                    heroSummary="Learn Semaphore is an award-winning AI game designed and developed at HackUMBC 2019. "
+                    heroSummary="Learn Semaphore is an award-winning AI game that aims to teach more people about flag-based maritime communication. Winner at UMBC 2019 Hackathon 🏆"
                     btnGit="View Repository"
                     gitLink="https://github.com/ygev/semaphore"/>
         </div>
