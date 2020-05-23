@@ -1,6 +1,6 @@
 import React from "react"
 import SEO from '../../components/seo';
-import Hero from "./images/me.png"; 
+import Hero from "./images/me.jpg"; 
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import AboutHero from "../../components/aboutHero/aboutHero"

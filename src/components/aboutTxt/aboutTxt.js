@@ -9,13 +9,13 @@ import Fade from 'react-reveal/Fade';
 function setDayMessage() {
     var d = new Date();
     var weekday = new Array(7);
-    weekday[0] = "Happy Sunday!";
-    weekday[1] = "Hope you're having a good Monday!";
-    weekday[2] = "Hope you're having a good Tuesday!";
+    weekday[0] = "Hope you had a good Sunday brunch!";
+    weekday[1] = "Okay, Monday, let's do this!";
+    weekday[2] = "It's already Tuesday!";
     weekday[3] = "Happy Hump Day!";
     weekday[4] = "It's almost Friday!";
     weekday[5] = "Thank God it's Friday!";
-    weekday[6] = "Happy Saturday!";
+    weekday[6] = "It's Caturday!";
 
     var n = weekday[d.getDay()];
     return n;
