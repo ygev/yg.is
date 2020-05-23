@@ -1,11 +1,11 @@
 .abstract{
     background-color: #000;
     align-items: center;
-    margin-top: 36px;
+    margin-top: 64px;
     padding-top: 36px;
-    padding-bottom: 36px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-bottom: 64px;
+    /* padding-left: 16px; */
+    /* padding-right: 16px; */
 }
 
 .abstract__gallery {
@@ -14,12 +14,12 @@
     flex-direction: column;
     width: 90%; 
     margin: 0 auto;
-    padding: 24px;
+    /* padding: 24px; */
     scroll-snap-type: mandatory y;
 }
 
 .abstract__img--wrapper {
-    margin-bottom: 10em;
+    margin-bottom: 4em;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
@@ -89,10 +89,6 @@
     line-height: 32px;
 }
 
-.abstract__txt {
-    margin-top: 24px;
-}
-
 .abstract__body--paragraph {
     font-family: SuisseNeue-Regular;
     font-size: 14px;
@@ -104,6 +100,12 @@
 .abstract__txt--left {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.abstract__txt--wrapper {
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 /* Button */
@@ -182,6 +184,10 @@
         margin-top: 0;
         margin-left: 5vw;
         margin-right: 5vw;
+    }
+
+    .btn__live--wrapper {
+        margin-left: 5vw;
     }
     
     /* TABLET VERSION */
