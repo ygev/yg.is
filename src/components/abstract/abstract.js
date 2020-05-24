@@ -69,12 +69,6 @@ export default props => (
                     <p className="abstract__body--paragraph">{props.abstractBody}</p>
                 </section>
             </section>
-            {/* <Fade top delay={0} duration={300}>
-            <section className="abstract__hint">
-                <h4 className="abstract__head">Learn More</h4>
-                <h4 className="abstract__head abstract__head--arrow">↓</h4>
-            </section>
-            </Fade> */}
         </section>
     </>
 );  
