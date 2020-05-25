@@ -12,6 +12,7 @@ import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
 import InnerTxt from "../../components/innerTxt/innerTxt"
 import Abstract from "../../components/abstract/abstract"
+import Tracker from "../../components/tracker/tracker"
 import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
@@ -44,7 +45,10 @@ class Index extends React.Component {
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sketch API · CocoaScript · JS" 
                   abstractTime="2 months · Summer 2019" 
-                  abstractBody="Ditto is a Chrome extension with a companion Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch as Sketch styles. It was created to improve the workflow of the UI Design team at Yext."/>
+                  abstractBody="Ditto is a Chrome extension with a companion Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch as Sketch styles. It was created to improve the workflow of the UI Design team at Yext."
+                  liveLink="https://ygev.github.io/ditto"/>
+        <Tracker  phaseList={['UNDERSTAND', 'ANALYSE', 'DESIGN', 'VALIDATE']}
+                  trackerHead={Constants.ditto.heroTitle}/>
         <More/>
         <Contact/>
         <Footer/>
