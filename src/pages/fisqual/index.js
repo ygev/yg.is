@@ -123,7 +123,7 @@ class Index extends React.Component {
                   ]} />
           <Paragraph paragraphTitle="Selected Responder Interviews" 
                     paragraphBody="We picked two interviewers who were most vocal about their habits as freelancers and conducted in depth interviews with them for further insight. Amanda took on Devin, a <<freelance product designer from New York City>>, while I interviewed Katie, a <<freelance graphic designer from rural Maryland.>>"/>
-          <ImgRight img={Fig2} imgNum="03" imgCaption="Selected Responder Interviews"/>
+          <ImgFull img={Fig2} imgNum="03" imgCaption="Selected Responder Interviews"/>
         </div>
         <div id="p2">
         <Phase phaseTitle="Gaining Insight on the Sentiment of Managing Finances"/>
