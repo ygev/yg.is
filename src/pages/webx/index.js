@@ -6,9 +6,7 @@ import Glam2_mp4 from "./images/Glam2.mp4";
 import Glam2_webm from "./images/Glam2.webm"; 
 import Glam3_mp4 from "./images/Glam3.mp4"; 
 import Glam3_webm from "./images/Glam3.webm"; 
-import Glam4 from "./images/Glam4.png"; 
-import Glam5 from "./images/hero.png"; 
-import Glam6 from "./images/hero.png";   
+import Glam4 from "./images/Glam4.png";   
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"

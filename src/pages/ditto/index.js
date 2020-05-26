@@ -8,8 +8,8 @@ import Glam3_webm from "./images/Glam3.webm";
 import Glam3_mp4 from "./images/Glam3.mp4"; 
 import Glam4_webm from "./images/Glam4.webm"; 
 import Glam4_mp4 from "./images/Glam4.mp4"; 
-import Glam5 from "./images/Glam5.png"; 
-import Glam6 from "./images/Glam6.png";  
+import Glam5 from "./images/Glam5.png";
+import Glam6 from "./images/Glam6.png";
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -91,8 +91,8 @@ class Index extends React.Component {
                   abstractTime="2 months · Summer 2019" 
                   abstractBody="Ditto is a Chrome extension with a companion Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch as Sketch styles. It was created to improve the workflow of the UI Design team at Yext."
                   liveLink="https://ygev.github.io/ditto"/>
-        <Tracker  phaseList={['UNDERSTAND', 'ANALYSE', 'DESIGN', 'VALIDATE']}
-                  trackerHead={Constants.ditto.heroTitle}/>
+        {/* <Tracker  phaseList={['UNDERSTAND', 'ANALYSE', 'DESIGN', 'VALIDATE']}
+                  trackerHead={Constants.ditto.heroTitle}/> */}
         <More/>
         <Contact/>
         <Footer/>

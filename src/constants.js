@@ -21,7 +21,7 @@ export const Constants = {
         heroCategory: "Software Design",
         heroYear: "2019",
         heroDeliverable: "Sketch Plugin",
-        heroTitle: "Optimizing a Unique Sketch Workflow for UI Designers at Yext, Inc."
+        heroTitle: "Optimizing a Unique Sketch Workflow for UI Designers at Yext"
     },
     fisqual: {
         heroCategory: "Interaction Design",
