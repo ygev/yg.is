@@ -56,7 +56,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="fisqual">
-        <SEO title="Fisqual"/>
+        <SEO title="Fisqual" description="Fisqual is an app that analyzes your bank statements and calculates a stable monthly income from variable earnings. Winner at Technica 2019 Hackathon 🏆"/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>

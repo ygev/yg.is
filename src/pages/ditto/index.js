@@ -65,7 +65,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="ditto">
-        <SEO title="Ditto"/>
+        <SEO title="Ditto" description="Ditto is a tool that allows designers to copy CSS font styles from live websites and paste them into Sketch. Originally created for the Yext design team by Yana Gevorgyan during her UI Design internship."/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>

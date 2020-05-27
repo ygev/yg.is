@@ -43,7 +43,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="webx">
-        <SEO title="Pixelation"/>
+        <SEO title="Pixelation" description="Pixelation is an online exhibition of works from the Graphic Design graduating class of 2020 at the Maryland Institute College of Art. It is a two-months long collaboration between 5 graduating seniors."/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>

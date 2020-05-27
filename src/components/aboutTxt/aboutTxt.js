@@ -27,7 +27,7 @@ export default props => (
             <div className="aboutTxt"> 
                 <h3 className=" aboutTxt__brow">{setDayMessage()}</h3>
                 <h2 className=" aboutTxt__lead">I'm Yana Gevorgyan 👋</h2>
-                <h2 className=" aboutTxt__head">Based in Seattle, I am a multi-disciplinary product designer obssessed with design automation and AI.  When not maintaining my open-source projects, you'll find me arranging black metal compositions on the piano and buying dumb domain names like this one. Seeking opportunities in tech.</h2>
+                <h2 className=" aboutTxt__head">Based in Seattle, I am a multi-disciplinary product designer obsessed with users, systems and design accelerators. When not maintaining my open-source projects, you'll find me arranging black metal compositions on the piano and buying dumb domain names like this one. Seeking opportunities in tech.</h2>
                 <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1Zmz32KRXFCzUucFPIRciZpMcfi7TLqBL">
                     <div className="btn btn__git--wrapper">
                         <button className="btn__git">See My Resume</button>
