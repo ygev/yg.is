@@ -133,7 +133,7 @@ class Index extends React.Component {
                     paragraphBody="I compiled a workflow graphic for me to analyse and highlighted areas that were most stressful to the team. Afterwards, I thought about aspects of it can be automated. <<Copying-pasting between Chrome and Sketch are the most tedious task for the designers and is the easiest to automate.>> Unfortunately, I cannot do anything about switching windows between the two programs, other than limit the number of times one will have to do it.
                     "/>
           <ImgFull img={Fig3} imgNum="03" imgCaption="Desired workflow adjustments thanks to the design accelerator."/>
-          <Paragraph paragraphBody="After generating an updated flowchart of the workflow adjustments, my problem was defined, and I conceived a How Might We statement to help direct my future brainstorming and prototyping vision."/>
+          <Paragraph paragraphBody="After generating an updated flowchart of the workflow adjustments, my problem was defined, and I conceived a How-Might-We statement to help direct my future brainstorming and prototyping vision."/>
           <HowMightWe howMightWe="How might we optimize the unique CSS-to-Sketch workflow of UI designers at Yext?"/>
         </div>
         <div id="p3">
