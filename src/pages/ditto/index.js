@@ -11,6 +11,8 @@ import Glam4_mp4 from "./images/Glam4.mp4";
 import Glam5 from "./images/Glam5.png";
 import Glam6 from "./images/Glam6.png";
 import Fig1 from "./images/Fig1.png";
+import Fig2 from "./images/Fig2.svg";
+import Fig3 from "./images/Fig3.svg";
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -21,6 +23,8 @@ import Paragraph from "../../components/paragraph/paragraph"
 import Phase from "../../components/phase/phase"
 import ImgRight from "../../components/imgRight/imgRight"
 import ImgLeft from "../../components/imgLeft/imgLeft"
+import ImgFull from "../../components/imgFull/imgFull"
+import List from "../../components/list/list"
 import HowMightWe from "../../components/howMightWe/howMightWe"
 import Issue from "../../components/issue/issue"
 import More from "../../components/more/more"
@@ -92,7 +96,7 @@ class Index extends React.Component {
                   abstractTime="2 months · Summer 2019" 
                   abstractBody="Ditto is a Chrome extension with a companion Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch as Sketch styles. It was created to improve the workflow of the UI Design team at Yext."
                   liveLink="https://ygev.github.io/ditto"/>
-        <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'PROTOTYPE', 'VALIDATE', 'REFINE']}
+        <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'DECIDE', 'PROTOTYPE', 'VALIDATE']}
                   trackerHead={Constants.ditto.heroTitle}/>
         <div id="p1">
           <Phase phaseTitle="Understanding a Unique Use Case"/>
@@ -107,12 +111,54 @@ class Index extends React.Component {
                       paragraphBody="The system by which the team collects the client's style guide is called Cobalt. It is an atomic design system that contains components the team might need to construct a location page. This includes the grid of the original website, known information architecture patterns, and so on. At the beginning, the team compiles style guide for the main colors, fonts and other design patterns scavenged from the clients website. This is demonstrated in Figure 1.
                       "/>
         </div>
-        <div id="p1">
+        <div id="p2">
           <Phase phaseTitle="Defining the Pain Points of the Team's Workflow"/>
           <Paragraph paragraphTitle="Copy-Pasting Galore" 
                     paragraphBody="The impetus for this project is an opportunity to accelerate the team's workflow. Currently, UI designers at Yext take up to a minute per font-style. 
                     "/>
+          <ImgFull img={Fig2} imgNum="02" imgCaption="Current workflow of UI Designers at Yext. Highlighted in red are areas for improvement."/>
+          <Paragraph paragraphTitle="Desired Workflow Acceleration" 
+                    paragraphBody="The impetus for this project is an opportunity to accelerate the team's workflow. Currently, UI designers at Yext take up to a minute per font-style. 
+                    "/>
+          <ImgFull img={Fig3} imgNum="03" imgCaption="Desired workflow adjustments thanks to the design accelerator."/>
+          <Paragraph paragraphBody="The impetus for this project is an opportunity to accelerate the team's workflow. Currently, UI designers at Yext take up to a minute per font-style. "/>
           <HowMightWe howMightWe="How might we optimize the unique CSS-to-Sketch workflow of UI designers at Yext?"/>
+        </div>
+        <div id="p3">
+          <Phase phaseTitle="Deciding on the Project's Scope"/>
+          <Paragraph paragraphTitle="Identify the Medium of the Design Accelerator" 
+                    paragraphBody="The impetus for this project is an opportunity to accelerate the team's workflow. Currently, UI designers at Yext take up to a minute per font-style. 
+                    "/>
+          <Paragraph paragraphTitle="What properties define a font's identity?" 
+                    paragraphBody="In order to accurately copy the essence of a font, we needed to determine what makes a font style in CSS. These properties must also have equivalents in Sketch. For instance, the font-family property of CSS should correspond to the Typefaces field in Sketch. The final list of properties that are most commonly specified in CSS and make a font instantly recognizable as a distinct style are as follows:
+                    "/>
+           <List listTitle="" listType='ul'
+                listItems={["font-size",
+                "color",
+                "line-height",
+                "font-weight"
+                ]} /> 
+        </div>
+        <div id="p4">
+          <Phase phaseTitle="Prototyping the Extension"/>
+          <Paragraph paragraphTitle="Interface of the Modal" 
+                    paragraphBody="The impetus for this project is an opportunity to accelerate the team's workflow. Currently, UI designers at Yext take up to a minute per font-style. 
+                    "/>
+          <Paragraph paragraphTitle="Publishing to Chrome Store" 
+                    paragraphBody="The impetus for this project is an opportunity to accelerate the team's workflow. Currently, UI designers at Yext take up to a minute per font-style. 
+                    "/>
+        </div>
+        <div id="p5">
+          <Phase phaseTitle="Validation and Post-Internship Maintenance"/>
+          <Paragraph paragraphTitle="Interface of the Modal" 
+                    paragraphBody="The impetus for this project is an opportunity to accelerate the team's workflow. Currently, UI designers at Yext take up to a minute per font-style. 
+                    "/>
+          <Paragraph paragraphTitle="Interface of the Modal" 
+                    paragraphBody="The impetus for this project is an opportunity to accelerate the team's workflow. Currently, UI designers at Yext take up to a minute per font-style. 
+                    "/>
+          <Paragraph paragraphTitle="Branding and Logotype" 
+                    paragraphBody="The impetus for this project is an opportunity to accelerate the team's workflow. Currently, UI designers at Yext take up to a minute per font-style. 
+                    "/>
         </div>
         <More/>
         <Contact/>
