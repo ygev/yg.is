@@ -177,7 +177,7 @@ class Index extends React.Component {
           <ImgRight img={Fig10} />
           <ImgLeft img={Fig12} padding="yes" imgNum="05" imgCaption="Published on the Chrome Web Store under Klepto."/>
           <Paragraph paragraphTitle="Publishing to Chrome Store" 
-                    paragraphBody="After bug fixes and QA testing, the project was published to the Chrome Store under the moniker Klepto with an icon of a pink flamboyant raccoon. <<It was highly successful with the UI Design team and had 38 active users within a month of publishing, meaning that people out of Yext tried it out.>> 
+                    paragraphBody="After bug fixes and QA testing, the project was published to the Chrome Store under the moniker Klepto with an icon of a pink flamboyant raccoon. <<It was highly successful with the UI Design team and had 38 active users within a month of publishing, meaning that people outside of Yext tried it out.>> 
                     "/>
         </div>
         <div id="p5">
