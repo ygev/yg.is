@@ -113,7 +113,7 @@ class Index extends React.Component {
         <div id="p1">
           <Phase phaseTitle="Understanding a Unique Use Case for Sketch"/>
           <Paragraph paragraphTitle="Designing Backwards" 
-                    paragraphBody="Normally, product prototyping tools like Sketch and Figma are used to create designs that will end up on the web, rather than copying what is on the web into the prototype. <<However, this use case exists,>> and I was tasked with creating a tool that performs this workflow more efficiently, using my skillsets in UX design and UI engineering.
+                    paragraphBody="Normally, product prototyping tools like Sketch and Figma are used to create designs that will end up on the web, rather than copying what is on the web into the prototype. <<However, this is the use case at Yext,>> and I was tasked with creating a tool that performs this workflow more efficiently, using my skillsets in UX design and UI engineering.
                     "/>
           <ImgLeft img={Fig1} imgNum="01" imgCaption="Yext Cobalt Design System's sample style guide that is filled out with client font styles and colors." />
           <Paragraph paragraphTitle="Reverse-Engineering a Brand" 
@@ -130,7 +130,7 @@ class Index extends React.Component {
                     "/>
           <ImgFull img={Fig2} imgNum="02" imgCaption="Current workflow of UI Designers at Yext. Highlighted in red are areas for improvement."/>
           <Paragraph paragraphTitle="Desired Workflow Acceleration" 
-                    paragraphBody="I compiled a workflow graphic for me to analyse and highlighted areas that were most stressful to the team. Afterwards, I thought about aspects of it can be automated. <<Copying and pasting between Chrome and Sketch are the most tedious sections for the designers and are the easiest to automate.>> Unfortunately, I cannot do anything about switching windows between the two programs, other than limit the number of times one will have to do it.
+                    paragraphBody="I compiled a workflow graphic for me to analyse and highlighted areas that were most stressful to the team. Afterwards, I thought about aspects of it can be automated. <<Copying-pasting between Chrome and Sketch are the most tedious task for the designers and is the easiest to automate.>> Unfortunately, I cannot do anything about switching windows between the two programs, other than limit the number of times one will have to do it.
                     "/>
           <ImgFull img={Fig3} imgNum="03" imgCaption="Desired workflow adjustments thanks to the design accelerator."/>
           <Paragraph paragraphBody="After generating an updated flowchart of the workflow adjustments, my problem was defined, and I conceived a How Might We statement to help direct my future brainstorming and prototyping vision."/>
