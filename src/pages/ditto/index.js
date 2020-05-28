@@ -172,7 +172,7 @@ class Index extends React.Component {
           
           <ImgRight img={Fig9} imgNum="" imgCaption=""/>
           <Paragraph paragraphTitle="Developing the Chrome Extension and Sketch Plugin" 
-                    paragraphBody="After the interface was complete, I had a hand-off with Blake Quigley. Within a week, he developed the initial code base for both the Chrome Extension and the Sketch Plugin, <<incorporating dropdown animations we have discussed during the handoff.>> The plugin entered the QA section of the development process and we asked the UI Design team to use it for a week and note any bugs on GitHub.
+                    paragraphBody="After the interface was complete, I had a hand-off with Blake Quigley. Within a week, he developed the initial code base for both the Chrome Extension and the Sketch Plugin, <<incorporating dropdown animations we discussed during the handoff.>> The plugin entered the QA section of the development process and we asked the UI Design team to use it for a week and note any bugs on GitHub.
                     "/>
           <ImgRight img={Fig10} />
           <ImgLeft img={Fig12} padding="yes" imgNum="05" imgCaption="Published on the Chrome Web Store under Klepto."/>
