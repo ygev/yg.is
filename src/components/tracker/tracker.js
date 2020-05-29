@@ -6,6 +6,14 @@ import logo from "../../images/logo.svg"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { Controller, Scene } from "react-scrollmagic"
 
+function computeDuration(i) {
+    if (document.getElementById('p' + (i+1)) != null) {
+        return document.getElementById('p' + (i+1)).clientHeight;
+    } else {
+        return 0;
+    }
+}
+
 export default props => (
     <>
         <Controller>
@@ -19,8 +27,7 @@ export default props => (
                         {
                             Array.from(Array(props.phaseList.length).keys()).map((i) => {
                                 return <Controller>
-                                    <Scene duration={() => { if (document.getElementById('p' + (i+1)) != null)
-                                                return document.getElementById('p' + (i+1)).clientHeight } }
+                                    <Scene duration={computeDuration(i)}
                                                 classToggle="phases__active" triggerElement={'#p' + (i+1)}>
                                         <h3 className="phases__txt">{props.phaseList[i]}</h3>
                                     </Scene>
