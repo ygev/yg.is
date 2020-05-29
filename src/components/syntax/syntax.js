@@ -2,7 +2,7 @@ import React from "react";
 import "../../css/normalize.css";
 import "../../css/global.css";
 
-/* 
+/*
  * syntax.js parses special characters to perform
  * <<highlighting>> or [[linking>http://example.com]]
 */
@@ -13,7 +13,7 @@ function highlight(input) {
     var start = input.indexOf("<<");
     var end = input.indexOf(">>");
 
-    console.log("start is " + start + ", end is " + end)
+    //console.log("start is " + start + ", end is " + end)
 
     if (start === -1 || end === -1) {
         // No more special characters
@@ -25,13 +25,13 @@ function highlight(input) {
         var inputLeft = input.substring(input.indexOf('>>') + 2)
         output.push(highlight(inputLeft))
     }
-    
+
     return output.flat();
 }
 
 function linkAndHighlight(input) {
 
-    console.log("input: " + JSON.stringify(input))
+    //console.log("input: " + JSON.stringify(input))
 
     var output = [];
     var start = input.indexOf("[[");
@@ -51,7 +51,7 @@ function linkAndHighlight(input) {
         var inputLeft = input.substring(input.indexOf(']]') + 2)
         output.push(linkAndHighlight(inputLeft))
     }
-    
+
     return output.flat();
 }
 
@@ -59,4 +59,4 @@ export default props => (
     <>
         {linkAndHighlight(props.content)}
     </>
-);  
+);
