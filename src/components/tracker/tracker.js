@@ -7,10 +7,10 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import { Controller, Scene } from "react-scrollmagic"
 
 function computeDuration(i) {
-    if (document.getElementById('p' + (i+1)) != null) {
-        return document.getElementById('p' + (i+1)).clientHeight;
-    } else {
-        return 0;
+    if (typeof document !== `undefined`) {
+        if (document.getElementById('p' + (i+1)) != null) {
+            return document.getElementById('p' + (i+1)).clientHeight;
+        }
     }
 }
 
