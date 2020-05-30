@@ -4,8 +4,6 @@ import Hero from "./images/hero.png";
 import Glam1 from "./images/Glam1.png"; 
 import Glam2_mp4 from "./images/Glam2.mp4"; 
 import Glam2_webm from "./images/Glam2.webm"; 
-import Glam3_mp4 from "./images/Glam3.mp4"; 
-import Glam3_webm from "./images/Glam3.webm"; 
 import Glam4 from "./images/Glam4.png";   
 import "../../css/global.css"
 import Header from "../../components/header/header"
@@ -28,16 +26,6 @@ const Glam2 = [
   }
 ]
 
-const Glam3 = [
-  {
-    extension: "mp4",
-    file: Glam3_mp4
-  },
-  {
-    extension: "webm",
-    file: Glam3_webm
-  }
-]
 
 class Index extends React.Component {
   render() {
@@ -58,8 +46,7 @@ class Index extends React.Component {
         <Abstract glams={
                     [
                       [Glam1],
-                      [Glam2, Glam4],
-                      [Glam3]
+                      [Glam2, Glam4]
                     ]
                   }
                   abstractTeam="Yana Gevorgyan · Amanda Yeh · Tony Kim · Zoey Russomano · Anne Xin"
