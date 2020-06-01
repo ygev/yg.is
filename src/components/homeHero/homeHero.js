@@ -12,12 +12,14 @@ import dittoHero from "../../pages/ditto/images/hero.png";
 import fisqualHero from "../../pages/fisqual/images/hero.png"; 
 import webxHero from "../../pages/webx/images/hero.png"; 
 import trunksHero from "../../pages/trunks/images/hero.png"; 
+import semaphoreHero from "../../pages/semaphore/images/hero.png"; 
 
 var images = {
     default: defaultHero,
     phisher: phisherHero,
     cluse: cluseHero,
     ditto: dittoHero,
+    semaphore: semaphoreHero,
     webx: webxHero,
     fisqual: fisqualHero,
     trunks: trunksHero
