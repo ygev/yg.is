@@ -19,7 +19,7 @@
 }
 
 .abstract__img--wrapper {
-    margin-bottom: 4em;
+    margin-bottom: 10em;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
@@ -38,7 +38,7 @@
 
 .abstract__img--wrapper[data-width="2"] .abstract__img{
     max-width: calc(100% / 2 - 2%);
-    max-height: 40vw;
+    /* max-height: 40vw; */
   }
 
 .abstract__img--wrapper[data-width="1"] .abstract__img{

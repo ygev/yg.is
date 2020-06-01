@@ -8,7 +8,7 @@ import Glam2_webm from "./images/Glam2.webm";
 import Glam3 from "./images/Glam3.png"; 
 import Glam4 from "./images/Glam4.png"; 
 import Glam5 from "./images/Glam5.png"; 
-import Glam6 from "./images/hero.png";  
+import Glam6 from "./images/Glam6.png";  
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
@@ -62,8 +62,9 @@ class Index extends React.Component {
         <Abstract glams={
                     [
                       [Glam1],
-                      [Glam4, Glam3],
-                      [Glam2, Glam5]
+                      [Glam3, Glam4],
+                      [Glam5, Glam2],
+                      [Glam6]
                     ]
                   }
                   abstractTeam="Yana Gevorgyan &amp; Amanda Yeh"
