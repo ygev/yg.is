@@ -1,11 +1,13 @@
 import React from "react"
 import SEO from '../../components/seo';
 import Hero from "./images/hero.png";
-import Glam1 from "./images/hero.png"; 
-import Glam2 from "./images/hero.png"; 
-import Glam3 from "./images/hero.png"; 
-import Glam4 from "./images/hero.png"; 
-import Glam5 from "./images/hero.png"; 
+import Glam1_mp4 from "./images/Glam1.mp4"; 
+import Glam1_webm from "./images/Glam1.webm"; 
+import Glam2_mp4 from "./images/Glam2.mp4";  
+import Glam2_webm from "./images/Glam2.webm"; 
+import Glam3 from "./images/Glam3.png"; 
+import Glam4 from "./images/Glam4.png"; 
+import Glam5 from "./images/Glam5.png"; 
 import Glam6 from "./images/hero.png";  
 import "../../css/global.css"
 import Header from "../../components/header/header"
@@ -16,6 +18,30 @@ import More from "../../components/more/more"
 import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
+
+
+const Glam1 = [
+  {
+    extension: "mp4",
+    file: Glam1_mp4
+  },
+  {
+    extension: "webm",
+    file: Glam1_webm
+  }
+]
+
+const Glam2 = [
+  {
+    extension: "mp4",
+    file: Glam2_mp4
+  },
+  {
+    extension: "webm",
+    file: Glam2_webm
+  }
+]
+
 
 class Index extends React.Component {
   render() {
@@ -36,8 +62,8 @@ class Index extends React.Component {
         <Abstract glams={
                     [
                       [Glam1],
-                      [Glam2, Glam3],
-                      [Glam4, Glam5, Glam6]
+                      [Glam4, Glam3],
+                      [Glam2, Glam5]
                     ]
                   }
                   abstractTeam="Yana Gevorgyan &amp; Amanda Yeh"
