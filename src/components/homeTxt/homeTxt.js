@@ -10,7 +10,7 @@ function buildProjectLinks(projects, mouseOverCallback) {
     return Array.from(Array(projects.length).keys()).map((i) => {
         return <Link paintDrip hex="#000000" to={projects[i]}>
                         <div className="link__wrapper" onMouseOver={mouseOverCallback}>
-                            <h1 className="home__head">{capitalizeFirstLetter(projects[i])}</h1>
+                            <h1 id={projects[i]} className="home__head">{Constants[projects[i]].heroTitle}</h1>
                             <h2 className="home__brow">{Constants[projects[i]].heroYear}</h2>
                         </div>
                 </Link>

@@ -18,7 +18,7 @@ class Index extends React.Component {
 
   handleProjectHover = (event) => {
     this.setState({
-      currentName: event.currentTarget.querySelector(".home__head").innerHTML.toLowerCase()
+      currentName: event.currentTarget.querySelector(".home__head").id.toLowerCase()
     })
   }
 

@@ -34,19 +34,21 @@
 .home__head {
   font-family: Chapeau-Medium;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 16px;
   color: var(--black);
-  letter-spacing: 4px;
-  line-height: 96px;
+  letter-spacing: 1.33px;
+  line-height: 24px;
   text-transform: capitalize;
   text-decoration: none;
+  padding-right: 24px;
   transition: 200ms ease-in-out;
 }
 
 .link__wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
   width: 90vw;
   border-bottom: 2px var(--black) solid;
 }
