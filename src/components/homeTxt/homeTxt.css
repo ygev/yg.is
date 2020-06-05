@@ -82,7 +82,7 @@ a {
 @media (min-width: 768px) {
   .home__head {
     text-align: left;
-    font-size: 32px;
+    font-size: 16px;
   }
 
   .home__brow {

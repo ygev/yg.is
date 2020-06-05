@@ -39,7 +39,7 @@ export const Constants = {
         heroCategory: "Machine Learning",
         heroYear: "2019",
         heroDeliverable: "Learning Tool",
-        heroTitle: "Teaching Flag Semaphore with Pose Recognition Models and Gamification"
+        heroTitle: "Teaching Flag Semaphore with Pose Recognition and Gamification"
     },
     avam: {
         heroCategory: "User Research",
@@ -99,12 +99,12 @@ export const Constants = {
         heroCategory: "UI/UX Design",
         heroYear: "2016",
         heroDeliverable: "Publishing Platform",
-        heroTitle: "Creating an Interdisciplinary Online Publishing Platform for MIT Press"
+        heroTitle: "Creating an Online Publishing Platform for MIT Press"
     },
     webx: {
         heroCategory: "Web Development",
         heroYear: "2020",
         heroDeliverable: "Online Exhibition",
-        heroTitle: "Hosting a Graduation Exhibition for Designers in Times of COVID-19"
+        heroTitle: "Hosting a Graduation Exhibition in Times of COVID-19"
     }
 }
