@@ -39,7 +39,7 @@ export const Constants = {
         heroCategory: "Machine Learning",
         heroYear: "2019",
         heroDeliverable: "Learning Tool",
-        heroTitle: "Teaching Flag Semaphore with Pose Recognition and Gamification"
+        heroTitle: "Teaching Flag Signaling with a Pose Recognition Model Game"
     },
     avam: {
         heroCategory: "User Research",
