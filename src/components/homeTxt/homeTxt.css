@@ -40,13 +40,13 @@
   line-height: 22px;
   text-transform: capitalize;
   text-decoration: none;
-  width: 80%;
   transition: 200ms ease-in-out;
 }
 
 .link__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
   width: 90vw;
@@ -84,7 +84,6 @@ a {
     text-align: left;
     font-size: 24px;
     line-height: 36px;
-    width: 70%;
   }
 
   .home__brow {
@@ -142,7 +141,6 @@ a {
   .home__head {
     font-size: 2vw;  
     line-height: 2.75vw;
-    max-width: 80%;
   }
 }
 
