@@ -17,35 +17,35 @@ export const Constants = {
         heroName:"Cluse",
         heroCategory: "Software Design",
         heroYear: "2020",
-        heroDeliverable: "Sketch Plugin",
+        heroDeliverable: "Accessibility Plugin",
         heroTitle: "Developing Inclusive Design Habits for the Average Sketch User",
     },
     ditto: {
         heroName:"Ditto",
         heroCategory: "Software Design",
         heroYear: "2019",
-        heroDeliverable: "Sketch Plugin",
+        heroDeliverable: "Workflow Plugin",
         heroTitle: "Optimizing a Unique Sketch Workflow for UI Designers at Yext"
     },
     fisqual: {
         heroName:"Fisqual",
         heroCategory: "Interaction Design",
         heroYear: "2019",
-        heroDeliverable: "Fintech Concept",
+        heroDeliverable: "Fintech Solution",
         heroTitle: "Ensuring Financial Wellness for Those with Variable Incomes"
     },
     trunks: {
         heroName:"Trunks",
         heroCategory: "Visual Design",
         heroYear: "2018",
-        heroDeliverable: "Data Visualizer",
+        heroDeliverable: "Lineage Tracker",
         heroTitle: "Architecting a Compact Family Tree Model for Easy Web Browsing"
     },
     semaphore: {
         heroName:"Semaphore",
         heroCategory: "Machine Learning",
         heroYear: "2019",
-        heroDeliverable: "Learning Tool",
+        heroDeliverable: "Gesture Game",
         heroTitle: "Teaching Flag Signaling with a Pose Recognition Model Game"
     },
     avam: {
@@ -122,7 +122,7 @@ export const Constants = {
         heroName:"Pixelation",
         heroCategory: "Web Development",
         heroYear: "2020",
-        heroDeliverable: "Online Exhibition",
+        heroDeliverable: "Exhibition",
         heroTitle: "Hosting a Graduation Exhibition in Times of COVID-19"
     }
 }
