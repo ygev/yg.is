@@ -50,19 +50,17 @@ figure.hero__img img {
 @media (min-width: 768px) {
 
   .hero {
-
-    height: 100vh;
+    height: 98vh;
     grid-row-start: 1;
     grid-row-end: span 2;
     border-right: 2px var(--black) solid;
-    border-bottom: 2px var(--black) solid;
     z-index: 2;
   }
 
   figure.hero__img {
     border-bottom: 0;
     margin-top: auto;
-    height: 100vh;
+    height: 98vh;
   }  
 
   figure.hero__img img {
