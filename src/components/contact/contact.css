@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: var(--black);
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 36px;
     padding-bottom: 36px;
-    /* margin-top: 36px; */
     height: 80vh;
 }
 
@@ -19,6 +19,18 @@
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 36px;
+}
+
+.contact__txt {
+    color: var(--white);
+    opacity: 0.6;
+    text-align: center;
+    font-family:  Chapeau-Medium;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.33px;
+    margin-top: 36px;
+    max-width: 310px;
 }
 
 .btn__contact--wrapper {
@@ -40,7 +52,7 @@
     border: 0;
     border-bottom: 2px var(--white) solid;
     background: var(--black);
-    width: 320px;
+    width: 300px;
     margin-bottom: 24px;
     cursor: pointer;
     transition: 150ms ease-in-out;
@@ -107,6 +119,11 @@
 
     .contact__head {
         font-size: 32px;
+    }
+
+    .contact__txt {
+        font-size: 15px;
+        line-height: 26px;
     }
 
     .btn__contact--wrapper {

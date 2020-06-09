@@ -14,6 +14,7 @@ export default props => (
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/ygev"><button className="btn__contact">GitHub</button></a>
                 <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@ygev"><button className="btn__contact">Medium</button></a>
             </div>
+            <p className="contact__txt">I'll show you cooler, NDA-compliant projects privately, if we're a match.</p>
         </section>
     </>
 );  
