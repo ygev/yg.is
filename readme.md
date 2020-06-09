@@ -8,10 +8,10 @@
 
 
 <p align="center">   <a href="https://2019.yg.is">
-    Old Site
+    2019 Site
   </a> ·
 <a href="https://yg.is">
-  <bold>Staging Site</bold>
+  <bold>2020 Site</bold>
   </a>
 </p>
 Exactly what it says on the tin.
