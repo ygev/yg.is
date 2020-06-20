@@ -11,7 +11,7 @@ function buildProjectLinks(projects, mouseOverCallback) {
         return <Link paintDrip hex="#000000" to={projects[i]}>
                         <div className="link__wrapper"  onMouseOver={mouseOverCallback}>
                             <h1 id={projects[i]} className="home__head">{Constants[projects[i]].heroName}</h1>
-                            <h2 className="home__brow">{Constants[projects[i]].heroDeliverable} · {Constants[projects[i]].heroYear}</h2>
+                            <h2 className="home__brow">{Constants[projects[i]].heroDeliverable}</h2>
                         </div>
                 </Link>
     })
