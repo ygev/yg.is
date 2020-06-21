@@ -23,25 +23,22 @@ nav {
 }
 
 .navlink {
-    /* opacity: 0.6; */
     font-family: Chapeau-Black;
     font-weight: 900;
     font-size: 10px;
     color: var(--black);
     letter-spacing: 1.3px;
-    width: 0;
     padding-bottom: 6px;
     text-align: center;
     line-height: 17px;
     text-decoration: none;
     text-transform: uppercase;
     transition: 100ms ease-in-out;
-    border-bottom: 0 solid var(--black);
+    border-bottom: 2px solid var(--black);
 }
 
 .navlink:hover { 
-    border-bottom: 2px solid var(--black);
-    width: 100%;
+    border-bottom: 2px solid var(--white);
     transition: 100ms ease-in-out;
 }
 
