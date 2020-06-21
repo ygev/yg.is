@@ -9,7 +9,7 @@
 }
 
 .footer__txt {
-    font-family: Chapeau-Black;
+    font-family: Chapeau-Medium;
     font-weight: 900;   
     letter-spacing: 1.3px;
     font-size: 10px;
@@ -28,6 +28,6 @@
 }
 
 .footer__txt--link:hover {
-    border-bottom: 0 var(--white) solid;
+    border-bottom: 1px var(--projcolor) solid;
     transition: 100ms ease-in-out;
 }
