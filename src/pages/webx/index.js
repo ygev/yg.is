@@ -41,8 +41,7 @@ class Index extends React.Component {
                     heroDeliverable={Constants.webx.heroDeliverable}
                     heroTitle={Constants.webx.heroTitle}
                     heroSummary="Pixelation is an online exhibition of works from the Graphic Design graduating class of 2020 at the Maryland Institute College of Art. It is a two-months long collaboration between 5 graduating seniors."
-                    btnGit="View Repository"
-                    gitLink="https://github.com/ygev/webx"/>
+                    />
         </div>
         <Abstract glams={
                     [
@@ -56,7 +55,8 @@ class Index extends React.Component {
                   abstractTools="React · Gatsby" 
                   abstractTime="2 months · Spring 2020" 
                   abstractBody="Historically, MICA's Artwalk Exhibition has been a physical space for viewers to come in and experience in-person degree projects by our graduating class. Due to COVID-19, this pandemic rejuvenated a team of graduating students in the Bachelor's of Fine Arts in Graphic Design program to spearhead, lead, and invent this alternative virtual exhibition for their class."
-                  liveLink="https://pixelation.micagraphicdesign.org/"/>
+                  liveLink="https://pixelation.micagraphicdesign.org/"
+                  gitLink="https://github.com/ygev/webx"/>
         <More/>
         <Contact/>
         <Footer/>

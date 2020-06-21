@@ -139,12 +139,29 @@
   
 .btn__live--wrapper {
     display: flex;
-    margin-top: 24px;
     flex-direction: row;
     align-items: center;
     width: 240px;
     border: 1px var(--white) solid;
     justify-content: space-between;  
+}
+
+.btn__wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.btn__git--icon {
+    height: 40px;
+    width: 40px;
+    margin-left: 24px;
+    transition: 150ms ease-in-out;
+}
+
+.btn__git--icon:hover {
+    opacity: 0.8; 
+    transition: 150ms ease-in-out;
 }
 
 /* Button hover */

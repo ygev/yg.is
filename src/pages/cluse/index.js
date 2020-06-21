@@ -97,8 +97,7 @@ class Index extends React.Component {
                     heroDeliverable={Constants.cluse.heroDeliverable}
                     heroTitle={Constants.cluse.heroTitle}
                     heroSummary="Cluse is a Sketch Plugin that allows you to test the color contrast of your design for accessibility and make changes without interrupting your workflow. Officially endorsed by Sketch. 💫"
-                    btnGit="View Repository"
-                    gitLink="https://github.com/ygev/cluse"/>
+                    />
         </div>
         <Abstract glams={
                     [
@@ -114,7 +113,8 @@ class Index extends React.Component {
                   abstractTools="Sketch API · JS · Objective C" 
                   abstractTime="3 months · December 2019" 
                   abstractBody="Cluse is a Sketch plugin that serves as a diagnostic tool to ensure that the design meets WCAG 2.0 color contrast standards. To address the lack of an accessibility workflow on design teams, I set out to create a tool that is free, open-source, lightweight and baked into the tools designers use most."
-                  liveLink="https://cluse.cc"/>
+                  liveLink="https://cluse.cc"
+                  gitLink="https://github.com/ygev/cluse"/>
         <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'DESIGN', 'DEVELOP', 'VALIDATE', 'PROMOTE', 'EXHIBIT']}
                   trackerHead={Constants.cluse.heroTitle}/>
         <div id="p1">

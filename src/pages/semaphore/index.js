@@ -70,8 +70,7 @@ class Index extends React.Component {
                     heroDeliverable={Constants.semaphore.heroDeliverable}
                     heroTitle={Constants.semaphore.heroTitle}
                     heroSummary="Say No More! is an award-winning AI game that aims to teach more people about flag-based maritime communication. Winner at UMBC 2019 Hackathon 🏆"
-                    btnGit="View Repository"
-                    gitLink="https://github.com/ygev/semaphore"/>
+                    />
         </div>
         <Abstract glams={
                     [
@@ -86,7 +85,8 @@ class Index extends React.Component {
                   abstractTools="poseNet( ) · JS · Figma" 
                   abstractTime="24 hours · October 2019" 
                   abstractBody="This pose-recognition-based game introduces the user to flag semaphore in a fun and competitive way. The player is prompted with a letter and a corresponding pose that they must recreate. As the player completes more rounds, they develop muscle memory and think more quickly about each pose, improving their fluency in flag semaphore. Who knows when they will need it?"
-                  liveLink="https://ygev.github.io/semaphore"/>
+                  liveLink="https://ygev.github.io/semaphore"
+                  gitLink="https://github.com/ygev/semaphore"/>
         <More/>
         <Contact/>
         <Footer/>

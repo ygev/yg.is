@@ -1,7 +1,7 @@
 
 /* Button */
   
-.btn__git {
+.btn__resume {
   transition: 150ms ease-in-out;
   font-family: Chapeau-Medium;
   font-weight: 500;
@@ -18,18 +18,18 @@
   margin-left: 16px;
 }
 
-.btn__git--iconbg {
+.btn__resume--iconbg {
   background-color: var(--black);
 
 }
 
-.btn__git--icon {
+.btn__resume--icon {
   width: 24px;
   height: 24px;
   padding: 9.5px;
 }
 
-.btn__git--wrapper {
+.btn__resume--wrapper {
   display: flex;
   margin-top: 24px;
   flex-direction: row;
@@ -39,14 +39,14 @@
 
 /* Button hover */
 
-.btn__git--wrapper:hover .btn__git {
+.btn__resume--wrapper:hover .btn__resume {
   background-color: var(--black);
   color: var(--white);
   transition: 100ms ease-in-out;
   cursor: pointer;
 }
 
-.btn__git--iconbg:hover {
+.btn__resume--iconbg:hover {
   cursor: pointer;
 }
 
@@ -122,7 +122,7 @@
     
 @media (min-width: 1024px) {
 
-  .btn__git {
+  .btn__resume {
     margin-left: 0;
   }
 

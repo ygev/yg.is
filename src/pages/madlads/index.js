@@ -30,8 +30,7 @@ class Index extends React.Component {
                     heroDeliverable={Constants.madlads.heroDeliverable}
                     heroTitle={Constants.madlads.heroTitle}
                     heroSummary="MadLads is an award-winning phrasal template word game with image recognition. Not your grandmother's Mad Libs game. Winner at BitCamp 2019 🏆"
-                    btnGit="View Repository"
-                    gitLink="https://github.com/ygev/madlads"/>
+                  />
         </div>
         <Abstract glams={
                     [
@@ -44,7 +43,8 @@ class Index extends React.Component {
                   abstractRole="Primary Developer · Support UI Designer" 
                   abstractTools="imageClassifier( ) · p5.speech( ) · JS" 
                   abstractTime="48 hours · April 2019" 
-                  abstractBody="Created at the BitCamp hackathon in 36 hours, MadLads is a mobile web app reinvention of the famous phrasal template word game called Mad Libs, in which a player is prompted to fill in blanks to create a custom story. In order to pick a sufficiently out-of-context word for the blanks, the user takes a photo of an object, which is then recognized and inputted into a list. After choosing up to five words, the user is presented with the crafted story, often humorous."/>
+                  abstractBody="Created at the BitCamp hackathon in 36 hours, MadLads is a mobile web app reinvention of the famous phrasal template word game called Mad Libs, in which a player is prompted to fill in blanks to create a custom story. In order to pick a sufficiently out-of-context word for the blanks, the user takes a photo of an object, which is then recognized and inputted into a list. After choosing up to five words, the user is presented with the crafted story, often humorous."
+                  gitLink="https://github.com/ygev/madlads"/>
         <More/>
         <Contact/>
         <Footer/>

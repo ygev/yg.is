@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import "./abstract.css";
 import "../../css/normalize.css"
 import "../../css/global.css"
+import gitlogo from "../../images/inner/gitlogo.svg";
 import caret_left from "../../images/inner/caret_left.svg" 
 
 function buildImgWrapperDiv(listOfSrc) {
@@ -55,14 +56,21 @@ export default props => (
                         <p>{props.abstractTeam}</p>
                     </aside>
                 </section>
-                {props.liveLink ? 
-                    <a target="_blank" rel="noopener noreferrer" href={props.liveLink}>
-                        <div className="btn__live--wrapper">
-                            <button className="btn__live">View Live</button>
-                            <span className="btn__live--iconbg"><img className="btn__live--icon" alt="" src={caret_left}/></span>
-                        </div>
-                    </a> 
-                : ""}
+                <section className="btn__wrapper">
+                    {props.liveLink ? 
+                        <a target="_blank" rel="noopener noreferrer" href={props.liveLink}>
+                            <div className="btn__live--wrapper">
+                                <button className="btn__live">View Live</button>
+                                <span className="btn__live--iconbg"><img className="btn__live--icon" alt="" src={caret_left}/></span>
+                            </div>
+                        </a> 
+                    : ""}
+                        {props.gitLink ? 
+                            <a target="_blank" rel="noopener noreferrer" href={props.gitLink}>
+                                    <span className="btn__git--iconbg"><img alt="Devpost Logo" className="btn__git--icon" src={gitlogo}/></span>
+                            </a> 
+                        : ""}
+                </section>
             </aside>
                 <section className="abstract__txt">
                     <h4 className="abstract__head">Abstract</h4>

@@ -91,8 +91,7 @@ class Index extends React.Component {
                     heroDeliverable={Constants.ditto.heroDeliverable}
                     heroTitle={Constants.ditto.heroTitle}
                     heroSummary="Ditto is a tool that allows designers to copy CSS font styles from live websites and paste them into Sketch."
-                    btnGit="View Repository"
-                    gitLink="https://github.com/ygev/klepto"/>
+                    />
         </div>
         <Abstract glams={
                     [
@@ -107,7 +106,8 @@ class Index extends React.Component {
                   abstractTools="Sketch API · CocoaScript · JS" 
                   abstractTime="2 months · Summer 2019" 
                   abstractBody="Ditto is a Chrome extension with a companion Sketch plugin that allows designers to copy CSS font styles from live websites and paste them directly into Sketch as Sketch styles. It was created to improve the workflow of the UI Design team at Yext."
-                  liveLink="https://ygev.github.io/ditto"/>
+                  liveLink="https://ygev.github.io/ditto"
+                  gitLink="https://github.com/ygev/ditto"/>
         <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'DECIDE', 'PROTOTYPE', 'VALIDATE']}
                   trackerHead={Constants.ditto.heroTitle}/>
         <div id="p1">

@@ -64,7 +64,7 @@ class Index extends React.Component {
                     heroDeliverable={Constants.phisher.heroDeliverable}
                     heroTitle={Constants.phisher.heroTitle}
                     heroSummary="MICA Phisher is a proof-of-concept phishing site which spoofs the login page of the Maryland Institute College of Art."
-                    gitLink="https://github.com/ygev/mica-phisher"/>
+                    />
         </div>
         <Abstract 
                   glams={
@@ -77,7 +77,8 @@ class Index extends React.Component {
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sqlite.js · E.js · Express.js" 
                   abstractTime="14 days · September 2019" 
-                  abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."/>
+                  abstractBody="MICA Phisher is a proof-of-concept phishing site which spoofs Maryland Institute College of Art’s login page. It exposes the relative ease of creating tools to obtain sensitive information from unsuspecting users."
+                  gitLink="https://github.com/ygev/mica-phisher"/>
         <Tracker  phaseList={['UNDERSTAND', 'DEFINE', 'BRAINSTORM', 'PROTOTYPE', 'VALIDATE']}
                   trackerHead={Constants.phisher.heroTitle}/>
         <div id="p1">

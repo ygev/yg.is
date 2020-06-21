@@ -29,9 +29,9 @@ export default props => (
                 <h2 className=" aboutTxt__lead">I'm Yana Gevorgyan 👋</h2>
                 <h2 className=" aboutTxt__head">Based in Seattle, I am a multi-disciplinary product designer obsessed with users, systems and design accelerators. When not maintaining my open-source projects, you'll find me arranging black metal compositions on the piano and buying dumb domain names like this one. Seeking opportunities in tech.</h2>
                 <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1Zmz32KRXFCzUucFPIRciZpMcfi7TLqBL">
-                    <div className="btn btn__git--wrapper">
-                        <button className="btn__git">See My Resume</button>
-                        <span className="btn__git--iconbg"><img alt="Devpost Logo" className="btn__git--icon" src={download}/></span>
+                    <div className="btn btn__resume--wrapper">
+                        <button className="btn__resume">See My Resume</button>
+                        <span className="btn__resume--iconbg"><img alt="Devpost Logo" className="btn__resume--icon" src={download}/></span>
                     </div>
                 </a>
             </div>
