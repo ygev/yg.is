@@ -12,7 +12,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="home">
-        <SEO title="About" description="Yana Gevorgyan is a multi-disciplinary designer based in Seattle, obessed with users, systems and design accelerators. Seeking full-time employment in the tech industry."/>
+        <SEO title="About" description="Yana Gevorgyan is a multi-disciplinary designer based in Seattle, obsessed with users, systems and design accelerators."/>
         <div className="hero__wrapper">
           <Header/>
           <AboutHero img={Hero}/>
