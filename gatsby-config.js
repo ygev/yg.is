@@ -4,7 +4,7 @@ module.exports = {
       title: "Yana Gevorgyan",
       titleTemplate: "%s · YG.IS",
       description:
-        "Yana Gevorgyan is a Seattle-based product designer, developer and theorist.",
+        "Design, theory and plain old hacking.",
       url: "https://www.yg.is",
       image: "/images/logo.png",
     },
