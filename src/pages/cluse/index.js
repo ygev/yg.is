@@ -39,9 +39,7 @@ import Fig29 from "./images/Fig29.png";
 import Fig30 from "./images/Fig30.png";
 import Fig31 from "./images/Fig31.png";
 import Fig32 from "./images/Fig32.gif";
-import Fig33 from "./images/Fig33.png";
 import Fig34 from "./images/Fig34.png";
-import Fig35 from "./images/Fig35.png";
 import "../../css/global.css"
 import Header from "../../components/header/header"
 import InnerHero from "../../components/innerHero/innerHero"
