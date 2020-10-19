@@ -10,6 +10,7 @@
 
 .abstract__gallery {
     display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
     width: 90%; 
@@ -21,6 +22,7 @@
 .abstract__img--wrapper {
     margin-bottom: 10em;
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
     flex-grow: 1;
     justify-content: space-between;
