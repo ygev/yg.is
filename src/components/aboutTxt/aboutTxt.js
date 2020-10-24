@@ -26,8 +26,8 @@ export default props => (
         <Fade duration={500}>
             <div className="aboutTxt"> 
                 <h3 className=" aboutTxt__brow">{setDayMessage()}</h3>
-                <h2 className=" aboutTxt__lead">I'm Yana Gevorgyan 👋</h2>
-                <h2 className=" aboutTxt__head">I am a multi-disciplinary product designer and hacker obsessed with users, systems and design accelerators. When not maintaining my open-source projects, you'll find me arranging black metal compositions on the piano and buying dumb domain names like this one. If you'd like to chat, feel free to reach out!</h2>
+                <h2 className=" aboutTxt__lead">I'm Yana 👋</h2>
+                <h2 className=" aboutTxt__head">Product designer by day, front-end engineer by night, when no one's watching. Love nothing more than hacking on sandbox products and software that facilitates human creativity.</h2>
                 <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1Zmz32KRXFCzUucFPIRciZpMcfi7TLqBL">
                     <div className="btn btn__resume--wrapper">
                         <button className="btn__resume">See My Resume</button>
