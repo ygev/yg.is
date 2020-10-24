@@ -31,7 +31,7 @@ class Index extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <SEO title="Yana Gevorgyan" description="I am a multi-disciplinary designer based in Seattle, obsessed with users, systems and design accelerators."/>
+        <SEO title="Yana Gevorgyan" description="Product designer by day, front-end engineer by night, when no one's watching. Love nothing more than hacking on sandbox products and software that facilitates human creativity."/>
         <main className="home">
           <div className="hero__wrapper">
             <Header mouseOverCallback={this.handleHeaderHover}/>
