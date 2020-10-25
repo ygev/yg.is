@@ -20,6 +20,7 @@
 }
 
 .abstract__img--wrapper {
+    width: 100%;
     margin-bottom: 10em;
     display: flex;
     align-items: flex-start;
