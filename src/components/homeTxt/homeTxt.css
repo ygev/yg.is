@@ -102,8 +102,8 @@ a {
     justify-content: space-between;
     width: 38vw;
     border-bottom: 2px var(--black) solid;
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
 
   .home__txt::-webkit-scrollbar {
@@ -139,7 +139,7 @@ a {
   }
 
   .home__head {
-    font-size: 2vw;  
+    font-size: 3vw;  
     line-height: 2.75vw;
   }
 }
