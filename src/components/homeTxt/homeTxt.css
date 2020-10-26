@@ -1,5 +1,6 @@
 .home__txt--wrapper {
   overflow-x: hidden;
+  background-color: var(--projcolor);
 }
 
 .home__txt {
@@ -144,7 +145,7 @@ a {
     display: none;
   }
 
-  .home__txt:after {
+  /* .home__txt:after {
     position: absolute;
     height: 110%;
     bottom: 0;
@@ -153,13 +154,14 @@ a {
     content: "";
     background: linear-gradient(
       180deg,
-      var(--white) 10%,
+      var(--projcolor) 10%,
       rgba(255,255,255,0.001) 20%,
       rgba(255,255,255,0.001) 78%,
-      var(--white) 90%
+      var(--projcolor) 90%
     );
     pointer-events: none;
-  }
+    transition: 500ms ease-in-out;
+  } */
 
   .home__txt {
     overflow: scroll;
@@ -170,6 +172,7 @@ a {
     padding-top: 3vw;
     padding-left: 6vw;
     align-items: flex-start;
+    transition: 500ms ease-in-out;
   }
 
   .home__head {

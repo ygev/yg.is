@@ -30,7 +30,7 @@ figure.hero__img img {
   .hero {
     grid-row-start: 1;
     grid-row-end: span 2;
-    border-right: 2px var(--black) solid;
+    /* border-right: 2px var(--black) solid; */
   }
 
   figure.hero__img {
@@ -53,7 +53,7 @@ figure.hero__img img {
     height: 98vh;
     grid-row-start: 1;
     grid-row-end: span 2;
-    border-right: 2px var(--black) solid;
+    /* border-right: 2px var(--black) solid; */
     z-index: 2;
   }
 

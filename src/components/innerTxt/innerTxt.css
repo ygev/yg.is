@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--projcolor);
+    padding-bottom: 64px;
   }
 
 /* Hero Typography */

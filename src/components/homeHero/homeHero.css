@@ -31,15 +31,12 @@
     align-content: center;
     align-items: center;
     justify-content: center;
-    border-right: 2px var(--black) solid;
   }
   
   .hero {
     grid-row-start: 1;
     background-color: var(--black);
     grid-row-end: span 2;
-    border-right: 2px var(--black) solid;
-    border-bottom: 2px var(--black) solid;
     z-index: 2;
   }
 

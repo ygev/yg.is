@@ -25,8 +25,8 @@ function capitalizeFirstLetter(string) {
 // todo- this should be created by an array ["Phisher", "Cluse", ...]
 export default props => (
     <>
-        <div className="home__txt--wrapper">
-            <section className="home__txt">
+        <div className={"home__txt--wrapper " + props.currentHover}>
+            <section className={"home__txt " + props.currentHover}>
                 <Fade opposite duration={500}>
                     {
                         buildProjectLinks(props.projects, props.mouseOverCallback)

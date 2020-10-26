@@ -10,8 +10,8 @@ import Fade from 'react-reveal/Fade';
 
 export default props => (
 <Fade delay={100} duration={1000}>
-   <div className="header__wrapper">
-      <nav>
+   <div className={"header__wrapper " + props.currentHover}>
+      <nav className={props.currentHover}>
          <AniLink paintDrip hex="#000" to="/" onMouseOver={props.mouseOverCallback}>
             <Logo className="spinny-logo"/>
             <img className="img-logo" src={logo} alt=""></img>

@@ -51,7 +51,8 @@
 @media (min-width: 768px) {
 
   :root .home {
-    --projcolor: #222;
+    /* --projcolor: #222; */
+    transition: 500ms ease-in-out;
   }
 }
 
@@ -62,86 +63,103 @@
 /* MICA Phisher Color */
 :root .phisher {
   --projcolor: #FEDB00;
+  transition: 500ms ease-in-out;
 }
 
 /* Cluse Color */
 :root .cluse {
-  --projcolor: rgb(70, 159, 255);
+  --projcolor: #A3C9F2;
+  transition: 500ms ease-in-out;
 }
 
 /* Ditto + Banditto Color */
 :root .ditto {
   --projcolor: #00FEB3;
+  transition: 500ms ease-in-out;
 }
 
 /* Fisqual Color */
 :root .fisqual {
   --projcolor: #3375e8;
+  transition: 500ms ease-in-out;
 }
 
 /* Trunks Color */
 :root .trunks {
   --projcolor: #F1753A;
+  transition: 500ms ease-in-out;
 }
 
 /* AVAM Color */
 :root .avam {
   --projcolor: #EFF1FA;
+  transition: 500ms ease-in-out;
 }
 
 /* Mad Lads Color */
 :root .madlads {
   --projcolor: #FFD200;
+  transition: 500ms ease-in-out;
 }
 
 /* Semaphore Color */
 :root .semaphore {
   --projcolor: #7e52ff;
+  transition: 500ms ease-in-out;
 }
 
 /* BitShit Color */
 :root .bitshit {
   --projcolor: #8465FF;
+  transition: 500ms ease-in-out;
 }
 
 /* Lissitzky Color */
 :root .lissitzky {
   --projcolor: #e74d3c;
+  transition: 500ms ease-in-out;
 }
 
 /* Spiral Draw Color */
 :root .spiral {
   --projcolor: #5DCDCF;
+  transition: 500ms ease-in-out;
 }
 
 /* Tar Pits Color */
 :root .tarpits {
   --projcolor: #FF36D9;
+  transition: 500ms ease-in-out;
 }
 
 /* Oriental Carpets Color */
 :root .carpets {
   --projcolor: #BD0F00;
+  transition: 500ms ease-in-out;
 }
 
 /* Decred Color */
 :root .decred {
   --projcolor: #2DD8A3;
+  transition: 500ms ease-in-out;
 }
 
 /* ARTECA Color */
 :root .arteca {
   --projcolor: #fee700;
+  transition: 500ms ease-in-out;
 }
 
 /* Yext Color */
 :root .yext {
   --projcolor: #375c3a;
+  transition: 500ms ease-in-out;
 }
 
 /* ARTECA Color */
 :root .webx {
   --projcolor: #11edd3;
+  transition: 500ms ease-in-out;
 }
 
 /* Hero Wrapper Grid Responsiveness */

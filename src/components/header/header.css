@@ -1,5 +1,6 @@
 .header__wrapper {
     z-index: 2;   
+    background-color: var(--projcolor);
 }
 
 nav {
@@ -8,7 +9,7 @@ nav {
     align-items: center;
     padding-left: 6vw;
     padding-right: 6vw;
-    background-color: var(--projcolor)
+    background-color: var(--projcolor);
 }
 
 .img-logo {
@@ -68,7 +69,7 @@ nav {
 @media (min-width: 768px) and (max-width: 1024px) {
     
     nav {
-        background-color: var(--white);
+        /* background-color: var(--projcolor); */
         padding-left: 6vw;
         padding-right: 6vw;
     }
