@@ -25,7 +25,7 @@ export const Constants = {
         heroCategory: "Software Design",
         heroYear: "2019",
         heroDeliverable: "Type Converter",
-        heroTitle: "Optimizing a Unique Typography Workflow for UI Designers at Yext"
+        heroTitle: "Optimizing a Unique Typographic Workflow for UI Designers at Yext"
     },
     fisqual: {
         heroName:"Fisqual",
