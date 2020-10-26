@@ -29,6 +29,7 @@
   font-style: normal;
   line-height: 17px;
   letter-spacing: 1.3px;
+  transition: 500ms ease-in-out;
 }
 
 .home__head {
@@ -39,7 +40,7 @@
   letter-spacing: 1.33px;
   text-transform: capitalize;
   text-decoration: none;
-  transition: 200ms ease-in-out;
+  transition: 500ms ease-in-out;
 }
 
 .link__wrapper {
@@ -76,6 +77,39 @@ a {
   text-decoration: none;
 }
 
+
+.home__title {
+  position: absolute;
+  color: var(--black);
+  font-size: 1.3vw;
+  font-family: Ogg;
+  opacity: 0;
+  transition: 500ms ease-in-out;
+}
+
+.link__wrapper:hover .home__brow {
+  filter: blur(30px);
+  -webkit-filter: blur(30px);
+  -moz-filter: blur(30px);
+  -o-filter: blur(30px);
+  -ms-filter: blur(30px);
+  transition: 800ms ease-in-out;
+}
+
+.link__wrapper:hover .home__head {
+  filter: blur(30px);
+  -webkit-filter: blur(30px);
+  -moz-filter: blur(30px);
+  -o-filter: blur(30px);
+  -ms-filter: blur(30px);
+  transition: 800ms ease-in-out;
+}
+
+.link__wrapper:hover .home__title {
+  opacity: 1;
+  transition: 800ms ease-in-out;
+}
+
 /* TABLET + DESKTOP VERSION */
 
 @media (min-width: 768px) {
@@ -96,6 +130,7 @@ a {
   }
 
   .link__wrapper {
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 38vw;

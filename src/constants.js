@@ -11,7 +11,7 @@ export const Constants = {
         heroCategory: "UX Design",
         heroYear: "2019",
         heroDeliverable: "Phishing Site",
-        heroTitle: "Raising Awareness About Infosec the Practical Way",
+        heroTitle: "Raising Awareness About Infosec Hands-On",
     },
     cluse: {
         heroName:"Cluse",
@@ -25,7 +25,7 @@ export const Constants = {
         heroCategory: "Software Design",
         heroYear: "2019",
         heroDeliverable: "Type Converter",
-        heroTitle: "Optimizing a Unique Type Workflow for UI Designers at Yext"
+        heroTitle: "Optimizing a Unique Typography Workflow for UI Designers at Yext"
     },
     fisqual: {
         heroName:"Fisqual",
