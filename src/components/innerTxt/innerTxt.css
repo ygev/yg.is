@@ -23,14 +23,14 @@
   }
 
 .lead {
-  font-family: Chapeau-Medium;
+  font-family: Ogg;
   font-weight: 500;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
   letter-spacing: 0.53px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.75em;
   line-height: 1.35em;
 }
 
@@ -123,11 +123,11 @@
 /* 4K VERSION */
 @media (min-width: 1440px) {
   .inner__txt {
-    padding-right: 24vw;
+    padding-right: 20vw;
   }
 
   .lead{
-    font-size: 2.25vw;
+    font-size: 3vw;
     line-height: 1.25em;
     max-width: 40vw;
     padding-left: 0;

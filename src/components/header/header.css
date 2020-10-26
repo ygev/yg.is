@@ -23,7 +23,7 @@ nav {
 }
 
 .navlink {
-    font-family: Chapeau-Black;
+    font-family: Chapeau-Medium;
     font-weight: 900;
     font-size: 10px;
     color: var(--black);
@@ -43,7 +43,7 @@ nav {
 }
 
 .navlink__active {
-    font-family: Chapeau-Black;
+    font-family: Chapeau-Medium;
     font-weight: 900;
     font-size: 10px;
     color: var(--black);
@@ -54,7 +54,7 @@ nav {
     opacity: 1;
     text-decoration: none;
     text-transform: uppercase;
-    border-bottom: 1px var(--black) solid;
+    border-bottom: 2px var(--black) solid;
     transition: 100ms ease-in-out;
 }
 

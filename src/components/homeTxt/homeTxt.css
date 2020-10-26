@@ -32,12 +32,11 @@
 }
 
 .home__head {
-  font-family: Chapeau-Medium;
+  font-family: Ogg;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 30px;
   color: var(--black);
   letter-spacing: 1.33px;
-  line-height: 22px;
   text-transform: capitalize;
   text-decoration: none;
   transition: 200ms ease-in-out;
@@ -47,8 +46,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   width: 90vw;
   border-bottom: 2px var(--black) solid;
 }
@@ -82,8 +81,7 @@ a {
 @media (min-width: 768px) {
   .home__head {
     text-align: left;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 32px;
   }
 
   .home__brow {

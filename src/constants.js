@@ -10,35 +10,35 @@ export const Constants = {
         heroName:"Phisher",
         heroCategory: "UX Design",
         heroYear: "2019",
-        heroDeliverable: "Phishing Tool",
+        heroDeliverable: "Phishing Site",
         heroTitle: "Raising Awareness About Infosec with a Targeted Phishing Tool",
     },
     cluse: {
         heroName:"Cluse",
         heroCategory: "Software Design",
         heroYear: "2020",
-        heroDeliverable: "Accessibility Plugin",
+        heroDeliverable: "Accessibility Tool",
         heroTitle: "Developing Inclusive Design Habits for the Average Sketch User",
     },
     ditto: {
         heroName:"Ditto",
         heroCategory: "Software Design",
         heroYear: "2019",
-        heroDeliverable: "Workflow Plugin",
+        heroDeliverable: "Type Converter",
         heroTitle: "Optimizing a Unique Sketch Workflow for UI Designers at Yext"
     },
     fisqual: {
         heroName:"Fisqual",
         heroCategory: "Interaction Design",
         heroYear: "2019",
-        heroDeliverable: "Fintech Solution",
+        heroDeliverable: "Fintech Hack",
         heroTitle: "Ensuring Financial Wellness for Those with Variable Incomes"
     },
     trunks: {
         heroName:"Trunks",
         heroCategory: "Visual Design",
         heroYear: "2018",
-        heroDeliverable: "Lineage Tracker",
+        heroDeliverable: "Ancestry Tracker",
         heroTitle: "Architecting a Compact Family Tree Model for Easy Web Browsing"
     },
     semaphore: {

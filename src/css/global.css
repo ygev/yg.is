@@ -16,6 +16,12 @@
   url("../fonts/SuisseNeue-Regular.woff2") format("woff2");
   }
 
+  @font-face {
+    font-family: "Ogg";
+    src: url("../fonts/Ogg-Regular.woff") format("woff"),
+    url("../fonts/Ogg-Regular.woff2") format("woff2");
+    }
+  
 /* Focus */
 *:focus {
   outline: var(--projcolor) auto 3px;
