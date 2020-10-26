@@ -11,7 +11,7 @@ export const Constants = {
         heroCategory: "UX Design",
         heroYear: "2019",
         heroDeliverable: "Phishing Site",
-        heroTitle: "Raising Awareness About Infosec Hands-On",
+        heroTitle: "Raising Awareness About Cybersecurity with Gesamtkunstwerk",
     },
     cluse: {
         heroName:"Cluse",
