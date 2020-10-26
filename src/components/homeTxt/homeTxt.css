@@ -81,7 +81,10 @@ a {
   position: absolute;
   color: var(--black);
   font-size: 1.3vw;
-  font-family: Ogg;
+  font-family: Chapeau-Medium;
+  line-height: 130%;
+  font-weight: 400;
+  width: 60%;
   opacity: 0;
   transition: 500ms ease-in-out;
 }
@@ -104,20 +107,16 @@ a {
 
   
   .link__wrapper:hover .home__brow {
-    filter: blur(30px);
-    -webkit-filter: blur(30px);
-    -moz-filter: blur(30px);
-    -o-filter: blur(30px);
-    -ms-filter: blur(30px);
     transition: 800ms ease-in-out;
   }
   
   .link__wrapper:hover .home__head {
-    filter: blur(30px);
-    -webkit-filter: blur(30px);
-    -moz-filter: blur(30px);
-    -o-filter: blur(30px);
-    -ms-filter: blur(30px);
+    opacity: 0;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
     transition: 800ms ease-in-out;
   }
   
