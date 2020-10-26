@@ -11,7 +11,7 @@ export const Constants = {
         heroCategory: "UX Design",
         heroYear: "2019",
         heroDeliverable: "Phishing Site",
-        heroTitle: "Raising Awareness About Infosec with a Targeted Phishing Tool",
+        heroTitle: "Raising Awareness About Infosec the Practical Way",
     },
     cluse: {
         heroName:"Cluse",
@@ -25,7 +25,7 @@ export const Constants = {
         heroCategory: "Software Design",
         heroYear: "2019",
         heroDeliverable: "Type Converter",
-        heroTitle: "Optimizing a Unique Sketch Workflow for UI Designers at Yext"
+        heroTitle: "Optimizing a Unique Type Workflow for UI Designers at Yext"
     },
     fisqual: {
         heroName:"Fisqual",
@@ -39,14 +39,14 @@ export const Constants = {
         heroCategory: "Visual Design",
         heroYear: "2018",
         heroDeliverable: "Ancestry Tracker",
-        heroTitle: "Architecting a Compact Family Tree Model for Easy Web Browsing"
+        heroTitle: "Chopping Down the Family Tree Model of Ancestry Visualization"
     },
     semaphore: {
         heroName:"Semaphore",
         heroCategory: "Machine Learning",
         heroYear: "2019",
         heroDeliverable: "Gesture Game",
-        heroTitle: "Teaching Flag Signaling with a Pose Recognition Model Game"
+        heroTitle: "Gamifying Flag Semaphore with Pose Recognition Models"
     },
     avam: {
         heroName:"AVAM",
@@ -123,6 +123,6 @@ export const Constants = {
         heroCategory: "Web Development",
         heroYear: "2020",
         heroDeliverable: "Exhibition",
-        heroTitle: "Hosting a Graduation Exhibition in Times of COVID-19"
+        heroTitle: "Hosting a Virtual Graduation Exhibit in Times of COVID-19"
     }
 }
