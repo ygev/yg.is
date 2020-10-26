@@ -10,7 +10,7 @@ export default props => (
             <div className="inner__txt"> 
                 <h3 className="brow">{props.heroCategory} - {props.heroYear} - {props.heroDeliverable}</h3>
                 <h2 className="lead">{props.heroTitle}</h2>
-                <h2 className="head">{props.heroSummary}</h2>
+                {/* <h2 className="head">{props.heroSummary}</h2> */}
             </div>
         </Fade>
     </>
