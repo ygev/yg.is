@@ -1,3 +1,11 @@
+h2 a {
+  text-decoration: underline;
+  color: var(--black);
+}
+
+h2 a:hover {
+  text-decoration: none;
+}
 
 /* Button */
   
@@ -78,14 +86,14 @@
   }
 
 .aboutTxt__lead {
-  font-family: Chapeau-Medium;
+  font-family: Ogg;
   font-weight: 500;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;
   letter-spacing: 0.53px;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.75em;
   line-height: 1.35em;
 }
 
@@ -138,7 +146,7 @@
     text-align: left;
     color: var(--black);
     letter-spacing: 1px;
-    font-size: 2.25em;
+    font-size: 3em;
     line-height: 1.35em;
     padding-left: 0;
     padding-right: 0;
@@ -176,7 +184,6 @@
   }
 
   .aboutTxt__lead{
-    font-size: 2.25vw;
     line-height: 1.25em;
     max-width: 40vw;
     padding-left: 0;
