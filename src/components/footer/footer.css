@@ -31,3 +31,7 @@
     border-bottom: 1px var(--projcolor) solid;
     transition: 100ms ease-in-out;
 }
+
+.footer__img {
+    height: 24px;
+}
