@@ -120,7 +120,7 @@ class Index extends React.Component {
           <div id="p3">
           <Phase phaseTitle="Making the Trunk Model Reality"/>
           <Paragraph paragraphTitle="JSON Structure" 
-                    paragraphBody="The first step in redefining genealogical data visualization is translating from traditional family tree models into something a computer can easily comprehend. I used the algorithm of a directed acyclic graph to determine vertices and edges by matching up parents and common children in a JSON file through name-value pairs. I then calculated generations by analyzing the structural depth of parental relations. Below is an illustration of how the pair structure works in a traditional tree model and a JSON file."/>
+                    paragraphBody="The first step in redefining genealogical data visualization is translating from traditional family tree models into something a computer can easily comprehend. I used in the algorithm of a directed acyclic graph to determine vertices and edges by matching up parents and common children in a JSON file through name-value pairs. I then calculated generations by analyzing the structural depth of parental relations. Below is an illustration of how the pair structure works in a traditional tree model and a JSON file."/>
           <ImgRight img={Fig4} imgNum="04" imgCaption="Illustrating the output and its JSON structure."/>
           <ImgLeft img={[Fig5, Fig6]} imgNum={["05", "06"]} imgCaption={["A trunk and its rings.","Translating tree rings to a family tree."]} padding="yes" />
           <Paragraph paragraphTitle="Tangential Inspiration" 
