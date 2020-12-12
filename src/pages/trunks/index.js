@@ -120,7 +120,7 @@ class Index extends React.Component {
           <div id="p3">
           <Phase phaseTitle="Making the Trunk Model Reality"/>
           <Paragraph paragraphTitle="JSON Structure" 
-                    paragraphBody="The first step in redefining genealogical data visualization is translating from traditional family tree models into something a computer can easily comprehend. I used in the algorithm of a directed acyclic graph to determine vertices and edges by matching up parents and common children in a JSON file through name-value pairs. I then calculated generations by analyzing the structural depth of parental relations. Below is an illustration of how the pair structure works in a traditional tree model and a JSON file."/>
+                    paragraphBody="The first step in redefining genealogical data visualization is translating from traditional family tree models into something a computer can easily comprehend. I used the algorithm of a directed acyclic graph to determine vertices and edges by matching up parents and common children in a JSON file through name-value pairs. I then calculated generations by analyzing the structural depth of parental relations. Below is an illustration of how the pair structure works in a traditional tree model and a JSON file."/>
           <ImgRight img={Fig4} imgNum="04" imgCaption="Illustrating the output and its JSON structure."/>
           <ImgLeft img={[Fig5, Fig6]} imgNum={["05", "06"]} imgCaption={["A trunk and its rings.","Translating tree rings to a family tree."]} padding="yes" />
           <Paragraph paragraphTitle="Tangential Inspiration" 
@@ -137,7 +137,7 @@ class Index extends React.Component {
            <div id="p4">
           <Phase phaseTitle="Testing the Model on Real Familial Lines"/>
           <Paragraph paragraphTitle="Forebears" 
-                    paragraphBody="To test out the concept of family trees I looked for a good geneological archive. The best one was found on Wikipedia. From there, I used the most complicated family tree I could find: [[Genghis Khan's lineage.>https://en.wikipedia.org/wiki/Family_tree_of_Genghis_Khan]]  Additionally, the family trees I used the demonstrations were primarily pantheons of various world mythologies that I've found on Wikipedia. They were just complicated enough and allowed for some interesting variations in the trunks generated."/>
+                    paragraphBody="To test out the concept of family trees I looked for a good geneological archive. The best one was found on Wikipedia. From there, I used the most complicated family tree I could find: [[Genghis Khan's lineage.>https://en.wikipedia.org/wiki/Family_tree_of_Genghis_Khan]]  Additionally, the family trees I used in the demonstrations were primarily pantheons of various world mythologies that I've found on Wikipedia. They were just complicated enough and allowed for some interesting variations in the trunks generated."/>
            <Paragraph paragraphTitle="Future Development" 
                     paragraphBody="Since Wikipedia was such a good resource for testing, a good next step for the project is to set up a way to feed family tree data from Wikipedia to Trunks. My search for an API was unsuccessful. Looks like Wikipedia uses a very strange, visual way to format their family trees which would be very difficult to translate into JSON. Nevertheless, the project as is remains a good proof-of-concept and can be expounded upon very easily. [[Try fiddling with it on GitHub!>https://github.com/ygev/trunks/]]"/>
            </div>
