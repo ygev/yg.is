@@ -16,8 +16,8 @@ export default props => (
             <Logo className="spinny-logo"/>
             <img className="img-logo" src={logo} alt=""></img>
          </AniLink>
-         <section className="header__txt">
-         <AniLink paintDrip hex="#000" className="navlink" to="about">Yana Gevorgyan</AniLink>
+         <section className="header__txt navlink">
+         Yana Gevorgyan
          </section>
       </nav>
    </div>

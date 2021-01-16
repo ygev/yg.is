@@ -33,13 +33,6 @@ nav {
     line-height: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    transition: 100ms ease-in-out;
-    border-bottom: 2px solid var(--black);
-}
-
-.navlink:hover { 
-    border-bottom: 2px solid var(--white);
-    transition: 100ms ease-in-out;
 }
 
 .navlink__active {
