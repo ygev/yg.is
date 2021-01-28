@@ -79,12 +79,6 @@
   transition: 200ms ease-in-out;
 }
 
-/* Fisqual Color */
-:root .fisqual {
-  --projcolor: #3375e8;
-  transition: 200ms ease-in-out;
-}
-
 /* Trunks Color */
 :root .trunks {
   --projcolor: #F1753A;
