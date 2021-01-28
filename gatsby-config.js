@@ -1,7 +1,7 @@
 module.exports = {
     pathPrefix: "/",
     siteMetadata: {
-      title: "Yana Gevorgyan's Design Playground",
+      title: "Yana G.'s Design Playground",
       titleTemplate: "%s · YG.IS",
       description:
         "Design, theory and plain old hacking.",

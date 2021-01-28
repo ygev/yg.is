@@ -106,7 +106,7 @@ class Index extends React.Component {
                       [Glam8]
                     ]
                   }
-                  abstractTeam="Yana Gevorgyan"
+                  abstractTeam="Yana G."
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sketch API · JS · Objective C" 
                   abstractTime="3 months · December 2019" 

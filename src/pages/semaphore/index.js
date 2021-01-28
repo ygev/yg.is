@@ -80,7 +80,7 @@ class Index extends React.Component {
                       [Glam7]
                     ]
                   }
-                  abstractTeam="Yana Gevorgyan &amp; Amanda Yeh"
+                  abstractTeam="Yana G. &amp; Amanda Yeh"
                   abstractRole="Primary Developer · Support UI Designer" 
                   abstractTools="poseNet( ) · JS · Figma" 
                   abstractTime="24 hours · October 2019" 

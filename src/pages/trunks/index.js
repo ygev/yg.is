@@ -61,7 +61,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="trunks">
-        <SEO title="Trunks" description="Trunks is an ancestry visualization tool inspired by rings on a tree trunk. Created by Yana Gevorgyan as a personal ethnographic experiment in data visualization and neumorphic visual language."/>
+        <SEO title="Trunks" description="Trunks is an ancestry visualization tool inspired by rings on a tree trunk. Created by Yana G. as a personal ethnographic experiment in data visualization and neumorphic visual language."/>
             <div className="hero__wrapper">
               <Header/>
               <InnerHero img={Hero}/>

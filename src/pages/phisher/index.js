@@ -55,7 +55,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="phisher">
-        <SEO title="MICA Phisher" description="MICA Phisher is a phishing site which spoofs the login page of the Maryland Institute College of Art and stores any password that is entered. Created by Yana Gevorgyan as a proof-of-concept."/>
+        <SEO title="MICA Phisher" description="MICA Phisher is a phishing site which spoofs the login page of the Maryland Institute College of Art and stores any password that is entered. Created by Yana G. as a proof-of-concept."/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>

@@ -82,7 +82,7 @@ class Index extends React.Component {
   render() {
     return (
       <div className="ditto">
-        <SEO title="Ditto" description="Ditto is a tool that allows designers to copy CSS font styles from live websites and paste them into Sketch. Originally created for the Yext design team by Yana Gevorgyan during her UI Design internship."/>
+        <SEO title="Ditto" description="Ditto is a tool that allows designers to copy CSS font styles from live websites and paste them into Sketch. Originally created for the Yext design team by Yana G. during her UI Design internship."/>
         <div className="hero__wrapper">
           <Header/>
           <InnerHero img={Hero}/>
@@ -101,7 +101,7 @@ class Index extends React.Component {
                       [Glam2]
                     ]
                   }
-                  abstractTeam="Yana Gevorgyan &amp; Blake Quigley"
+                  abstractTeam="Yana G. &amp; Blake Quigley"
                   abstractRole="UI Designer · Developer" 
                   abstractTools="Sketch API · CocoaScript · JS" 
                   abstractTime="2 months · Summer 2019" 
