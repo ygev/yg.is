@@ -110,12 +110,5 @@ export const Constants = {
         heroYear: "2016",
         heroDeliverable: "Publishing Platform",
         heroTitle: "Creating an Online Publishing Platform for MIT Press"
-    },
-    webx: {
-        heroName:"Pixelation",
-        heroCategory: "Web Development",
-        heroYear: "2020",
-        heroDeliverable: "Exhibition",
-        heroTitle: "Hosting a Virtual Graduation Exhibit in Times of COVID-19"
     }
 }

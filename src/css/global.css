@@ -151,12 +151,6 @@
   transition: 200ms ease-in-out;
 }
 
-/* ARTECA Color */
-:root .webx {
-  --projcolor: #11edd3;
-  transition: 200ms ease-in-out;
-}
-
 /* Hero Wrapper Grid Responsiveness */
 
 .hero__wrapper {
