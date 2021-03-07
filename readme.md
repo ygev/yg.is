@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.yg.is">
-    <img alt="YG.IS Logotype" src="https://i.imgur.com/tzvneWn.gif" width="100" />
+    <img alt="YG.IS Logotype" src="logo.gif" width="100" />
   </a>
 </p>
 <h2 align="center">Yana's Portfolio Website</h2>
@@ -17,7 +17,7 @@
 Exactly what it says on the tin.
 From Sketch plugins to machine learning, I've tried it all. Feel free to select a project from the homepage, browse some glamour shots of floating phones and peruse through my process, when applicable.
 
-<img align="center" src="https://i.imgur.com/HGkiDFP.png"/>
+<img align="center" src="screen.png"/>
 
 <hr>
 <p align="center"> 
