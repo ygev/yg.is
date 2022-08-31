@@ -1,0 +1,60 @@
+
+  /* Hero Image */
+  .marquee__wrap {
+    width: 100vw; 
+    z-index: 10;
+  }
+
+  .marquee {
+    color: var(--black);
+    position: fixed;
+    bottom: 0;
+    white-space: nowrap;
+    background-color: #FFFF33;
+    border-top: 2px var(--black) solid;
+    border-bottom: 2px var(--black) solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: Chapeau-Medium;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+    letter-spacing: 1.11px;
+    line-height: 24px;
+    transition: none;
+  }
+
+  .marquee__spacing {
+    padding-left: 2px;
+    padding-right: 4px;
+    color: var(--black);
+  }
+
+  .marquee__prefix {
+    padding-left: 0px;
+    padding-right: 2px;
+  }
+
+  .marquee:hover {
+    animation: backy 500ms step-start infinite;
+    transition: none;
+  }
+
+  .marquee:hover .marquee__spacing {
+    animation: fronty 500ms step-start infinite;
+    transition: none;
+  }
+
+  @-webkit-keyframes backy {
+    50% { background:  var(--black) }
+   }
+   @keyframes  backy {
+    50% { background: var(--black) }
+   }
+
+  @-webkit-keyframes fronty {
+    50% { color:  var(--white) }
+   }
+   @keyframes fronty {
+    50% { color: var(--white) }
+   }

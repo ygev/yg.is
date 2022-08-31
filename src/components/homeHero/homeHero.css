@@ -61,22 +61,5 @@
 .home__img--limiter {
   max-width: 80%;
 }
-
-  /* Hero Image */
-  .marquee__wrap {
-    align-self: flex-end;
-    width: 40vw; 
-    white-space: nowrap;
-    background-color: var(--white);
-    border-top: 2px var(--black) solid;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    font-family: Chapeau-Medium;
-    font-weight: 500;
-    font-size: 20px;
-    color: var(--black);
-    letter-spacing: 1.11px;
-    line-height: 24px;
-  }
 }
   

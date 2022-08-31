@@ -60,6 +60,7 @@ import Contact from "../../components/contact/contact"
 import Footer from "../../components/footer/footer"
 import { Constants } from "../../constants"
 
+
 const Glam2 = [
   {
     extension: "mp4",

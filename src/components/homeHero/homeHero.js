@@ -3,7 +3,6 @@ import "./homeHero.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
 import Fade from 'react-reveal/Fade';
-import Marquee from 'react-double-marquee';
 import { Constants } from "../../constants"
 import defaultHero from "../../images/hero.gif"
 import phisherHero from "../../pages/phisher/images/hero.png"; 
@@ -24,6 +23,7 @@ var images = {
 export default props => (
     <>
         <Fade duration={500}>
+
             <section className={"home__hero " + props.currentHover}>
                 <figure className="home__img"> 
                     <img className="home__img--limiter" src={images[props.currentHover]}/>

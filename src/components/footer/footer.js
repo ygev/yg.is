@@ -3,6 +3,7 @@ import "./footer.css";
 import "../../css/normalize.css";
 import "../../css/global.css";
 import cat from "../../images/vibing-cat.gif"
+import Marquee from ".././marquee/marquee"
 
 export default props => (
     <>

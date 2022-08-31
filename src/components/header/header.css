@@ -56,6 +56,7 @@ nav {
     transition: 100ms ease-in-out;
 }
 
+
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {
