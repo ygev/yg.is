@@ -12,7 +12,7 @@ function buildProjectLinks(projects, mouseOverCallback) {
             <div className="link__wrapper" onMouseOver={mouseOverCallback}>
                 <h1 id={projects[i]} className="home__head">{Constants[projects[i]].heroName}</h1>
                 <h2 className="home__title">{Constants[projects[i]].heroTitle}</h2>
-                <h2 className="home__brow">{Constants[projects[i]].heroDeliverable}</h2>
+                <h2 className="home__brow">{Constants[projects[i]].heroCategory}</h2>
             </div>
         </Link>
     })

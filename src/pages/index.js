@@ -34,11 +34,11 @@ class Index extends React.Component {
 
         <SEO title="Yana G." description="" />
         <main className="home">
+          <Header mouseOverCallback={this.handleHeaderHover} />
           <div className="hero__wrapper">
-            <Header mouseOverCallback={this.handleHeaderHover} />
             <HomeHero currentHover={this.state.currentName} />
             <HomeTxt currentHover={this.state.currentName}
-              projects={['cluse', 'ditto', 'trunks', 'semaphore', 'phisher']}
+              projects={['airtable', 'cluse', 'ditto', 'textTheater', 'trojan', 'trunks', 'amogus', 'semaphore', 'phisher']}
               mouseOverCallback={this.handleProjectHover} />
           </div>
           <Contact />

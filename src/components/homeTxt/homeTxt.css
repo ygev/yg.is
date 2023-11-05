@@ -30,7 +30,7 @@
 }
 
 .home__head {
-  font-family: Chapeau-Light;
+  font-family: Chapeau-Thin;
   font-size: 30px;
   color: var(--black);
   letter-spacing: 1.33px;
@@ -92,7 +92,8 @@ a {
 @media (min-width: 768px) {
   .home__head {
     text-align: left;
-    font-size: 32px;
+    font-size: 2.25em;
+    line-height: 1.35em;
   }
 
   .home__brow {
@@ -125,6 +126,7 @@ a {
 
   .home__txt--wrapper {
     position: relative;
+    height: 98vh;
   }
 
   .link__wrapper {

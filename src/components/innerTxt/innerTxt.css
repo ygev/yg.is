@@ -76,6 +76,9 @@
     padding-left: 6vw;
     padding-right: 16vw;
     padding-bottom: 6vw;
+    justify-content: center;
+    height: 98vh;
+    box-sizing: border-box;
   }
   
   .lead {

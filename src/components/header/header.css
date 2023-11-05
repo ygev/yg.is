@@ -83,7 +83,12 @@ nav {
 @media (min-width: 1024px) {
   nav {
     background-color: transparent;
-    
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    z-index: 3;
+    width: 30vw;
+    height: 90vh;
   }
 
   .navlink,
@@ -103,7 +108,4 @@ nav {
 
 /* 4K VERSION */
 @media (min-width: 2560px) {
-  .nav {
-    padding-right: 24vw;
-  }
 }

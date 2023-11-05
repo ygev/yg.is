@@ -5,6 +5,11 @@
 }
 
 @font-face {
+  font-family: "Chapeau-Thin";
+  src: url("../fonts/ChapeauWEB-Thin.woff") format("woff");
+}
+
+@font-face {
   font-family: "Chapeau-Light";
   src: url("../fonts/ChapeauWEB-Light.woff") format("woff");
 }
@@ -59,6 +64,7 @@
 @media (min-width: 768px) {
   :root .home {
     --projcolor: #222;
+    --projGradient: radial-gradient(#e66465, #9198e5);
     transition: 200ms ease-in-out;
   }
 }
@@ -69,31 +75,36 @@
 
 /* MICA Phisher Color */
 :root .phisher {
-  --projcolor: #fedb00;
+  --projcolor: #F7DB4A;
+  --projGradient: radial-gradient(#e66465, #9198e5);
   transition: 200ms ease-in-out;
 }
 
 /* Cluse Color */
 :root .cluse {
   --projcolor: rgb(70, 159, 255);
+  --projGradient: radial-gradient(80.76% 42.38% at 61.21% 47.39%, rgba(10, 127, 255, 0.80) 0%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(58.66% 59.09% at 31.62% 43.84%, #FAC272 0%, rgba(255, 255, 255, 0.00) 100%);
   transition: 200ms ease-in-out;
 }
 
 /* Ditto + Banditto Color */
 :root .ditto {
   --projcolor: #00feb3;
+  --projGradient: radial-gradient(#e66465, #9198e5);
   transition: 200ms ease-in-out;
 }
 
 /* Trunks Color */
 :root .trunks {
   --projcolor: #f1753a;
+  --projGradient: radial-gradient(#e66465, #9198e5);
   transition: 200ms ease-in-out;
 }
 
 /* Semaphore Color */
 :root .semaphore {
   --projcolor: #7e52ff;
+  --projGradient: radial-gradient(#e66465, #9198e5);
   transition: 200ms ease-in-out;
 }
 
