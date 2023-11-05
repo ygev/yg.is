@@ -11,7 +11,7 @@ figure.hero__img {
 }
 
 section.hero {
-  background-color: var(--projcolor);
+  background: var(--projGradient);
 }
 
 figure.hero__img img {

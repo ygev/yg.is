@@ -96,6 +96,10 @@ a {
   display: none;
 }
 
+.curvy__svg {
+  display: none;
+}
+
 /* TABLET + DESKTOP VERSION */
 
 @media (min-width: 768px) {
@@ -138,7 +142,7 @@ a {
 
   .home__txt--wrapper {
     position: relative;
-    height: 98vh;
+    height: 100vh;
   }
 
   .link__wrapper {
@@ -163,6 +167,13 @@ a {
   .home__head {
     font-size: 4vw;  
     line-height: 2.75vw;
+  }
+
+  .curvy__svg {
+    display: block;
+    position: sticky;
+    bottom: 0;
+    left: 0;
   }
 }
 

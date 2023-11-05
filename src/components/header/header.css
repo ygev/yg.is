@@ -95,6 +95,7 @@ nav {
   .navlink__active {
     font-size: 12px;
     line-height: 17px;
+    color: var(--white);
   }
 
   .img-logo {

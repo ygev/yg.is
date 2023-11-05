@@ -23,7 +23,7 @@
     display: block;
     height: 100vh;
     grid-row-start: 1;
-    background-color: var(--projcolor);
+    background: var(--projGradient);
     transition: 150ms ease-in-out;
     grid-row-end: span 2;
     display: flex;

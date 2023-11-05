@@ -14,7 +14,7 @@ export default props => (
             <img className="img-logo" src={logo} alt=""></img>
          </AniLink>
          <section className="header__txt navlink">
-            Yana G.
+            Yana Gevorgyan
          </section>
       </nav>
    </div>
