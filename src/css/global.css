@@ -1,32 +1,39 @@
 /* Font Loading */
 @font-face {
-  font-family: "Chapeau-Black";
-  src: url("../fonts/ChapeauWEB-Black.woff") format("woff");
-  }
+  font-family: "Chapeau-Mono";
+  src: url("../fonts/ChapeauWEB-Mono.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Chapeau-Light";
+  src: url("../fonts/ChapeauWEB-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Chapeau-Regular";
+  src: url("../fonts/ChapeauWEB-Regular.woff") format("woff");
+}
 
 @font-face {
   font-family: "Chapeau-Medium";
   src: url("../fonts/ChapeauWEB-Medium.woff") format("woff");
-  }
+}
 
+@font-face {
+  font-family: "Chapeau-Black";
+  src: url("../fonts/ChapeauWEB-Black.woff") format("woff");
+}
 
 @font-face {
   font-family: "SuisseNeue-Regular";
   src: url("../fonts/SuisseNeue-Regular.woff") format("woff"),
-  url("../fonts/SuisseNeue-Regular.woff2") format("woff2");
-  }
+    url("../fonts/SuisseNeue-Regular.woff2") format("woff2");
+}
 
-  @font-face {
-    font-family: "Ogg";
-    src: url("../fonts/Ogg-Regular.woff") format("woff"),
-    url("../fonts/Ogg-Regular.woff2") format("woff2");
-    }
-  
 /* Focus */
 *:focus {
   outline: var(--projcolor) auto 3px;
 }
- 
 
 /* Legend of Colors */
 :root {
@@ -37,8 +44,8 @@
   --projcolor: red;
 }
 
-::selection { 
-  background: var(--black); 
+::selection {
+  background: var(--black);
   color: var(--white);
 }
 
@@ -50,7 +57,6 @@
 }
 
 @media (min-width: 768px) {
-
   :root .home {
     --projcolor: #222;
     transition: 200ms ease-in-out;
@@ -63,7 +69,7 @@
 
 /* MICA Phisher Color */
 :root .phisher {
-  --projcolor: #FEDB00;
+  --projcolor: #fedb00;
   transition: 200ms ease-in-out;
 }
 
@@ -75,25 +81,13 @@
 
 /* Ditto + Banditto Color */
 :root .ditto {
-  --projcolor: #00FEB3;
+  --projcolor: #00feb3;
   transition: 200ms ease-in-out;
 }
 
 /* Trunks Color */
 :root .trunks {
-  --projcolor: #F1753A;
-  transition: 200ms ease-in-out;
-}
-
-/* AVAM Color */
-:root .avam {
-  --projcolor: #EFF1FA;
-  transition: 200ms ease-in-out;
-}
-
-/* Mad Lads Color */
-:root .madlads {
-  --projcolor: #FFD200;
+  --projcolor: #f1753a;
   transition: 200ms ease-in-out;
 }
 
@@ -103,83 +97,36 @@
   transition: 200ms ease-in-out;
 }
 
-/* BitShit Color */
-:root .bitshit {
-  --projcolor: #8465FF;
-  transition: 200ms ease-in-out;
-}
-
-/* Lissitzky Color */
-:root .lissitzky {
-  --projcolor: #e74d3c;
-  transition: 200ms ease-in-out;
-}
-
-/* Spiral Draw Color */
-:root .spiral {
-  --projcolor: #5DCDCF;
-  transition: 200ms ease-in-out;
-}
-
-/* Tar Pits Color */
-:root .tarpits {
-  --projcolor: #FF36D9;
-  transition: 200ms ease-in-out;
-}
-
-/* Oriental Carpets Color */
-:root .carpets {
-  --projcolor: #BD0F00;
-  transition: 200ms ease-in-out;
-}
-
-/* Decred Color */
-:root .decred {
-  --projcolor: #2DD8A3;
-  transition: 200ms ease-in-out;
-}
-
-/* ARTECA Color */
-:root .arteca {
-  --projcolor: #fee700;
-  transition: 200ms ease-in-out;
-}
-
-/* Yext Color */
-:root .yext {
-  --projcolor: #375c3a;
-  transition: 200ms ease-in-out;
-}
-
 /* Hero Wrapper Grid Responsiveness */
 
 .hero__wrapper {
   z-index: -10;
 }
 
+.width100 {
+  width: 100%;
+}
+
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-div > .hero__wrapper {
-      display: grid;
-      grid-template-columns: 2fr 3fr;
-      grid-template-rows:  auto auto ;
+  div > .hero__wrapper {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto auto;
   }
 }
-  
-  
-  /* DESKTOP VERSION */
-  
-@media (min-width: 1024px) {
 
-    .hero__wrapper {
-        display: grid;
-        grid-template-columns: 2fr 3fr;
-        grid-template-rows:  auto auto ;
-    }                   
+/* DESKTOP VERSION */
+
+@media (min-width: 1024px) {
+  .hero__wrapper {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto auto;
+  }
 }
-  
+
 /* Misc Global Settings */
 html {
   scroll-behavior: smooth;

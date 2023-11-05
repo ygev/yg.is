@@ -1,114 +1,58 @@
 export const Constants = {
     default: {
-        heroName:"",
+        heroName: "",
         heroCategory: "",
         heroYear: "",
         heroDeliverable: "",
         heroTitle: "Multidisciplinary Product Designer",
     },
+    airtable: {
+        heroName: "Growth",
+        heroCategory: "Airtable",
+        heroYear: "2020-2023",
+        heroDeliverable: "Onboarding",
+        heroTitle: "Airtable Body of Work"
+    },
+    textTheater: {
+        heroName: "Text Theater",
+        heroCategory: "Discord Bot",
+        heroYear: "2020-2023",
+        heroDeliverable: "Onboarding",
+        heroTitle: "Airtable Body of Work"
+    },
     phisher: {
-        heroName:"Phisher",
+        heroName: "Phisher",
         heroCategory: "UX Design",
         heroYear: "2019",
-        heroDeliverable: "Phishing Site",
+        heroDeliverable: "Phishing",
         heroTitle: "Raising Awareness About Cybersecurity with Gesamtkunstwerk",
     },
     cluse: {
-        heroName:"Cluse",
+        heroName: "Cluse",
         heroCategory: "Software Design",
         heroYear: "2020",
-        heroDeliverable: "Accessibility Tool",
+        heroDeliverable: "WCAG Tool",
         heroTitle: "Developing Inclusive Design Habits for the Average Sketch User",
     },
     ditto: {
-        heroName:"Ditto",
+        heroName: "Ditto",
         heroCategory: "Software Design",
         heroYear: "2019",
-        heroDeliverable: "Type Converter",
+        heroDeliverable: "Type Tool",
         heroTitle: "Optimizing a Unique Typographic Workflow for UI Designers at Yext"
     },
     trunks: {
-        heroName:"Trunks",
+        heroName: "Trunks",
         heroCategory: "Visual Design",
         heroYear: "2018",
-        heroDeliverable: "Ancestry Tracker",
+        heroDeliverable: "D3.js Fun",
         heroTitle: "Chopping Down the Family Tree Model of Ancestry Visualization"
     },
     semaphore: {
-        heroName:"Semaphore",
+        heroName: "Semaphore",
         heroCategory: "Machine Learning",
         heroYear: "2019",
-        heroDeliverable: "Gesture Game",
+        heroDeliverable: "ML Fun",
         heroTitle: "Gamifying Flag Semaphore with Pose Recognition Models"
-    },
-    avam: {
-        heroName:"AVAM",
-        heroCategory: "User Research",
-        heroYear: "2018",
-        heroDeliverable: "Information Architecture",
-        heroTitle: "Untitled For Now"
-    },
-    bitshit: {
-        heroName:"BitShit",
-        heroCategory: "Publication Design",
-        heroYear: "2018",
-        heroDeliverable: "Bootleg Newspaper",
-        heroTitle: "Capturing the Underground Cryptocurrency Scene on Newsprint"
-    },
-    spiral: {
-        heroName:"VortexPaint",
-        heroCategory: "Net Art",
-        heroYear: "2019",
-        heroDeliverable: "Web App",
-        heroTitle: "Untitled For Now"
-    },
-    lissitzky: {
-        heroName:"Lissitzky",
-        heroCategory: "Net Art",
-        heroYear: "2018",
-        heroDeliverable: "Web App",
-        heroTitle: "Throwing Together Constructivist Paintings with Physics Engines"
-    },
-    madlads: {
-        heroName:"MadLads",
-        heroCategory: "Machine Learning",
-        heroYear: "2019",
-        heroDeliverable: "Web App",
-        heroTitle: "Reinventing Mad Libs with Machine Learning and Camera Lens"
-    },
-    tarpits: {
-        heroName:"TarPits",
-        heroCategory: "Experience Design",
-        heroYear: "2019",
-        heroDeliverable: "User Journey",
-        heroTitle: "Crafting a Foam Pit Experience for the La Brea Tar Pits"
-    },
-    yext: {
-        heroName:"Yext",
-        heroCategory: "Visual Design",
-        heroYear: "2019",
-        heroDeliverable: "Information Architecture",
-        heroTitle: "Boosting SEO for Fortune 500 Companies with Visual Design"
-    },
-    carpets: {
-        heroName:"Carpets",
-        heroCategory: "Machine Learning",
-        heroYear: "2019",
-        heroDeliverable: "Web App",
-        heroTitle: "Generating Nightmarish Oriental Textiles with Pix2Pix"
-    },
-    decred: {
-        heroName:"Decred",
-        heroCategory: "Experience Design",
-        heroYear: "2019",
-        heroDeliverable: "Crypto Calculator",
-        heroTitle: "Visualizing Ticket Staking History for the Decred Cryptocurrency"
-    },
-    arteca: {
-        heroName:"ARTECA",
-        heroCategory: "UI/UX Design",
-        heroYear: "2016",
-        heroDeliverable: "Publishing Platform",
-        heroTitle: "Creating an Online Publishing Platform for MIT Press"
     }
 }

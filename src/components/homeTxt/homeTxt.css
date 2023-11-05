@@ -3,7 +3,6 @@
 }
 
 .home__txt {
-  padding-bottom: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,20 +20,17 @@
 .home__brow {
   text-align: left;
   color: var(--black);
-  font-family: Chapeau-Medium;
-  font-weight: 900;
+  font-family: Chapeau-Mono;
   text-transform: uppercase;
   font-size: 10px;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 17px;
   letter-spacing: 1.3px;
+  font-weight: 100;
   transition: 500ms ease-in-out;
 }
 
 .home__head {
-  font-family: Ogg;
-  font-weight: 500;
+  font-family: Chapeau-Light;
   font-size: 30px;
   color: var(--black);
   letter-spacing: 1.33px;
@@ -49,7 +45,9 @@
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  width: 90vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  width: auto;
   border-bottom: 2px var(--black) solid;
 }
 
@@ -80,11 +78,11 @@ a {
 .home__title {
   position: absolute;
   color: var(--black);
-  font-size: 1.3vw;
-  font-family: Chapeau-Medium;
+  font-size: 1.5vw;
+  font-family: Chapeau-Light;
+  font-weight: 100;
   line-height: 130%;
-  font-weight: 400;
-  width: 60%;
+  width: 45%;
   opacity: 0;
   transition: 500ms ease-in-out;
 }
@@ -133,7 +131,7 @@ a {
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 38vw;
+    width: auto;
     border-bottom: 2px var(--black) solid;
     padding-top: 48px;
     padding-bottom: 48px;
@@ -143,7 +141,7 @@ a {
     display: none;
   }
 
-  .home__txt:after {
+  /* .home__txt:after {
     position: absolute;
     height: 110%;
     bottom: 0;
@@ -158,16 +156,10 @@ a {
       var(--white) 90%
     );
     pointer-events: none;
-  }
+  } */
 
   .home__txt {
     overflow: scroll;
-    align-items: flex-start;
-    text-align: left;
-    height: 30vw;
-    padding-bottom: 6vw;
-    padding-top: 3vw;
-    padding-left: 6vw;
     align-items: flex-start;
   }
 

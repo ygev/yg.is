@@ -10,12 +10,10 @@
 /* Hero Typography */
 
 .brow {
-  font-family: Chapeau-Medium;
-  font-weight: 900;
+  font-family: Chapeau-Mono;
   text-transform: uppercase;
   font-size: 10px;
-  font-stretch: normal;
-  font-style: normal;
+  font-weight: 100;
   letter-spacing: 1.3px;
   padding-top: 24px;
   letter-spacing: 1.3px;
@@ -23,8 +21,7 @@
   }
 
 .lead {
-  font-family: Ogg;
-  font-weight: 500;
+  font-family: Chapeau-Light;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 16px;

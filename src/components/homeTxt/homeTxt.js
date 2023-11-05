@@ -8,13 +8,13 @@ import { Link } from "gatsby"
 
 function buildProjectLinks(projects, mouseOverCallback) {
     return Array.from(Array(projects.length).keys()).map((i) => {
-        return <Link paintDrip hex="#000000" to={projects[i]}>
-                        <div className="link__wrapper"  onMouseOver={mouseOverCallback}>
-                            <h1 id={projects[i]} className="home__head">{Constants[projects[i]].heroName}</h1>
-                            <h2 className="home__title">{Constants[projects[i]].heroTitle}</h2>
-                            <h2 className="home__brow">{Constants[projects[i]].heroDeliverable}</h2>
-                        </div>
-                </Link>
+        return <Link className="width100" hex="#000000" to={projects[i]}>
+            <div className="link__wrapper" onMouseOver={mouseOverCallback}>
+                <h1 id={projects[i]} className="home__head">{Constants[projects[i]].heroName}</h1>
+                <h2 className="home__title">{Constants[projects[i]].heroTitle}</h2>
+                <h2 className="home__brow">{Constants[projects[i]].heroDeliverable}</h2>
+            </div>
+        </Link>
     })
 }
 
@@ -27,11 +27,11 @@ export default props => (
     <>
         <div className="home__txt--wrapper">
             <section className="home__txt">
-                <Fade opposite duration={500}>
-                    {
-                        buildProjectLinks(props.projects, props.mouseOverCallback)
-                    }
-                </Fade>
+                {/* <Fade opposite duration={500}> */}
+                {
+                    buildProjectLinks(props.projects, props.mouseOverCallback)
+                }
+                {/* </Fade> */}
             </section>
         </div>
     </>
