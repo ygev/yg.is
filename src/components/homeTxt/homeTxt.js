@@ -10,6 +10,7 @@ function buildProjectLinks(projects, mouseOverCallback) {
     return Array.from(Array(projects.length).keys()).map((i) => {
         return <Link className="width100" hex="#000000" to={projects[i]}>
             <div className="link__wrapper" onMouseOver={mouseOverCallback}>
+                <h2 className="home__brow home__brow--left">{Constants[projects[i]].heroYear}</h2>
                 <h1 id={projects[i]} className="home__head">{Constants[projects[i]].heroName}</h1>
                 <h2 className="home__title">{Constants[projects[i]].heroTitle}</h2>
                 <h2 className="home__brow">{Constants[projects[i]].heroCategory}</h2>

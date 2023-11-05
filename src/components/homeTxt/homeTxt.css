@@ -31,6 +31,7 @@
 
 .home__head {
   font-family: Chapeau-Thin;
+  font-weight: 100;
   font-size: 30px;
   color: var(--black);
   letter-spacing: 1.33px;
@@ -82,9 +83,17 @@ a {
   font-family: Chapeau-Light;
   font-weight: 100;
   line-height: 130%;
+  text-align: center;
   width: 45%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   opacity: 0;
   transition: 500ms ease-in-out;
+}
+
+.home__brow--left {
+  display: none;
 }
 
 /* TABLET + DESKTOP VERSION */
@@ -99,11 +108,14 @@ a {
   .home__brow {
     font-size: 12px;
   }
+
+  .home__brow--left {
+    display: block;
+  }
 }
 
 /* DESKTOP VERSION */
 @media (min-width: 1024px) {
-
   
   .link__wrapper:hover .home__brow {
     transition: 800ms ease-in-out;
@@ -135,30 +147,13 @@ a {
     justify-content: space-between;
     width: auto;
     border-bottom: 2px var(--black) solid;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 
   .home__txt::-webkit-scrollbar {
     display: none;
   }
-
-  /* .home__txt:after {
-    position: absolute;
-    height: 110%;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    content: "";
-    background: linear-gradient(
-      180deg,
-      var(--white) 10%,
-      rgba(255,255,255,0.001) 20%,
-      rgba(255,255,255,0.001) 78%,
-      var(--white) 90%
-    );
-    pointer-events: none;
-  } */
 
   .home__txt {
     overflow: scroll;
@@ -166,7 +161,7 @@ a {
   }
 
   .home__head {
-    font-size: 3vw;  
+    font-size: 4vw;  
     line-height: 2.75vw;
   }
 }

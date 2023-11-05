@@ -8,13 +8,13 @@ export const Constants = {
     },
     airtable: {
         heroName: "Airtable",
-        heroCategory: "→ Day Job ←",
-        heroYear: "2020-2023",
+        heroCategory: "Day Job",
+        heroYear: "2020–",
         heroDeliverable: "Onboarding Experience",
         heroTitle: "Democratizing Software Creation"
     },
     trojan: {
-        heroName: "Trojan.JS.YouAreAnIdiot",
+        heroName: "Trojan.JS",
         heroCategory: "Virus",
         heroYear: "2021",
         heroDeliverable: "Net Art",
