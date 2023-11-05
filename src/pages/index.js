@@ -6,7 +6,6 @@ import HomeHero from "./../components/homeHero/homeHero"
 import HomeTxt from "./../components/homeTxt/homeTxt"
 import Contact from "./../components/contact/contact"
 import Footer from "./../components/footer/footer"
-import Marquee from "./../components/marquee/marquee"
 
 class Index extends React.Component {
 
@@ -33,18 +32,17 @@ class Index extends React.Component {
     return (
       <React.Fragment>
 
-        <SEO title="Yana G." description=""/>
+        <SEO title="Yana G." description="" />
         <main className="home">
-        <Marquee/>
           <div className="hero__wrapper">
-            <Header mouseOverCallback={this.handleHeaderHover}/>
-            <HomeHero currentHover={this.state.currentName}/>
-            <HomeTxt  currentHover={this.state.currentName}
-                      projects={['cluse', 'ditto', 'trunks', 'semaphore', 'phisher']}
-                      mouseOverCallback={this.handleProjectHover}/>
+            <Header mouseOverCallback={this.handleHeaderHover} />
+            <HomeHero currentHover={this.state.currentName} />
+            <HomeTxt currentHover={this.state.currentName}
+              projects={['cluse', 'ditto', 'trunks', 'semaphore', 'phisher']}
+              mouseOverCallback={this.handleProjectHover} />
           </div>
-          <Contact/>
-          <Footer/>
+          <Contact />
+          <Footer />
 
         </main>
 
