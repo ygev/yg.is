@@ -107,7 +107,7 @@ class Index extends React.Component {
             [Glam8]
           ]
         }
-          abstractTeam="Yana G."
+          abstractTeam="Just me"
           abstractRole="UI Designer · Developer"
           abstractTools="Sketch API · JS · Objective C"
           abstractTime="3 months · December 2019"
@@ -209,11 +209,11 @@ class Index extends React.Component {
           <Phase phaseTitle="Conducting Usability Testing" />
           <Paragraph paragraphTitle="Task Analysis" paragraphBody="In order to test Cluse's ease of use, I planned a task analysis. I created a test file to disseminate throughout my user testing group. In addition to testing basic actions, I want to test one variation: whether users select an artboard or the layers for testing. All my users were proficient in Sketch, although only one of them has used any sort of plugin before." />
           <ImgRight img={Fig27} imgNum="17" imgCaption="Cluse Usability Assessment Sketch File" />
-          <Issue img={Fig29} issueTitle="Verbal Instructions for the Assessment"
+          <Issue img={Fig29} issueTitle="Verbal Instructions"
             issueItems={["Launch Cluse for Button 1",
-              "Make Button 1 AA accessible",
+              "Make Button 1 pass AA",
               "Undo the change.",
-              "Make Button 1 AAA accessible",
+              "Make Button 1 pass AAA",
               "Save Button 1",
               "Launch Cluse for Button 2",
               "Swap the Colors on Button 2",

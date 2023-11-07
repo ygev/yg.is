@@ -9,8 +9,8 @@
     font-family: SuisseNeue-Regular;
     color: var(--black);
     letter-spacing: 0;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 29px;
     counter-increment: item;
 }
 
@@ -19,12 +19,12 @@ ul.list__items {
 }
 
 ul > .listQuotes__item::before {
-    content: "❛❛"; 
+    content: "🗣️"; 
     font-family: Chapeau-Medium;
     color: var(--projcolor);
     display: inline-block;
-    width: 2em;
-    margin-left: -2em;
+    width: 1.5em;
+    margin-left: -1.5em;
   }
 
 

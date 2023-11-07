@@ -57,15 +57,37 @@
 /* Homepage Color */
 
 :root .home {
-  --projcolor: var(--black);
-  --projGradient: radial-gradient(50.15% 68.56% at 53.13% -3.28%, rgba(173, 173, 173, 0.05) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(23.78% 47.61% at 50% 5.61%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%), #000000;
+  --projcolor: var(--white);
+  --projGradient: radial-gradient(
+        50.15% 68.56% at 53.13% -3.28%,
+        rgba(173, 173, 173, 0.05) 0%,
+        rgba(255, 255, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+      23.78% 47.61% at 50% 5.61%,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #000000;
   transition: 200ms ease-in-out;
 }
 
 @media (min-width: 768px) {
   :root .home {
-    --projcolor: var(--black);
-    --projGradient: radial-gradient(84.1% 65.28% at 96.67% 0%, rgba(173, 173, 173, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(23.78% 47.61% at 50% 5.61%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%), #000000;
+    --projcolor: var(--darkGray);
+    --projGradient: radial-gradient(
+          84.1% 65.28% at 96.67% 0%,
+          rgba(173, 173, 173, 0.2) 0%,
+          rgba(255, 255, 255, 0) 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      radial-gradient(
+        23.78% 47.61% at 50% 5.61%,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      #000000;
     transition: 200ms ease-in-out;
   }
 }
@@ -77,35 +99,126 @@
 /* MICA Phisher Color */
 :root .phisher {
   --projcolor: #f7db4a;
-  --projGradient: radial-gradient(24.51% 31.82% at 70.35% 47.61%, rgba(254, 219, 1, 0.2) 0%, rgba(254, 219, 1, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(58.49% 42.23% at 14.51% 16.83%, rgba(229, 32, 133, 0.15) 0%, rgba(227, 11, 145, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(69.1% 44.22% at 61.46% 28.89%, rgba(0, 71, 187, 0.25) 0%, rgba(0, 71, 187, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
+  --projGradient: radial-gradient(
+        24.51% 31.82% at 70.35% 47.61%,
+        rgba(254, 219, 1, 0.2) 0%,
+        rgba(254, 219, 1, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        58.49% 42.23% at 14.51% 16.83%,
+        rgba(229, 32, 133, 0.15) 0%,
+        rgba(227, 11, 145, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        69.1% 44.22% at 61.46% 28.89%,
+        rgba(0, 71, 187, 0.25) 0%,
+        rgba(0, 71, 187, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #000000;
   transition: 200ms ease-in-out;
 }
 
 /* Cluse Color */
 :root .cluse {
   --projcolor: rgb(70, 159, 255);
-  --projGradient: radial-gradient(54.86% 64.43% at 54.86% 16.89%, rgba(255, 185, 74, 0.2) 0%, rgba(250, 175, 64, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(61.74% 53.56% at 55.35% 43.94%, rgba(10, 127, 255, 0.3) 0%, rgba(10, 127, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(47.22% 30.22% at 68.68% 57.94%, rgba(38, 41, 42, 0.2) 0%, rgba(40, 44, 45, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
+  --projGradient: radial-gradient(
+        54.86% 64.43% at 54.86% 16.89%,
+        rgba(255, 185, 74, 0.2) 0%,
+        rgba(250, 175, 64, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        61.74% 53.56% at 55.35% 43.94%,
+        rgba(10, 127, 255, 0.3) 0%,
+        rgba(10, 127, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        47.22% 30.22% at 68.68% 57.94%,
+        rgba(38, 41, 42, 0.2) 0%,
+        rgba(40, 44, 45, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #000000;
   transition: 200ms ease-in-out;
 }
 
 /* Ditto + Banditto Color */
 :root .ditto {
   --projcolor: #00feb3;
-  --projGradient: radial-gradient(47.76% 31.17% at 55.69% 69.78%, rgba(0, 254, 179, 0.05) 0%, rgba(10, 127, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(55.89% 55.89% at 70.69% 30.61%, rgba(26, 30, 51, 0.8) 0%, rgba(40, 44, 45, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(41.75% 45.06% at 20.14% 37%, #1A1E33 0%, rgba(26, 30, 51, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
+  --projGradient: radial-gradient(
+        47.76% 31.17% at 55.69% 69.78%,
+        rgba(0, 254, 179, 0.05) 0%,
+        rgba(10, 127, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        55.89% 55.89% at 70.69% 30.61%,
+        rgba(26, 30, 51, 0.8) 0%,
+        rgba(40, 44, 45, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        41.75% 45.06% at 20.14% 37%,
+        #1a1e33 0%,
+        rgba(26, 30, 51, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #000000;
   transition: 200ms ease-in-out;
 }
 
 /* Trunks Color */
 :root .trunks {
   --projcolor: #f1753a;
-  --projGradient: radial-gradient(42.15% 32.61% at 35.76% 64.89%, rgba(247, 199, 74, 0.2) 0%, rgba(245, 190, 75, 0.153967) 12.49%, rgba(240, 161, 80, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(47.22% 30.22% at 68.68% 57.94%, rgba(240, 161, 80, 0.2) 0%, rgba(240, 161, 80, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(58.33% 37.33% at 24.44% 20.67%, rgba(238, 127, 71, 0.2) 0%, rgba(255, 86, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
+  --projGradient: radial-gradient(
+        42.15% 32.61% at 35.76% 64.89%,
+        rgba(247, 199, 74, 0.2) 0%,
+        rgba(245, 190, 75, 0.153967) 12.49%,
+        rgba(240, 161, 80, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        47.22% 30.22% at 68.68% 57.94%,
+        rgba(240, 161, 80, 0.2) 0%,
+        rgba(240, 161, 80, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        58.33% 37.33% at 24.44% 20.67%,
+        rgba(238, 127, 71, 0.2) 0%,
+        rgba(255, 86, 0, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #000000;
   transition: 200ms ease-in-out;
 }
 
 /* Semaphore Color */
 :root .semaphore {
   --projcolor: #7e52ff;
-  --projGradient: radial-gradient(58.49% 42.23% at 14.51% 16.83%, rgba(253, 62, 29, 0.1) 0%, rgba(253, 62, 29, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(42.7% 21.06% at 50% 26.83%, rgba(239, 177, 5, 0.2) 0%, rgba(239, 177, 5, 0) 67.33%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(69.1% 44.22% at 61.46% 28.89%, rgba(119, 84, 246, 0.3) 0%, rgba(119, 84, 246, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
+  --projGradient: radial-gradient(
+        58.49% 42.23% at 14.51% 16.83%,
+        rgba(253, 62, 29, 0.1) 0%,
+        rgba(253, 62, 29, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        42.7% 21.06% at 50% 26.83%,
+        rgba(239, 177, 5, 0.2) 0%,
+        rgba(239, 177, 5, 0) 67.33%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        69.1% 44.22% at 61.46% 28.89%,
+        rgba(119, 84, 246, 0.3) 0%,
+        rgba(119, 84, 246, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #000000;
   transition: 200ms ease-in-out;
 }
 

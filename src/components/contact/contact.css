@@ -12,24 +12,23 @@
 }
 
 .contact__head {
-    font-family: Chapeau-Light;
+    font-family: Chapeau-Thin;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 30px;
     color: var(--white) ;
     letter-spacing: 1px;
-    text-align: center;
     margin-bottom: 36px;
 }
 
 .contact__txt {
     color: var(--white);
-    opacity: 0.6;
     text-align: center;
-    font-family:  Chapeau-Mono;
-    font-size: 14px;
+    font-family:  Chapeau-Thin;
+    font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.33px;
     margin-top: 36px;
+    margin-bottom: 36px;
     max-width: 310px;
 }
 
@@ -40,17 +39,17 @@
 }
 
 .btn__contact {
-    font-family: Chapeau-Medium;
-    font-weight: 500;
-    font-size: 16px;
+    font-family: Chapeau-Mono;
+    font-weight: 100;
+    font-size: 14px;
     color: var(--white);
     letter-spacing: 1.14px;
     text-align: left;
     line-height: 24px;
     text-transform: uppercase;
     padding: 10px;
-    border: 0;
-    border-bottom: 2px var(--white) solid;
+    border: 1px transparent solid;
+    border-bottom: 1px var(--white) solid;
     background: var(--black);
     width: 300px;
     margin-bottom: 24px;
@@ -74,7 +73,7 @@
   
 
 .btn__contact:hover  {
-    border-bottom: 2px var(--projcolor) solid;
+    border-bottom: 1px var(--projcolor) solid;
     transition: 150ms ease-in-out;
 }
 
@@ -113,17 +112,19 @@
         padding-right: 16vw;
         padding-top: 64px;
         padding-bottom: 64px;
-        /* margin-top: 120px; */
+        flex-direction: row;
     }
     
 
     .contact__head {
-        font-size: 32px;
+        font-size: 4vw;
     }
 
     .contact__txt {
-        font-size: 15px;
-        line-height: 26px;
+        font-size: 1.5vw;;
+        line-height: 140%;
+        text-align: left;
+        max-width: 30vw;
     }
 
     .btn__contact--wrapper {

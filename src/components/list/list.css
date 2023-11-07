@@ -9,8 +9,8 @@
     font-family: SuisseNeue-Regular;
     color: var(--black);
     letter-spacing: 0;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 28px;
     margin-top: 0;
     counter-increment: item;
 }

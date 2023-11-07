@@ -37,8 +37,8 @@
     font-family: Chapeau-Medium;
     color: var(--projcolor);
     display: inline-block;
-    width: 2em;
-    margin-left: -2em;
+    width: 1.5em;
+    margin-left: -1.5em;
 }
 
 /* DESKTOP VERSION */

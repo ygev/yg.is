@@ -1,13 +1,14 @@
 .tracker {
-  background-color: var(--projcolor);
+  background: rgba( 255, 255, 255, 0.7 );
+  backdrop-filter: blur(8px);
   height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-left: 16px;
   padding-right: 16px;
-  border-bottom: 2px var(--black) solid;
-  border-top: 2px var(--black) solid;
+  border-bottom: 1px var(--black) solid;
+  border-top: 1px var(--black) solid;
   z-index: 100;
 }
 
@@ -18,8 +19,8 @@
 }
 
 .tracker__head {
-  font-family: Chapeau-Medium;
-  font-weight: 500;
+  font-family: Chapeau-Light;
+  font-weight: 200;
   font-size: 12px;
   color: var(--black);
   letter-spacing: 1px;
@@ -64,8 +65,9 @@
 
   .phases {
     height: 32px;
-    background-color: var(--white);
-    border-bottom: 2px var(--black) solid;
+    background: rgba( 255, 255, 255, 0.7 );
+    backdrop-filter: blur(8px);
+    border-bottom: 1px var(--black) solid;
     display: flex;
     padding-left: 16vw;
     padding-right: 16vw;
@@ -74,8 +76,8 @@
   }
 
   .phases__txt {
-    font-family: Chapeau-Medium;
-    font-weight: 500;
+    font-family: Chapeau-Mono;
+    font-weight: 100;
     font-size: 10px;
     color: var(--black);
     letter-spacing: 1.3px;

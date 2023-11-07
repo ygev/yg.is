@@ -22,12 +22,10 @@ var images = {
 
 export default props => (
     <>
-        <Fade duration={500}>
-            <section className={"home__hero " + props.currentHover} >
-                <figure className="home__img">
-                    <img className="home__img--limiter" src={images[props.currentHover]} />
-                </figure>
-            </section>
-        </Fade>
+        <section className={"home__hero " + props.currentHover} >
+            <figure className="home__img">
+                <img className="home__img--limiter" src={images[props.currentHover]} />
+            </figure>
+        </section>
     </>
 );  

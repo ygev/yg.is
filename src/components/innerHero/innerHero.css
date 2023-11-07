@@ -26,7 +26,6 @@ figure.hero__img img {
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
   .hero {
     grid-row-start: 1;
     grid-row-end: span 2;
@@ -41,19 +40,17 @@ figure.hero__img img {
   figure.hero__img img {
     max-width: 30vw;
   }
-
 }
 
-
-/* DESKTOP VERSION */ 
+/* DESKTOP VERSION */
 
 @media (min-width: 768px) {
-
   .hero {
     height: 98vh;
     grid-row-start: 1;
     grid-row-end: span 2;
     border-right: 2px var(--black) solid;
+    border-bottom: 0;
     z-index: 2;
   }
 
@@ -61,7 +58,7 @@ figure.hero__img img {
     border-bottom: 0;
     margin-top: auto;
     height: 98vh;
-  }  
+  }
 
   figure.hero__img img {
     max-width: 30vw;

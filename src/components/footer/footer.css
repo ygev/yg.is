@@ -9,8 +9,8 @@
 }
 
 .footer__txt {
-    font-family: Chapeau-Medium;
-    font-weight: 900;   
+    font-family: Chapeau-Mono;
+    font-weight: 100;   
     letter-spacing: 1.3px;
     font-size: 10px;
     color: var(--white);
@@ -33,5 +33,5 @@
 }
 
 .footer__img {
-    height: 24px;
+    height: 16px;   
 }

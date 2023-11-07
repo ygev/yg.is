@@ -26,8 +26,8 @@
 }
 
 .listStats__txt {
-    font-size: 10px;
-    font-family: Chapeau-Medium;
+    font-size: 14px;
+    font-family: Chapeau-Mono;
     font-weight: 500;
     line-height: 1.3em;
     text-transform: uppercase;

@@ -7,8 +7,8 @@
 }
 
 .howMightWe__txt {
-    font-family: Chapeau-Medium;
-    font-weight: 500;
+    font-family: Chapeau-Light;
+    font-weight: 100;
     font-size: 18px;
     color: var(--white);
     letter-spacing: 0.93px;
@@ -18,10 +18,10 @@
 }
 
 .howMightWe__head {
-    font-family: Chapeau-Black;
-    font-weight: 900;
+    font-family: Chapeau-Mono;
+    font-weight: 100;
+    font-size: 12px;
     letter-spacing: 1.3px;
-    font-size: 10px;
     color: var(--white) ;
     padding-bottom: 8px;
     text-align: center;
@@ -60,10 +60,11 @@
         margin-top: 36px;
         margin-left: 16vw;
         margin-right: 16vw;
+        border-radius: 24px;
     }
 
     .howMightWe__txt {
-        font-size: 44px;
+        font-size: 40px;
         line-height: 56px;
     }
 

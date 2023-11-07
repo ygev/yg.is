@@ -35,7 +35,7 @@ export default props => (
                 }
                 {/* </Fade> */}
             </section>
-            <svg className="curvy__svg" width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="curvy__svg--home" width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M71 71C31.7878 71 0 39.2122 0 0V71H71Z" fill="black" />
             </svg>
         </div>

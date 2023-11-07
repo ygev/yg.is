@@ -11,12 +11,12 @@
 }
 
 .imgLeft__caption {
-    font-family: Chapeau-Medium;
-    font-weight: 500;
-    font-size: 10px;
+    font-family: Chapeau-Mono;
+    font-weight: 100;
+    font-size: 12px;
     color: var(--black);
-    letter-spacing: 1px;
-    line-height: 16px;
+    /* letter-spacing: 1px; */
+    line-height: 18px;
     padding-top: 8px;
     max-width: fit-content;
 }
@@ -30,8 +30,9 @@
 
 .imgLeft__number {
     /* border-bottom: 1px solid var(--projcolor); */
+    font-family: Chapeau-Mono;
     color: var(--projcolor);
-    font-weight: 500;
+    font-weight: 100;
 }
 
 /* TABLET VERSION */
@@ -65,8 +66,7 @@
     .imgLeft__caption {
         font-size: 12px;
         color: var(--black);
-        letter-spacing: 1px;
-        line-height: 20px;
+        line-height: 18px;
         padding-top: 8px;
     }
 }

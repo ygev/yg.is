@@ -71,8 +71,8 @@
 }
 
 .abstract__head {
-    font-family: Chapeau-Medium;
-    font-weight: 900;
+    font-family: Chapeau-Mono;
+    font-weight: 100;
     font-size: 10px;
     color: var(--white);
     letter-spacing: 1.3px;
@@ -82,7 +82,7 @@
 }
 
 .abstract__body {
-    font-family: SuisseNeue-Regular;
+    font-family: Chapeau-Light;
     font-size: 14px;
     color: var(--white);
     letter-spacing: 0;
@@ -90,7 +90,7 @@
 }
 
 .abstract__body--paragraph {
-    font-family: SuisseNeue-Regular;
+    font-family: Chapeau-Light;
     font-size: 14px;
     color: var(--white);
     letter-spacing: 0;
@@ -111,18 +111,18 @@
 /* Button */
   
 .btn__live {
-    font-family: Chapeau-Medium;
-    font-weight: 500;
+    font-family: Chapeau-Mono;
+    font-weight: 100;
     font-size: 16px;
     color: var(--white);
-    letter-spacing: 1.14px;
-    background-color: #000;
+    background-color: var(--black);
     text-align: center;
     line-height: 24px;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 0;
+    height: 49.25px;
     width: 240px;
-    border: 1px var(--white) solid;
+    border: 0;
     transition: 100ms ease-in-out;
  
 }
@@ -170,7 +170,7 @@
     background-color: var(--white);
     color: #000;
     transition: 100ms ease-in-out;
-    border: 1px var(--white) solid;
+    border: 0;
     cursor: pointer;
   }
   
@@ -256,7 +256,8 @@
     .abstract__body {
         font-size: 18px;
         text-rendering: optimizeLegibility;
-        font-family: SuisseNeue-Regular;
+        font-family: Chapeau-Light;
+        letter-spacing: 0.5px;
         font-weight: 100;
         line-height: 32px;
         width: 100%;
@@ -265,7 +266,8 @@
     .abstract__body--paragraph {
         font-size: 18px;
         text-rendering: optimizeLegibility;
-        font-family: SuisseNeue-Regular;
+        font-family: Chapeau-Light;
+        letter-spacing: 0.5px;
         font-weight: 100;
         line-height: 32px;
     }

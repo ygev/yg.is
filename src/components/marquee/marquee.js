@@ -5,12 +5,12 @@ import "../../css/global.css"
 import Marquee from "react-fast-marquee";
 
 export default function FooComponent() {
-    var newPortfolio =  <div className="marquee__prefix">· THIS IS A 2020 PORTFOLIO ·<a className="marquee__spacing" target="_blank" rel="noopener noreferrer" href="https://ygev.github.io/Trojan.JS.YouAreAnIdiot/"> VISIT MY NEW SITE</a></div>
-    const linkSpam = Array(1000).fill(newPortfolio);
-    
-  return (
-      <Marquee style={{color: "black"}} className="marquee__wrap" pauseOnHover={true} children={linkSpam} gradient={false} direction={"left"}>
+  var newPortfolio = <div className="marquee__prefix">· LAST UPDATED NOV 2023 ·<a className="marquee__spacing" target="_blank" rel="noopener noreferrer" href="https://github.com/ygev/yg.is">OPEN SOURCE</a></div>
+  const linkSpam = Array(1000).fill(newPortfolio);
 
-      </Marquee>
+  return (
+    <Marquee style={{ color: "black" }} className="marquee__wrap" pauseOnHover={true} children={linkSpam} gradient={false} direction={"left"}>
+
+    </Marquee>
   );
 }
