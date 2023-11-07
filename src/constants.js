@@ -59,7 +59,7 @@ export const Constants = {
         heroName: "Trunks",
         heroCategory: "D3.js Fun",
         heroYear: "2018",
-        heroDeliverable: "Data Visualization Big Think",
+        heroDeliverable: "Data Visualization",
         heroTitle: "Chopping Down the Family Tree Model of Ancestry Visualization"
     },
     semaphore: {

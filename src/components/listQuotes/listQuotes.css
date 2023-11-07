@@ -6,16 +6,15 @@
 
 
 .list__items {
-    font-family: SuisseNeue-Regular;
-    color: var(--black);
-    letter-spacing: 0;
-    font-size: 16px;
-    line-height: 29px;
     counter-increment: item;
 }
 
 ul.list__items {
     list-style: none; 
+}
+
+.listQuotes__item {
+    margin-bottom: 8px;
 }
 
 ul > .listQuotes__item::before {

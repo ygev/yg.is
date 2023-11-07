@@ -89,6 +89,7 @@
 
   .phases__active {
     opacity: 1;
+    font-weight: 800;
     transition: 100ms ease-in-out;
   }
 }

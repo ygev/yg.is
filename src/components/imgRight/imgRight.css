@@ -5,6 +5,7 @@
 
 .imgRight__img {
     width: 100%;
+    margin-bottom: 8px;
 }
 /* max-width:100% doesn't make images stretched/too big, but if they're too small for you to stretch em, maybe they should be imgLeft instead, huh? */
 
@@ -25,7 +26,6 @@
     font-size: 12px;
     color: var(--black);
     line-height: 18px;
-    padding-top: 8px;
 }
 
 /* TABLET VERSION */
@@ -54,7 +54,7 @@
     .imgRight__caption {
         color: var(--black);
         line-height: 18px;
-        padding-top: 8px;
+        margin-top: 0;
     }
 }
 

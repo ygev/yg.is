@@ -194,7 +194,7 @@ class Index extends React.Component {
           <Paragraph paragraphTitle="Usability Overhaul"
             paragraphBody="I took time to address each problem and came up with a solution for the Chrome Extension modal that solves every issue noted by the users and myself during the heuristic evaluation.
                     "/>
-          <ImgLeft img={Hero} imgNum="" imgCaption="" />
+          <ImgRight img={Hero} imgNum="" imgCaption="" />
           <List listTitle="Features that Solved the Usability Issues" listType='ul'
             listItems={["<<Dark-Mode Interface>> The dark mode interface proved to be more visible for users on most websites and was better suited for the plugin. Perhaps in the future, I can use the new CSS option to detect the user's screen-mode and toggle dark-mode whenever appropriate.",
               "<<Hotkey Directions in the Title>> I put the hotkey combination directly in the title of the modal, so that it was more clear what the next step was after activating the extension.",
