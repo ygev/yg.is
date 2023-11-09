@@ -23,6 +23,14 @@ figure.hero__img img {
   max-width: 80%;
 }
 
+.innerHero {
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* TABLET VERSION */
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -30,6 +38,10 @@ figure.hero__img img {
     grid-row-start: 1;
     grid-row-end: span 2;
     border-right: 2px var(--black) solid;
+  }
+
+  .innerHero {
+    height: 98vh;
   }
 
   figure.hero__img {

@@ -8,7 +8,23 @@ nav {
   align-items: center;
   padding-left: 6vw;
   padding-right: 6vw;
-  background-color: var(--projcolor);
+  background-color: transparent;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav > section {
+  color: var(--white);
+}
+
+.nav__home > section {
+  color: var(--black);
+}
+
+.nav__home {
+  position: relative;
 }
 
 .img-logo {
@@ -25,19 +41,19 @@ nav {
 .navlink {
   font-family: Chapeau-Mono;
   font-size: 10px;
-  color: var(--black);
+  color: var(--white);
   letter-spacing: 1.3px;
   padding-bottom: 6px;
   text-align: center;
   line-height: 17px;
   text-decoration: none;
   text-transform: uppercase;
+  box-sizing: border-box;
 }
 
 .navlink__active {
   font-family: Chapeau-Mono;
   font-size: 10px;
-  color: var(--black);
   text-decoration: none;
   letter-spacing: 1.3px;
   text-align: center;
@@ -55,7 +71,7 @@ nav {
 }
 
 /* TABLET VERSION */
-
+/* 
 @media (min-width: 768px) and (max-width: 1024px) {
   nav {
     background-color: var(--white);
@@ -76,18 +92,16 @@ nav {
   .navlink {
     font-size: 12px;
   }
-}
+} */
 
-/* DESKTOP VERSION */
+/* TABLET VERSION */
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   nav {
     background-color: transparent;
-    position: absolute;
     flex-direction: column;
     left: 0;
-    z-index: 3;
-    width: 30vw;
+    width: 43vw;
     height: 90vh;
   }
 
@@ -105,8 +119,43 @@ nav {
   .cube_wrapper {
     display: block;
   }
+
+  .nav__home {
+    width: 100%;
+    flex-direction: row;
+    height: auto;
 }
 
-/* 4K VERSION */
-@media (min-width: 2560px) {
+  .nav__home > a > .cube_wrapper {
+    display: none;
+  }
+  
+  .nav__home > a > .img-logo {
+    display: block;
+  }
+
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 1024px) {
+  .nav__home {
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    width: 43vw;
+    height: 90vh;
+  }
+
+  .nav__home > a > .cube_wrapper {
+    display: block;
+  }
+
+  .nav__home > a > .img-logo {
+    display: none;
+  }
+
+  .nav__home > section {
+    color: var(--white);
+  }  
+
 }

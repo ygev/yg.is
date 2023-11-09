@@ -34,7 +34,7 @@ class Index extends React.Component {
 
         <SEO title="Yana G." description="" />
         <main className="home">
-          <Header mouseOverCallback={this.handleHeaderHover} />
+          <Header mouseOverCallback={this.handleHeaderHover} className="nav__home" />
           <div className="hero__wrapper">
             <HomeHero currentHover={this.state.currentName} />
             <HomeTxt currentHover={this.state.currentName}

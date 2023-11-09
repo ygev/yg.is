@@ -8,7 +8,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export default props => (
    <div className="header__wrapper">
-      <nav>
+      <nav className={props.className}>
          <AniLink paintDrip hex="#000" to="/" onMouseOver={props.mouseOverCallback}>
             <Logo className="spinny-logo" />
             <img className="img-logo" src={logo} alt=""></img>

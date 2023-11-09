@@ -7,9 +7,9 @@ import Fade from 'react-reveal/Fade';
 export default props => (
     <>
         <Fade delay={100} duration={1000}>
-            <section className="hero">
-                <figure className="hero__img"> 
-                <img alt="" className="inner__img--limiter" src={props.img}/>
+            <section className="hero innerHero">
+                <figure className="hero__img">
+                    <img alt="" className="inner__img--limiter" src={props.img} />
                 </figure>
             </section>
         </Fade>
