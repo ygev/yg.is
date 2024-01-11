@@ -126,6 +126,10 @@ nav > section {
     height: auto;
 }
 
+  .nav__home > a:focus {
+    outline: 0;
+  }
+
   .nav__home > a > .cube_wrapper {
     display: none;
   }
