@@ -51,7 +51,7 @@ class Index extends React.Component {
             heroYear={Constants.airtable.heroYear}
             heroDeliverable={Constants.airtable.heroDeliverable}
             heroTitle={Constants.airtable.heroTitle}
-            heroSummary="Trunks is an ancestry visualization tool inspired by rings on a tree trunk. "
+            heroSummary="Few parts of Airtable have gone untouched by my cursor. From every top-of-funnel surface you can think of, to the depths of app configurations, I've designed for it all. Currently, I am the only designer on the design systems and mobile teams."
           />
         </div>
 
@@ -70,7 +70,7 @@ class Index extends React.Component {
         />
 
         <Tracker phaseList={['GROWTH', 'CORE PRODUCT', 'DESIGN SYSTEMS', 'MOBILE', 'CULTURE']}
-          trackerHead={Constants.trunks.heroTitle} />
+          trackerHead={Constants.airtable.heroTitle} />
         <div id="p1">
           <Phase phaseTitle="Growth" />
           <ImgLeft img={Fig1} padding="" blur="yes" imgNum="01" imgCaption="Favorite project from this era — the onboarding wizard." />
@@ -101,9 +101,9 @@ class Index extends React.Component {
         </div>
         <div id="p3">
           <Phase phaseTitle="Design Systems" />
-          <ImgLeft img={Fig3} padding="" imgNum="03" imgCaption="Aero's Announcement Page" />
           <Paragraph paragraphTitle="Aero Design System"
             paragraphBody="Since January 2023, my team has worked together to launch the first version of our Aero Design System. As the sole design systems IC, I am responsible for facilitating contributions from other designers, as well as hosting weekly office hours to help designers leverage the system to its fullest." />
+          <ImgLeft img={Fig3} padding="" imgNum="03" imgCaption="Aero's Announcement Page" />
           <List listTitle="Questions you may want to ask me:" listType='ol'
             listItems={["If a design system is a product, then who is the target audience? What is the go-to-market strategy? How far does this analogy extend?",
               "Why is process optimization more important than component optimization?",
