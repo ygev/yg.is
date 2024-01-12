@@ -45,14 +45,8 @@ ul > .listQuotes__item::before {
         grid-area: pg;
         margin-left: 6vw;
         margin-right: 16vw;
-        margin-top: 0;
     }
 
-
-    .list__items {
-        font-size: 18px;
-        line-height: 32px;   
-    }
 
     .list__item:before {
         font-size: 12px;

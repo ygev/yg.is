@@ -8,7 +8,7 @@ export default props => (
     <>
         <Fade delay={100} duration={1000}>
             <div className="inner__txt">
-                <h3 className="brow">{props.heroCategory} - {props.heroYear} - {props.heroDeliverable}</h3>
+                <h3 className="brow">{props.heroCategory} · {props.heroYear} · {props.heroDeliverable}</h3>
                 <h2 className="lead">{props.heroTitle}</h2>
                 {/* <h2 className="head">{props.heroSummary}</h2> */}
                 <svg className="curvy__svg--inner" width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">

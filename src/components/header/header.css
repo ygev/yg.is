@@ -95,6 +95,7 @@ nav > section {
 } */
 
 /* TABLET VERSION */
+a:focus {outline:0;}
 
 @media (min-width: 768px) {
   nav {

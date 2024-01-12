@@ -96,6 +96,31 @@
   margin-bottom: 128px;
 }
 
+/* Airtable Color */
+:root .airtable {
+  --projcolor: #166ee1;
+  --projGradient: radial-gradient(
+        24.51% 31.82% at 70.35% 47.61%,
+        rgba(255, 186, 5, 0.2) 0%,
+        rgba(255, 186, 5, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        58.49% 42.23% at 14.51% 16.83%,
+        rgba(220, 4, 59, 0.15) 0%,
+        rgba(220, 4, 59, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        69.1% 44.22% at 61.46% 28.89%,
+        rgba(57, 202, 255, 0.25) 0%,
+        rgba(57, 202, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #000000;
+  transition: 200ms ease-in-out;
+}
+
 /* MICA Phisher Color */
 :root .phisher {
   --projcolor: #f7db4a;
