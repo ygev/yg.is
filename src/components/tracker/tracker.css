@@ -25,6 +25,7 @@
   color: var(--black);
   letter-spacing: 1px;
   line-height: 17px;
+  width: 80vw;
 }
 
 .phases {
