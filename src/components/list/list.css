@@ -48,6 +48,12 @@ ul > .list__item::before {
         margin-right: 16vw;
     }
 
+
+    .list__items {
+        font-size: 14px;
+        line-height: 24px;   
+    }
+
     .list__item:before {
         font-size: 12px;
         margin-left: -2.5em;

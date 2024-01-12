@@ -281,3 +281,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.blur {
+  filter: blur(4px);
+}

@@ -36,10 +36,10 @@
 }
 
 .paragraph__body {
-    font-family: SuisseNeue-Regular;
+    font-family: Chapeau-Light;
     font-size: 16px;
     color: var(--black);
-    letter-spacing: 0;
+    letter-spacing: 0.3px;
     line-height: 28px;
 }
 

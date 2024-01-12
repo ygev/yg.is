@@ -67,6 +67,7 @@
         font-size: 12px;
         color: var(--black);
         line-height: 18px;
+        margin-top: 16px;
     }
 }
 
@@ -76,3 +77,5 @@
         padding-left: 24vw;
     }
 }
+
+
