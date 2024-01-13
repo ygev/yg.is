@@ -4,7 +4,7 @@
     <img alt="YG.IS Logotype" src="logo.gif" width="100" />
   </a>
 </p>
-<h2 align="center">Yana's Portfolio Website</h2>
+<h2 align="center">my "portfolio" for when people ask</h2>
 
 
 <p align="center">   <a href="https://2019.yg.is">
