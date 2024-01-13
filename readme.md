@@ -12,12 +12,11 @@
   </a> ·
 <a href="https://yg.is">
   <bold>2020 Site</bold>
+  </a> ·
+<a href="https://ygev.github.io/Trojan.JS.YouAreAnIdiot/">
+  <bold>2024 Site :DDDDD</bold>
   </a>
 </p>
-Exactly what it says on the tin.
-From Sketch plugins to machine learning, I've tried it all. Feel free to select a project from the homepage, browse some glamour shots of floating phones and peruse through my process, when applicable.
-
-<img align="center" src="screen.png"/>
 
 <hr>
 <p align="center"> 
