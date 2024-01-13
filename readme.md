@@ -11,13 +11,10 @@
     2019 Site
   </a> ·
 <a href="https://yg.is">
-  <bold>2020 Site</bold>
+  <bold>2020 – 2024ish Site</bold>
   </a>
 </p>
 Exactly what it says on the tin.
-From Sketch plugins to machine learning, I've tried it all. Feel free to select a project from the homepage, browse some glamour shots of floating phones and peruse through my process, when applicable.
-
-<img align="center" src="screen.png"/>
 
 <hr>
 <p align="center"> 
