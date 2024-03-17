@@ -14,7 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.20.20",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-transition-link": "^1.18.0",
     "gh-pages": "^6.1.1",
     "gsap": "^3.2.6",
